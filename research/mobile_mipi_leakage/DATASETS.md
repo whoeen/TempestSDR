@@ -1,7 +1,11 @@
 # Raw capture inventory
 
-Raw captures are intentionally not committed. Mount or download them into
-`data/`, or set `TEMPEST_DATA_ROOT` to their containing directory.
+All eight captures are published as split assets in the
+[`mobile-mipi-raw-iq-2026-10-21`](https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21)
+GitHub Release. The Git tree keeps the byte counts and SHA-256 values in
+[`raw_iq/RAW_IQ_RELEASE_MANIFEST.json`](raw_iq/RAW_IQ_RELEASE_MANIFEST.json).
+Use the scripts in [`raw_iq/`](raw_iq/) to download, verify, and reconstruct
+them into `data/`, or set `TEMPEST_DATA_ROOT` to another containing directory.
 
 | Capture | Expected file name | Stored I/Q rate | Notes |
 |---|---|---:|---|
@@ -13,6 +17,10 @@ Raw captures are intentionally not committed. Mount or download them into
 | Antenna 1 | `antenna1.rIs` | Unknown in file | 60 Hz/iPhone-geometry hypothesis |
 | Antenna 2 | `antenna2.rIs` | Unknown in file | 60 Hz/iPhone-geometry hypothesis |
 | Antenna 3 | `antenna3.rIs` | Unknown in file | No matching 60 Hz family confirmed |
+
+The eight original files total 17,582,400,000 bytes (16.38 GiB). Release
+assets are capped at 1,900 MiB per part and can be independently verified
+before reconstruction.
 
 ## Binary format
 

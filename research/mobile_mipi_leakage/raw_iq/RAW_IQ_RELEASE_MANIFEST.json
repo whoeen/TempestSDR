@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T04:28:24+00:00",
+  "release": {
+    "repository": "whoeen/TempestSDR",
+    "tag": "mobile-mipi-raw-iq-2026-10-21",
+    "url": "https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21",
+    "asset_base_url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21"
+  },
+  "binary_format": {
+    "header": false,
+    "sample_layout": "interleaved I,Q",
+    "component_dtype": "signed int16",
+    "byte_order": "big-endian",
+    "bytes_per_complex_sample": 4
+  },
+  "chunk_size_bytes": 1992294400,
+  "dataset_count": 8,
+  "total_bytes": 17582400000,
+  "datasets": [
+    {
+      "id": "iphone6_topleft_238m",
+      "capture": "iPhone 6",
+      "filename": "238M_60M_124.08571M_topleft_iphone6.rIs",
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 4039200000,
+      "sha256": "2d0c360bd5ad9804f94ae936638a2aa31d2ed40423d6c85afe78c82656061de1",
+      "parts": [
+        {
+          "name": "iphone6_topleft_238m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "5c090c32b31f62a9b7689d5dd8f27a6a5468285084dbf0bffa4300d3ca1c855c"
+        },
+        {
+          "name": "iphone6_topleft_238m.rIs.part002",
+          "bytes": 1992294400,
+          "sha256": "d42bcc8ef9d33d1fff5211d0d69d823b774318aa58734abe1113538e495de732"
+        },
+        {
+          "name": "iphone6_topleft_238m.rIs.part003",
+          "bytes": 54611200,
+          "sha256": "b70be91b1032507d3620ca61987bb8f422ad889016999667ab05c55e14a033fd"
+        }
+      ]
+    },
+    {
+      "id": "iphone6s_311m",
+      "capture": "iPhone 6s",
+      "filename": "311m_55.05487m_20m.rIs",
+      "stored_iq_rate_sps": 55054870,
+      "bytes": 1069200000,
+      "sha256": "d55e8616140e4658f4fdf8bc7bfa63276fc17a9640121fea15952d25c9621af7",
+      "parts": [
+        {
+          "name": "iphone6s_311m.rIs.part001",
+          "bytes": 1069200000,
+          "sha256": "d55e8616140e4658f4fdf8bc7bfa63276fc17a9640121fea15952d25c9621af7"
+        }
+      ]
+    },
+    {
+      "id": "lgx2_344p8m",
+      "capture": "LG X2",
+      "filename": "LGX22019_344.8M_60M_136.56551M.rIs",
+      "stored_iq_rate_sps": 136565510,
+      "bytes": 3742200000,
+      "sha256": "709da78b467f8e97983960837966765fd9f8e4813f0d50e49211b8617dc228f3",
+      "parts": [
+        {
+          "name": "lgx2_344p8m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "36b4b42c99addb5814274dcf97ee85164e47e2816b02b867bb762d3e75bbb13f"
+        },
+        {
+          "name": "lgx2_344p8m.rIs.part002",
+          "bytes": 1749905600,
+          "sha256": "a70c6b35c69d5fa636df20f7bea19c1f1b239d2dccef237eaffcf8219ee87350"
+        }
+      ]
+    },
+    {
+      "id": "galaxy_s4_lte_111p9m",
+      "capture": "Galaxy S4 LTE",
+      "filename": "111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+      "stored_iq_rate_sps": 110891050,
+      "bytes": 2791800000,
+      "sha256": "973e67f8e4929ea3458d3e6674704cb68b8813810a67c928a0fc9f6aa08963ea",
+      "parts": [
+        {
+          "name": "galaxy_s4_lte_111p9m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "6905bc4d8060b2b996b24441daa45ffbf2efb9efe6f114924f92a3b873c8ac0c"
+        },
+        {
+          "name": "galaxy_s4_lte_111p9m.rIs.part002",
+          "bytes": 799505600,
+          "sha256": "6cd1c41c836a1de92571f71c7e69039b180c7a5e3554d56f29ff1e558f5a5ecb"
+        }
+      ]
+    },
+    {
+      "id": "galaxy_s4_lte_171p5m",
+      "capture": "Galaxy S4 LTE",
+      "filename": "171.5mhz_20m_55.81679m_galaxS4lte.rIs",
+      "stored_iq_rate_sps": 55816790,
+      "bytes": 1306800000,
+      "sha256": "543453a72d38326b5255f0d7518fc7f13ac0d887cd63a11b302b3fa5c0d2f88c",
+      "parts": [
+        {
+          "name": "galaxy_s4_lte_171p5m.rIs.part001",
+          "bytes": 1306800000,
+          "sha256": "543453a72d38326b5255f0d7518fc7f13ac0d887cd63a11b302b3fa5c0d2f88c"
+        }
+      ]
+    },
+    {
+      "id": "antenna1",
+      "capture": "Antenna 1",
+      "filename": "antenna1.rIs",
+      "stored_iq_rate_sps": null,
+      "bytes": 1366200000,
+      "sha256": "ba2a2d46a7560595949b72ac0d018008906492332777e0daa87d2892b90c4a5f",
+      "parts": [
+        {
+          "name": "antenna1.rIs.part001",
+          "bytes": 1366200000,
+          "sha256": "ba2a2d46a7560595949b72ac0d018008906492332777e0daa87d2892b90c4a5f"
+        }
+      ]
+    },
+    {
+      "id": "antenna2",
+      "capture": "Antenna 2",
+      "filename": "antenna2.rIs",
+      "stored_iq_rate_sps": null,
+      "bytes": 1425600000,
+      "sha256": "7631b80d95547988ac60a51ea5d00a63c3fed32cdc85231576ce652ccb672ade",
+      "parts": [
+        {
+          "name": "antenna2.rIs.part001",
+          "bytes": 1425600000,
+          "sha256": "7631b80d95547988ac60a51ea5d00a63c3fed32cdc85231576ce652ccb672ade"
+        }
+      ]
+    },
+    {
+      "id": "antenna3",
+      "capture": "Antenna 3",
+      "filename": "antenna3.rIs",
+      "stored_iq_rate_sps": null,
+      "bytes": 1841400000,
+      "sha256": "05125630944dfdad3181753d5f88fb924fe5a6b12a034ffa450b1b09aaea4732",
+      "parts": [
+        {
+          "name": "antenna3.rIs.part001",
+          "bytes": 1841400000,
+          "sha256": "05125630944dfdad3181753d5f88fb924fe5a6b12a034ffa450b1b09aaea4732"
+        }
+      ]
+    }
+  ]
+}

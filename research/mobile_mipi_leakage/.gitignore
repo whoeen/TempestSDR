@@ -1,4 +1,6 @@
 *.rIs
+*.rIs.part*
+raw_iq_parts/
 *.ris
 *.npy
 *.npz

@@ -34,8 +34,8 @@ python validate_outputs.py
 ```
 
 The committed images and tables allow the image analysis to run without raw
-IQ. Raw-IQ reconstruction requires the laboratory captures listed in
-[`DATASETS.md`](DATASETS.md).
+IQ. All laboratory captures listed in [`DATASETS.md`](DATASETS.md) are also
+available as verified, split assets in the linked GitHub Release.
 
 ## Dataset configuration
 
@@ -54,8 +54,16 @@ data/
 ```
 
 Set `TEMPEST_DATA_ROOT` to another directory when the captures are mounted
-elsewhere. The raw files are ignored by Git because they contain laboratory
-measurements and are too large for ordinary Git transport.
+elsewhere. To recreate the layout above from the public release:
+
+```bash
+python raw_iq/download_raw_iq.py --parts-dir raw_iq_parts
+python raw_iq/assemble_raw_iq.py --parts-dir raw_iq_parts --output-dir data
+```
+
+The raw files remain ignored by ordinary Git because their combined size is
+16.38 GiB. Release asset integrity and the original-file integrity are both
+checked against [`raw_iq/RAW_IQ_RELEASE_MANIFEST.json`](raw_iq/RAW_IQ_RELEASE_MANIFEST.json).
 
 ## Repository contents
 
@@ -66,6 +74,8 @@ measurements and are too large for ordinary Git transport.
   phase-stripe metrics.
 - `results/`: historical RPCA and matched-subspace outputs.
 - `chamber_plan/`: chamber experiment plan and expected signatures.
+- `raw_iq/`: release manifest plus download, split, reconstruction, and
+  verification tools for all eight `.rIs` captures.
 - `EXCLUDED_ARTIFACTS_SHA256.csv`: every omitted `.npy`, `.npz`, and Python
   cache file with original relative path, size, and SHA-256.
 
