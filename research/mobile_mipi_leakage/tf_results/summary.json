@@ -1,0 +1,284 @@
+[
+  {
+    "device": "iPhone 6",
+    "raw_file": "data/238M_60M_124.08571M_topleft_iphone6.rIs",
+    "center_frequency_hz": 238000000.0,
+    "configured_complex_bandwidth_hz": 60000000.0,
+    "stored_complex_sample_rate_sps": 124085710.0,
+    "raster_rows": 1880,
+    "raster_columns": 1100,
+    "row_time_s": 8.864848758632623e-06,
+    "raster_cell_time_s": 8.058953416938748e-09,
+    "stored_samples_per_row": 1100.0010522575476,
+    "stored_samples_per_raster_cell": 1.0000009565977706,
+    "row_stft": {
+      "window_samples": 1100,
+      "nfft": 2048,
+      "true_resolution_hz": 112805.1909090909,
+      "fft_bin_spacing_hz": 60588.7255859375,
+      "frames_averaged": 6,
+      "modulation": {
+        "band_power_position_p95_minus_p05_db": 0.4722029817495752,
+        "largest_frequency_local_position_spreads": [
+          {
+            "baseband_hz": -20539577.97363281,
+            "rf_hz": 217460422.0263672,
+            "p95_minus_p05_db": 9.309043470987532
+          },
+          {
+            "baseband_hz": -20478989.24804687,
+            "rf_hz": 217521010.75195312,
+            "p95_minus_p05_db": 8.683053987126101
+          },
+          {
+            "baseband_hz": 25992563.276367184,
+            "rf_hz": 263992563.2763672,
+            "p95_minus_p05_db": 8.540120940956996
+          },
+          {
+            "baseband_hz": -20600166.699218746,
+            "rf_hz": 217399833.30078125,
+            "p95_minus_p05_db": 8.500097501217283
+          },
+          {
+            "baseband_hz": 25931974.550781246,
+            "rf_hz": 263931974.55078125,
+            "p95_minus_p05_db": 8.450600505146724
+          }
+        ]
+      }
+    },
+    "column_stft": {
+      "window_cells": 64,
+      "hop_cells": 8,
+      "window_samples": 64,
+      "hop_samples": 8,
+      "nfft": 64,
+      "true_resolution_hz": 1938839.21875,
+      "fft_bin_spacing_hz": 1938839.21875,
+      "frames_averaged": 4,
+      "row_stride": 4,
+      "line_spectra_averaged": 1880,
+      "modulation": {
+        "band_power_position_p95_minus_p05_db": 0.14902736228238211,
+        "largest_frequency_local_position_spreads": [
+          {
+            "baseband_hz": 25204909.843749996,
+            "rf_hz": 263204909.84375,
+            "p95_minus_p05_db": 0.6187526884599777
+          },
+          {
+            "baseband_hz": -27143749.062499996,
+            "rf_hz": 210856250.9375,
+            "p95_minus_p05_db": 0.5963956511282191
+          },
+          {
+            "baseband_hz": -23266070.624999996,
+            "rf_hz": 214733929.375,
+            "p95_minus_p05_db": 0.49956621448356486
+          },
+          {
+            "baseband_hz": -25204909.843749996,
+            "rf_hz": 212795090.15625,
+            "p95_minus_p05_db": 0.4939011184559945
+          },
+          {
+            "baseband_hz": 11633035.312499998,
+            "rf_hz": 249633035.3125,
+            "p95_minus_p05_db": 0.4871609503453982
+          }
+        ]
+      }
+    },
+    "interpretation": "Column position is equivalent line phase. A physical screen column recurs once per row and is not one contiguous frame-time interval.",
+    "bandwidth_note": "Configured receive bandwidth comes from capture metadata. Stored sample rate is not asserted as usable analog bandwidth."
+  },
+  {
+    "device": "LG X2 (2019)",
+    "raw_file": "data/LGX22019_344.8M_60M_136.56551M.rIs",
+    "center_frequency_hz": 344800000.0,
+    "configured_complex_bandwidth_hz": 60000000.0,
+    "stored_complex_sample_rate_sps": 136565510.0,
+    "raster_rows": 1478,
+    "raster_columns": 1022,
+    "row_time_s": 1.127654395733747e-05,
+    "raster_cell_time_s": 1.1033800349645273e-08,
+    "stored_samples_per_row": 1539.9869765712097,
+    "stored_samples_per_raster_cell": 1.506836571987485,
+    "row_stft": {
+      "window_samples": 1540,
+      "nfft": 2048,
+      "true_resolution_hz": 88678.9025974026,
+      "fft_bin_spacing_hz": 66682.3779296875,
+      "frames_averaged": 6,
+      "modulation": {
+        "band_power_position_p95_minus_p05_db": 0.37207650235987444,
+        "largest_frequency_local_position_spreads": [
+          {
+            "baseband_hz": 733506.1572265625,
+            "rf_hz": 345533506.15722656,
+            "p95_minus_p05_db": 7.927254470407405
+          },
+          {
+            "baseband_hz": 800188.53515625,
+            "rf_hz": 345600188.53515625,
+            "p95_minus_p05_db": 7.484050772610431
+          },
+          {
+            "baseband_hz": -23205467.51953125,
+            "rf_hz": 321594532.48046875,
+            "p95_minus_p05_db": 7.210691763686654
+          },
+          {
+            "baseband_hz": -12936381.318359375,
+            "rf_hz": 331863618.6816406,
+            "p95_minus_p05_db": 7.206139589129506
+          },
+          {
+            "baseband_hz": -23138785.141601562,
+            "rf_hz": 321661214.85839844,
+            "p95_minus_p05_db": 7.16419809169993
+          }
+        ]
+      }
+    },
+    "column_stft": {
+      "window_cells": 64,
+      "hop_cells": 8,
+      "window_samples": 96,
+      "hop_samples": 12,
+      "nfft": 128,
+      "true_resolution_hz": 1422557.3958333333,
+      "fft_bin_spacing_hz": 1066918.046875,
+      "frames_averaged": 4,
+      "row_stride": 4,
+      "line_spectra_averaged": 1480,
+      "modulation": {
+        "band_power_position_p95_minus_p05_db": 2.648173662895175,
+        "largest_frequency_local_position_spreads": [
+          {
+            "baseband_hz": -22405278.984375,
+            "rf_hz": 322394721.015625,
+            "p95_minus_p05_db": 10.852256423191307
+          },
+          {
+            "baseband_hz": -23472197.03125,
+            "rf_hz": 321327802.96875,
+            "p95_minus_p05_db": 10.397778869934513
+          },
+          {
+            "baseband_hz": -21338360.9375,
+            "rf_hz": 323461639.0625,
+            "p95_minus_p05_db": 9.229445498289422
+          },
+          {
+            "baseband_hz": -24539115.078125,
+            "rf_hz": 320260884.921875,
+            "p95_minus_p05_db": 8.624424122016208
+          },
+          {
+            "baseband_hz": -26672951.171875,
+            "rf_hz": 318127048.828125,
+            "p95_minus_p05_db": 8.223091565306788
+          }
+        ]
+      }
+    },
+    "interpretation": "Column position is equivalent line phase. A physical screen column recurs once per row and is not one contiguous frame-time interval.",
+    "bandwidth_note": "Configured receive bandwidth comes from capture metadata. Stored sample rate is not asserted as usable analog bandwidth."
+  },
+  {
+    "device": "Galaxy S4 LTE",
+    "raw_file": "data/171.5mhz_20m_55.81679m_galaxS4lte.rIs",
+    "center_frequency_hz": 171500000.0,
+    "configured_complex_bandwidth_hz": 20000000.0,
+    "stored_complex_sample_rate_sps": 55816790.0,
+    "raster_rows": 1936,
+    "raster_columns": 1080,
+    "row_time_s": 8.609302709380106e-06,
+    "raster_cell_time_s": 7.971576582759358e-09,
+    "stored_samples_per_row": 480.54364137590045,
+    "stored_samples_per_raster_cell": 0.44494781608879674,
+    "row_stft": {
+      "window_samples": 481,
+      "nfft": 512,
+      "true_resolution_hz": 116043.22245322245,
+      "fft_bin_spacing_hz": 109017.16796875,
+      "frames_averaged": 6,
+      "modulation": {
+        "band_power_position_p95_minus_p05_db": 0.9574638606151211,
+        "largest_frequency_local_position_spreads": [
+          {
+            "baseband_hz": 8285304.765625,
+            "rf_hz": 179785304.765625,
+            "p95_minus_p05_db": 6.5174942657451425
+          },
+          {
+            "baseband_hz": -2398377.6953125,
+            "rf_hz": 169101622.3046875,
+            "p95_minus_p05_db": 6.48450038201031
+          },
+          {
+            "baseband_hz": 327051.50390625,
+            "rf_hz": 171827051.50390625,
+            "p95_minus_p05_db": 6.448013763529147
+          },
+          {
+            "baseband_hz": 5777909.90234375,
+            "rf_hz": 177277909.90234375,
+            "p95_minus_p05_db": 6.399855766636136
+          },
+          {
+            "baseband_hz": 5123806.89453125,
+            "rf_hz": 176623806.89453125,
+            "p95_minus_p05_db": 6.372935997606319
+          }
+        ]
+      }
+    },
+    "column_stft": {
+      "window_cells": 64,
+      "hop_cells": 8,
+      "window_samples": 28,
+      "hop_samples": 4,
+      "nfft": 32,
+      "true_resolution_hz": 1993456.7857142857,
+      "fft_bin_spacing_hz": 1744274.6875,
+      "frames_averaged": 4,
+      "row_stride": 4,
+      "line_spectra_averaged": 1936,
+      "modulation": {
+        "band_power_position_p95_minus_p05_db": 0.9529812435123688,
+        "largest_frequency_local_position_spreads": [
+          {
+            "baseband_hz": 8721373.4375,
+            "rf_hz": 180221373.4375,
+            "p95_minus_p05_db": 1.4177276457015182
+          },
+          {
+            "baseband_hz": 6977098.75,
+            "rf_hz": 178477098.75,
+            "p95_minus_p05_db": 1.3309083942297377
+          },
+          {
+            "baseband_hz": 5232824.0625,
+            "rf_hz": 176732824.0625,
+            "p95_minus_p05_db": 1.2938624016887843
+          },
+          {
+            "baseband_hz": -6977098.75,
+            "rf_hz": 164522901.25,
+            "p95_minus_p05_db": 1.0770277726444277
+          },
+          {
+            "baseband_hz": 1744274.6875,
+            "rf_hz": 173244274.6875,
+            "p95_minus_p05_db": 1.0443137896403414
+          }
+        ]
+      }
+    },
+    "interpretation": "Column position is equivalent line phase. A physical screen column recurs once per row and is not one contiguous frame-time interval.",
+    "bandwidth_note": "Configured receive bandwidth comes from capture metadata. Stored sample rate is not asserted as usable analog bandwidth."
+  }
+]

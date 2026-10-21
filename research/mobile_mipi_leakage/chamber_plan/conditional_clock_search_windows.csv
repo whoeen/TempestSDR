@@ -1,0 +1,31 @@
+﻿device,assumed_lanes,assumed_alpha_min,assumed_alpha_max,harmonic_index,search_start_MHz,search_end_MHz,status,within_USRP2940_part_of_window
+LG X2 (2019),4,1.0,1.5,1,186.62400000000002,279.93600000000004,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),4,1.0,1.5,2,373.24800000000005,559.8720000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),4,1.0,1.5,3,559.8720000000001,839.8080000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),4,1.0,1.5,4,746.4960000000001,1119.7440000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),4,1.0,1.5,5,933.1200000000001,1399.6800000000003,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),2,1.0,1.5,1,373.24800000000005,559.8720000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),2,1.0,1.5,2,746.4960000000001,1119.7440000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),2,1.0,1.5,3,1119.7440000000001,1679.6160000000002,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),2,1.0,1.5,4,1492.9920000000002,2239.4880000000003,"conditional planning scenario, not measured clock or guaranteed emission",True
+LG X2 (2019),2,1.0,1.5,5,1866.2400000000002,2799.3600000000006,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,4,1.0,1.5,1,373.24800000000005,559.8720000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,4,1.0,1.5,2,746.4960000000001,1119.7440000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,4,1.0,1.5,3,1119.7440000000001,1679.6160000000002,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,4,1.0,1.5,4,1492.9920000000002,2239.4880000000003,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,4,1.0,1.5,5,1866.2400000000002,2799.3600000000006,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,2,1.0,1.5,1,746.4960000000001,1119.7440000000001,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,2,1.0,1.5,2,1492.9920000000002,2239.4880000000003,"conditional planning scenario, not measured clock or guaranteed emission",True
+Galaxy S4 LTE,2,1.0,1.5,3,2239.4880000000003,3359.2320000000004,"conditional planning scenario, not measured clock or guaranteed emission",False
+Galaxy S4 LTE,2,1.0,1.5,4,2985.9840000000004,4478.976000000001,"conditional planning scenario, not measured clock or guaranteed emission",False
+Galaxy S4 LTE,2,1.0,1.5,5,3732.4800000000005,5598.720000000001,"conditional planning scenario, not measured clock or guaranteed emission",False
+iPhone 6s,4,1.0,1.5,1,180.09,270.135,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,4,1.0,1.5,2,360.18,540.27,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,4,1.0,1.5,3,540.27,810.405,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,4,1.0,1.5,4,720.36,1080.54,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,4,1.0,1.5,5,900.45,1350.675,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,2,1.0,1.5,1,360.18,540.27,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,2,1.0,1.5,2,720.36,1080.54,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,2,1.0,1.5,3,1080.54,1620.81,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,2,1.0,1.5,4,1440.72,2161.08,"conditional planning scenario, not measured clock or guaranteed emission",True
+iPhone 6s,2,1.0,1.5,5,1800.9,2701.35,"conditional planning scenario, not measured clock or guaranteed emission",True

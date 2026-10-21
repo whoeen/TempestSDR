@@ -1,0 +1,398 @@
+{
+  "device": "iphone6s",
+  "title": "iPhone 6s",
+  "native_shape": [
+    1334,
+    750
+  ],
+  "frame_count": 40,
+  "noise_sigma_mean": {
+    "full": 0.04041599854826927,
+    "train": 0.10082773864269257,
+    "validation": 0.08753617852926254
+  },
+  "rpca": {
+    "rpca_lambda0.5": {
+      "full": {
+        "lambda_multiplier": 0.5,
+        "lambda": 0.013689641954834839,
+        "tau": 2.582990210176136,
+        "sparse_threshold": 0.03536021115015489,
+        "noise_sigma_mean": 0.04041599854826927,
+        "iterations": 77,
+        "converged": true,
+        "relative_change": 1.962534111501175e-05,
+        "fixed_point_relative": 9.157290388044066e-06,
+        "low_rank": 24,
+        "sparse_fraction": 0.45707246376811594,
+        "dense_residual_rms": 0.02787778340280056,
+        "objective_start": 2096.6939668913365,
+        "objective_end": 1857.113776166902,
+        "objective_nonincreasing": true,
+        "seconds": 19.119293451309204,
+        "center": -0.04039737582206726
+      },
+      "validation": {
+        "lambda_multiplier": 0.5,
+        "lambda": 0.013689641954834839,
+        "tau": 5.594445276596986,
+        "sparse_threshold": 0.07658595277252969,
+        "noise_sigma_mean": 0.08753617852926254,
+        "iterations": 34,
+        "converged": true,
+        "relative_change": 1.975477165396957e-05,
+        "fixed_point_relative": 8.351481058411754e-06,
+        "low_rank": 16,
+        "sparse_fraction": 0.3998770614692654,
+        "dense_residual_rms": 0.058257002383470535,
+        "objective_start": 5672.739583415471,
+        "objective_end": 5338.8443621789165,
+        "objective_nonincreasing": true,
+        "seconds": 9.145796537399292,
+        "center": -0.0419127531349659
+      }
+    },
+    "rpca_lambda1": {
+      "full": {
+        "lambda_multiplier": 1.0,
+        "lambda": 0.027379283909669677,
+        "tau": 2.582990210176136,
+        "sparse_threshold": 0.07072042230030978,
+        "noise_sigma_mean": 0.04041599854826927,
+        "iterations": 38,
+        "converged": true,
+        "relative_change": 1.928090475879865e-05,
+        "fixed_point_relative": 8.331868635260253e-06,
+        "low_rank": 60,
+        "sparse_fraction": 0.12335032483758121,
+        "dense_residual_rms": 0.03975793719291687,
+        "objective_start": 2304.6433799413653,
+        "objective_end": 2229.8876990069616,
+        "objective_nonincreasing": true,
+        "seconds": 9.494436025619507,
+        "center": -0.04039737582206726
+      },
+      "validation": {
+        "lambda_multiplier": 1.0,
+        "lambda": 0.027379283909669677,
+        "tau": 5.594445276596986,
+        "sparse_threshold": 0.15317190554505938,
+        "noise_sigma_mean": 0.08753617852926254,
+        "iterations": 17,
+        "converged": true,
+        "relative_change": 1.557485312805469e-05,
+        "fixed_point_relative": 5.243818755828156e-06,
+        "low_rank": 42,
+        "sparse_fraction": 0.0889215392303848,
+        "dense_residual_rms": 0.08059478551149368,
+        "objective_start": 6399.724432423949,
+        "objective_end": 6330.394503005227,
+        "objective_nonincreasing": true,
+        "seconds": 4.052618741989136,
+        "center": -0.0419127531349659
+      }
+    },
+    "rpca_lambda2": {
+      "full": {
+        "lambda_multiplier": 2.0,
+        "lambda": 0.054758567819339354,
+        "tau": 2.582990210176136,
+        "sparse_threshold": 0.14144084460061956,
+        "noise_sigma_mean": 0.04041599854826927,
+        "iterations": 37,
+        "converged": true,
+        "relative_change": 1.937275341182174e-05,
+        "fixed_point_relative": 8.47056561630797e-06,
+        "low_rank": 110,
+        "sparse_fraction": 0.010326836581709145,
+        "dense_residual_rms": 0.04451456293463707,
+        "objective_start": 2388.162652598849,
+        "objective_end": 2375.476911407258,
+        "objective_nonincreasing": true,
+        "seconds": 8.008242130279541,
+        "center": -0.04039737582206726
+      },
+      "validation": {
+        "lambda_multiplier": 2.0,
+        "lambda": 0.054758567819339354,
+        "tau": 5.594445276596986,
+        "sparse_threshold": 0.30634381109011877,
+        "noise_sigma_mean": 0.08753617852926254,
+        "iterations": 13,
+        "converged": true,
+        "relative_change": 1.4927791968472193e-05,
+        "fixed_point_relative": 4.438234179330689e-06,
+        "low_rank": 68,
+        "sparse_fraction": 0.004530734632683658,
+        "dense_residual_rms": 0.08807499706745148,
+        "objective_start": 6606.336863597977,
+        "objective_end": 6600.035016030403,
+        "objective_nonincreasing": true,
+        "seconds": 2.7879178524017334,
+        "center": -0.0419127531349659
+      }
+    }
+  },
+  "training_rpca": {
+    "lambda_multiplier": 1.0,
+    "lambda": 0.027379283909669677,
+    "tau": 6.443910114387751,
+    "sparse_threshold": 0.17642964451021423,
+    "noise_sigma_mean": 0.10082773864269257,
+    "iterations": 16,
+    "converged": true,
+    "relative_change": 1.4449858881280311e-05,
+    "fixed_point_relative": 4.891018056562925e-06,
+    "low_rank": 25,
+    "sparse_fraction": 0.026968515742128937,
+    "dense_residual_rms": 0.06906095892190933,
+    "objective_start": 4707.12272537623,
+    "objective_end": 4681.869319066008,
+    "objective_nonincreasing": true,
+    "seconds": 3.4278483390808105,
+    "center": -0.04006892815232277
+  },
+  "matched_selected_rank": 25,
+  "matched_rank_selection": [
+    {
+      "rank": 2,
+      "validation_raw_mse": 0.028561476982688065,
+      "gram_condition": 3.0004180194834613,
+      "unit_response_error": 3.276010472373047e-16
+    },
+    {
+      "rank": 4,
+      "validation_raw_mse": 0.025692619539672987,
+      "gram_condition": 6.642739538298924,
+      "unit_response_error": 9.197790518237526e-16
+    },
+    {
+      "rank": 8,
+      "validation_raw_mse": 0.02414961044305064,
+      "gram_condition": 7.91100875202038,
+      "unit_response_error": 1.352241608946447e-15
+    },
+    {
+      "rank": 16,
+      "validation_raw_mse": 0.023460080105615982,
+      "gram_condition": 10.99334702762377,
+      "unit_response_error": 2.734531969814432e-15
+    },
+    {
+      "rank": 25,
+      "validation_raw_mse": 0.022349671603785953,
+      "gram_condition": 38.44963944494595,
+      "unit_response_error": 6.40698676341665e-15
+    }
+  ],
+  "covariance_diagonal_loading": 0.1,
+  "covariance_mean_variance": 0.12085815066045014,
+  "baseline_spatial_spectrum": {
+    "effective_rank": 11.310673713684082,
+    "rank90": 33,
+    "rank95": 130
+  },
+  "rpca_spatial_spectrum": {
+    "effective_rank": 3.6439132690429688,
+    "rank90": 4,
+    "rank95": 7
+  },
+  "removed_spatial_spectrum": {
+    "effective_rank": 380.41912841796875,
+    "rank90": 392,
+    "rank95": 495
+  },
+  "primary_methods": [
+    "rpca_lambda1",
+    "matched_r25"
+  ],
+  "metrics": [
+    {
+      "device": "iphone6s",
+      "method": "baseline",
+      "rank": -1,
+      "stripe_rms": 0.0381152616731457,
+      "stripe_reduction_pct": 0.0,
+      "image_correlation_to_baseline": 1.0000000000000002,
+      "y_edge_correlation_to_baseline": 1.0000000000000002,
+      "y_edge_rms_ratio": 1.0,
+      "removed_y_edge_rms_ratio": 0.0,
+      "heldout_raw_mse": 0.03390526915087732,
+      "heldout_raw_mse_reduction_pct": 0.0,
+      "heldout_raw_ssim": 0.223449035811136,
+      "output_variance_ratio": 1.0
+    },
+    {
+      "device": "iphone6s",
+      "method": "rpca_lambda0.5",
+      "rank": 24,
+      "stripe_rms": 0.03452752440382702,
+      "stripe_reduction_pct": 9.412862753206397,
+      "image_correlation_to_baseline": 0.9091461791708804,
+      "y_edge_correlation_to_baseline": 0.6322673092649208,
+      "y_edge_rms_ratio": 0.3912290507541344,
+      "removed_y_edge_rms_ratio": 0.8113759664812066,
+      "heldout_raw_mse": 0.02726292026289192,
+      "heldout_raw_mse_reduction_pct": 19.590904465105908,
+      "heldout_raw_ssim": 0.17947131638715416,
+      "output_variance_ratio": 0.698406994342804
+    },
+    {
+      "device": "iphone6s",
+      "method": "rpca_lambda1",
+      "rank": 60,
+      "stripe_rms": 0.036199727351156424,
+      "stripe_reduction_pct": 5.025636025841262,
+      "image_correlation_to_baseline": 0.9392457732035051,
+      "y_edge_correlation_to_baseline": 0.7090250485591285,
+      "y_edge_rms_ratio": 0.530757739226148,
+      "removed_y_edge_rms_ratio": 0.7273628998220661,
+      "heldout_raw_mse": 0.026819452929039138,
+      "heldout_raw_mse_reduction_pct": 20.89886439274832,
+      "heldout_raw_ssim": 0.21750417092144697,
+      "output_variance_ratio": 0.7746499180793762
+    },
+    {
+      "device": "iphone6s",
+      "method": "rpca_lambda2",
+      "rank": 110,
+      "stripe_rms": 0.036619272927519604,
+      "stripe_reduction_pct": 3.924907451652382,
+      "image_correlation_to_baseline": 0.9537335239230631,
+      "y_edge_correlation_to_baseline": 0.7651782339852591,
+      "y_edge_rms_ratio": 0.5848761165768445,
+      "removed_y_edge_rms_ratio": 0.6685856645195721,
+      "heldout_raw_mse": 0.026610254905866052,
+      "heldout_raw_mse_reduction_pct": 21.515871803136843,
+      "heldout_raw_ssim": 0.2293024811964723,
+      "output_variance_ratio": 0.7970379590988159
+    },
+    {
+      "device": "iphone6s",
+      "method": "matched_r2",
+      "rank": 2,
+      "stripe_rms": 0.034863970481279434,
+      "stripe_reduction_pct": 8.530155767386438,
+      "image_correlation_to_baseline": 0.7882144454787606,
+      "y_edge_correlation_to_baseline": 0.09242104004095665,
+      "y_edge_rms_ratio": 0.13758774821905753,
+      "removed_y_edge_rms_ratio": 0.9967399099169599,
+      "heldout_raw_mse": 0.02120829668111112,
+      "heldout_raw_mse_reduction_pct": 37.448375393408895,
+      "heldout_raw_ssim": 0.13473742033076908,
+      "output_variance_ratio": 0.6981946229934692
+    },
+    {
+      "device": "iphone6s",
+      "method": "matched_r4",
+      "rank": 4,
+      "stripe_rms": 0.03771949243947125,
+      "stripe_reduction_pct": 1.0383484627977557,
+      "image_correlation_to_baseline": 0.858495482718689,
+      "y_edge_correlation_to_baseline": 0.17701911471490214,
+      "y_edge_rms_ratio": 0.19067554101780237,
+      "removed_y_edge_rms_ratio": 0.9842983285503712,
+      "heldout_raw_mse": 0.018445239843773997,
+      "heldout_raw_mse_reduction_pct": 45.597718862831336,
+      "heldout_raw_ssim": 0.1630851323871457,
+      "output_variance_ratio": 0.7601597309112549
+    },
+    {
+      "device": "iphone6s",
+      "method": "matched_r8",
+      "rank": 8,
+      "stripe_rms": 0.03793819586432778,
+      "stripe_reduction_pct": 0.4645535700012804,
+      "image_correlation_to_baseline": 0.8969770372923808,
+      "y_edge_correlation_to_baseline": 0.47352659638885636,
+      "y_edge_rms_ratio": 0.48245821375927994,
+      "removed_y_edge_rms_ratio": 0.8808214978005217,
+      "heldout_raw_mse": 0.017226831357143285,
+      "heldout_raw_mse_reduction_pct": 49.19128563621052,
+      "heldout_raw_ssim": 0.22953978743827125,
+      "output_variance_ratio": 0.8198025822639465
+    },
+    {
+      "device": "iphone6s",
+      "method": "matched_r16",
+      "rank": 16,
+      "stripe_rms": 0.037913052392832436,
+      "stripe_reduction_pct": 0.5305205092052012,
+      "image_correlation_to_baseline": 0.9235277173128035,
+      "y_edge_correlation_to_baseline": 0.6355337949286713,
+      "y_edge_rms_ratio": 0.6435201740724539,
+      "removed_y_edge_rms_ratio": 0.7721122465211808,
+      "heldout_raw_mse": 0.016151040340354725,
+      "heldout_raw_mse_reduction_pct": 52.36421728881392,
+      "heldout_raw_ssim": 0.2704440844434817,
+      "output_variance_ratio": 0.8627716898918152
+    },
+    {
+      "device": "iphone6s",
+      "method": "matched_r25",
+      "rank": 25,
+      "stripe_rms": 0.0379624794217738,
+      "stripe_reduction_pct": 0.4008427193339936,
+      "image_correlation_to_baseline": 0.936963188147305,
+      "y_edge_correlation_to_baseline": 0.6769247121716392,
+      "y_edge_rms_ratio": 0.6841335921734747,
+      "removed_y_edge_rms_ratio": 0.7360833601666703,
+      "heldout_raw_mse": 0.01742922237351081,
+      "heldout_raw_mse_reduction_pct": 48.59435477137388,
+      "heldout_raw_ssim": 0.2865060977268868,
+      "output_variance_ratio": 0.8826284408569336
+    },
+    {
+      "device": "iphone6s",
+      "method": "unweighted_subspace_control",
+      "rank": 25,
+      "stripe_rms": 0.03796796748863505,
+      "stripe_reduction_pct": 0.3864441120036477,
+      "image_correlation_to_baseline": 0.9393061491186747,
+      "y_edge_correlation_to_baseline": 0.6890272754097857,
+      "y_edge_rms_ratio": 0.6890342321313783,
+      "removed_y_edge_rms_ratio": 0.7247312385626178,
+      "heldout_raw_mse": 0.02429272480597586,
+      "heldout_raw_mse_reduction_pct": 28.351181352154896,
+      "heldout_raw_ssim": 0.2773295038799848,
+      "output_variance_ratio": 0.8822950938113578
+    },
+    {
+      "device": "iphone6s",
+      "method": "temporal_matched_rank1",
+      "rank": 1,
+      "stripe_rms": 0.03790765199491354,
+      "stripe_reduction_pct": 0.5446891064595172,
+      "image_correlation_to_baseline": 0.9671201812224509,
+      "y_edge_correlation_to_baseline": 0.7971660823507128,
+      "y_edge_rms_ratio": 1.2263079006751738,
+      "removed_y_edge_rms_ratio": 0.7407316745413424,
+      "heldout_raw_mse": 0.03328923392577776,
+      "heldout_raw_mse_reduction_pct": 1.8169306439014599,
+      "heldout_raw_ssim": 0.22513903420460601,
+      "output_variance_ratio": 1.0553832054138184
+    }
+  ],
+  "temporal_matched": {
+    "full": {
+      "weight_sum": 1.0000000000000002,
+      "min_weight": -0.0035877079973256625,
+      "max_weight": 0.05812746247362904,
+      "white_noise_equivalent_frames": 27.86982496841167,
+      "constraint_error": 2.220446049250313e-16,
+      "covariance_condition": 13.213079099080597,
+      "excluded_covariance_grid_raw_mse_reduction_pct": 1.9172581911873654
+    },
+    "validation": {
+      "weight_sum": 1.0000000000000002,
+      "min_weight": 0.04263478534169982,
+      "max_weight": 0.1305506323185858,
+      "white_noise_equivalent_frames": 9.54313968452868,
+      "constraint_error": 2.220446049250313e-16,
+      "covariance_condition": 4.492922447353831
+    },
+    "signature": "ones(P), same normalized log-AM image on every frame",
+    "covariance": "total spatial sample covariance at [::4,::4] with 10% diagonal loading",
+    "limitation": "Any frame-invariant artifact has the same signature and passes with unit response."
+  }
+}

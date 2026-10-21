@@ -1,0 +1,2 @@
+coverage,meanCount,minCount,maxCount,halfLogCorrelation,halfEdgeCorrelation,halfColumnProfileCorrelation,halfRowProfileCorrelation,rowContrast,columnContrast,label,frames,shift_MHz,cutoff_MHz
+1,715.734018439716,701,730,0.0244264803918319,-0.000335920902487134,0.504468438621586,0.903465593226455,0.00278039318809716,0.000824254137855695,iphone6_238M_fullband_P488,488,0,Inf

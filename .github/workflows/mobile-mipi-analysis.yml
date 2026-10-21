@@ -1,0 +1,29 @@
+name: Mobile MIPI analysis
+
+on:
+  push:
+    paths:
+      - "research/mobile_mipi_leakage/**"
+      - ".github/workflows/mobile-mipi-analysis.yml"
+  pull_request:
+    paths:
+      - "research/mobile_mipi_leakage/**"
+      - ".github/workflows/mobile-mipi-analysis.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: research/mobile_mipi_leakage
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: research/mobile_mipi_leakage/requirements.txt
+      - run: python -m pip install -r requirements.txt
+      - run: python -m compileall -q .
+      - run: python provided_restoration_analysis/analyze_images.py
+      - run: python validate_outputs.py

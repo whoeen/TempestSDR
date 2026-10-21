@@ -1,0 +1,490 @@
+{
+  "stripe_diagnostics": [
+    {
+      "device": "lgx2",
+      "frames": 40,
+      "mean_profile_correlation_min": 0.12793901096839116,
+      "mean_profile_correlation_median": 0.7896581502453628,
+      "profile_static_energy_fraction": 0.5454418114837574,
+      "residual_profile_rms_over_mean_profile_rms": 0.9128943721062476,
+      "best_integer_alignment_shift_histogram": {
+        "-4": 1,
+        "0": 38,
+        "3": 1
+      },
+      "strong_peak_min_same_sign_fraction": 0.925,
+      "strong_peak_min_half_mean_fraction": 0.8,
+      "caveat": "All statistics use row-averaged normalized log-AM; locations are after existing raster registration. Fixed screen column structure can contribute."
+    },
+    {
+      "device": "galaxy_s4_lte_171p5M",
+      "frames": 40,
+      "mean_profile_correlation_min": 0.8627324499587065,
+      "mean_profile_correlation_median": 0.9480929651250484,
+      "profile_static_energy_fraction": 0.8648591166487642,
+      "residual_profile_rms_over_mean_profile_rms": 0.3952944281444098,
+      "best_integer_alignment_shift_histogram": {
+        "0": 40
+      },
+      "strong_peak_min_same_sign_fraction": 1.0,
+      "strong_peak_min_half_mean_fraction": 0.925,
+      "caveat": "All statistics use row-averaged normalized log-AM; locations are after existing raster registration. Fixed screen column structure can contribute."
+    },
+    {
+      "device": "iphone6s",
+      "frames": 40,
+      "mean_profile_correlation_min": 0.970282461617506,
+      "mean_profile_correlation_median": 0.9800207614160583,
+      "profile_static_energy_fraction": 0.9588606460755233,
+      "residual_profile_rms_over_mean_profile_rms": 0.20713380648323151,
+      "best_integer_alignment_shift_histogram": {
+        "0": 40
+      },
+      "strong_peak_min_same_sign_fraction": 1.0,
+      "strong_peak_min_half_mean_fraction": 0.95,
+      "caveat": "All statistics use row-averaged normalized log-AM; locations are after existing raster registration. Fixed screen column structure can contribute."
+    }
+  ],
+  "bitrate": [
+    {
+      "device": "LG X2 (2019)",
+      "width": 720,
+      "height": 1440,
+      "refresh_assumed_Hz": 60,
+      "bpp_assumed": 24,
+      "active_pixel_rate_Mpix_s": 62.208,
+      "aggregate_active_payload_Gbps": 1.492992,
+      "min_lane_rate_4lanes_Mbps": 373.24800000000005,
+      "min_DDR_clock_4lanes_MHz": 186.62400000000002,
+      "min_lane_rate_2lanes_Mbps": 746.4960000000001,
+      "min_DDR_clock_2lanes_MHz": 373.24800000000005,
+      "prior_RF_center_MHz": 344.8,
+      "prior_nominal_file_BW_MHz": 60,
+      "saved_IQ_rate_MSps": 136.56551,
+      "measured_raster_line_Hz": 88679.652541
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "width": 1080,
+      "height": 1920,
+      "refresh_assumed_Hz": 60,
+      "bpp_assumed": 24,
+      "active_pixel_rate_Mpix_s": 124.416,
+      "aggregate_active_payload_Gbps": 2.985984,
+      "min_lane_rate_4lanes_Mbps": 746.4960000000001,
+      "min_DDR_clock_4lanes_MHz": 373.24800000000005,
+      "min_lane_rate_2lanes_Mbps": 1492.9920000000002,
+      "min_DDR_clock_2lanes_MHz": 746.4960000000001,
+      "prior_RF_center_MHz": 171.5,
+      "prior_nominal_file_BW_MHz": 20,
+      "saved_IQ_rate_MSps": 55.81679,
+      "measured_raster_line_Hz": 116153.4254
+    },
+    {
+      "device": "iPhone 6s",
+      "width": 750,
+      "height": 1334,
+      "refresh_assumed_Hz": 60,
+      "bpp_assumed": 24,
+      "active_pixel_rate_Mpix_s": 60.03,
+      "aggregate_active_payload_Gbps": 1.44072,
+      "min_lane_rate_4lanes_Mbps": 360.18,
+      "min_DDR_clock_4lanes_MHz": 180.09,
+      "min_lane_rate_2lanes_Mbps": 720.36,
+      "min_DDR_clock_2lanes_MHz": 360.18,
+      "prior_RF_center_MHz": 311,
+      "prior_nominal_file_BW_MHz": 20,
+      "saved_IQ_rate_MSps": 55.05487,
+      "measured_raster_line_Hz": 112613.234
+    }
+  ],
+  "conditional_geometry_clock": [
+    {
+      "device": "LG X2 (2019)",
+      "apparent_pixel_timing_Mpix_s": 90.6306,
+      "assumed_4lane_RGB888_serial_Mbps": 543.7836,
+      "assumed_DDR_clock_MHz": 271.8918,
+      "third_harmonic_MHz": 815.6754,
+      "fifth_harmonic_MHz": 1359.459,
+      "status": "strong additional assumptions: raster timing equals packet serialization pixel timing; not measured lane rate"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "apparent_pixel_timing_Mpix_s": 139.53,
+      "assumed_4lane_RGB888_serial_Mbps": 837.1800000000001,
+      "assumed_DDR_clock_MHz": 418.59000000000003,
+      "third_harmonic_MHz": 1255.77,
+      "fifth_harmonic_MHz": 2092.95,
+      "status": "strong additional assumptions: raster timing equals packet serialization pixel timing; not measured lane rate"
+    },
+    {
+      "device": "iPhone 6s",
+      "apparent_pixel_timing_Mpix_s": 84.4599255,
+      "assumed_4lane_RGB888_serial_Mbps": 506.759553,
+      "assumed_DDR_clock_MHz": 253.3797765,
+      "third_harmonic_MHz": 760.1393295,
+      "fifth_harmonic_MHz": 1266.8988825,
+      "status": "strong additional assumptions: raster timing equals packet serialization pixel timing; not measured lane rate"
+    }
+  ],
+  "edge_examples": [
+    {
+      "t20_80_ps": 50,
+      "linear_t0_100_ps": 83.33333333333334,
+      "envelope_asymptote_corner_GHz": 3.8197186342054876
+    },
+    {
+      "t20_80_ps": 100,
+      "linear_t0_100_ps": 166.66666666666669,
+      "envelope_asymptote_corner_GHz": 1.9098593171027438
+    },
+    {
+      "t20_80_ps": 200,
+      "linear_t0_100_ps": 333.33333333333337,
+      "envelope_asymptote_corner_GHz": 0.9549296585513719
+    },
+    {
+      "t20_80_ps": 300,
+      "linear_t0_100_ps": 500.0,
+      "envelope_asymptote_corner_GHz": 0.6366197723675814
+    }
+  ],
+  "equipment": {
+    "antenna": "Aaronia HyperLOG 7060",
+    "antenna_rated_MHz": [
+      700,
+      6000
+    ],
+    "LNA": "Aaronia preamp, exact model unknown",
+    "BPF": "User reports tunable BPF units for three frequency bands; passband and loss unmeasured",
+    "receiver_assumption": "USRP-2940 from prior project record; not confirmed for today",
+    "conditional_RF_intersection_MHz": [
+      700,
+      2200
+    ]
+  },
+  "hardware_aware_candidates": [
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 3,
+      "search_start_MHz": 559.8720000000001,
+      "search_end_MHz": 839.8080000000001,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 700.0,
+      "RF_window_clipped_end_MHz": 839.8080000000001,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 4,
+      "search_start_MHz": 746.4960000000001,
+      "search_end_MHz": 1119.7440000000001,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 746.4960000000001,
+      "RF_window_clipped_end_MHz": 1119.7440000000001,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 5,
+      "search_start_MHz": 933.1200000000001,
+      "search_end_MHz": 1399.6800000000003,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 933.1200000000001,
+      "RF_window_clipped_end_MHz": 1399.6800000000003,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 2,
+      "search_start_MHz": 746.4960000000001,
+      "search_end_MHz": 1119.7440000000001,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 746.4960000000001,
+      "RF_window_clipped_end_MHz": 1119.7440000000001,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 3,
+      "search_start_MHz": 1119.7440000000001,
+      "search_end_MHz": 1679.6160000000002,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1119.7440000000001,
+      "RF_window_clipped_end_MHz": 1679.6160000000002,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 4,
+      "search_start_MHz": 1492.9920000000002,
+      "search_end_MHz": 2239.4880000000003,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1492.9920000000002,
+      "RF_window_clipped_end_MHz": 2200.0,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "LG X2 (2019)",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 5,
+      "search_start_MHz": 1866.2400000000002,
+      "search_end_MHz": 2799.3600000000006,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1866.2400000000002,
+      "RF_window_clipped_end_MHz": 2200.0,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 2,
+      "search_start_MHz": 746.4960000000001,
+      "search_end_MHz": 1119.7440000000001,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 746.4960000000001,
+      "RF_window_clipped_end_MHz": 1119.7440000000001,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 3,
+      "search_start_MHz": 1119.7440000000001,
+      "search_end_MHz": 1679.6160000000002,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1119.7440000000001,
+      "RF_window_clipped_end_MHz": 1679.6160000000002,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 4,
+      "search_start_MHz": 1492.9920000000002,
+      "search_end_MHz": 2239.4880000000003,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1492.9920000000002,
+      "RF_window_clipped_end_MHz": 2200.0,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 5,
+      "search_start_MHz": 1866.2400000000002,
+      "search_end_MHz": 2799.3600000000006,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1866.2400000000002,
+      "RF_window_clipped_end_MHz": 2200.0,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 1,
+      "search_start_MHz": 746.4960000000001,
+      "search_end_MHz": 1119.7440000000001,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 746.4960000000001,
+      "RF_window_clipped_end_MHz": 1119.7440000000001,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "Galaxy S4 LTE",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 2,
+      "search_start_MHz": 1492.9920000000002,
+      "search_end_MHz": 2239.4880000000003,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1492.9920000000002,
+      "RF_window_clipped_end_MHz": 2200.0,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 3,
+      "search_start_MHz": 540.27,
+      "search_end_MHz": 810.405,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 700.0,
+      "RF_window_clipped_end_MHz": 810.405,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 4,
+      "search_start_MHz": 720.36,
+      "search_end_MHz": 1080.54,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 720.36,
+      "RF_window_clipped_end_MHz": 1080.54,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 4,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 5,
+      "search_start_MHz": 900.45,
+      "search_end_MHz": 1350.675,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 900.45,
+      "RF_window_clipped_end_MHz": 1350.675,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 2,
+      "search_start_MHz": 720.36,
+      "search_end_MHz": 1080.54,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 720.36,
+      "RF_window_clipped_end_MHz": 1080.54,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 3,
+      "search_start_MHz": 1080.54,
+      "search_end_MHz": 1620.81,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1080.54,
+      "RF_window_clipped_end_MHz": 1620.81,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 4,
+      "search_start_MHz": 1440.72,
+      "search_end_MHz": 2161.08,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1440.72,
+      "RF_window_clipped_end_MHz": 2161.08,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    },
+    {
+      "device": "iPhone 6s",
+      "assumed_lanes": 2,
+      "assumed_alpha_min": 1.0,
+      "assumed_alpha_max": 1.5,
+      "harmonic_index": 5,
+      "search_start_MHz": 1800.9,
+      "search_end_MHz": 2701.35,
+      "status": "conditional planning scenario, not measured clock or guaranteed emission",
+      "within_USRP2940_part_of_window": true,
+      "RF_window_clipped_start_MHz": 1800.9,
+      "RF_window_clipped_end_MHz": 2200.0,
+      "hardware_assumption": "Confirmed HyperLOG 7060; USRP-2940 receiver is conditional; LNA/BPF coverage not independently verified"
+    }
+  ],
+  "receiver_center_limits": [
+    {
+      "full_RF_BW_MHz": 20,
+      "min_center_MHz": 710.0,
+      "max_center_MHz": 2190.0,
+      "condition": "HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed"
+    },
+    {
+      "full_RF_BW_MHz": 40,
+      "min_center_MHz": 720.0,
+      "max_center_MHz": 2180.0,
+      "condition": "HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed"
+    },
+    {
+      "full_RF_BW_MHz": 60,
+      "min_center_MHz": 730.0,
+      "max_center_MHz": 2170.0,
+      "condition": "HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed"
+    },
+    {
+      "full_RF_BW_MHz": 80,
+      "min_center_MHz": 740.0,
+      "max_center_MHz": 2160.0,
+      "condition": "HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed"
+    },
+    {
+      "full_RF_BW_MHz": 100,
+      "min_center_MHz": 750.0,
+      "max_center_MHz": 2150.0,
+      "condition": "HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed"
+    }
+  ],
+  "ES_filter": {
+    "code": "external/es-coursework/make_bandwidth_sweep.py",
+    "label_5MHz_one_sided_stop_MHz": 5,
+    "flat_passband_one_sided_MHz": 3,
+    "total_zero_to_zero_support_MHz": 10,
+    "total_flat_passband_MHz": 6,
+    "pixel_rate_MHz": 148.4999704174879,
+    "pixel_period_at_3MHz": 49.499990139162634,
+    "pixel_period_at_5MHz": 29.69999408349758
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "devices": [
+    {
+      "device": "galaxy_s4_lte_111p9M",
+      "max_decomposition_error": 2.9802322387695312e-08,
+      "raw_metadata_unchanged": true,
+      "convergence_passed": true
+    },
+    {
+      "device": "galaxy_s4_lte_171p5M",
+      "max_decomposition_error": 5.960464477539063e-08,
+      "raw_metadata_unchanged": true,
+      "convergence_passed": true
+    },
+    {
+      "device": "iphone6s",
+      "max_decomposition_error": 1.1920928955078125e-07,
+      "raw_metadata_unchanged": true,
+      "convergence_passed": true
+    },
+    {
+      "device": "lgx2",
+      "max_decomposition_error": 5.960464477539063e-08,
+      "raw_metadata_unchanged": true,
+      "convergence_passed": true
+    }
+  ],
+  "rpca_fits_passed": 28,
+  "report_links_valid": true
+}

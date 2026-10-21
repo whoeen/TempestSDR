@@ -1,0 +1,6 @@
+﻿full_RF_BW_MHz,min_center_MHz,max_center_MHz,condition
+20,710.0,2190.0,HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed
+40,720.0,2180.0,HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed
+60,730.0,2170.0,HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed
+80,740.0,2160.0,HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed
+100,750.0,2150.0,HyperLOG 7060 plus USRP-2940; receiver must support this instantaneous BW; extra filter transition margin may be needed

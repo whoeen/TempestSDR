@@ -1,0 +1,4 @@
+﻿device,width,height,refresh_assumed_Hz,bpp_assumed,active_pixel_rate_Mpix_s,aggregate_active_payload_Gbps,min_lane_rate_4lanes_Mbps,min_DDR_clock_4lanes_MHz,min_lane_rate_2lanes_Mbps,min_DDR_clock_2lanes_MHz,prior_RF_center_MHz,prior_nominal_file_BW_MHz,saved_IQ_rate_MSps,measured_raster_line_Hz
+LG X2 (2019),720,1440,60,24,62.208,1.492992,373.24800000000005,186.62400000000002,746.4960000000001,373.24800000000005,344.8,60,136.56551,88679.652541
+Galaxy S4 LTE,1080,1920,60,24,124.416,2.985984,746.4960000000001,373.24800000000005,1492.9920000000002,746.4960000000001,171.5,20,55.81679,116153.4254
+iPhone 6s,750,1334,60,24,60.03,1.44072,360.18,180.09,720.36,360.18,311,20,55.05487,112613.234

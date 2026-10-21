@@ -1,0 +1,7 @@
+*.rIs
+*.ris
+*.npy
+*.npz
+*.pyc
+__pycache__/
+.venv/

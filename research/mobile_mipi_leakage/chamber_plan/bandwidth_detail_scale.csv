@@ -1,0 +1,22 @@
+﻿device,total_centered_RF_BW_MHz,one_sided_envelope_band_MHz,apparent_pixel_rate_Mpix_s,finest_sinusoid_period_pixels_linear_AM_model,sinusoid_half_period_pixels,caveat
+LG X2 (2019),5,2.5,90.6306,36.25224,18.12612,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+LG X2 (2019),10,5.0,90.6306,18.12612,9.06306,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+LG X2 (2019),20,10.0,90.6306,9.06306,4.53153,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+LG X2 (2019),40,20.0,90.6306,4.53153,2.265765,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+LG X2 (2019),60,30.0,90.6306,3.02102,1.51051,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+LG X2 (2019),80,40.0,90.6306,2.265765,1.1328825,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+LG X2 (2019),100,50.0,90.6306,1.8126120000000001,0.9063060000000001,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,5,2.5,139.53,55.812,27.906,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,10,5.0,139.53,27.906,13.953,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,20,10.0,139.53,13.953,6.9765,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,40,20.0,139.53,6.9765,3.48825,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,60,30.0,139.53,4.651,2.3255,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,80,40.0,139.53,3.48825,1.744125,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+Galaxy S4 LTE,100,50.0,139.53,2.7906,1.3953,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,5,2.5,84.4599255,33.7839702,16.8919851,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,10,5.0,84.4599255,16.8919851,8.44599255,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,20,10.0,84.4599255,8.44599255,4.222996275,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,40,20.0,84.4599255,4.222996275,2.1114981375,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,60,30.0,84.4599255,2.81533085,1.407665425,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,80,40.0,84.4599255,2.1114981375,1.05574906875,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim
+iPhone 6s,100,50.0,84.4599255,1.68919851,0.844599255,Centered double-sideband linear-envelope approximation; filter transition band and SNR worsen this scale; no hard universal image resolution claim

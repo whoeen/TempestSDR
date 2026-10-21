@@ -1,0 +1,42 @@
+{
+  "file": "data/antenna3.rIs",
+  "bytes": 1841400000,
+  "complex_samples": 460350000,
+  "iq_format": "interleaved big-endian signed int16 I,Q; headerless",
+  "center_frequency_hz": null,
+  "configured_bandwidth_hz": null,
+  "sample_rate_status": "assumed from matching prior iPhone 6 receiver timebase; not file metadata",
+  "assumed_sample_rate_sps": 124085710.0,
+  "timing": {
+    "frame_rate_hz_if_assumed_fs": 59.97363054036565,
+    "line_rate_hz_if_1880_rows": 112750.42541588741,
+    "samples_per_line_if_1880_rows": 1100.5342954787234,
+    "autocorrelation_peak_prominence_mad": 3.4866735541171576,
+    "power_block_samples": 64,
+    "samples_used_for_timing": 120000000,
+    "short_probe_period_samples": 2048195.6851691708,
+    "full_file_verified_period_samples": null,
+    "period_used_samples": 2069004.4755,
+    "timing_source": "fallback median of antenna1/2; antenna3 own 50-70 Hz peak is weak/nonmatching"
+  },
+  "geometry_hypothesis": [
+    1880,
+    1100
+  ],
+  "active_crop": [
+    1334,
+    750
+  ],
+  "frames_averaged": 24,
+  "mean_naive_phase_concentration": 0.19015251100063324,
+  "mean_phase_tracked_concentration": 0.5998015999794006,
+  "odd_even_repeatability": {
+    "log_magnitude_correlation": 0.02896356531016483,
+    "horizontal_edge_correlation": 0.050829372405164795,
+    "weighted_phase_agreement": 0.9087672233581543,
+    "weighted_phase_rmse_rad": 0.43791502714157104
+  },
+  "mean_alignment_score": 0.0744456674653681,
+  "mean_coherence_after_phase_tracking": 0.29092134081799054,
+  "result_classification": "hypothesis test; visual and independent-half repeatability required"
+}

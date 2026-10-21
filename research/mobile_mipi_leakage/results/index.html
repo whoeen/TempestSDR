@@ -1,0 +1,37 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>3기종 RPCA / matched subspace</title>
+<style>body{margin:0;background:#f3f5f8;color:#172333;font:16px/1.65 "Malgun Gothic",sans-serif}main{max-width:1450px;margin:auto;padding:36px}h1{margin:0;font-size:30px}h2{font-size:24px}section{margin-top:28px;padding:26px;background:white;border:1px solid #dce2ea;border-radius:12px}img{max-width:100%;height:auto}a{color:#165eb7}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:9px;border-bottom:1px solid #dce2ea}details{border-top:1px solid #e3e7eb;margin-top:14px;padding-top:10px}summary{cursor:pointer}.note{background:#fff7e6;border-left:4px solid #bc7e19;padding:15px 20px}.nav{display:flex;gap:20px;flex-wrap:wrap}</style>
+<main><h1>3기종 RPCA / matched subspace 비교</h1><p>2026-09-21 · LG X2 · Galaxy S4 LTE · iPhone 6s</p>
+<div class="note"><b>공통모드 성분만의 분리는 확인되지 않았습니다.</b> 공간 저랭크 처리는 고정 세로선도 보존하고 일부 글자를 제거했습니다. 시간 matched 방식은 반복 화면과 고정 간섭을 함께 보존합니다. 표시된 rank는 처리 행렬의 통계적 rank이며 물리 신호원 개수가 아닙니다.</div>
+<p>세로선 감소는 화면 구조 손실을 포함할 수 있고, raw MSE 개선은 잡음 평활화만으로도 생깁니다. 실제 화면 정답과 비교한 복원 정확도가 아닙니다. 각 이미지를 누르면 큰 그림을 볼 수 있습니다.</p><nav class="nav"><a href="#lgx2">LG X2 (2019)</a><a href="#galaxy_s4_lte_171p5M">Galaxy S4 LTE (171.5 MHz)</a><a href="#iphone6s">iPhone 6s</a><a href="../REPORT_KR.md">실험 기록</a><a href="primary_metrics.csv">주요 CSV</a></nav><section id="lgx2"><h2>LG X2 (2019)</h2>
+<p>40 frames · native 1440 × 720 · 동일 밝기 범위</p>
+<a href="lgx2/comparison_all.png"><img src="lgx2/comparison_all.png" alt="original, RPCA, spatial matched and temporal matched comparison"></a>
+<table><thead><tr><th>방법</th><th>rank</th><th>세로선 RMS 감소</th><th>독립 raw MSE 감소</th></tr></thead><tbody><tr><td>baseline</td><td>-1</td><td>0.00%</td><td>0.00%</td></tr><tr><td>rpca_lambda1</td><td>12</td><td>5.44%</td><td>47.34%</td></tr><tr><td>matched_r2</td><td>2</td><td>2.14%</td><td>47.84%</td></tr><tr><td>temporal_matched_rank1</td><td>1</td><td>6.10%</td><td>-0.18%</td></tr></tbody></table>
+<details><summary>글자 확대 비교</summary><img src="lgx2/detail_crop.png"></details>
+<details><summary>제거된 성분</summary><img src="lgx2/removed_components.png"></details>
+<details><summary>RPCA λ 민감도</summary><img src="lgx2/rpca_sensitivity.png"></details>
+<details><summary>Spatial matched rank 민감도</summary><img src="lgx2/matched_sensitivity.png"></details>
+<p><a href="lgx2/metrics.csv">Metrics CSV</a> · <a href="lgx2/column_profiles_all.png">Column profiles</a> · <a href="lgx2/summary.json">Parameters and convergence</a></p></section><section id="galaxy_s4_lte_171p5M"><h2>Galaxy S4 LTE (171.5 MHz)</h2>
+<p>40 frames · native 1912 × 923 · 동일 밝기 범위</p>
+<a href="galaxy_s4_lte_171p5M/comparison_all.png"><img src="galaxy_s4_lte_171p5M/comparison_all.png" alt="original, RPCA, spatial matched and temporal matched comparison"></a>
+<table><thead><tr><th>방법</th><th>rank</th><th>세로선 RMS 감소</th><th>독립 raw MSE 감소</th></tr></thead><tbody><tr><td>baseline</td><td>-1</td><td>0.00%</td><td>0.00%</td></tr><tr><td>rpca_lambda1</td><td>35</td><td>11.19%</td><td>48.25%</td></tr><tr><td>matched_r2</td><td>2</td><td>0.90%</td><td>48.50%</td></tr><tr><td>temporal_matched_rank1</td><td>1</td><td>2.48%</td><td>0.23%</td></tr></tbody></table>
+<details><summary>글자 확대 비교</summary><img src="galaxy_s4_lte_171p5M/detail_crop.png"></details>
+<details><summary>제거된 성분</summary><img src="galaxy_s4_lte_171p5M/removed_components.png"></details>
+<details><summary>RPCA λ 민감도</summary><img src="galaxy_s4_lte_171p5M/rpca_sensitivity.png"></details>
+<details><summary>Spatial matched rank 민감도</summary><img src="galaxy_s4_lte_171p5M/matched_sensitivity.png"></details>
+<p><a href="galaxy_s4_lte_171p5M/metrics.csv">Metrics CSV</a> · <a href="galaxy_s4_lte_171p5M/column_profiles_all.png">Column profiles</a> · <a href="galaxy_s4_lte_171p5M/summary.json">Parameters and convergence</a></p></section><section id="iphone6s"><h2>iPhone 6s</h2>
+<p>40 frames · native 1334 × 750 · 동일 밝기 범위</p>
+<a href="iphone6s/comparison_all.png"><img src="iphone6s/comparison_all.png" alt="original, RPCA, spatial matched and temporal matched comparison"></a>
+<table><thead><tr><th>방법</th><th>rank</th><th>세로선 RMS 감소</th><th>독립 raw MSE 감소</th></tr></thead><tbody><tr><td>baseline</td><td>-1</td><td>0.00%</td><td>0.00%</td></tr><tr><td>rpca_lambda1</td><td>60</td><td>5.03%</td><td>20.90%</td></tr><tr><td>matched_r25</td><td>25</td><td>0.40%</td><td>48.59%</td></tr><tr><td>temporal_matched_rank1</td><td>1</td><td>0.54%</td><td>1.82%</td></tr></tbody></table>
+<details><summary>글자 확대 비교</summary><img src="iphone6s/detail_crop.png"></details>
+<details><summary>제거된 성분</summary><img src="iphone6s/removed_components.png"></details>
+<details><summary>RPCA λ 민감도</summary><img src="iphone6s/rpca_sensitivity.png"></details>
+<details><summary>Spatial matched rank 민감도</summary><img src="iphone6s/matched_sensitivity.png"></details>
+<p><a href="iphone6s/metrics.csv">Metrics CSV</a> · <a href="iphone6s/column_profiles_all.png">Column profiles</a> · <a href="iphone6s/summary.json">Parameters and convergence</a></p></section><section id="galaxy_s4_lte_111p9M"><h2>Galaxy S4 LTE (111.9 MHz)</h2>
+<p>40 frames · native 1920 × 959 · 동일 밝기 범위</p>
+<a href="galaxy_s4_lte_111p9M/comparison_all.png"><img src="galaxy_s4_lte_111p9M/comparison_all.png" alt="original, RPCA, spatial matched and temporal matched comparison"></a>
+<table><thead><tr><th>방법</th><th>rank</th><th>세로선 RMS 감소</th><th>독립 raw MSE 감소</th></tr></thead><tbody><tr><td>baseline</td><td>-1</td><td>0.00%</td><td>0.00%</td></tr><tr><td>rpca_lambda1</td><td>17</td><td>16.03%</td><td>47.94%</td></tr><tr><td>matched_r2</td><td>2</td><td>0.23%</td><td>51.42%</td></tr><tr><td>temporal_matched_rank1</td><td>1</td><td>0.24%</td><td>0.67%</td></tr></tbody></table>
+<details><summary>글자 확대 비교</summary><img src="galaxy_s4_lte_111p9M/detail_crop.png"></details>
+<details><summary>제거된 성분</summary><img src="galaxy_s4_lte_111p9M/removed_components.png"></details>
+<details><summary>RPCA λ 민감도</summary><img src="galaxy_s4_lte_111p9M/rpca_sensitivity.png"></details>
+<details><summary>Spatial matched rank 민감도</summary><img src="galaxy_s4_lte_111p9M/matched_sensitivity.png"></details>
+<p><a href="galaxy_s4_lte_111p9M/metrics.csv">Metrics CSV</a> · <a href="galaxy_s4_lte_111p9M/column_profiles_all.png">Column profiles</a> · <a href="galaxy_s4_lte_111p9M/summary.json">Parameters and convergence</a></p></section></main></html>

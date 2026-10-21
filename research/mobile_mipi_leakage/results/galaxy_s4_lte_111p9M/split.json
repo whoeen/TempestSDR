@@ -1,0 +1,67 @@
+{
+  "train_1based": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39
+  ],
+  "validation_1based": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22,
+    26,
+    30,
+    34,
+    38
+  ],
+  "test_1based": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40
+  ],
+  "validation_rank_fit_1based": [
+    2,
+    10,
+    18,
+    26,
+    34
+  ],
+  "validation_rank_reference_1based": [
+    6,
+    14,
+    22,
+    30,
+    38
+  ],
+  "display_limits": [
+    -0.37195305168628695,
+    0.10849025942385193
+  ],
+  "note": "Test frames never select rank/lambda. Test raw image remains unfiltered for evaluation."
+}

@@ -1,0 +1,49 @@
+{
+  "iq_format": "headerless interleaved big-endian signed int16 I,Q",
+  "sample_rate_status": "not embedded; all Hz conversions below assume 124.085710 MS/s",
+  "method": "whole-file 553-sample block-power sequence, Hann FFT, log-power peak search, three-bin parabolic interpolation",
+  "antenna1": {
+    "complex_samples": 341550000,
+    "normalized_frame_frequency_cycles_per_sample": 4.83316507e-7,
+    "frame_period_samples": 2069037.548,
+    "frame_rate_hz_if_assumed_fs": 59.9726719,
+    "frame_peak_above_50_70_hz_band_median_db": 49.66,
+    "samples_per_line_if_1880_rows": 1100.551887,
+    "line_rate_hz_if_1880_rows": 112748.6232,
+    "complex_rms_adc_counts": 273.153
+  },
+  "antenna2": {
+    "complex_samples": 356400000,
+    "normalized_frame_frequency_cycles_per_sample": 4.83331958e-7,
+    "frame_period_samples": 2068971.403,
+    "frame_rate_hz_if_assumed_fs": 59.9745892,
+    "frame_peak_above_50_70_hz_band_median_db": 49.15,
+    "samples_per_line_if_1880_rows": 1100.516704,
+    "line_rate_hz_if_1880_rows": 112752.2277,
+    "complex_rms_adc_counts": 276.331
+  },
+  "antenna3": {
+    "complex_samples": 460350000,
+    "own_weak_frame_candidate_hz_if_assumed_fs": 58.610568,
+    "own_weak_frame_period_samples": 2117121.779,
+    "frame_peak_above_50_70_hz_band_median_db": 8.61,
+    "complex_rms_adc_counts": 24.119,
+    "restoration_period_used_samples": 2069004.4755,
+    "restoration_period_note": "forced median of antenna1/2 only for a negative-control hypothesis test"
+  },
+  "cross_capture": {
+    "antenna1_antenna2_coarse_log_psd_correlation": 0.988,
+    "antenna3_vs_antenna1_or_2_coarse_log_psd_correlation_approx": 0.30,
+    "antenna3_power_below_antenna1_db": 21.08,
+    "antenna3_power_below_antenna2_db": 21.18,
+    "local_envelope_autocorrelation_note": "antenna1/2 have a strong 553-sample family and local maxima near 1105-1106 samples; these differ from the 1880-row frame-derived 1100.52-1100.55 samples/line and may be interference or a subperiod"
+  },
+  "unknown_metadata": [
+    "RF center frequency",
+    "configured instantaneous bandwidth",
+    "actual sample rate",
+    "receiver gain",
+    "antenna position and polarization",
+    "device mapping"
+  ]
+}

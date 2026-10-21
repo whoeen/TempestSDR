@@ -1,0 +1,13 @@
+{
+  "run_separation_sha256": "c4b7519610e92c64a714851d64042a2f928cd91920f2977cb69d33f82d2b2515",
+  "temporal_report_sha256": "a147a710af21f028bd1c3acaf81e9356eaa83e3fc91792ca4743b76486ee306e",
+  "legacy_sha256": "53b92e1040f985a981fc5f7313176ea6a398a673ceba95a4927f280b319995e4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "devices": [
+    "galaxy_s4_lte_111p9M",
+    "galaxy_s4_lte_171p5M",
+    "iphone6s",
+    "lgx2"
+  ]
+}

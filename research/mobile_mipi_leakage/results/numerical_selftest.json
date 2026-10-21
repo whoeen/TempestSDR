@@ -1,0 +1,6 @@
+{
+  "rpca_relative_error_to_known_truth": 0.019625333163441363,
+  "rpca_converged": true,
+  "rpca_objective_nonincreasing": true,
+  "matched_unit_response_error": 1.8005074759806123e-15
+}

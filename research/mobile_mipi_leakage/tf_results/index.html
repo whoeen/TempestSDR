@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>3기종 누설 IQ STFT 결과</title>
+  <style>
+    body{font-family:system-ui,"Malgun Gothic",sans-serif;margin:0;background:#f5f6f8;color:#18202a}
+    main{max-width:1500px;margin:auto;padding:28px}
+    h1{margin:0 0 8px}.lead{margin:0 0 26px;color:#4a5565}
+    .correction{background:#fff2cc;border:2px solid #c27a00;border-radius:10px;padding:14px 16px;margin:16px 0 22px;color:#4a2a00;font-weight:650}
+    section{background:white;border:1px solid #dce1e8;border-radius:12px;padding:18px;margin:18px 0;box-shadow:0 2px 8px #0000000b}
+    img{display:block;width:100%;height:auto;border:1px solid #e1e5ea;border-radius:7px}
+    .links{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0 0}
+    a{color:#075fc7}code{background:#eef1f5;padding:2px 5px;border-radius:4px}
+    table{border-collapse:collapse;width:100%;margin-top:12px}th,td{padding:8px 10px;border-bottom:1px solid #e2e6eb;text-align:right}th:first-child,td:first-child{text-align:left}
+  </style>
+</head>
+<body><main>
+  <h1>3기종 누설 IQ: 복원 화면과 STFT</h1>
+  <div class="correction">2026-09-23 정정: 이 페이지는 IQ를 little-endian으로 잘못 읽은 폐기 결과다. 복원·STFT·위상 수치를 사용하지 말고 <a href="../coherent_results/index.html">big-endian 정정 재분석</a>을 확인한다.</div>
+  <p class="lead">Row-scale: 한 raster line 창. Column-phase: 각 line을 접어 64 raster-cell 창으로 평균.</p>
+  <table><thead><tr><th>기종</th><th>설정 IQ BW</th><th>저장 sample rate</th><th>row</th><th>raster cell</th></tr></thead><tbody>
+    <tr><td>iPhone 6</td><td>60 MHz</td><td>124.085710 MS/s</td><td>8.86485 µs</td><td>8.05895 ns</td></tr>
+    <tr><td>LG X2 (2019)</td><td>60 MHz</td><td>136.565510 MS/s</td><td>11.27654 µs</td><td>11.03380 ns</td></tr>
+    <tr><td>Galaxy S4 LTE</td><td>20 MHz</td><td>55.816790 MS/s</td><td>8.60930 µs</td><td>7.97158 ns</td></tr>
+  </tbody></table>
+  <section><h2>LG X2 (2019)</h2><img src="lgx2/tf_montage.png" alt="LG X2 reconstruction and STFT"><div class="links"><a href="lgx2/row_scale_stft.png">row STFT</a><a href="lgx2/column_scale_stft.png">column-phase STFT</a><a href="lgx2/tf_metadata.json">metadata</a></div></section>
+  <section><h2>Galaxy S4 LTE</h2><img src="galaxy_s4_lte/tf_montage.png" alt="Galaxy reconstruction and STFT"><div class="links"><a href="galaxy_s4_lte/row_scale_stft.png">row STFT</a><a href="galaxy_s4_lte/column_scale_stft.png">column-phase STFT</a><a href="galaxy_s4_lte/tf_metadata.json">metadata</a></div></section>
+  <section><h2>iPhone 6</h2><img src="iphone6/tf_montage.png" alt="iPhone 6 reconstruction and STFT"><div class="links"><a href="iphone6/iphone6_reconstruction_attempt.png">복원 후처리 비교</a><a href="iphone6/row_scale_stft.png">row STFT</a><a href="iphone6/column_scale_stft.png">column-phase STFT</a><a href="iphone6/tf_metadata.json">metadata</a></div></section>
+  <p><a href="../TF_DRIVER_STUDY_KR.md">전체 해석 보고서</a> · <a href="bandwidth_timing.csv">bandwidth/timing CSV</a></p>
+</main></body></html>

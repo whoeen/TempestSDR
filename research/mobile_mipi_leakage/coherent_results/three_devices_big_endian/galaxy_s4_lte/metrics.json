@@ -1,0 +1,165 @@
+{
+  "device": "Galaxy S4 LTE",
+  "source": "data/171.5mhz_20m_55.81679m_galaxS4lte.rIs",
+  "iq_format": "interleaved big-endian signed int16 [I,Q], no header",
+  "center_frequency_hz": 171500000.0,
+  "configured_complex_bandwidth_hz": 20000000.0,
+  "stored_complex_sample_rate_sps": 55816790.0,
+  "line_rate_hz": 116153.4254,
+  "raster": [
+    1936,
+    1080
+  ],
+  "raw_samples_per_line": 480.54364137590045,
+  "raw_samples_per_raster_cell": 0.4449478160887967,
+  "fractional_output_samples_per_raster_cell_k": 1,
+  "fractional_output_rate_sps": 125445699.432,
+  "interpolator": "four-point Catmull-Rom cubic fractional delay",
+  "frames": 24,
+  "checkpoint_metrics": [
+    {
+      "frames": 1,
+      "mean_naive_phase_concentration": 1.0,
+      "mean_phase_tracked_concentration": 1.0,
+      "tracked_to_naive_gain": 1.0,
+      "mean_unit_phasor_concentration": 1.0,
+      "log_amplitude_spatial_std": 0.8667189478874207
+    },
+    {
+      "frames": 4,
+      "mean_naive_phase_concentration": 0.5278612971305847,
+      "mean_phase_tracked_concentration": 0.5219965577125549,
+      "tracked_to_naive_gain": 0.988889620341726,
+      "mean_unit_phasor_concentration": 0.45287206768989563,
+      "log_amplitude_spatial_std": 0.5817627310752869
+    },
+    {
+      "frames": 16,
+      "mean_naive_phase_concentration": 0.2685936689376831,
+      "mean_phase_tracked_concentration": 0.2615351676940918,
+      "tracked_to_naive_gain": 0.9737205226336554,
+      "mean_unit_phasor_concentration": 0.22278626263141632,
+      "log_amplitude_spatial_std": 0.4910553991794586
+    },
+    {
+      "frames": 24,
+      "mean_naive_phase_concentration": 0.21287879347801208,
+      "mean_phase_tracked_concentration": 0.21373428404331207,
+      "tracked_to_naive_gain": 1.0040186744359219,
+      "mean_unit_phasor_concentration": 0.1821376234292984,
+      "log_amplitude_spatial_std": 0.47361820936203003
+    }
+  ],
+  "crop": {
+    "rows": 1912,
+    "columns": 923,
+    "method": "established prior crop"
+  },
+  "mean_naive_phase_concentration": 0.21321232616901398,
+  "mean_phase_tracked_concentration": 0.21406064927577972,
+  "concentration_gain": 1.0039787714059893,
+  "active_mean_naive_phase_concentration": 0.21287879347801208,
+  "active_mean_phase_tracked_concentration": 0.21373428404331207,
+  "active_concentration_gain": 1.0040186744359219,
+  "odd_even_repeatability_after_fractional_resampling": {
+    "log_magnitude_correlation": 0.29799078113178556,
+    "horizontal_edge_correlation": 0.02172684332626159,
+    "weighted_phase_agreement": 0.00818851962685585,
+    "weighted_phase_rmse_rad": 1.8041448593139648
+  },
+  "nearest_vs_fractional_change_after_common_phase_alignment": {
+    "log_magnitude_correlation": 0.8362186277373193,
+    "horizontal_edge_correlation": 0.629431871919689,
+    "weighted_phase_agreement": 0.9621849060058594,
+    "weighted_phase_rmse_rad": 0.2873968780040741
+  },
+  "mean_abs_fractional_column_shift": 0.7832761205263504,
+  "std_equivalent_residual_hz": 280.26815672658984,
+  "vertical_line_phase_peaks": [
+    {
+      "raster_column_0based": 360,
+      "stripe_z": 111.80622081102392,
+      "relative_phase_deg": 157.92612728535775,
+      "row_phase_concentration": 0.07799078498900035,
+      "mean_amplitude": 444.54214066513316
+    },
+    {
+      "raster_column_0based": 403,
+      "stripe_z": 358.79667439715115,
+      "relative_phase_deg": 146.69470125829088,
+      "row_phase_concentration": 0.09187589022697427,
+      "mean_amplitude": 1196.5909055599495
+    },
+    {
+      "raster_column_0based": 708,
+      "stripe_z": 175.1051461797971,
+      "relative_phase_deg": -61.74720218837127,
+      "row_phase_concentration": 0.21133930205560042,
+      "mean_amplitude": 640.7264625257696
+    },
+    {
+      "raster_column_0based": 859,
+      "stripe_z": 259.4528697891704,
+      "relative_phase_deg": -59.135207569182796,
+      "row_phase_concentration": 0.27681034790765324,
+      "mean_amplitude": 890.0455205460225
+    },
+    {
+      "raster_column_0based": 877,
+      "stripe_z": -99.24973684496726,
+      "relative_phase_deg": 173.94546817342436,
+      "row_phase_concentration": 0.7001159142674406,
+      "mean_amplitude": 107.24983011395479
+    },
+    {
+      "raster_column_0based": 885,
+      "stripe_z": -132.32977368358905,
+      "relative_phase_deg": 160.04419033604296,
+      "row_phase_concentration": 0.7713552330589689,
+      "mean_amplitude": 108.98288272037979
+    },
+    {
+      "raster_column_0based": 893,
+      "stripe_z": -104.65897073650311,
+      "relative_phase_deg": 156.29323407573537,
+      "row_phase_concentration": 0.8211870102912393,
+      "mean_amplitude": 124.36576932717946
+    },
+    {
+      "raster_column_0based": 906,
+      "stripe_z": 891.4730600428732,
+      "relative_phase_deg": 3.119552811340096e-15,
+      "row_phase_concentration": 0.9776014498592208,
+      "mean_amplitude": 2830.1300345491773
+    },
+    {
+      "raster_column_0based": 918,
+      "stripe_z": -102.58164569965132,
+      "relative_phase_deg": 138.83579753549017,
+      "row_phase_concentration": 0.42728174637582783,
+      "mean_amplitude": 164.49146139523214
+    },
+    {
+      "raster_column_0based": 926,
+      "stripe_z": -123.2317959535616,
+      "relative_phase_deg": 157.0080295340566,
+      "row_phase_concentration": 0.7638107510426885,
+      "mean_amplitude": 106.88479274166517
+    },
+    {
+      "raster_column_0based": 939,
+      "stripe_z": 120.03847703459373,
+      "relative_phase_deg": -138.90038724432645,
+      "row_phase_concentration": 0.6149909775227919,
+      "mean_amplitude": 544.8197001937992
+    },
+    {
+      "raster_column_0based": 982,
+      "stripe_z": 647.1497690172209,
+      "relative_phase_deg": -57.90413357257734,
+      "row_phase_concentration": 0.9299423719354352,
+      "mean_amplitude": 2059.228486746796
+    }
+  ],
+  "interpretation_limit": "Relative received complex phase after empirical timing/linear-row phase tracking; not decoded MIPI lane or DDIC pin phase."
+}

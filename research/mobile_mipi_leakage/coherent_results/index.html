@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>스마트폰 누설 IQ · Coherent HSV / Fractional Resampling 결과</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f6fa;
+      --panel: #ffffff;
+      --panel-2: #eef2f8;
+      --text: #172033;
+      --muted: #5c6578;
+      --line: #d8deea;
+      --accent: #255fbc;
+      --accent-soft: #e7f0ff;
+      --warn-bg: #fff2cf;
+      --warn-line: #e0a900;
+      --warn-text: #4f3900;
+      --good: #087f5b;
+      --shadow: 0 10px 28px rgba(20, 35, 65, .08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f131d;
+        --panel: #171d29;
+        --panel-2: #202838;
+        --text: #edf2fb;
+        --muted: #a8b2c5;
+        --line: #344056;
+        --accent: #8db7ff;
+        --accent-soft: #1d3153;
+        --warn-bg: #3d310d;
+        --warn-line: #d9a514;
+        --warn-text: #ffe9a6;
+        --good: #74d9bb;
+        --shadow: 0 12px 32px rgba(0, 0, 0, .28);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Pretendard, "Noto Sans KR", "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    a { color: var(--accent); }
+    .wrap { width: min(1500px, calc(100% - 32px)); margin: 0 auto; }
+    header {
+      padding: 42px 0 24px;
+      background: linear-gradient(135deg, var(--panel), var(--accent-soft));
+      border-bottom: 1px solid var(--line);
+    }
+    h1 { margin: 0 0 10px; font-size: clamp(1.85rem, 3.6vw, 3.1rem); line-height: 1.15; }
+    h2 { margin: 48px 0 16px; font-size: clamp(1.5rem, 2.4vw, 2rem); }
+    h3 { margin: 0 0 10px; font-size: 1.3rem; }
+    h4 { margin: 0 0 8px; font-size: 1.05rem; }
+    p { margin: 8px 0; }
+    .subtitle { max-width: 980px; color: var(--muted); font-size: 1.04rem; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: color-mix(in srgb, var(--panel) 92%, transparent);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+    nav .wrap { display: flex; gap: 18px; overflow-x: auto; padding-block: 10px; }
+    nav a { white-space: nowrap; text-decoration: none; font-weight: 650; }
+    main { padding-bottom: 70px; }
+    .banner {
+      margin: 26px 0 18px;
+      padding: 18px 20px;
+      background: var(--warn-bg);
+      color: var(--warn-text);
+      border: 2px solid var(--warn-line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+    .banner strong { display: block; font-size: 1.1rem; margin-bottom: 4px; }
+    .note {
+      margin: 14px 0;
+      padding: 14px 16px;
+      background: var(--panel-2);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: clamp(16px, 2vw, 24px);
+      box-shadow: var(--shadow);
+      margin: 18px 0;
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+      gap: 10px;
+      margin: 14px 0 18px;
+    }
+    .metric {
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 11px 12px;
+    }
+    .metric span { display: block; color: var(--muted); font-size: .82rem; }
+    .metric b { display: block; margin-top: 2px; font-size: 1.08rem; font-variant-numeric: tabular-nums; }
+    .good { color: var(--good); }
+    .table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 11px; margin: 12px 0 20px; }
+    table { width: 100%; border-collapse: collapse; min-width: 720px; font-size: .9rem; }
+    th, td { padding: 9px 11px; border-bottom: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums; }
+    th:first-child, td:first-child { text-align: left; }
+    thead th { background: var(--panel-2); color: var(--muted); font-size: .81rem; letter-spacing: .02em; }
+    tbody tr:last-child td { border-bottom: 0; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    figure { margin: 0; background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+    figure a { display: block; }
+    figure img { display: block; width: 100%; height: auto; background: #0b0d12; }
+    figcaption { padding: 9px 11px; color: var(--muted); font-size: .88rem; }
+    .phase { grid-column: 1 / -1; }
+    .phase img { max-height: 980px; object-fit: contain; }
+    details { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+    summary { cursor: pointer; color: var(--accent); font-weight: 700; }
+    code { background: var(--panel-2); border-radius: 5px; padding: 1px 5px; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .8rem; font-weight: 700; }
+    .caveat { color: var(--muted); font-size: .92rem; }
+    footer { padding: 24px 0 44px; color: var(--muted); border-top: 1px solid var(--line); }
+    @media (max-width: 780px) {
+      .wrap { width: min(100% - 20px, 1500px); }
+      header { padding-top: 30px; }
+      .gallery { grid-template-columns: 1fr; }
+      .phase { grid-column: auto; }
+      .panel { padding: 14px; border-radius: 12px; }
+    }
+    @media print {
+      nav { display: none; }
+      body { background: #fff; }
+      .panel, .banner { box-shadow: none; break-inside: avoid; }
+      details > * { display: block !important; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>스마트폰 누설 IQ 복원 결과 갤러리</h1>
+      <p class="subtitle">Big-endian IQ 재해석, fractional resampling, coherent averaging, HSV 위상 시각화, corrected STFT와 안테나 측정 파일의 조건부 복원 결과. 표는 현재 JSON/CSV 결과 파일의 정적 스냅샷이다.</p>
+    </div>
+  </header>
+  <nav aria-label="결과 바로가기">
+    <div class="wrap">
+      <a href="#correction">Endian 정정</a>
+      <a href="#overview">3기기 비교</a>
+      <a href="#convergence">수렴 수치</a>
+      <a href="#stft">Corrected STFT</a>
+      <a href="#iphone6">iPhone 6</a>
+      <a href="#lgx2">LG X2</a>
+      <a href="#galaxy">Galaxy S4 LTE</a>
+      <a href="#antenna">안테나 1–3</a>
+      <a href="#line-sweep">Line sweep</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="correction" class="banner">
+      <strong>2026-09-23 중요 정정: IQ byte order는 big-endian이다.</strong>
+      원본 <code>.rIs</code>는 headerless, interleaved signed int16 <code>[I,Q]</code>이며 <code>ieee-be</code>로 읽어야 한다. 이전 little-endian 복원에서 얻은 SNR, 위상, RPCA, STFT 수치와 화면은 정량 근거로 사용할 수 없다. 이 페이지의 스마트폰 및 안테나 결과는 big-endian으로 다시 계산한 값이다.
+    </section>
+
+    <section id="overview">
+      <h2>3기기 결과 요약</h2>
+      <div class="panel">
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>기기</th><th>fc</th><th>수집 BW</th><th>저장 Fs</th><th>raster (row×col)</th><th>raw sample/cell</th><th>출력 k</th><th>phase concentration<br>naive → tracked</th><th>배율</th></tr></thead>
+            <tbody>
+              <tr><td>iPhone 6</td><td>238.0 MHz</td><td>60.0 MHz</td><td>124.085710 MS/s</td><td>1880×1100</td><td>1.000001</td><td>1</td><td>0.1987 → 0.2203</td><td>1.109×</td></tr>
+              <tr><td>LG X2 (2019)</td><td>344.8 MHz</td><td>60.0 MHz</td><td>136.565510 MS/s</td><td>1478×1022</td><td>1.506837</td><td>2</td><td>0.1855 → 0.5351</td><td class="good"><b>2.884×</b></td></tr>
+              <tr><td>Galaxy S4 LTE</td><td>171.5 MHz</td><td>20.0 MHz</td><td>55.816790 MS/s</td><td>1936×1080</td><td>0.444948</td><td>1</td><td>0.2132 → 0.2141</td><td>1.004×</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="caveat">여기서 sample/cell은 MIPI lane의 UI당 샘플 수가 아니라, 추정 raster 좌표 한 칸당 원시 IQ 샘플 수다. <code>k</code>는 fractional resampling 뒤 raster cell당 출력 샘플 수다.</p>
+      </div>
+    </section>
+
+    <section id="convergence">
+      <h2>Active-crop coherent averaging 수렴</h2>
+      <div class="panel">
+        <p>각 <code>checkpoint_metrics.csv</code>에서 P=4, 16, 24의 active crop 지표를 그대로 옮겼다. phase concentration은 복소 평균 크기를 개별 magnitude 평균으로 나눈 값이며, 1에 가까울수록 해당 crop에서 프레임 간 위상이 잘 정렬됐다는 뜻이다.</p>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>기기</th><th>P</th><th>naive phase concentration</th><th>tracked phase concentration</th><th>tracked / naive</th><th>unit-phasor concentration</th><th>log-AM spatial std.</th></tr></thead>
+            <tbody>
+              <tr><td rowspan="3">iPhone 6</td><td>4</td><td>0.4968</td><td>0.5482</td><td>1.1034×</td><td>0.4887</td><td>0.7678</td></tr>
+              <tr><td>16</td><td>0.2736</td><td>0.2724</td><td>0.9958×</td><td>0.2338</td><td>0.7021</td></tr>
+              <tr><td>24</td><td>0.2018</td><td>0.2273</td><td>1.1262×</td><td>0.1944</td><td>0.6979</td></tr>
+              <tr><td rowspan="3">LG X2 (2019)</td><td>4</td><td>0.6810</td><td>0.7069</td><td>1.0381×</td><td>0.6643</td><td>0.3617</td></tr>
+              <tr><td>16</td><td>0.2357</td><td>0.6700</td><td class="good"><b>2.8424×</b></td><td>0.6268</td><td>0.3002</td></tr>
+              <tr><td>24</td><td>0.1842</td><td>0.6673</td><td class="good"><b>3.6222×</b></td><td>0.6226</td><td>0.2923</td></tr>
+              <tr><td rowspan="3">Galaxy S4 LTE</td><td>4</td><td>0.5279</td><td>0.5220</td><td>0.9889×</td><td>0.4529</td><td>0.5818</td></tr>
+              <tr><td>16</td><td>0.2686</td><td>0.2615</td><td>0.9737×</td><td>0.2228</td><td>0.4911</td></tr>
+              <tr><td>24</td><td>0.2129</td><td>0.2137</td><td>1.0040×</td><td>0.1821</td><td>0.4736</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="caveat">이 표는 active crop에서 checkpoint마다 다시 계산한 값이라 위의 full result 요약값과 소수점 수준에서 다를 수 있다. P=1은 정의상 모든 phase concentration이 1이므로 생략했다.</p>
+      </div>
+    </section>
+
+    <section id="stft">
+      <h2>Corrected STFT · row와 64-cell 시간축</h2>
+      <div class="panel">
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>기기</th><th>1 row 시간</th><th>64 raster-cell 시간</th><th>row-STFT true resolution</th><th>64-cell STFT true resolution</th><th>row 위치 변조<br>P95−P05</th><th>column 위치 변조<br>P95−P05</th></tr></thead>
+            <tbody>
+              <tr><td>iPhone 6</td><td>8.865 µs</td><td>0.516 µs</td><td>112.805 kHz</td><td>1.939 MHz</td><td>8.028 dB</td><td>11.441 dB</td></tr>
+              <tr><td>LG X2 (2019)</td><td>11.277 µs</td><td>0.706 µs</td><td>88.679 kHz</td><td>1.423 MHz</td><td>0.562 dB</td><td>8.839 dB</td></tr>
+              <tr><td>Galaxy S4 LTE</td><td>8.609 µs</td><td>0.510 µs</td><td>116.043 kHz</td><td>1.993 MHz</td><td>0.808 dB</td><td>17.426 dB</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="caveat">true resolution은 FFT bin 간격이 아니라 실제 창 길이의 역수다. “column 위치”는 한 row 안의 line phase에 해당하며, 물리 column의 신호가 프레임 안에서 하나의 연속 시간 구간을 차지한다는 뜻은 아니다. P95−P05는 위치에 따른 band-power 변동 폭이다.</p>
+        <div class="gallery">
+          <figure><a href="tf_big_endian/iphone6/tf_montage.png"><img loading="lazy" src="tf_big_endian/iphone6/tf_montage.png" alt="iPhone 6 corrected STFT montage"></a><figcaption>iPhone 6 · row-scale / 64-cell-scale corrected STFT</figcaption></figure>
+          <figure><a href="tf_big_endian/lgx2/tf_montage.png"><img loading="lazy" src="tf_big_endian/lgx2/tf_montage.png" alt="LG X2 corrected STFT montage"></a><figcaption>LG X2 (2019) · row-scale / 64-cell-scale corrected STFT</figcaption></figure>
+          <figure class="phase"><a href="tf_big_endian/galaxy_s4_lte/tf_montage.png"><img loading="lazy" src="tf_big_endian/galaxy_s4_lte/tf_montage.png" alt="Galaxy S4 LTE corrected STFT montage"></a><figcaption>Galaxy S4 LTE · row-scale / 64-cell-scale corrected STFT</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="iphone6">
+      <h2>iPhone 6 <span class="tag">24 frames</span></h2>
+      <div class="panel">
+        <div class="metric-grid">
+          <div class="metric"><span>raw samples / raster cell</span><b>1.000001</b></div>
+          <div class="metric"><span>fractional column shift |mean|</span><b>3.530 px</b></div>
+          <div class="metric"><span>residual frequency std.</span><b>227.37 Hz</b></div>
+          <div class="metric"><span>phase concentration gain</span><b>1.109×</b></div>
+          <div class="metric"><span>odd/even magnitude corr.</span><b>0.514</b></div>
+          <div class="metric"><span>odd/even phase agreement</span><b>0.063</b></div>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>비교 지표</th><th>log-magnitude corr.</th><th>horizontal-edge corr.</th><th>weighted phase agreement</th><th>phase RMSE</th></tr></thead>
+            <tbody>
+              <tr><td>odd vs even frames · fractional 후</td><td>0.5139</td><td>0.0121</td><td>0.0632</td><td>1.7452 rad</td></tr>
+              <tr><td>nearest vs fractional · 공통위상 정렬 후</td><td>0.9006</td><td>0.7558</td><td>0.9390</td><td>0.3778 rad</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="gallery">
+          <figure><a href="three_devices_big_endian/iphone6/progress_P001.png"><img loading="lazy" src="three_devices_big_endian/iphone6/progress_P001.png" alt="iPhone 6 P=1 복원 중간 결과"></a><figcaption>P=1 · 단일 프레임 기준</figcaption></figure>
+          <figure><a href="three_devices_big_endian/iphone6/progress_P004.png"><img loading="lazy" src="three_devices_big_endian/iphone6/progress_P004.png" alt="iPhone 6 P=4 coherent average"></a><figcaption>P=4 · coherent average 진행</figcaption></figure>
+          <figure><a href="three_devices_big_endian/iphone6/progress_P016.png"><img loading="lazy" src="three_devices_big_endian/iphone6/progress_P016.png" alt="iPhone 6 P=16 coherent average"></a><figcaption>P=16 · coherent average 진행</figcaption></figure>
+          <figure><a href="three_devices_big_endian/iphone6/progress_P024.png"><img loading="lazy" src="three_devices_big_endian/iphone6/progress_P024.png" alt="iPhone 6 P=24 최종 복원"></a><figcaption>P=24 · 최종 화면</figcaption></figure>
+          <figure class="phase"><a href="three_devices_big_endian/iphone6/vertical_line_phase.png"><img loading="lazy" src="three_devices_big_endian/iphone6/vertical_line_phase.png" alt="iPhone 6 세로선 상대 위상 분석"></a><figcaption>세로선 상대 위상 · 공통 row 위상 제거 및 local complex background 기준</figcaption></figure>
+        </div>
+        <details>
+          <summary>세로선 피크 수치 12개 보기</summary>
+          <div class="table-scroll">
+            <table><thead><tr><th>raster col (0-based)</th><th>stripe z</th><th>기준선 대비 위상</th><th>row phase concentration</th><th>mean amplitude</th></tr></thead>
+              <tbody>
+                <tr><td>179</td><td>+20.97</td><td>−177.36°</td><td>0.105</td><td>754.2</td></tr><tr><td>317</td><td>+31.00</td><td>−94.07°</td><td>0.503</td><td>1235.2</td></tr><tr><td>327</td><td>−20.17</td><td>+28.35°</td><td>0.559</td><td>476.3</td></tr><tr><td>335</td><td>−32.17</td><td>+165.24°</td><td>0.189</td><td>243.5</td></tr><tr><td>343</td><td>−15.39</td><td>−140.47°</td><td>0.320</td><td>550.1</td></tr><tr><td>351 (기준)</td><td>+89.34</td><td>0.00°</td><td>0.800</td><td>2589.7</td></tr><tr><td>366</td><td>−18.15</td><td>−164.59°</td><td>0.543</td><td>314.8</td></tr><tr><td>374</td><td>−21.14</td><td>+32.62°</td><td>0.127</td><td>235.5</td></tr><tr><td>840</td><td>+21.48</td><td>+68.56°</td><td>0.046</td><td>910.3</td></tr><tr><td>857</td><td>−20.34</td><td>+124.80°</td><td>0.040</td><td>258.2</td></tr><tr><td>872</td><td>+62.47</td><td>−135.01°</td><td>0.079</td><td>1907.1</td></tr><tr><td>895</td><td>−15.11</td><td>−161.94°</td><td>0.005</td><td>235.0</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="lgx2">
+      <h2>LG X2 (2019) <span class="tag">24 frames</span></h2>
+      <div class="panel">
+        <div class="metric-grid">
+          <div class="metric"><span>raw samples / raster cell</span><b>1.506837</b></div>
+          <div class="metric"><span>fractional output k</span><b>2 samples/cell</b></div>
+          <div class="metric"><span>residual frequency std.</span><b>21.49 Hz</b></div>
+          <div class="metric"><span>phase concentration gain</span><b class="good">2.884×</b></div>
+          <div class="metric"><span>odd/even magnitude corr.</span><b>0.488</b></div>
+          <div class="metric"><span>odd/even phase agreement</span><b class="good">0.902</b></div>
+        </div>
+        <div class="table-scroll"><table><thead><tr><th>비교 지표</th><th>log-magnitude corr.</th><th>horizontal-edge corr.</th><th>weighted phase agreement</th><th>phase RMSE</th></tr></thead><tbody>
+          <tr><td>odd vs even frames · fractional 후</td><td>0.4885</td><td>0.4977</td><td>0.9018</td><td>0.4820 rad</td></tr>
+          <tr><td>nearest vs fractional · 공통위상 정렬 후</td><td>0.9742</td><td>0.9517</td><td>0.9983</td><td>0.0592 rad</td></tr>
+        </tbody></table></div>
+        <div class="gallery">
+          <figure><a href="three_devices_big_endian/lgx2/progress_P001.png"><img loading="lazy" src="three_devices_big_endian/lgx2/progress_P001.png" alt="LG X2 P=1 복원 중간 결과"></a><figcaption>P=1 · 단일 프레임 기준</figcaption></figure>
+          <figure><a href="three_devices_big_endian/lgx2/progress_P004.png"><img loading="lazy" src="three_devices_big_endian/lgx2/progress_P004.png" alt="LG X2 P=4 coherent average"></a><figcaption>P=4 · coherent average 진행</figcaption></figure>
+          <figure><a href="three_devices_big_endian/lgx2/progress_P016.png"><img loading="lazy" src="three_devices_big_endian/lgx2/progress_P016.png" alt="LG X2 P=16 coherent average"></a><figcaption>P=16 · coherent average 진행</figcaption></figure>
+          <figure><a href="three_devices_big_endian/lgx2/progress_P024.png"><img loading="lazy" src="three_devices_big_endian/lgx2/progress_P024.png" alt="LG X2 P=24 최종 복원"></a><figcaption>P=24 · 최종 화면</figcaption></figure>
+          <figure class="phase"><a href="three_devices_big_endian/lgx2/vertical_line_phase.png"><img loading="lazy" src="three_devices_big_endian/lgx2/vertical_line_phase.png" alt="LG X2 세로선 상대 위상 분석"></a><figcaption>세로선 상대 위상 · 공통 row 위상 제거 및 local complex background 기준</figcaption></figure>
+        </div>
+        <details><summary>세로선 피크 수치 12개 보기</summary><div class="table-scroll"><table><thead><tr><th>raster col (0-based)</th><th>stripe z</th><th>기준선 대비 위상</th><th>row phase concentration</th><th>mean amplitude</th></tr></thead><tbody>
+          <tr><td>10</td><td>+7.16</td><td>−141.33°</td><td>0.801</td><td>200.5</td></tr><tr><td>65</td><td>+10.36</td><td>−122.41°</td><td>0.526</td><td>250.0</td></tr><tr><td>277</td><td>+7.95</td><td>−47.66°</td><td>0.909</td><td>199.4</td></tr><tr><td>316</td><td>+17.33</td><td>+68.15°</td><td>0.748</td><td>329.5</td></tr><tr><td>395</td><td>+19.12</td><td>+50.52°</td><td>0.925</td><td>356.6</td></tr><tr><td>475</td><td>+20.51</td><td>−1.09°</td><td>0.635</td><td>378.7</td></tr><tr><td>553</td><td>+10.48</td><td>−143.71°</td><td>0.955</td><td>257.9</td></tr><tr><td>574</td><td>+9.11</td><td>+87.79°</td><td>0.633</td><td>240.3</td></tr><tr><td>624</td><td>−5.61</td><td>+49.99°</td><td>0.733</td><td>53.9</td></tr><tr><td>640 (기준)</td><td>+27.62</td><td>0.00°</td><td>0.844</td><td>484.9</td></tr><tr><td>648</td><td>+15.33</td><td>−82.52°</td><td>0.941</td><td>331.3</td></tr><tr><td>659</td><td>−5.63</td><td>−110.89°</td><td>0.196</td><td>56.5</td></tr>
+        </tbody></table></div></details>
+      </div>
+    </section>
+
+    <section id="galaxy">
+      <h2>Galaxy S4 LTE <span class="tag">24 frames</span></h2>
+      <div class="panel">
+        <div class="metric-grid">
+          <div class="metric"><span>raw samples / raster cell</span><b>0.444948</b></div>
+          <div class="metric"><span>fractional column shift |mean|</span><b>0.783 px</b></div>
+          <div class="metric"><span>residual frequency std.</span><b>280.27 Hz</b></div>
+          <div class="metric"><span>phase concentration gain</span><b>1.004×</b></div>
+          <div class="metric"><span>odd/even magnitude corr.</span><b>0.298</b></div>
+          <div class="metric"><span>odd/even phase agreement</span><b>0.008</b></div>
+        </div>
+        <div class="table-scroll"><table><thead><tr><th>비교 지표</th><th>log-magnitude corr.</th><th>horizontal-edge corr.</th><th>weighted phase agreement</th><th>phase RMSE</th></tr></thead><tbody>
+          <tr><td>odd vs even frames · fractional 후</td><td>0.2980</td><td>0.0217</td><td>0.0082</td><td>1.8041 rad</td></tr>
+          <tr><td>nearest vs fractional · 공통위상 정렬 후</td><td>0.8362</td><td>0.6294</td><td>0.9622</td><td>0.2874 rad</td></tr>
+        </tbody></table></div>
+        <div class="gallery">
+          <figure><a href="three_devices_big_endian/galaxy_s4_lte/progress_P001.png"><img loading="lazy" src="three_devices_big_endian/galaxy_s4_lte/progress_P001.png" alt="Galaxy S4 LTE P=1 복원 중간 결과"></a><figcaption>P=1 · 단일 프레임 기준</figcaption></figure>
+          <figure><a href="three_devices_big_endian/galaxy_s4_lte/progress_P004.png"><img loading="lazy" src="three_devices_big_endian/galaxy_s4_lte/progress_P004.png" alt="Galaxy S4 LTE P=4 coherent average"></a><figcaption>P=4 · coherent average 진행</figcaption></figure>
+          <figure><a href="three_devices_big_endian/galaxy_s4_lte/progress_P016.png"><img loading="lazy" src="three_devices_big_endian/galaxy_s4_lte/progress_P016.png" alt="Galaxy S4 LTE P=16 coherent average"></a><figcaption>P=16 · coherent average 진행</figcaption></figure>
+          <figure><a href="three_devices_big_endian/galaxy_s4_lte/progress_P024.png"><img loading="lazy" src="three_devices_big_endian/galaxy_s4_lte/progress_P024.png" alt="Galaxy S4 LTE P=24 최종 복원"></a><figcaption>P=24 · 최종 화면</figcaption></figure>
+          <figure class="phase"><a href="three_devices_big_endian/galaxy_s4_lte/vertical_line_phase.png"><img loading="lazy" src="three_devices_big_endian/galaxy_s4_lte/vertical_line_phase.png" alt="Galaxy S4 LTE 세로선 상대 위상 분석"></a><figcaption>세로선 상대 위상 · 공통 row 위상 제거 및 local complex background 기준</figcaption></figure>
+        </div>
+        <details><summary>세로선 피크 수치 12개 보기</summary><div class="table-scroll"><table><thead><tr><th>raster col (0-based)</th><th>stripe z</th><th>기준선 대비 위상</th><th>row phase concentration</th><th>mean amplitude</th></tr></thead><tbody>
+          <tr><td>360</td><td>+111.81</td><td>+157.93°</td><td>0.078</td><td>444.5</td></tr><tr><td>403</td><td>+358.80</td><td>+146.69°</td><td>0.092</td><td>1196.6</td></tr><tr><td>708</td><td>+175.11</td><td>−61.75°</td><td>0.211</td><td>640.7</td></tr><tr><td>859</td><td>+259.45</td><td>−59.14°</td><td>0.277</td><td>890.0</td></tr><tr><td>877</td><td>−99.25</td><td>+173.95°</td><td>0.700</td><td>107.2</td></tr><tr><td>885</td><td>−132.33</td><td>+160.04°</td><td>0.771</td><td>109.0</td></tr><tr><td>893</td><td>−104.66</td><td>+156.29°</td><td>0.821</td><td>124.4</td></tr><tr><td>906 (기준)</td><td>+891.47</td><td>0.00°</td><td>0.978</td><td>2830.1</td></tr><tr><td>918</td><td>−102.58</td><td>+138.84°</td><td>0.427</td><td>164.5</td></tr><tr><td>926</td><td>−123.23</td><td>+157.01°</td><td>0.764</td><td>106.9</td></tr><tr><td>939</td><td>+120.04</td><td>−138.90°</td><td>0.615</td><td>544.8</td></tr><tr><td>982</td><td>+647.15</td><td>−57.90°</td><td>0.930</td><td>2059.2</td></tr>
+        </tbody></table></div></details>
+      </div>
+    </section>
+
+    <section id="antenna">
+      <h2>안테나 측정 1–3</h2>
+      <div class="note">
+        <b>조건부 가정:</b> 세 파일에는 center frequency, bandwidth, sample rate 메타데이터가 없다. 아래 Hz 단위 수치는 기존 iPhone 6 수신기 timebase인 <b>124.085710 MS/s</b>와 <b>1880×1100 raster</b>를 가정한 값이다. 안테나 3은 자체 50–70 Hz 피크가 약해 안테나 1·2의 중앙 period를 사용했다. 따라서 약 60 Hz라는 표기는 파일이 직접 증명한 절대 주파수가 아니다.
+      </div>
+      <div class="panel">
+        <div class="table-scroll"><table><thead><tr><th>파일</th><th>complex samples</th><th>period used</th><th>조건부 frame rate</th><th>조건부 line rate</th><th>조건부 samples/line</th><th>timing source</th></tr></thead><tbody>
+          <tr><td>안테나1.rIs</td><td>341,550,000</td><td>2,069,037.548 samples</td><td>59.9727 Hz</td><td>112,748.62 Hz</td><td>1100.552</td><td>full-file FFT</td></tr>
+          <tr><td>안테나2.rIs</td><td>356,400,000</td><td>2,068,971.403 samples</td><td>59.9746 Hz</td><td>112,752.23 Hz</td><td>1100.517</td><td>full-file FFT</td></tr>
+          <tr><td>안테나3.rIs</td><td>460,350,000</td><td>2,069,004.4755 samples</td><td>59.9736 Hz</td><td>112,750.43 Hz</td><td>1100.534</td><td>안테나1·2 중앙값 fallback</td></tr>
+        </tbody></table></div>
+        <div class="table-scroll"><table><thead><tr><th>파일</th><th>phase concentration<br>naive → tracked</th><th>odd/even magnitude corr.</th><th>odd/even edge corr.</th><th>phase agreement</th><th>phase RMSE</th><th>mean alignment score</th><th>mean coherence</th></tr></thead><tbody>
+          <tr><td>안테나1</td><td>0.2100 → 0.2136</td><td>0.0160</td><td>−0.0006</td><td>0.0267</td><td>1.7846 rad</td><td>0.0851</td><td>0.0077</td></tr>
+          <tr><td>안테나2</td><td>0.2086 → 0.2093</td><td>0.0062</td><td>−0.0006</td><td>0.0032</td><td>1.8103 rad</td><td>0.0286</td><td>0.0028</td></tr>
+          <tr><td>안테나3</td><td>0.1902 → 0.5998</td><td>0.0290</td><td>0.0508</td><td>0.9088</td><td>0.4379 rad</td><td>0.0744</td><td>0.2909</td></tr>
+        </tbody></table></div>
+        <p class="caveat">모든 안테나 결과의 분류는 “hypothesis test; visual and independent-half repeatability required”다. 특히 안테나 1·2의 독립 odd/even 화면 상관이 거의 0이므로 반복 가능한 화면 복원으로 확정할 수 없다. 안테나 3의 위상 지표는 높지만 timing을 외부에서 대입했으므로 geometry와 절대 timebase 검증이 선행돼야 한다.</p>
+      </div>
+
+      <article id="line-sweep" class="panel">
+        <h3>안테나 1·2 line-period 민감도 스윕</h3>
+        <div class="banner">
+          <strong>결론: 1098–1107 samples/line의 어느 후보에서도 반복 가능한 화면이 나오지 않았다.</strong>
+          후보를 바꾸면 사선의 기울기만 연속적으로 회전했고, 홀수 프레임 묶음과 짝수 프레임 묶음 사이의 horizontal-edge correlation은 전 구간에서 거의 0이었다. 이 결과는 현재 보이는 줄무늬가 특정 line period에서 초점을 찾는 화면 윤곽보다 raster에 펼쳐진 주기 간섭이라는 해석을 지지한다.
+        </div>
+        <div class="table-scroll"><table><thead><tr><th>파일</th><th>검증 frame period</th><th>period / 1880</th><th>해당 후보 log-AM r</th><th>해당 후보 edge r</th><th>스윕 최대 edge r</th><th>판정</th></tr></thead><tbody>
+          <tr><td>안테나 1</td><td>2,069,037.548 samples</td><td>1100.551887</td><td>−0.000438</td><td>−0.000020</td><td>+0.000174 @ 1105</td><td>반복 화면 없음</td></tr>
+          <tr><td>안테나 2</td><td>2,068,971.403 samples</td><td>1100.516704</td><td>+0.021285</td><td>+0.001836</td><td>+0.002182 @ 1104</td><td>반복 화면 없음</td></tr>
+        </tbody></table></div>
+        <p class="caveat">각 후보는 같은 1334×750 crop과 4-point cubic fractional interpolation을 사용했다. 상관도는 독립 묶음 (frames 1+3)과 (frames 2+4) 사이에서 계산했다. 파일 메타데이터에 sample rate가 없으므로 이 스윕은 samples 단위만 사용한다.</p>
+        <div class="gallery">
+          <figure><a href="antenna_line_sweep/antenna1_line_sweep_montage.png"><img loading="lazy" src="antenna_line_sweep/antenna1_line_sweep_montage.png" alt="안테나 1 samples per line 스윕 montage"></a><figcaption>안테나 1 · 1098–1107 samples/line와 period/1880 후보</figcaption></figure>
+          <figure><a href="antenna_line_sweep/antenna2_line_sweep_montage.png"><img loading="lazy" src="antenna_line_sweep/antenna2_line_sweep_montage.png" alt="안테나 2 samples per line 스윕 montage"></a><figcaption>안테나 2 · 1098–1107 samples/line와 period/1880 후보</figcaption></figure>
+        </div>
+        <details>
+          <summary>독립 프레임 묶음 비교 이미지 보기</summary>
+          <div class="gallery">
+            <figure><a href="antenna_line_sweep/antenna1_period_over_1880_halves.png"><img loading="lazy" src="antenna_line_sweep/antenna1_period_over_1880_halves.png" alt="안테나 1 period over 1880 독립 묶음"></a><figcaption>안테나 1 · 정확한 period/1880 후보</figcaption></figure>
+            <figure><a href="antenna_line_sweep/antenna1_best_edge_halves.png"><img loading="lazy" src="antenna_line_sweep/antenna1_best_edge_halves.png" alt="안테나 1 best edge 독립 묶음"></a><figcaption>안테나 1 · 스윕 내 최대 edge r 후보</figcaption></figure>
+            <figure><a href="antenna_line_sweep/antenna2_period_over_1880_halves.png"><img loading="lazy" src="antenna_line_sweep/antenna2_period_over_1880_halves.png" alt="안테나 2 period over 1880 독립 묶음"></a><figcaption>안테나 2 · 정확한 period/1880 후보</figcaption></figure>
+            <figure><a href="antenna_line_sweep/antenna2_best_edge_halves.png"><img loading="lazy" src="antenna_line_sweep/antenna2_best_edge_halves.png" alt="안테나 2 best edge 독립 묶음"></a><figcaption>안테나 2 · 스윕 내 최대 edge r 후보</figcaption></figure>
+          </div>
+        </details>
+      </article>
+
+      <article class="panel">
+        <h3>안테나 1</h3>
+        <div class="gallery">
+          <figure><a href="antenna_big_endian/antenna1/progress_P001.png"><img loading="lazy" src="antenna_big_endian/antenna1/progress_P001.png" alt="안테나 1 P=1"></a><figcaption>P=1</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna1/progress_P004.png"><img loading="lazy" src="antenna_big_endian/antenna1/progress_P004.png" alt="안테나 1 P=4"></a><figcaption>P=4</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna1/progress_P016.png"><img loading="lazy" src="antenna_big_endian/antenna1/progress_P016.png" alt="안테나 1 P=16"></a><figcaption>P=16</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna1/progress_P024.png"><img loading="lazy" src="antenna_big_endian/antenna1/progress_P024.png" alt="안테나 1 P=24"></a><figcaption>P=24</figcaption></figure>
+        </div>
+      </article>
+      <article class="panel">
+        <h3>안테나 2</h3>
+        <div class="gallery">
+          <figure><a href="antenna_big_endian/antenna2/progress_P001.png"><img loading="lazy" src="antenna_big_endian/antenna2/progress_P001.png" alt="안테나 2 P=1"></a><figcaption>P=1</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna2/progress_P004.png"><img loading="lazy" src="antenna_big_endian/antenna2/progress_P004.png" alt="안테나 2 P=4"></a><figcaption>P=4</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna2/progress_P016.png"><img loading="lazy" src="antenna_big_endian/antenna2/progress_P016.png" alt="안테나 2 P=16"></a><figcaption>P=16</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna2/progress_P024.png"><img loading="lazy" src="antenna_big_endian/antenna2/progress_P024.png" alt="안테나 2 P=24"></a><figcaption>P=24</figcaption></figure>
+        </div>
+      </article>
+      <article class="panel">
+        <h3>안테나 3</h3>
+        <div class="gallery">
+          <figure><a href="antenna_big_endian/antenna3/progress_P001.png"><img loading="lazy" src="antenna_big_endian/antenna3/progress_P001.png" alt="안테나 3 P=1"></a><figcaption>P=1</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna3/progress_P004.png"><img loading="lazy" src="antenna_big_endian/antenna3/progress_P004.png" alt="안테나 3 P=4"></a><figcaption>P=4</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna3/progress_P016.png"><img loading="lazy" src="antenna_big_endian/antenna3/progress_P016.png" alt="안테나 3 P=16"></a><figcaption>P=16</figcaption></figure>
+          <figure><a href="antenna_big_endian/antenna3/progress_P024.png"><img loading="lazy" src="antenna_big_endian/antenna3/progress_P024.png" alt="안테나 3 P=24"></a><figcaption>P=24</figcaption></figure>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer><div class="wrap">생성일 2026-09-23 · <a href="../LAB_MEETING_COHERENT_HSV_KR.md">전체 분석 보고서</a> · 이미지 클릭 시 원본 PNG 열기 · 외부 자산을 사용하지 않는 로컬 결과 페이지</div></footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿device,apparent_pixel_timing_Mpix_s,assumed_4lane_RGB888_serial_Mbps,assumed_DDR_clock_MHz,third_harmonic_MHz,fifth_harmonic_MHz,status
+LG X2 (2019),90.6306,543.7836,271.8918,815.6754,1359.459,strong additional assumptions: raster timing equals packet serialization pixel timing; not measured lane rate
+Galaxy S4 LTE,139.53,837.1800000000001,418.59000000000003,1255.77,2092.95,strong additional assumptions: raster timing equals packet serialization pixel timing; not measured lane rate
+iPhone 6s,84.4599255,506.759553,253.3797765,760.1393295,1266.8988825,strong additional assumptions: raster timing equals packet serialization pixel timing; not measured lane rate

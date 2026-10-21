@@ -1,0 +1,914 @@
+[
+  {
+    "file": "data/antenna1.rIs",
+    "bytes": 1366200000,
+    "complex_samples": 341550000,
+    "format_evidence": "big-endian interleaved signed int16 I,Q; no header; confirmed by Desktop/mobile/0625/Function/RIS2IQ.m and byte-distribution check",
+    "timebase_hypothesis": {
+      "assumption": "same 124.085710 MS/s receiver timebase as the prior iPhone 6 capture; unverified",
+      "assumed_sample_rate_sps": 124085710.0
+    },
+    "chunk_count": 5,
+    "chunk_complex_samples": 1200000,
+    "mean_i": 0.03465599999999999,
+    "mean_q": 0.011006833333333344,
+    "rms_mean": 281.2006088470315,
+    "magnitude_quantiles_mean": [
+      26.437255477905275,
+      222.3587158203125,
+      500.5186544799805,
+      686.8932285156251,
+      921.8844189453237
+    ],
+    "peaks": [
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1106,
+        "magnitude": 0.08644591022081333,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 112193.22784810126
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3319,
+        "magnitude": 0.07798307644002762,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37386.47484181983
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2212,
+        "magnitude": 0.07760528241954967,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 56096.61392405063
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2765,
+        "magnitude": 0.07098373969468215,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 44877.29113924051
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1659,
+        "magnitude": 0.06973530281302859,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 74795.48523206751
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 553,
+        "magnitude": 0.06828721702494836,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 224386.45569620252
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 830,
+        "magnitude": 0.06605590155856005,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 149500.85542168675
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3042,
+        "magnitude": 0.06553624745462008,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 40790.83168967784
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2489,
+        "magnitude": 0.06539395334283335,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 49853.64001607071
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 277,
+        "magnitude": 0.06518246002901877,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 447962.85198555957
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1936,
+        "magnitude": 0.06489649033793196,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 64093.85847107438
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1383,
+        "magnitude": 0.06426597523310948,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 89722.13304410702
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3299,
+        "magnitude": 0.03395130192758711,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37613.12822067293
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2200,
+        "magnitude": 0.03243341761659668,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 56402.59545454545
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1129,
+        "magnitude": 0.02451947409608245,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 109907.62621789194
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2235,
+        "magnitude": 0.02060534619040915,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 55519.333333333336
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1081,
+        "magnitude": 0.02003661625829901,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 114787.89084181313
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3342,
+        "magnitude": 0.01928240049666879,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37129.17713943746
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2188,
+        "magnitude": 0.018724705737516563,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 56711.93327239488
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1094,
+        "magnitude": 0.01746792225862829,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 113423.86654478977
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3300,
+        "magnitude": 0.0371537009929889,
+        "phase_deg": -27.816070528599898,
+        "frequency_hz_if_iphone6_timebase": 37601.7303030303
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1105,
+        "magnitude": 0.03617787419913549,
+        "phase_deg": -81.39170142143998,
+        "frequency_hz_if_iphone6_timebase": 112294.76018099548
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3275,
+        "magnitude": 0.03408007101099932,
+        "phase_deg": -31.172554635559496,
+        "frequency_hz_if_iphone6_timebase": 37888.76641221374
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2196,
+        "magnitude": 0.03401636115068662,
+        "phase_deg": -29.607008554138204,
+        "frequency_hz_if_iphone6_timebase": 56505.33242258652
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2212,
+        "magnitude": 0.03357436168012478,
+        "phase_deg": 36.99092781215241,
+        "frequency_hz_if_iphone6_timebase": 56096.61392405063
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3317,
+        "magnitude": 0.032739291058563505,
+        "phase_deg": -42.766882389641694,
+        "frequency_hz_if_iphone6_timebase": 37409.017184202596
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1088,
+        "magnitude": 0.03268936018370357,
+        "phase_deg": -59.66091315256169,
+        "frequency_hz_if_iphone6_timebase": 114049.36580882352
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2179,
+        "magnitude": 0.032244775985881026,
+        "phase_deg": -2.1104013059776463,
+        "frequency_hz_if_iphone6_timebase": 56946.17255621845
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1130,
+        "magnitude": 0.031077356156437776,
+        "phase_deg": -74.18278345381866,
+        "frequency_hz_if_iphone6_timebase": 109810.36283185841
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2229,
+        "magnitude": 0.030282853583263693,
+        "phase_deg": 12.941385898236218,
+        "frequency_hz_if_iphone6_timebase": 55668.77972184836
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1117,
+        "magnitude": 0.03013642731073579,
+        "phase_deg": -28.708727631028033,
+        "frequency_hz_if_iphone6_timebase": 111088.37063563116
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3287,
+        "magnitude": 0.030110940703941734,
+        "phase_deg": 19.777714853810295,
+        "frequency_hz_if_iphone6_timebase": 37750.44417401886
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2246,
+        "magnitude": 0.030046760428025166,
+        "phase_deg": -12.004337836854285,
+        "frequency_hz_if_iphone6_timebase": 55247.42208370436
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2162,
+        "magnitude": 0.029991171145532056,
+        "phase_deg": 18.68144379470955,
+        "frequency_hz_if_iphone6_timebase": 57393.945420906566
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3334,
+        "magnitude": 0.029918761880397302,
+        "phase_deg": -72.83010618015105,
+        "frequency_hz_if_iphone6_timebase": 37218.26934613077
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1071,
+        "magnitude": 0.029899623254418847,
+        "phase_deg": -32.89310739043411,
+        "frequency_hz_if_iphone6_timebase": 115859.67320261437
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3350,
+        "magnitude": 0.028270606327839707,
+        "phase_deg": -7.280437029234045,
+        "frequency_hz_if_iphone6_timebase": 37040.5104477612
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3258,
+        "magnitude": 0.02809140308003459,
+        "phase_deg": -8.767544833379596,
+        "frequency_hz_if_iphone6_timebase": 38086.4671577655
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1146,
+        "magnitude": 0.02763140833034834,
+        "phase_deg": -7.6879924255040155,
+        "frequency_hz_if_iphone6_timebase": 108277.23385689354
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1054,
+        "magnitude": 0.02760788979166302,
+        "phase_deg": -13.48307707701932,
+        "frequency_hz_if_iphone6_timebase": 117728.37760910815
+      }
+    ]
+  },
+  {
+    "file": "data/antenna2.rIs",
+    "bytes": 1425600000,
+    "complex_samples": 356400000,
+    "format_evidence": "big-endian interleaved signed int16 I,Q; no header; confirmed by Desktop/mobile/0625/Function/RIS2IQ.m and byte-distribution check",
+    "timebase_hypothesis": {
+      "assumption": "same 124.085710 MS/s receiver timebase as the prior iPhone 6 capture; unverified",
+      "assumed_sample_rate_sps": 124085710.0
+    },
+    "chunk_count": 5,
+    "chunk_complex_samples": 1200000,
+    "mean_i": 0.19096200000000002,
+    "mean_q": 0.08101766666666665,
+    "rms_mean": 281.6964652507457,
+    "magnitude_quantiles_mean": [
+      26.827735137939452,
+      225.65551147460937,
+      498.2063568115235,
+      666.3892631835938,
+      887.0674671264767
+    ],
+    "peaks": [
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1105,
+        "magnitude": 0.07052559832676533,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 112294.76018099548
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3319,
+        "magnitude": 0.06125004632797648,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37386.47484181983
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2212,
+        "magnitude": 0.06079781366521372,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 56096.61392405063
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2765,
+        "magnitude": 0.05851183459268781,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 44877.29113924051
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1659,
+        "magnitude": 0.058083631001619354,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 74795.48523206751
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 553,
+        "magnitude": 0.05487948081203212,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 224386.45569620252
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3042,
+        "magnitude": 0.05422944167725874,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 40790.83168967784
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2489,
+        "magnitude": 0.05378113493790563,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 49853.64001607071
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 830,
+        "magnitude": 0.053546745584931166,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 149500.85542168675
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1936,
+        "magnitude": 0.052901627697563194,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 64093.85847107438
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1383,
+        "magnitude": 0.052574297542483696,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 89722.13304410702
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 276,
+        "magnitude": 0.05239412041612469,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 449585.90579710144
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3299,
+        "magnitude": 0.02744542868685986,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37613.12822067293
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2200,
+        "magnitude": 0.025996601253728012,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 56402.59545454545
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1128,
+        "magnitude": 0.017521483424325503,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 110005.06205673759
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1081,
+        "magnitude": 0.013852843230503809,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 114787.89084181313
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2235,
+        "magnitude": 0.01371638269627252,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 55519.333333333336
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2188,
+        "magnitude": 0.0126604644143035,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 56711.93327239488
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3342,
+        "magnitude": 0.012115633407694839,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37129.17713943746
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2171,
+        "magnitude": 0.010883267527522018,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 57156.01566098572
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3300,
+        "magnitude": 0.035714108691274525,
+        "phase_deg": -28.157939372980582,
+        "frequency_hz_if_iphone6_timebase": 37601.7303030303
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3275,
+        "magnitude": 0.033835392550064,
+        "phase_deg": -30.775712423821556,
+        "frequency_hz_if_iphone6_timebase": 37888.76641221374
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1096,
+        "magnitude": 0.03320017874933615,
+        "phase_deg": -28.068688450176285,
+        "frequency_hz_if_iphone6_timebase": 113216.88868613138
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2212,
+        "magnitude": 0.03311286420160326,
+        "phase_deg": 32.853304628476984,
+        "frequency_hz_if_iphone6_timebase": 56096.61392405063
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2196,
+        "magnitude": 0.03301210468520463,
+        "phase_deg": -31.280630092888124,
+        "frequency_hz_if_iphone6_timebase": 56505.33242258652
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2179,
+        "magnitude": 0.032879552978172306,
+        "phase_deg": -1.661826089426816,
+        "frequency_hz_if_iphone6_timebase": 56946.17255621845
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3317,
+        "magnitude": 0.032443386695692286,
+        "phase_deg": -43.26900875017601,
+        "frequency_hz_if_iphone6_timebase": 37409.017184202596
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1113,
+        "magnitude": 0.031632935661185024,
+        "phase_deg": -53.1009432862033,
+        "frequency_hz_if_iphone6_timebase": 111487.61006289309
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1083,
+        "magnitude": 0.0311492892982092,
+        "phase_deg": 23.64233414135154,
+        "frequency_hz_if_iphone6_timebase": 114575.90951061866
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2229,
+        "magnitude": 0.03044647934955418,
+        "phase_deg": 12.209593767016786,
+        "frequency_hz_if_iphone6_timebase": 55668.77972184836
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3342,
+        "magnitude": 0.030318303696106576,
+        "phase_deg": -39.29611004201174,
+        "frequency_hz_if_iphone6_timebase": 37129.17713943746
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1129,
+        "magnitude": 0.030063280281909306,
+        "phase_deg": 11.333407984035844,
+        "frequency_hz_if_iphone6_timebase": 109907.62621789194
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3287,
+        "magnitude": 0.029787292132707636,
+        "phase_deg": 21.061971438052403,
+        "frequency_hz_if_iphone6_timebase": 37750.44417401886
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1063,
+        "magnitude": 0.02891186004606064,
+        "phase_deg": -68.3240305606086,
+        "frequency_hz_if_iphone6_timebase": 116731.61806208843
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2246,
+        "magnitude": 0.02890748906939328,
+        "phase_deg": -13.305932500821655,
+        "frequency_hz_if_iphone6_timebase": 55247.42208370436
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2162,
+        "magnitude": 0.028736359352017352,
+        "phase_deg": 19.22655550062615,
+        "frequency_hz_if_iphone6_timebase": 57393.945420906566
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1146,
+        "magnitude": 0.028148379117613427,
+        "phase_deg": -9.860776369320588,
+        "frequency_hz_if_iphone6_timebase": 108277.23385689354
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3258,
+        "magnitude": 0.02797846542569385,
+        "phase_deg": -7.789743747265309,
+        "frequency_hz_if_iphone6_timebase": 38086.4671577655
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2146,
+        "magnitude": 0.02739712893745418,
+        "phase_deg": -42.21752159091554,
+        "frequency_hz_if_iphone6_timebase": 57821.85927306617
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3329,
+        "magnitude": 0.027284451289326793,
+        "phase_deg": 6.761948916233793,
+        "frequency_hz_if_iphone6_timebase": 37274.16942024632
+      }
+    ]
+  },
+  {
+    "file": "data/antenna3.rIs",
+    "bytes": 1841400000,
+    "complex_samples": 460350000,
+    "format_evidence": "big-endian interleaved signed int16 I,Q; no header; confirmed by Desktop/mobile/0625/Function/RIS2IQ.m and byte-distribution check",
+    "timebase_hypothesis": {
+      "assumption": "same 124.085710 MS/s receiver timebase as the prior iPhone 6 capture; unverified",
+      "assumed_sample_rate_sps": 124085710.0
+    },
+    "chunk_count": 5,
+    "chunk_complex_samples": 1200000,
+    "mean_i": -0.008432000000000005,
+    "mean_q": -0.05947266666666666,
+    "rms_mean": 24.36961574972195,
+    "magnitude_quantiles_mean": [
+      2.3545398235321047,
+      20.54330406188965,
+      41.668637084960935,
+      51.52385940551758,
+      65.27795893554804
+    ],
+    "peaks": [
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1241,
+        "magnitude": 0.07937127171109283,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 99988.48509266721
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2040,
+        "magnitude": 0.07869295599980045,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 60826.32843137255
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3375,
+        "magnitude": 0.07814728913501792,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 36766.136296296296
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 799,
+        "magnitude": 0.07744000442318275,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 155301.2640801001
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2482,
+        "magnitude": 0.07649891901079321,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 49994.242546333604
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 442,
+        "magnitude": 0.07639742510346823,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 280736.9004524887
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1598,
+        "magnitude": 0.07560446797823567,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 77650.63204005006
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3281,
+        "magnitude": 0.0755966475499395,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 37819.47881743371
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2576,
+        "magnitude": 0.07544557109154645,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 48169.91847826087
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2839,
+        "magnitude": 0.07496942102036439,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 43707.54138781261
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2134,
+        "magnitude": 0.07432029375197784,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 58147.00562324274
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1335,
+        "magnitude": 0.07364349327195172,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 92948.09737827715
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3499,
+        "magnitude": 0.07301318463370524,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 35463.192340668764
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1683,
+        "magnitude": 0.07299726093047215,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 73728.88294711824
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1916,
+        "magnitude": 0.07250121860182668,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 64762.89665970772
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 2700,
+        "magnitude": 0.0717610028496732,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 45957.67037037037
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1777,
+        "magnitude": 0.07156202880243198,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 69828.76195835679
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 1901,
+        "magnitude": 0.07138999952797026,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 65273.91372961599
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 3157,
+        "magnitude": 0.07135200119741981,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 39304.94456762749
+      },
+      {
+        "source": "log_amplitude",
+        "lag_samples": 357,
+        "magnitude": 0.07121650118954218,
+        "phase_deg": 0.0,
+        "frequency_hz_if_iphone6_timebase": 347579.01960784313
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1241,
+        "magnitude": 0.3823964154674624,
+        "phase_deg": -3.1909779633674975,
+        "frequency_hz_if_iphone6_timebase": 99988.48509266721
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2040,
+        "magnitude": 0.38205340408678556,
+        "phase_deg": -2.068661862078848,
+        "frequency_hz_if_iphone6_timebase": 60826.32843137255
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3375,
+        "magnitude": 0.3811632060323251,
+        "phase_deg": -12.819212861328758,
+        "frequency_hz_if_iphone6_timebase": 36766.136296296296
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 799,
+        "magnitude": 0.3809755754876182,
+        "phase_deg": 0.8832798102865703,
+        "frequency_hz_if_iphone6_timebase": 155301.2640801001
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 442,
+        "magnitude": 0.3792623474039758,
+        "phase_deg": -3.5863422931701403,
+        "frequency_hz_if_iphone6_timebase": 280736.9004524887
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3281,
+        "magnitude": 0.3786184260389379,
+        "phase_deg": -5.414560594124632,
+        "frequency_hz_if_iphone6_timebase": 37819.47881743371
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2482,
+        "magnitude": 0.3773324242643224,
+        "phase_deg": -5.924629751076741,
+        "frequency_hz_if_iphone6_timebase": 49994.242546333604
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2576,
+        "magnitude": 0.37703529231046584,
+        "phase_deg": -13.346093766087321,
+        "frequency_hz_if_iphone6_timebase": 48169.91847826087
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2839,
+        "magnitude": 0.3762557805723656,
+        "phase_deg": -1.2818457313462341,
+        "frequency_hz_if_iphone6_timebase": 43707.54138781261
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1598,
+        "magnitude": 0.37617801488645775,
+        "phase_deg": 1.6410451813142422,
+        "frequency_hz_if_iphone6_timebase": 77650.63204005006
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2134,
+        "magnitude": 0.3758768231288596,
+        "phase_deg": -9.354167721367284,
+        "frequency_hz_if_iphone6_timebase": 58147.00562324274
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1335,
+        "magnitude": 0.3748608324806061,
+        "phase_deg": -10.534308443995466,
+        "frequency_hz_if_iphone6_timebase": 92948.09737827715
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1683,
+        "magnitude": 0.3735840518233005,
+        "phase_deg": -7.055649824908541,
+        "frequency_hz_if_iphone6_timebase": 73728.88294711824
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1777,
+        "magnitude": 0.37289999323960854,
+        "phase_deg": -14.222357905743818,
+        "frequency_hz_if_iphone6_timebase": 69828.76195835679
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1916,
+        "magnitude": 0.37287493834852214,
+        "phase_deg": -5.068149750142469,
+        "frequency_hz_if_iphone6_timebase": 64762.89665970772
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 3499,
+        "magnitude": 0.37278121894386623,
+        "phase_deg": -9.522781720262754,
+        "frequency_hz_if_iphone6_timebase": 35463.192340668764
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 357,
+        "magnitude": 0.37266930631027717,
+        "phase_deg": 4.8569588630425455,
+        "frequency_hz_if_iphone6_timebase": 347579.01960784313
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 1459,
+        "magnitude": 0.3721868647969474,
+        "phase_deg": -7.457858534946881,
+        "frequency_hz_if_iphone6_timebase": 85048.46470185058
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 2700,
+        "magnitude": 0.37154360130621616,
+        "phase_deg": -10.494804235669484,
+        "frequency_hz_if_iphone6_timebase": 45957.67037037037
+      },
+      {
+        "source": "complex_iq",
+        "lag_samples": 236,
+        "magnitude": 0.3714266706856593,
+        "phase_deg": 1.927479643362688,
+        "frequency_hz_if_iphone6_timebase": 525786.906779661
+      }
+    ]
+  }
+]

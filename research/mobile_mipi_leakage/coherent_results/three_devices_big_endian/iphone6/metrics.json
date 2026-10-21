@@ -1,0 +1,165 @@
+{
+  "device": "iPhone 6",
+  "source": "data/238M_60M_124.08571M_topleft_iphone6.rIs",
+  "iq_format": "interleaved big-endian signed int16 [I,Q], no header",
+  "center_frequency_hz": 238000000.0,
+  "configured_complex_bandwidth_hz": 60000000.0,
+  "stored_complex_sample_rate_sps": 124085710.0,
+  "line_rate_hz": 112805.083,
+  "raster": [
+    1880,
+    1100
+  ],
+  "raw_samples_per_line": 1100.0010522575476,
+  "raw_samples_per_raster_cell": 1.0000009565977706,
+  "fractional_output_samples_per_raster_cell_k": 1,
+  "fractional_output_rate_sps": 124085591.3,
+  "interpolator": "four-point Catmull-Rom cubic fractional delay",
+  "frames": 24,
+  "checkpoint_metrics": [
+    {
+      "frames": 1,
+      "mean_naive_phase_concentration": 1.0,
+      "mean_phase_tracked_concentration": 1.0,
+      "tracked_to_naive_gain": 1.0,
+      "mean_unit_phasor_concentration": 1.0,
+      "log_amplitude_spatial_std": 0.9584513306617737
+    },
+    {
+      "frames": 4,
+      "mean_naive_phase_concentration": 0.4968104064464569,
+      "mean_phase_tracked_concentration": 0.5481640696525574,
+      "tracked_to_naive_gain": 1.1033667220729504,
+      "mean_unit_phasor_concentration": 0.488721638917923,
+      "log_amplitude_spatial_std": 0.7678096294403076
+    },
+    {
+      "frames": 16,
+      "mean_naive_phase_concentration": 0.273558109998703,
+      "mean_phase_tracked_concentration": 0.2724144756793976,
+      "tracked_to_naive_gain": 0.9958194099260634,
+      "mean_unit_phasor_concentration": 0.23384231328964233,
+      "log_amplitude_spatial_std": 0.7021474838256836
+    },
+    {
+      "frames": 24,
+      "mean_naive_phase_concentration": 0.20180216431617737,
+      "mean_phase_tracked_concentration": 0.22727583348751068,
+      "tracked_to_naive_gain": 1.126230901723244,
+      "mean_unit_phasor_concentration": 0.19441208243370056,
+      "log_amplitude_spatial_std": 0.6978738307952881
+    }
+  ],
+  "crop": {
+    "rows": 1334,
+    "columns": 750,
+    "method": "automatic maximum local-variance circular crop"
+  },
+  "mean_naive_phase_concentration": 0.19867737591266632,
+  "mean_phase_tracked_concentration": 0.22029004991054535,
+  "concentration_gain": 1.1087827635058933,
+  "active_mean_naive_phase_concentration": 0.20180216431617737,
+  "active_mean_phase_tracked_concentration": 0.22727583348751068,
+  "active_concentration_gain": 1.126230901723244,
+  "odd_even_repeatability_after_fractional_resampling": {
+    "log_magnitude_correlation": 0.5139109352709268,
+    "horizontal_edge_correlation": 0.01211401996207508,
+    "weighted_phase_agreement": 0.06322641670703888,
+    "weighted_phase_rmse_rad": 1.7452138662338257
+  },
+  "nearest_vs_fractional_change_after_common_phase_alignment": {
+    "log_magnitude_correlation": 0.9006105600547623,
+    "horizontal_edge_correlation": 0.7557771054426053,
+    "weighted_phase_agreement": 0.9390220642089844,
+    "weighted_phase_rmse_rad": 0.3777812123298645
+  },
+  "mean_abs_fractional_column_shift": 3.529656590468917,
+  "std_equivalent_residual_hz": 227.37120376717232,
+  "vertical_line_phase_peaks": [
+    {
+      "raster_column_0based": 179,
+      "stripe_z": 20.96790292433861,
+      "relative_phase_deg": -177.35811521904833,
+      "row_phase_concentration": 0.10480520251254064,
+      "mean_amplitude": 754.1655524192972
+    },
+    {
+      "raster_column_0based": 317,
+      "stripe_z": 31.004209416736014,
+      "relative_phase_deg": -94.06755116974587,
+      "row_phase_concentration": 0.5027689696185833,
+      "mean_amplitude": 1235.1775973462045
+    },
+    {
+      "raster_column_0based": 327,
+      "stripe_z": -20.172209503244567,
+      "relative_phase_deg": 28.35397792435589,
+      "row_phase_concentration": 0.5585052738914427,
+      "mean_amplitude": 476.34610208146114
+    },
+    {
+      "raster_column_0based": 335,
+      "stripe_z": -32.1744684238534,
+      "relative_phase_deg": 165.24373782874702,
+      "row_phase_concentration": 0.18858755892752638,
+      "mean_amplitude": 243.4866927004875
+    },
+    {
+      "raster_column_0based": 343,
+      "stripe_z": -15.38518520973027,
+      "relative_phase_deg": -140.46934915362698,
+      "row_phase_concentration": 0.3196523234202596,
+      "mean_amplitude": 550.1264997279391
+    },
+    {
+      "raster_column_0based": 351,
+      "stripe_z": 89.34119973426935,
+      "relative_phase_deg": 2.901836769906191e-16,
+      "row_phase_concentration": 0.8002095034539419,
+      "mean_amplitude": 2589.6759839727524
+    },
+    {
+      "raster_column_0based": 366,
+      "stripe_z": -18.15424450770082,
+      "relative_phase_deg": -164.591817592488,
+      "row_phase_concentration": 0.5426479218169441,
+      "mean_amplitude": 314.80221281254546
+    },
+    {
+      "raster_column_0based": 374,
+      "stripe_z": -21.135884096567995,
+      "relative_phase_deg": 32.62422141059816,
+      "row_phase_concentration": 0.12675394646144106,
+      "mean_amplitude": 235.45098068561958
+    },
+    {
+      "raster_column_0based": 840,
+      "stripe_z": 21.479646162195788,
+      "relative_phase_deg": 68.55585897837037,
+      "row_phase_concentration": 0.04558355194155866,
+      "mean_amplitude": 910.344972188422
+    },
+    {
+      "raster_column_0based": 857,
+      "stripe_z": -20.341330255713594,
+      "relative_phase_deg": 124.79758221743316,
+      "row_phase_concentration": 0.04039345956286344,
+      "mean_amplitude": 258.21450865319434
+    },
+    {
+      "raster_column_0based": 872,
+      "stripe_z": 62.46624174569212,
+      "relative_phase_deg": -135.006595778653,
+      "row_phase_concentration": 0.07920094061314187,
+      "mean_amplitude": 1907.1495813045096
+    },
+    {
+      "raster_column_0based": 895,
+      "stripe_z": -15.111677390316125,
+      "relative_phase_deg": -161.94491854674956,
+      "row_phase_concentration": 0.005253384427935293,
+      "mean_amplitude": 235.01212766119775
+    }
+  ],
+  "interpretation_limit": "Relative received complex phase after empirical timing/linear-row phase tracking; not decoded MIPI lane or DDIC pin phase."
+}

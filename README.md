@@ -115,4 +115,12 @@ You need to have MinGW installed and gcc and make commands need to be in your pa
 
 `libuhd-dev`
 
+Research additions
+------------
+
+The smartphone MIPI/display-leakage reconstruction work, including coherent
+averaging, fractional resampling, HSV phase analysis, STFT views, RPCA and
+matched-subspace experiments, is preserved under
+[`research/mobile_mipi_leakage`](research/mobile_mipi_leakage/README.md).
+
 

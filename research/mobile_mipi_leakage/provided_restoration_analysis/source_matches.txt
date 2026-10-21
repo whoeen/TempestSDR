@@ -1,0 +1,154 @@
+
+## input_01.png
+ 0.0072 corr= 0.3812 ham=0.462 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_median_off.png
+-0.0152 corr= 0.3812 ham=0.490 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_median_3x3.png
+-0.0157 corr= 0.3694 ham=0.476 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Coherent_median_off.png
+-0.0401 corr= 0.3674 ham=0.503 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Coherent_median_3x3.png
+-0.0621 corr= 0.3073 ham=0.434 data/analysis_outputs\galaxy_111p9M_paper_periodic_coherent_v1\galaxy_111p9M_decoupled_mipi_coherent_magnitude.png
+-0.0798 corr= 0.2718 ham=0.434 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Coherent_median_off.png
+-0.0803 corr= 0.3227 ham=0.476 data/analysis_outputs\galaxy_111p9M_paper_periodic_coherent_v1\galaxy_111p9M_decoupled_mipi_phase_coherence.png
+-0.0837 corr= 0.2791 ham=0.448 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_HSV_median_off.png
+-0.0846 corr= 0.2670 ham=0.434 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Coherent_median_3x3.png
+-0.1218 corr= 0.3035 ham=0.503 data/analysis_outputs\three_device_gatefree_coherent_median_v1\iphone6s\iphone6s_P001_Cell_median_3x3.png
+-0.1218 corr= 0.3035 ham=0.503 data/analysis_outputs\three_device_gatefree_coherent_median_smoketest\iphone6s\iphone6s_P001_Cell_median_3x3.png
+-0.1366 corr= 0.2150 ham=0.434 data/analysis_outputs\paper_parity_three_devices_v1\galaxyS4lte_111p9M_aligned_P377_K120\galaxyS4lte_111p9M_aligned_P377_K120_cell_reference_content_p01_99.png
+
+## input_02.png
+-0.1234 corr= 0.1967 ham=0.392 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Cell_median_off.png
+-0.1343 corr= 0.2396 ham=0.434 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_fullraster.png
+-0.1458 corr= 0.1966 ham=0.420 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Cell_median_3x3.png
+-0.1464 corr= 0.2386 ham=0.448 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_full_log.png
+-0.1721 corr= 0.1815 ham=0.434 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Cell_median_off.png
+-0.1807 corr= 0.1454 ham=0.406 data/analysis_outputs\ppt_quality_package_v1\galaxy_s4_lte\cell_frame_averaging\galaxy_s4_lte_cell_P001_linear.png
+-0.1848 corr= 0.2152 ham=0.490 data/untitled3.png
+-0.1860 corr= 0.1401 ham=0.406 data/analysis_outputs\ppt_quality_package_v1\galaxy_s4_lte\cell_plus_horizontal_projection\galaxy_s4_lte_cell_P001_horizontalK120.png
+-0.1863 corr= 0.1846 ham=0.462 data/analysis_outputs\multiband_galaxyS4lte_4band_P200\galaxyS4lte_4band_P200_band01_-21.0MHz.png
+-0.1882 corr= 0.1379 ham=0.406 data/analysis_outputs\ppt_quality_package_v1\galaxy_s4_lte\cell_frame_averaging\galaxy_s4_lte_cell_P001_log.png
+-0.1920 corr= 0.1504 ham=0.420 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_AM_median_off.png
+-0.2020 corr= 0.1739 ham=0.462 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Cell_median_off.png
+
+## input_03.png
+ 0.0412 corr= 0.2378 ham=0.238 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P001_Coherent_median_off.png
+ 0.0412 corr= 0.2378 ham=0.238 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P001_AM_median_off.png
+-0.0004 corr= 0.2298 ham=0.280 data/analysis_outputs\ppt_quality_package_v1\lgx2\cell_frame_averaging\lgx2_cell_P001_log.png
+-0.0050 corr= 0.2252 ham=0.280 data/analysis_outputs\ppt_quality_package_v1\lgx2\cell_plus_horizontal_projection\lgx2_cell_P001_horizontalK85.png
+-0.0114 corr= 0.2300 ham=0.294 data/analysis_outputs\three_device_averaging_comparison_v3_aligned\lgx2\lgx2_cell_acquisition_P001_aligned_log.png
+-0.0131 corr= 0.1387 ham=0.182 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P001_Coherent_HSV_median_off.png
+-0.0186 corr= 0.2339 ham=0.308 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P001_Coherent_median_3x3.png
+-0.0186 corr= 0.2339 ham=0.308 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P001_AM_median_3x3.png
+-0.0438 corr= 0.2312 ham=0.336 data/analysis_outputs\ppt_quality_package_v1\lgx2\cell_frame_averaging\lgx2_cell_P001_linear.png
+-0.0620 corr= 0.1122 ham=0.210 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P001_Coherent_HSV_median_3x3.png
+-0.1036 corr= 0.2162 ham=0.392 data/analysis_outputs\lgx2_driver_lowrank_P40_v2\lgx2_logAM_driver_lowrank_D2_cleaned.png
+-0.1036 corr= 0.2162 ham=0.392 data/analysis_outputs\lgx2_driver_lowrank_P40_v1\lgx2_logAM_driver_lowrank_D2_cleaned.png
+
+## input_04.png
+ 0.7821 corr= 0.8875 ham=0.126 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P200_Coherent_HSV_median_off.png
+ 0.7517 corr= 0.8907 ham=0.168 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P200_Coherent_median_off.png
+ 0.7436 corr= 0.9050 ham=0.196 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P200_Coherent_median_3x3.png
+ 0.7317 corr= 0.8930 ham=0.196 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P100_Coherent_median_off.png
+ 0.7163 corr= 0.8889 ham=0.210 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P032_Coherent_median_off.png
+ 0.7137 corr= 0.8975 ham=0.224 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P032_Coherent_median_3x3.png
+ 0.7130 corr= 0.8856 ham=0.210 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P100_Coherent_HSV_median_off.png
+ 0.7123 corr= 0.8625 ham=0.182 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P200_Coherent_HSV_median_3x3.png
+ 0.7075 corr= 0.8913 ham=0.224 data/analysis_outputs\three_device_averaging_comparison_v3_aligned\lgx2\lgx2_complex_coherent_gated_linear_P100_aligned_log.png
+ 0.7072 corr= 0.9021 ham=0.238 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P100_Coherent_median_3x3.png
+ 0.6902 corr= 0.8851 ham=0.238 data/analysis_outputs\three_device_averaging_comparison_v3_aligned\lgx2\lgx2_complex_coherent_gated_linear_P032_aligned_log.png
+ 0.6763 corr= 0.8601 ham=0.224 data/analysis_outputs\three_device_gatefree_coherent_median_v1\lgx2\lgx2_P032_Coherent_HSV_median_off.png
+
+## input_05.png
+ 0.0753 corr= 0.4167 ham=0.420 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Cell_median_3x3.png
+ 0.0696 corr= 0.3215 ham=0.308 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P001_Cell_median_off.png
+ 0.0682 corr= 0.3872 ham=0.392 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Cell_median_3x3.png
+ 0.0593 corr= 0.2106 ham=0.182 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P001_Coherent_HSV_median_off.png
+ 0.0584 corr= 0.3999 ham=0.420 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Cell_median_3x3.png
+ 0.0582 corr= 0.3661 ham=0.378 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_AM_median_off.png
+ 0.0549 corr= 0.4187 ham=0.448 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Cell_median_off.png
+ 0.0487 corr= 0.4013 ham=0.434 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Cell_median_off.png
+ 0.0479 corr= 0.3893 ham=0.420 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Cell_median_off.png
+ 0.0443 corr= 0.4028 ham=0.448 data/Figure_10.png
+ 0.0349 corr= 0.3651 ham=0.406 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_AM_median_3x3.png
+ 0.0336 corr= 0.1848 ham=0.182 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P001_Coherent_HSV_median_3x3.png
+
+## input_06.png
+ 0.7998 corr= 0.8447 ham=0.056 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_HSV_median_off.png
+ 0.6993 corr= 0.8338 ham=0.168 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_HSV_median_3x3.png
+ 0.5971 corr= 0.7763 ham=0.224 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Coherent_HSV_median_off.png
+ 0.5158 corr= 0.7174 ham=0.252 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Coherent_HSV_median_3x3.png
+ 0.4807 corr= 0.6040 ham=0.154 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_median_3x3.png
+ 0.4722 corr= 0.6066 ham=0.168 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P200_Coherent_median_off.png
+ 0.4088 corr= 0.5880 ham=0.224 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Coherent_median_off.png
+ 0.3737 corr= 0.5864 ham=0.266 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P100_Coherent_median_3x3.png
+ 0.2642 corr= 0.5552 ham=0.364 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Coherent_HSV_median_off.png
+ 0.2195 corr= 0.4722 ham=0.294 data/analysis_outputs\galaxy_111p9M_paper_periodic_coherent_v1\galaxy_111p9M_decoupled_mipi_coherent_magnitude.png
+ 0.2014 corr= 0.4813 ham=0.350 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Coherent_median_off.png
+ 0.1980 corr= 0.4891 ham=0.364 data/analysis_outputs\three_device_gatefree_coherent_median_v1\galaxy_s4_lte_111p9M\galaxy_s4_lte_111p9M_P032_Coherent_HSV_median_3x3.png
+
+## input_07.png
+-0.1504 corr= 0.2322 ham=0.448 data/analysis_outputs\galaxy_111p9M_paper_registered_coherent_P377_v1\galaxy_111p9M_P377_registered_phasealigned_decoupled_mipi_coherent_magnitude.png
+-0.1696 corr= 0.2130 ham=0.448 data/analysis_outputs\galaxy_111p9M_paper_registered_coherent_P377_v1\galaxy_111p9M_P377_registered_phasealigned_decoupled_mipi_HSV_coherence_saturation.png
+-0.2005 corr= 0.2380 ham=0.517 data/analysis_outputs\galaxy_111p9M_paper_registered_coherent_P377_v1\galaxy_111p9M_P377_registered_phasealigned_decoupled_mipi_phase_coherence.png
+-0.2313 corr= 0.1625 ham=0.462 data/analysis_outputs\galaxy_111p9M_verified_timing_coherent_P377_v1\galaxy_111p9M_verified_fH_P377_phasealigned_decoupled_mipi_phase_coherence.png
+-0.2395 corr= 0.1431 ham=0.448 data/analysis_outputs\galaxy_111p9M_verified_timing_coherent_P377_v1\galaxy_111p9M_verified_fH_P377_phasealigned_decoupled_mipi_HSV_coherence_saturation.png
+-0.2538 corr= 0.0551 ham=0.378 data/analysis_outputs\lgx2_spatial_ica_P40_v2\lgx2_logAM_P40_ICA_K6_comparison_component.png
+-0.2538 corr= 0.0551 ham=0.378 data/analysis_outputs\lgx2_spatial_ica_P40_v1\lgx2_logAM_P40_ICA_K6_comparison_component.png
+-0.2558 corr= 0.1491 ham=0.476 data/analysis_outputs\galaxy_111p9M_verified_timing_coherent_P377_v1\galaxy_111p9M_verified_fH_P377_phasealigned_decoupled_mipi_coherent_magnitude.png
+-0.2586 corr= 0.1351 ham=0.462 data/analysis_outputs\iphone6s_RES_all_png_v1\independent_halves\half_difference_robust_logAM.png
+-0.2693 corr= 0.1493 ham=0.490 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_fullraster.png
+-0.2738 corr= 0.1333 ham=0.462 data/analysis_outputs\res_generic_galaxy_subaligned_P351\galaxy_subaligned_P351_activeB.png
+-0.2743 corr= 0.1329 ham=0.462 data/analysis_outputs\res_generic_galaxyS4lte_171p5M_aligned_P351\galaxyS4lte_171p5M_aligned_P351_activeB.png
+
+## input_08.png
+-0.1504 corr= 0.2322 ham=0.448 data/analysis_outputs\galaxy_111p9M_paper_registered_coherent_P377_v1\galaxy_111p9M_P377_registered_phasealigned_decoupled_mipi_coherent_magnitude.png
+-0.1696 corr= 0.2130 ham=0.448 data/analysis_outputs\galaxy_111p9M_paper_registered_coherent_P377_v1\galaxy_111p9M_P377_registered_phasealigned_decoupled_mipi_HSV_coherence_saturation.png
+-0.2005 corr= 0.2380 ham=0.517 data/analysis_outputs\galaxy_111p9M_paper_registered_coherent_P377_v1\galaxy_111p9M_P377_registered_phasealigned_decoupled_mipi_phase_coherence.png
+-0.2313 corr= 0.1625 ham=0.462 data/analysis_outputs\galaxy_111p9M_verified_timing_coherent_P377_v1\galaxy_111p9M_verified_fH_P377_phasealigned_decoupled_mipi_phase_coherence.png
+-0.2395 corr= 0.1431 ham=0.448 data/analysis_outputs\galaxy_111p9M_verified_timing_coherent_P377_v1\galaxy_111p9M_verified_fH_P377_phasealigned_decoupled_mipi_HSV_coherence_saturation.png
+-0.2538 corr= 0.0551 ham=0.378 data/analysis_outputs\lgx2_spatial_ica_P40_v2\lgx2_logAM_P40_ICA_K6_comparison_component.png
+-0.2538 corr= 0.0551 ham=0.378 data/analysis_outputs\lgx2_spatial_ica_P40_v1\lgx2_logAM_P40_ICA_K6_comparison_component.png
+-0.2558 corr= 0.1491 ham=0.476 data/analysis_outputs\galaxy_111p9M_verified_timing_coherent_P377_v1\galaxy_111p9M_verified_fH_P377_phasealigned_decoupled_mipi_coherent_magnitude.png
+-0.2586 corr= 0.1351 ham=0.462 data/analysis_outputs\iphone6s_RES_all_png_v1\independent_halves\half_difference_robust_logAM.png
+-0.2693 corr= 0.1493 ham=0.490 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_fullraster.png
+-0.2738 corr= 0.1333 ham=0.462 data/analysis_outputs\res_generic_galaxy_subaligned_P351\galaxy_subaligned_P351_activeB.png
+-0.2743 corr= 0.1329 ham=0.462 data/analysis_outputs\res_generic_galaxyS4lte_171p5M_aligned_P351\galaxyS4lte_171p5M_aligned_P351_activeB.png
+
+## input_09.png
+ 0.2717 corr= 0.6757 ham=0.476 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_active1334_log.png
+ 0.2046 corr= 0.6310 ham=0.503 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_active1334_log.png
+ 0.1474 corr= 0.5390 ham=0.462 data/analysis_outputs\galaxy_geometry_v1\galaxy_111p9M_fullraster_K120.png
+ 0.1397 corr= 0.5331 ham=0.434 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_active.png
+ 0.1228 corr= 0.3190 ham=0.238 data/analysis_outputs\fusion_weights_lgx2_344p8M_8band\lgx2_344p8M_8band_contentRepeatability_stripeRemoved.png
+ 0.1209 corr= 0.3170 ham=0.238 data/analysis_outputs\fusion_weights_lgx2_344p8M_8band\lgx2_344p8M_8band_contentSnrWeighted_stripeRemoved.png
+ 0.1185 corr= 0.3147 ham=0.238 data/analysis_outputs\fusion_weights_lgx2_344p8M_8band\lgx2_344p8M_8band_uniform_stripeRemoved.png
+ 0.0945 corr= 0.4749 ham=0.448 data/analysis_outputs\res_generic_galaxyS4lte_111p9M_P200\galaxyS4lte_111p9M_P200_fullraster.png
+ 0.0855 corr= 0.5237 ham=0.490 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_activeA.png
+ 0.0847 corr= 0.5117 ham=0.476 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_activeB.png
+ 0.0804 corr= 0.5223 ham=0.517 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_full_log.png
+ 0.0800 corr= 0.5107 ham=0.503 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_fullraster.png
+
+## input_10.png
+ 0.2717 corr= 0.6757 ham=0.476 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_active1334_log.png
+ 0.2046 corr= 0.6310 ham=0.503 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_active1334_log.png
+ 0.1474 corr= 0.5390 ham=0.462 data/analysis_outputs\galaxy_geometry_v1\galaxy_111p9M_fullraster_K120.png
+ 0.1397 corr= 0.5331 ham=0.434 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_active.png
+ 0.1228 corr= 0.3190 ham=0.238 data/analysis_outputs\fusion_weights_lgx2_344p8M_8band\lgx2_344p8M_8band_contentRepeatability_stripeRemoved.png
+ 0.1209 corr= 0.3170 ham=0.238 data/analysis_outputs\fusion_weights_lgx2_344p8M_8band\lgx2_344p8M_8band_contentSnrWeighted_stripeRemoved.png
+ 0.1185 corr= 0.3147 ham=0.238 data/analysis_outputs\fusion_weights_lgx2_344p8M_8band\lgx2_344p8M_8band_uniform_stripeRemoved.png
+ 0.0945 corr= 0.4749 ham=0.448 data/analysis_outputs\res_generic_galaxyS4lte_111p9M_P200\galaxyS4lte_111p9M_P200_fullraster.png
+ 0.0855 corr= 0.5237 ham=0.490 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_activeA.png
+ 0.0847 corr= 0.5117 ham=0.476 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_activeB.png
+ 0.0804 corr= 0.5223 ham=0.517 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_full_log.png
+ 0.0800 corr= 0.5107 ham=0.503 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_fullraster.png
+
+## input_11.png
+ 0.2946 corr= 0.7519 ham=0.517 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_active1334_log.png
+ 0.2102 corr= 0.6793 ham=0.503 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_activeA.png
+ 0.1797 corr= 0.6600 ham=0.517 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_activeB.png
+ 0.1789 corr= 0.6026 ham=0.476 data/analysis_outputs\ppt_quality_package_v1\hidden\book93page\iphone6_hidden_book93page_P200_active1334_log.png
+ 0.1749 corr= 0.6887 ham=0.559 data/analysis_outputs\res_generic_iphone6_238M_fullband_P488\iphone6_238M_fullband_P488_active.png
+ 0.1106 corr= 0.5667 ham=0.517 data/analysis_outputs\galaxy_geometry_v1\galaxy_111p9M_fullraster_K120.png
+ 0.0757 corr= 0.4844 ham=0.448 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_active.png
+ 0.0494 corr= 0.4805 ham=0.476 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_activeB.png
+ 0.0487 corr= 0.4745 ham=0.476 data/analysis_outputs\res_generic_iphone6_238M_bandB_20MHz_dc\iphone6_238M_bandB_20MHz_dc_active.png
+ 0.0448 corr= 0.4673 ham=0.476 data/analysis_outputs\res_generic_galaxyS4lte_111p9M_P200\galaxyS4lte_111p9M_P200_fullraster.png
+ 0.0418 corr= 0.4367 ham=0.462 data/analysis_outputs\best_renders_v1\lgx2_K85_stripeRemoved_720x1440.png
+ 0.0335 corr= 0.4869 ham=0.503 data/analysis_outputs\ppt_quality_package_v1\hidden\book34page\iphone6_hidden_book34page_P200_activeA.png
