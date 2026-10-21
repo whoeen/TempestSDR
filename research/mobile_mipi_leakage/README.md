@@ -43,11 +43,22 @@ The preferred cloud layout is:
 
 ```text
 data/
+  20260625_fs55.05487m_fc311m_25m_smallh_iphoneergentcallidisplay.rIs
+  230mhz_20m_119.67847m_left_middle top_LGX22019.rIs
+  238M_60M_124.08571_topleft_iphone6_book34page_.rIs
+  238M_60M_124.08571M_bottom middle_iphone6.rIs
   238M_60M_124.08571M_topleft_iphone6.rIs
+  238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs
+  308M_60M_124.08571M_bageung hwameon_iphone6.rIs
+  311m_23m_110.11059m.rIs
   311m_55.05487m_20m.rIs
+  312M_49M_124.08571M_baeung.rIs
+  313.9m_25m_110.11059m.rIs
+  444Page.rIs
   LGX22019_344.8M_60M_136.56551M.rIs
   111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs
   171.5mhz_20m_55.81679m_galaxS4lte.rIs
+  390M_60M_124.08571M_topmiddle.rIs
   antenna1.rIs
   antenna2.rIs
   antenna3.rIs
@@ -62,7 +73,7 @@ python raw_iq/assemble_raw_iq.py --parts-dir raw_iq_parts --output-dir data
 ```
 
 The raw files remain ignored by ordinary Git because their combined size is
-16.38 GiB. Release asset integrity and the original-file integrity are both
+44.37 GiB. Release asset integrity and the original-file integrity are both
 checked against [`raw_iq/RAW_IQ_RELEASE_MANIFEST.json`](raw_iq/RAW_IQ_RELEASE_MANIFEST.json).
 
 ## Repository contents

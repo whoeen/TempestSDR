@@ -1,13 +1,15 @@
 # Raw IQ release assets
 
-The eight `.rIs` captures used by this study are published as GitHub Release
-assets under [`mobile-mipi-raw-iq-2026-10-21`](https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21).
+The 16 deduplicated smartphone captures and three antenna captures are
+published as GitHub Release assets under
+[`mobile-mipi-raw-iq-2026-10-21`](https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21).
 They are split into parts smaller than 2 GiB, which keeps the Git repository
 small and avoids Git LFS storage charges.
 
 `RAW_IQ_RELEASE_MANIFEST.json` records every original byte count and SHA-256,
 plus the byte count and SHA-256 of every release asset. The manifest contains
-no local workstation paths.
+no local workstation paths. The original captures total 47,638,800,000 bytes
+(44.37 GiB).
 
 ## Download and reconstruct all captures
 
@@ -31,6 +33,7 @@ the established filenames and analysis configuration.
 
 ## Maintainer packaging command
 
-`package_raw_iq_release.py` accepts one `--source DATASET_ID=PATH` argument per
-dataset. It streams the captures, creates 1,900 MiB parts, and generates the
-manifest without loading a capture into memory.
+`package_raw_iq_release.py` accepts `--source DATASET_ID=PATH` arguments and an
+optional `--base-manifest` for incremental additions. It streams the captures,
+creates 1,900 MiB parts, and generates the manifest without loading a capture
+into memory.
