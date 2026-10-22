@@ -2,6 +2,8 @@
 
 작성·문서 확인: 2026-10-22. 장비 조작 없이 공식 문헌을 검토한 측정 준비 자료다. 사용자는 USRP-2940R의 순시 대역폭을 120 MHz라고 밝혔다. 이를 작업 가정으로 채택한다. 실물의 제품 옵션, 현재 FPGA 이미지, 연결 경로와 실제 IQ 설정은 아직 읽지 않았다.
 
+**추가 진술 반영:** iPhone6의 fc 이동 폭은 약150 MHz라는 기억이며, 당시 실제 수신 BW120 MHz는 미확인이다. LG범위·step·Fs는 미상. 장비120 MHz 옵션과 과거 실제 설정을 구별한다. [기록](HISTORICAL_SWEEP_NOTE_KO.md).
+
 ## 1. 모델과 대역폭
 
 | 항목 | 확인 결과 | 근거 |
@@ -79,6 +81,6 @@ UHD 4.9 문서는 10 MHz를 공통 frequency reference, PPS를 device sample-tim
 
 1. 2940R **120 MHz 옵션**을 보여주는 라벨 또는 configuration 정보.
 2. 현재 PC 연결이 **10GbE / PCIe-MXI / 1GbE** 중 무엇이며, 기존 동작하는 LabVIEW VI·NI-USRP 버전이 있는지.
-3. “100 MHz sweep”가 **중심 주파수 이동 폭**인지, **한 번의 IQ 수집 폭**인지 및 복원이 확인된 시작/끝 중심 주파수.
+3. iPhone6은 **약150 MHz 중심주파수 이동 폭**으로 명확해졌다. 절대 시작/끝·step·당시 Fs/BW와 LG의 범위는 기록에서 확인할 항목이다.
 
 최소 메타데이터: phone/model, pattern ID/hash, capture order, requested/actual fc·Fs·BW, usable passband, master/reference clock, time source, receiver/daughterboard/FPGA/driver identity, gain, antenna/거리/방향, display state, tune/lock/discard/start/end time, dropped/late/overflow counts, scalar format/endian, raw SHA-256. 새 실측은 아직 수행하지 않았다.

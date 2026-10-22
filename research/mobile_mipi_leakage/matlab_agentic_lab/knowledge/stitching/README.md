@@ -17,6 +17,10 @@
 | [capture metadata 양식](capture_metadata.template.json) | 장치/화면/LO/DDC/Fs/BW/시간/format/누락/정렬 상태 |
 | [MATLAB 검증 결과](verification/convention_audit.json) | 상호상관 convention 3개 합성 사례 및 crossover unity |
 
+## 사용자 추가 정보 — 2026-10-22
+
+iPhone6의 기억상 중심주파수 이동 폭은 약150 MHz이며, 당시 수신 BW120 MHz는 미확인이다. 시작/끝·step·Fs·LG범위는 미상으로 보존했다. Screen Gleaning TableII의 iPhone6은105 MHz,6s는295 MHz다. [추가 진술과 측정안 변경](HISTORICAL_SWEEP_NOTE_KO.md). 아래 기존3-band 예시는 과거 sweep의 복원이 아니다.
+
 ## 이번 모바일 적용에서 우선할 판단
 1. **방법의 후보 타당성은 충분하다.** 사용자의 넓은 sweep 내 복원 관측은 유용하다. 다음 검증 단위는 인접 RF 대역의 독립 구간에서 얻는 복소 정합이다.
 2. **stitching과 DSI 소스 분리는 별도 문제다.** 강한 세로선이 overlap alignment를 지배할 수 있다. 같은 화면의 대역들을 합친 뒤, pattern 변화에 따른 내용 복원과 선 성분의 변화를 따로 평가한다.
