@@ -1,0 +1,100 @@
+{
+  "source": "codex-clipboard-6d1deffe-1b8b-463e-8943-d2bbb51a4add.png",
+  "source_pixels": [
+    1763,
+    28291
+  ],
+  "crops": [
+    {
+      "name": "01_refresh.png",
+      "box_left_top_right_bottom": [
+        510,
+        4340,
+        1535,
+        4955
+      ]
+    },
+    {
+      "name": "02_layers.png",
+      "box_left_top_right_bottom": [
+        550,
+        5610,
+        1490,
+        6320
+      ]
+    },
+    {
+      "name": "03_stop.png",
+      "box_left_top_right_bottom": [
+        510,
+        9240,
+        1535,
+        9360
+      ]
+    },
+    {
+      "name": "04_short_packet.png",
+      "box_left_top_right_bottom": [
+        610,
+        10450,
+        1490,
+        10925
+      ]
+    },
+    {
+      "name": "05_short_timing.png",
+      "box_left_top_right_bottom": [
+        570,
+        10985,
+        1535,
+        11115
+      ]
+    },
+    {
+      "name": "06_long_packet.png",
+      "box_left_top_right_bottom": [
+        580,
+        11600,
+        1490,
+        12640
+      ]
+    },
+    {
+      "name": "07_long_timing.png",
+      "box_left_top_right_bottom": [
+        570,
+        12705,
+        1535,
+        12835
+      ]
+    },
+    {
+      "name": "08_color.png",
+      "box_left_top_right_bottom": [
+        520,
+        15070,
+        1520,
+        15870
+      ]
+    },
+    {
+      "name": "09_lane_register.png",
+      "box_left_top_right_bottom": [
+        540,
+        26585,
+        1535,
+        26960
+      ]
+    },
+    {
+      "name": "10_speed.png",
+      "box_left_top_right_bottom": [
+        540,
+        27285,
+        1535,
+        27665
+      ]
+    }
+  ],
+  "source_sha256": "7c66be5f38028990cf62e97d6ad56126c7c81160aaceda5601abb12420f9a79e"
+}

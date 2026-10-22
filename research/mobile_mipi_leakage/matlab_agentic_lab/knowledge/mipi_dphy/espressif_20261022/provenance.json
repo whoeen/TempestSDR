@@ -1,0 +1,79 @@
+{
+  "recorded_utc": "2026-10-22T08:44:42.714Z",
+  "record_date_kst": "2026-10-22",
+  "artifact_type": "full_user_supplied_page_translation_with_technical_annotations",
+  "source_title": "MIPI DSI LCD Detailed Guide",
+  "source_url": "https://docs.espressif.com/projects/esp-iot-solution/en/latest/display/lcd/mipi_dsi_lcd.html",
+  "source_files": [
+    {
+      "file": "source_page.html",
+      "url": "https://docs.espressif.com/projects/esp-iot-solution/en/latest/display/lcd/mipi_dsi_lcd.html",
+      "status": "downloaded",
+      "bytes": 82942,
+      "sha256": "ead9344a7bef8dd3c8ed60122e6b833900a70dfa465ee98c974bafbe68ee520d"
+    },
+    {
+      "file": "source_page.rst",
+      "url": "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/docs/en/display/lcd/mipi_dsi_lcd.rst",
+      "status": "downloaded",
+      "bytes": 34876,
+      "sha256": "3705f1b998986943f188042b568699093aae881418c827dcab5a7598092d3c11"
+    },
+    {
+      "file": "LICENSE-ESPRESSIF-APACHE-2.0.txt",
+      "url": "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/LICENSE",
+      "status": "downloaded",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "NOTICE-upstream.txt",
+      "url": "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/NOTICE",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "user_capture": {
+    "filename": "codex-clipboard-6d1deffe-1b8b-463e-8943-d2bbb51a4add.png",
+    "bytes": 16439647,
+    "pixels": [
+      1763,
+      28291
+    ],
+    "sha256": "7c66be5f38028990cf62e97d6ad56126c7c81160aaceda5601abb12420f9a79e",
+    "included_as_original_full_image": false,
+    "figure_crops": 10
+  },
+  "coverage": {
+    "main_source_headings": 29,
+    "figures": 10,
+    "c_examples": 4,
+    "source_c_noncomment_tokens_preserved": true,
+    "range": "Glossary through Related Documentation and Examples plus footer",
+    "external_linked_documents_all_read": false
+  },
+  "translation": {
+    "language": "ko",
+    "unofficial": true,
+    "original_errors_preserved_and_annotated": true,
+    "figures": "Cropped from user supplied capture; translated labels in adjacent tables and paragraphs",
+    "code_policy": "Identifiers, literal values and executable noncomment tokens unchanged; explanatory comments translated",
+    "license": "Repository Apache-2.0 text included; source attribution preserved; underlying figure rights remain with original holders"
+  },
+  "validation": {
+    "code_path": "verification/verifyEspressifGuide.m",
+    "code_sha256": "fec89f3d33624c4783064a9cdb5f3cf7d897323aedc1091bca5a1d01090e022e",
+    "base_commit": "886b3410d92da9c80922db5d49c38d418ef8fe5f",
+    "matlab_result": "verification/espressif_20261022/guide_verification.json",
+    "all_six_header_vectors_match": true,
+    "all_two_crc_vectors_match": true,
+    "matlab_code_analyzer_issue_count": 0,
+    "source_coverage_report": "source_coverage.json",
+    "render_report": "../../../verification/espressif_20261022/render_qa.json",
+    "actual_phone_iq_analysis": false
+  },
+  "artifacts": {
+    "markdown_sha256": "dc19adee406a0578459e10913d775b292b46b979b3db0cffd3c46c53fa07dca4",
+    "html_sha256": "16b85d636583f3cd4048f6fec8315d047db8bea4ce71de942b3cf0e546901c9e"
+  }
+}

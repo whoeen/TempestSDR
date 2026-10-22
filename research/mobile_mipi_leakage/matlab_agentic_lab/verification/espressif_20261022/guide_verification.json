@@ -1,0 +1,78 @@
+{
+  "kind": "document_example_verification",
+  "matlab": "26.2.0.3386108 (R2026b)",
+  "horizontal_total": 844,
+  "vertical_total": 1324,
+  "pixel_clock_for_60Hz_hz": 6.704736E+7,
+  "raster_rgb888_equivalent_bps": 1.60913664E+9,
+  "raster_equivalent_per_lane_bps": 8.0456832E+8,
+  "active_payload_per_lane_bps": 7.3728E+8,
+  "active_plus_one_packet_per_row_per_lane_bps": 7.391232E+8,
+  "refresh_at_60MHz_hz": 53.693389269913091,
+  "paper_1497p6_times_1p25_times_1p15_Mbps": 2152.7999999999997,
+  "ui_range_ns": [
+    2,
+    12.5
+  ],
+  "bit_rate_from_ui_range_Mbps": [
+    80,
+    499.99999999999994
+  ],
+  "config_1300Mbps": {
+    "lane_rate_bps": 1.3E+9,
+    "forwarded_ddr_hz": 6.5E+8,
+    "byte_clock_hz": 1.625E+8
+  },
+  "header_checks": [
+    {
+      "header3_hex": "37 03 00",
+      "calculated_ecc_hex": "01",
+      "shown_ecc_hex": "01",
+      "matches": true
+    },
+    {
+      "header3_hex": "39 03 00",
+      "calculated_ecc_hex": "09",
+      "shown_ecc_hex": "09",
+      "matches": true
+    },
+    {
+      "header3_hex": "21 45 00",
+      "calculated_ecc_hex": "01",
+      "shown_ecc_hex": "01",
+      "matches": true
+    },
+    {
+      "header3_hex": "1C 05 00",
+      "calculated_ecc_hex": "29",
+      "shown_ecc_hex": "29",
+      "matches": true
+    },
+    {
+      "header3_hex": "37 F0 01",
+      "calculated_ecc_hex": "3F",
+      "shown_ecc_hex": "3F",
+      "matches": true
+    },
+    {
+      "header3_hex": "08 0F 0F",
+      "calculated_ecc_hex": "01",
+      "shown_ecc_hex": "01",
+      "matches": true
+    }
+  ],
+  "crc_checks": [
+    {
+      "payload_hex": "B6 B2 B2",
+      "crc_low_high_hex": "EF FA",
+      "matches": true
+    },
+    {
+      "payload_hex": "89 23 12 A2 E2",
+      "crc_low_high_hex": "59 29",
+      "matches": true
+    }
+  ],
+  "caveat": "Raster equivalents are not exact required DSI bitrates. Actual mode, packet schedule, lane tail, HS/LP timing and panel limits must be budgeted.",
+  "byte_clock_relation": "Forwarded-clock D-PHY uses8bits/byte and2bits/clock; no generic8b/10b multiplier."
+}

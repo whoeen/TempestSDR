@@ -1,0 +1,64 @@
+{
+  "title": "MIPI DSI LCD 상세 가이드 — 전체 한국어 번역",
+  "h1Count": 1,
+  "figures": 10,
+  "images": [
+    {
+      "alt": "그림 1. MIPI-DSI 화면 갱신 과정",
+      "width": 1025,
+      "height": 615
+    },
+    {
+      "alt": "그림 2. MIPI-DSI 계층 개념도",
+      "width": 940,
+      "height": 710
+    },
+    {
+      "alt": "그림 3. Stop·Escape·ACK 파형",
+      "width": 1025,
+      "height": 120
+    },
+    {
+      "alt": "그림 4. Short packet 구성",
+      "width": 880,
+      "height": 475
+    },
+    {
+      "alt": "그림 5. LPDT short packet 타이밍",
+      "width": 965,
+      "height": 130
+    },
+    {
+      "alt": "그림 6. Long packet 구성",
+      "width": 910,
+      "height": 1040
+    },
+    {
+      "alt": "그림 7. LPDT long packet 타이밍",
+      "width": 965,
+      "height": 130
+    },
+    {
+      "alt": "그림 8. 표시 색 정보의 24bit 확장 예",
+      "width": 1000,
+      "height": 800
+    },
+    {
+      "alt": "그림 9. EK79007 lane 수 설정 레지스터",
+      "width": 995,
+      "height": 375
+    },
+    {
+      "alt": "그림 10. UI와 고속 전송 규격",
+      "width": 995,
+      "height": 380
+    }
+  ],
+  "tables": 23,
+  "codeBlocks": 23,
+  "contentHeight": 44545,
+  "bodyHorizontalOverflow": false,
+  "brokenToc": 0,
+  "figureZoomOpens": true,
+  "mobileHorizontalOverflow": false
+}

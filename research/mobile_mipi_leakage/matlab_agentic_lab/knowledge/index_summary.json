@@ -1,13 +1,13 @@
 {
-  "indexed_utc": "2026-10-22T07:45:39.283054+00:00",
-  "entry_count": 466,
+  "indexed_utc": "2026-10-22T08:46:07.833473+00:00",
+  "entry_count": 484,
   "by_area": {
     "20261022_041658_091": 1,
     "20261022_041904_607": 6,
     "galaxy_s4_lte": 19,
     "iphone6s": 19,
     "lgx2": 29,
-    "mipi_dphy": 251,
+    "mipi_dphy": 269,
     "rf_chain": 44,
     "signal_processing": 21,
     "stitching": 26,

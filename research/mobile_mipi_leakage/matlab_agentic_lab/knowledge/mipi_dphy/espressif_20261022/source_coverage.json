@@ -1,0 +1,59 @@
+{
+  "source_heading_count": 29,
+  "source_headings": [
+    "MIPI DSI LCD Detailed Guide ",
+    "Glossary ",
+    "MIPI-DSI Related Terms ",
+    "MIPI-DSI Interface and Protocol Introduction ",
+    "MIPI-DSI Interface Overview ",
+    "MIPI-DSI Screen Refresh Principle ",
+    "MIPI-DSI Protocol ",
+    "Physical Layer ",
+    "Protocol Layer ",
+    "Display Command Layer (DCS Layer) ",
+    "Color Format ",
+    "Description ",
+    "Common Color Formats and Data Types ",
+    "MIPI-DSI Driver Flow ",
+    "DSI, DBI, and DPI ",
+    "Initialize DSI Bus ",
+    "Configure DBI Interface ",
+    "Port Driver Component ",
+    "Initialize LCD Device ",
+    "Common Issues ",
+    "Issue: No image display on screen with no other error logs ",
+    "Issue: Screen initialization commands cannot be sent normally ",
+    "Issue: Screen image distortion and misalignment ",
+    "Issue: Screen flashes blue screen with log: “can’t fetch data from external memory fast enough, underrun happens” ",
+    "Issue: How to resolve screen tearing ",
+    "Issue: Frame rate optimization configuration ",
+    "Issue: How to drive default 4-lane screens ",
+    "Issue: How to confirm the lane bit rate range supported by the screen ",
+    "Related Documentation and Examples "
+  ],
+  "source_image_count": 10,
+  "source_c_blocks": 4,
+  "translation_c_blocks": 4,
+  "c_code_checks": [
+    {
+      "source_c_block": 1,
+      "noncomment_tokens_preserved": true,
+      "tokens": 43
+    },
+    {
+      "source_c_block": 2,
+      "noncomment_tokens_preserved": true,
+      "tokens": 40
+    },
+    {
+      "source_c_block": 3,
+      "noncomment_tokens_preserved": true,
+      "tokens": 299
+    },
+    {
+      "source_c_block": 4,
+      "noncomment_tokens_preserved": true,
+      "tokens": 72
+    }
+  ]
+}
