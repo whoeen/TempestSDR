@@ -6,19 +6,34 @@
       "MATLAB",
       "MATLAB Copilot"
     ],
-    "numeric_execution_verified": false,
+    "numeric_execution_verified": true,
     "first_batch_exit_code": 1,
     "login_window_observed": true,
     "desktop_start_script": "startLab.m",
-    "official_addon_setup": "started; completion not confirmed",
-    "shared_session_ready_marker_observed": false
+    "official_addon_setup": "shareMATLABSession unavailable; configured official MCP managed desktop executes successfully",
+    "shared_session_ready_marker_observed": false,
+    "runtime_version": "26.2.0.3386108 (R2026b)",
+    "java_available": false,
+    "dotnet_sha256_verified": true,
+    "desktop_in_use_verified": true,
+    "numeric_tests": {
+      "passed": 11,
+      "failed": 0,
+      "incomplete": 0
+    },
+    "completed_measured_devices": [
+      "lgx2",
+      "iphone6s",
+      "galaxy_s4_lte"
+    ],
+    "latest_run_id": "20261022_041904_607"
   },
   "mcp": {
     "version": "v0.15.0",
     "configured_in_codex": true,
     "transport_initialize_verified": true,
     "tools_list_verified": 5,
-    "matlab_evaluation_verified": false,
+    "matlab_evaluation_verified": true,
     "windows_socket_path_fix": "C:/Users/leechanghoon/Documents/Codex/mcp-log",
     "server_sha256": "a1f67dd917c5731f88399e1671ebe4f6959d2fd520c78dcaa1faf3ad37ea9518",
     "toolbox_sha256": "f601ca4da02291658f0e1dc8511959873f55aa43b67a76f754dc77c448cf83a2"

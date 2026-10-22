@@ -11,8 +11,13 @@ arguments
     options.SampleCount (1,1) double {mustBeInteger,mustBePositive} = 2^20
     options.BlockSamples (1,1) double {mustBeInteger,mustBePositive} = 2^20
 end
-inputCanonical = string(java.io.File(char(inputPath)).getCanonicalPath());
-outputCanonical = string(java.io.File(char(outputPath)).getCanonicalPath());
+if ispc && NET.isNETSupported
+    inputCanonical = string(System.IO.Path.GetFullPath(char(inputPath)));
+    outputCanonical = string(System.IO.Path.GetFullPath(char(outputPath)));
+else
+    inputCanonical = string(java.io.File(char(inputPath)).getCanonicalPath());
+    outputCanonical = string(java.io.File(char(outputPath)).getCanonicalPath());
+end
 assert(~strcmpi(inputCanonical,outputCanonical),'mobile:ImmutableInput', ...
     'Choose a new output file; the original capture must not be overwritten.');
 assert(~isfile(outputPath) && ~isfile(outputPath+".json"),'mobile:ExportExists', ...

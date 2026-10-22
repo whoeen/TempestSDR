@@ -75,7 +75,11 @@ for k=1:numel(cfg.devices)
         warning('mobile:DeviceFailed','%s failed: %s',device.key,exception.message);
     end
     writeJsonFile(fullfile(outputDir,'metrics.json'),record);
-    summary.devices(k) = record;
+    if k==1
+        summary.devices = record;
+    else
+        summary.devices(k) = record;
+    end
     appendResearchNote(notePath,'device_completed',struct('key',device.key,'status',record.status));
 end
 if cfg.run_synthetic

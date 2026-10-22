@@ -1,0 +1,118 @@
+{
+  "executed_at_utc": "2026-10-22 04:18:55",
+  "passed": 11,
+  "failed": 0,
+  "incomplete": 0,
+  "results": [
+    {
+      "Name": "testMobileBaseline/testBigEndianReader",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0162801,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testComplexTonePsd",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0153163,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testRealToneOneSided",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0045792,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testCubicLinearSignal",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0055834,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testDdcPreservesComplexPhase",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0063105,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testExportLosslessEndian",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.026057,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testRejectUninformativeClutterTraining",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0038266999999999997,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testMatchedSubspaceKnownComponents",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0077472,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testRpcaReconstruction",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0121105,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testHashWithoutJava",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0289412,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "testMobileBaseline/testComplexArPrediction",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 1.157587,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    }
+  ]
+}

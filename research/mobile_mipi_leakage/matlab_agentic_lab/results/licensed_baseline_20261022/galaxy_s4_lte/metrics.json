@@ -1,0 +1,574 @@
+{
+  "key": "galaxy_s4_lte",
+  "status": "complete",
+  "source": {
+    "path": "C:\\Users\\leechanghoon\\Downloads\\111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+    "filename": "111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+    "file_bytes": 2.7918E+9,
+    "manifest_file_sha256": "973e67f8e4929ea3458d3e6674704cb68b8813810a67c928a0fc9f6aa08963ea",
+    "full_sha_verified_this_run": false,
+    "block": {
+      "filename": "111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+      "bytes": 2.7918E+9,
+      "first_sample_zero_based": 0,
+      "sample_count": 1.048576E+6,
+      "byte_offset": 0,
+      "byte_count": 4.194304E+6,
+      "disk_dtype": "big-endian signed int16 interleaved I,Q",
+      "memory_dtype": "complex single",
+      "units": "ADC counts"
+    },
+    "block_sha256": "cbfeb7af30f1afa6992626125d51bc47cb31a4d638ae361f418c9bdd1b8d2f6a",
+    "device_metadata": {
+      "key": "galaxy_s4_lte",
+      "title": "Galaxy S4 LTE (111.9 MHz)",
+      "filename": "111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+      "fs_hz": 1.1089105E+8,
+      "rf_center_hz": 1.119E+8,
+      "receiver_bandwidth_hz": 2.0E+7,
+      "prior_line_hz": 116153.24109,
+      "raster_rows": 1936,
+      "raster_columns": 1080,
+      "prior_frame_samples": 1.8482917117539041E+6,
+      "origin_columns": 0,
+      "active_row_segments": [
+        [
+          1638,
+          1936
+        ],
+        [
+          1,
+          1621
+        ]
+      ],
+      "active_column_segments": [
+        [
+          780,
+          1080
+        ],
+        [
+          1,
+          658
+        ]
+      ],
+      "metadata_source": "DATASETS.md and vendor/legacy_benchmark.py prior fits",
+      "timing_status": "hypothesis requiring validation on this capture"
+    }
+  },
+  "baseline": {
+    "diagnostics": {
+      "sample_count": 1.048576E+6,
+      "finite_fraction": 1,
+      "mean_i_counts": 27.771547317504883,
+      "mean_q_counts": -6.9047632217407227,
+      "median_i_counts": 28,
+      "median_q_counts": -7,
+      "mad_i_counts": 55,
+      "mad_q_counts": 55,
+      "rms_complex_counts": 182.96077385252531,
+      "dc_power_fraction": 0.024464325199414355,
+      "clip_i_fraction": 0,
+      "clip_q_fraction": 0,
+      "zero_pair_fraction": 4.57763671875E-5,
+      "iq_std_ratio": 1.0196645935022546,
+      "iq_correlation": 0.0043319586466631652,
+      "impropriety_abs": 0.019947169604798056,
+      "peak_over_rms": 13.103030553742023,
+      "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction."
+    },
+    "duration_s": 0.0094559119063260741,
+    "samples_per_prior_line": 954.69613210428929,
+    "samples_per_raster_column": 0.88397790009656418,
+    "raster_column_time_s": 7.9715892319223622E-9,
+    "prior_line_time_s": 8.6093163704761509E-6,
+    "prior_frame_time_s": 0.016667636493241829,
+    "prior_frame_hz": 59.996508827479339,
+    "phase": {
+      "amplitude_mask_threshold_counts": 60.406953242155822,
+      "amplitude_mask_quantile": 0.25,
+      "retained_adjacent_pair_fraction": 0.60697899530314947,
+      "median_adjacent_phase_rad": 0.10879204880974974,
+      "circular_resultant_adjacent": 0.663179255501804,
+      "status": "Mixture phase increments; not verified DSI phase or calibrated PM. Amplitude mask is a heuristic, not a noise-calibrated probability."
+    },
+    "spectrum": {
+      "method": "base MATLAB explicit Welch fallback",
+      "window": "periodic Hann",
+      "segment_samples": 16384,
+      "overlap_samples": 8192,
+      "fft_samples": 16384,
+      "bin_spacing_hz": 6768.2525634765625,
+      "enbw_hz": 10152.378845214864,
+      "window_time_s": 0.00014774862353634491,
+      "frequency_axis": "signed baseband Hz, RF = stated center + baseband (IQ convention assumed)",
+      "psd_units": "ADC-count squared per Hz",
+      "integrated_psd_counts2": 33407.802152818411,
+      "time_mean_power_counts2": 33474.644768714905,
+      "welch_vs_global_mean_power_relative_difference": -0.0019968133002852273,
+      "spectral_flatness": 0.49958284159301347,
+      "strong_peaks": [
+        {
+          "baseband_hz": 0,
+          "psd_counts2_per_hz": 0.08332445226871181
+        },
+        {
+          "baseband_hz": -304571.36535644531,
+          "psd_counts2_per_hz": 0.047650090083520731
+        },
+        {
+          "baseband_hz": 5.0085068969726562E+6,
+          "psd_counts2_per_hz": 0.01722926842226576
+        },
+        {
+          "baseband_hz": 4.1963165893554688E+6,
+          "psd_counts2_per_hz": 0.012943005830790088
+        },
+        {
+          "baseband_hz": 4.9949703918457031E+6,
+          "psd_counts2_per_hz": 0.01169978629939346
+        },
+        {
+          "baseband_hz": -3.2961389984130859E+6,
+          "psd_counts2_per_hz": 0.009237431992192029
+        },
+        {
+          "baseband_hz": 3.7969896881103516E+6,
+          "psd_counts2_per_hz": 0.0074758573662822648
+        },
+        {
+          "baseband_hz": 913714.09606933594,
+          "psd_counts2_per_hz": 0.0072202341590792305
+        },
+        {
+          "baseband_hz": 7.4112365570068359E+6,
+          "psd_counts2_per_hz": 0.0067338121087515985
+        },
+        {
+          "baseband_hz": 7.3977000518798828E+6,
+          "psd_counts2_per_hz": 0.0054724269557776357
+        }
+      ]
+    },
+    "stft": [
+      {
+        "implementation": "base MATLAB explicit STFT PSD fallback",
+        "window_samples": 239,
+        "window_s": 2.1552686172599141E-6,
+        "hop_samples": 60,
+        "fft_samples": 256,
+        "bin_spacing_hz": 433168.1640625,
+        "enbw_hz": 695968.93305439281,
+        "window_resolution_scale_hz": 463979.28870292887,
+        "time_frames": 256,
+        "used_samples": 15539,
+        "window_in_prior_lines": 0.25034143531430175
+      },
+      {
+        "implementation": "base MATLAB explicit STFT PSD fallback",
+        "window_samples": 955,
+        "window_s": 8.6120566087163936E-6,
+        "hop_samples": 239,
+        "fft_samples": 1024,
+        "bin_spacing_hz": 108292.041015625,
+        "enbw_hz": 174174.42408376964,
+        "window_resolution_scale_hz": 116116.28272251309,
+        "time_frames": 256,
+        "used_samples": 61900,
+        "window_in_prior_lines": 1.000318287552963
+      },
+      {
+        "implementation": "base MATLAB explicit STFT PSD fallback",
+        "window_samples": 15275,
+        "window_s": 0.00013774781643784598,
+        "hop_samples": 3819,
+        "fft_samples": 16384,
+        "bin_spacing_hz": 6768.2525634765625,
+        "enbw_hz": 10889.464811783961,
+        "window_resolution_scale_hz": 7259.6432078559737,
+        "time_frames": 256,
+        "used_samples": 989120,
+        "window_in_prior_lines": 15.999855332326188
+      }
+    ],
+    "periodicity": {
+      "envelope_line_candidates": [
+        {
+          "lag_samples": 3819,
+          "candidate_hz": 29036.671903639697,
+          "envelope_autocorrelation": 0.35598247557295115
+        },
+        {
+          "lag_samples": 2864,
+          "candidate_hz": 38718.942039106143,
+          "envelope_autocorrelation": 0.3328672970880574
+        },
+        {
+          "lag_samples": 1909,
+          "candidate_hz": 58088.554216867473,
+          "envelope_autocorrelation": 0.32907859637890108
+        },
+        {
+          "lag_samples": 4773,
+          "candidate_hz": 23232.987638801591,
+          "envelope_autocorrelation": 0.28112950761819028
+        },
+        {
+          "lag_samples": 954,
+          "candidate_hz": 116237.99790356394,
+          "envelope_autocorrelation": 0.27988257832869112
+        },
+        {
+          "lag_samples": 888,
+          "candidate_hz": 124877.30855855856,
+          "envelope_autocorrelation": 0.2395287115346228
+        },
+        {
+          "lag_samples": 5488,
+          "candidate_hz": 20206.095116618075,
+          "envelope_autocorrelation": 0.22534488501093522
+        },
+        {
+          "lag_samples": 1130,
+          "candidate_hz": 98133.672566371679,
+          "envelope_autocorrelation": 0.21672691106670824
+        },
+        {
+          "lag_samples": 1776,
+          "candidate_hz": 62438.654279279282,
+          "envelope_autocorrelation": 0.20607493994340284
+        },
+        {
+          "lag_samples": 2018,
+          "candidate_hz": 54950.966303270565,
+          "envelope_autocorrelation": 0.20393961296484217
+        },
+        {
+          "lag_samples": 565,
+          "candidate_hz": 196267.34513274336,
+          "envelope_autocorrelation": 0.18690189373588012
+        },
+        {
+          "lag_samples": 3105,
+          "candidate_hz": 35713.7037037037,
+          "envelope_autocorrelation": 0.18549077506321296
+        }
+      ],
+      "search_hz": [
+        20000,
+        200000
+      ],
+      "caveat": "Autocorrelation maxima include harmonics, subharmonics and clutter. No unique row clock is established.",
+      "cyclic_probe": {
+        "definition": "abs mean{x[n] conj(x[n+lag]) exp(-j2pi alpha (n+lag/2)/Fs)} normalized by RMS powers",
+        "alpha_hz": [
+          114991.70867909999,
+          115572.47488455,
+          116153.24109,
+          116734.00729544998,
+          117314.7735009
+        ],
+        "lag_samples": 955,
+        "normalized_magnitude": [
+          0.0013225402721180246,
+          0.00561058793549679,
+          0.014373203680365551,
+          0.0034137906208674984,
+          0.0037542935565088634
+        ],
+        "observation_s": 0.0094472998497173583,
+        "nominal_alpha_resolution_hz": 105.8503504607105
+      }
+    }
+  },
+  "parametric": {
+    "training_samples": 32768,
+    "validation_samples": 32768,
+    "fs_hz": 1.1089105E+8,
+    "mean_removed_real": 25.094512939453125,
+    "mean_removed_imag": -11.766448974609375,
+    "models": [
+      {
+        "order": 4,
+        "method": "base MATLAB regularized Yule-Walker; ridge=1e-9*r0",
+        "innovation_variance": 18761.238571496579,
+        "holdout_error_power_ratio": 0.60266787311583481,
+        "coefficients_real": [
+          1,
+          -0.40546853834561519,
+          -0.29048359402433815,
+          0.094748552517604251,
+          -0.093361801004575917
+        ],
+        "coefficients_imag": [
+          0,
+          -0.32330717652670771,
+          0.33355359854178673,
+          0.032200301817660246,
+          -0.15917733409172327
+        ]
+      },
+      {
+        "order": 8,
+        "method": "base MATLAB regularized Yule-Walker; ridge=1e-9*r0",
+        "innovation_variance": 18503.446692424997,
+        "holdout_error_power_ratio": 0.59819815333799586,
+        "coefficients_real": [
+          1,
+          -0.40596782755109934,
+          -0.28973866489255379,
+          0.060406610234447704,
+          -0.060802612216056755,
+          0.0081626724500161781,
+          -0.00561660798084285,
+          0.014672719709620733,
+          -0.007319335745619663
+        ],
+        "coefficients_imag": [
+          0,
+          -0.31003973495990578,
+          0.31938737279997392,
+          0.050185866722519415,
+          -0.13699054417447104,
+          -0.10249250484538591,
+          0.078368634719556768,
+          -0.042216104241023844,
+          0.031813208244560055
+        ]
+      },
+      {
+        "order": 16,
+        "method": "base MATLAB regularized Yule-Walker; ridge=1e-9*r0",
+        "innovation_variance": 18386.844205001453,
+        "holdout_error_power_ratio": 0.59426543477824423,
+        "coefficients_real": [
+          1,
+          -0.40676768743849945,
+          -0.28668353182549738,
+          0.056319709265788796,
+          -0.058577315299189837,
+          0.011315253930317154,
+          -0.0094724177802866742,
+          0.0080572134558895888,
+          -0.014863617287162803,
+          -0.013529925308424486,
+          0.042031474325125315,
+          -0.0096737219399158844,
+          0.015391415179790422,
+          0.025469467013768329,
+          -0.023381230854657521,
+          -0.014335648240108752,
+          -0.0081633119047310222
+        ],
+        "coefficients_imag": [
+          0,
+          -0.30768737996265572,
+          0.31921467039439633,
+          0.052456747521801926,
+          -0.14186348874522292,
+          -0.095365898080186334,
+          0.07765768876272991,
+          -0.033777527946832815,
+          0.0335450778038216,
+          -0.024674365049579879,
+          -0.0039704767552395728,
+          -0.020350720566111549,
+          0.03168455604470994,
+          0.023473202250189642,
+          -0.013444068175103744,
+          0.022640023333046221,
+          -0.02996487275646794
+        ]
+      },
+      {
+        "order": 32,
+        "method": "base MATLAB regularized Yule-Walker; ridge=1e-9*r0",
+        "innovation_variance": 18185.676490752969,
+        "holdout_error_power_ratio": 0.58801055508253008,
+        "coefficients_real": [
+          1,
+          -0.41002899914222823,
+          -0.28746083600405564,
+          0.062312808208397408,
+          -0.065204844911579629,
+          0.011612264504642351,
+          -0.009491489033817713,
+          0.012499644186917323,
+          -0.014027830229364675,
+          -0.013611797085153417,
+          0.043356818519174938,
+          -0.012858735009395711,
+          0.0129503323317676,
+          0.028456331621302448,
+          -0.026147079172371773,
+          -0.020552557164983151,
+          0.00616034556479576,
+          -0.016031279208278411,
+          -0.013883995134881165,
+          0.047800363709274478,
+          -0.0281677004555114,
+          0.016144101088019315,
+          0.03080708116966378,
+          -0.05211984467695923,
+          -0.012761764159150488,
+          -0.0054069461363178348,
+          0.03500019004883835,
+          -0.008568940475930896,
+          -0.036869182143541339,
+          0.062214883879912787,
+          -0.032499233460112818,
+          -0.010404591084942462,
+          0.017960484956133421
+        ],
+        "coefficients_imag": [
+          0,
+          -0.311581205566488,
+          0.32926827076380694,
+          0.049556216915145779,
+          -0.14557870244590834,
+          -0.093377539344459068,
+          0.074402924314996885,
+          -0.032567135843977212,
+          0.030999573896400925,
+          -0.020196860351555934,
+          -0.0010006472010103118,
+          -0.022875462275681661,
+          0.034996747171620032,
+          0.018511940197369108,
+          -0.014250629173649306,
+          0.030956375841373496,
+          -0.029820173402091536,
+          -0.026666581938364527,
+          0.018488700143235694,
+          -0.0056118790223020094,
+          -0.015113643605518826,
+          0.045351697314812665,
+          -0.0093484572622346447,
+          -0.011132685329757313,
+          0.028535420294088367,
+          -0.022325078776376395,
+          -0.0075512069261179432,
+          -0.047188383167411758,
+          0.05985776105200296,
+          0.0096867605090309172,
+          -0.04410819733572971,
+          0.034653374771360775,
+          -0.014578286894705406
+        ]
+      }
+    ],
+    "welch": {
+      "implementation": "base MATLAB explicit Welch fallback",
+      "nfft": 8192,
+      "fs_hz": 1.1089105E+8,
+      "window_samples": 8192,
+      "overlap_samples": 4096,
+      "enbw_hz": 20304.757690429684,
+      "frequency_range": "centered",
+      "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+      "segment_count": 15
+    },
+    "interpretation": "Compare held-out errors and order stability; sharp AR peaks do not demonstrate screen information or true super-resolution."
+  },
+  "frame_candidates": {
+    "input_first_sample": 0,
+    "input_samples": 4.43568E+7,
+    "duration_s": 0.40000342678692286,
+    "envelope_bin_samples": 27723,
+    "envelope_fs_hz": 3999.9657324243408,
+    "method": "rectangular integration of |IQ| then candidate autocorrelation",
+    "candidate_hz": [
+      60.52535649280815,
+      50.009656737626187,
+      58.918117501570713,
+      99.9967938329223,
+      57.171093769371225,
+      62.442804153060855,
+      66.640422340230415,
+      33.328722502182856
+    ],
+    "candidate_lag_bins": [
+      66.087437798067853,
+      79.983866984130941,
+      67.890250096970675,
+      40.000939821206728,
+      69.964827829956221,
+      64.058073410981947,
+      60.023114979713839,
+      120.01557311902262
+    ],
+    "candidate_autocorrelation": [
+      0.20213078269719242,
+      0.1905045217297312,
+      0.17662988359881052,
+      0.16162515209845349,
+      0.15687531621376605,
+      0.15574332969520471,
+      0.1490303570586573,
+      0.14804937463403844
+    ],
+    "welch": {
+      "implementation": "base MATLAB explicit Welch fallback",
+      "nfft": 1024,
+      "fs_hz": 3999.9657324243408,
+      "window_samples": 1024,
+      "overlap_samples": 512,
+      "enbw_hz": 5.8593248033559693,
+      "frequency_range": "onesided",
+      "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+      "segment_count": 2
+    },
+    "prior_frame_hz": 59.996508827479339,
+    "caveat": "Finite data, rectangular-prefilter aliases, harmonics and interference can mimic frame peaks; validate with raster drift and independent acquisitions."
+  },
+  "raster": {
+    "frames": 8,
+    "checkpoints": [
+      {
+        "frames": 1,
+        "am_odd_even_correlation": null,
+        "mean_coherent_over_incoherent": 1,
+        "uncorrected_coherent_power_counts2": 30502.2891,
+        "global_coherent_power_counts2": 30502.2891,
+        "row_coherent_power_counts2": 30502.2891,
+        "mean_amplitude_counts": 124.760941,
+        "fractional_vs_nearest_relative_rms": 0.190188259
+      },
+      {
+        "frames": 4,
+        "am_odd_even_correlation": 0.55535424528489907,
+        "mean_coherent_over_incoherent": 0.530733645,
+        "uncorrected_coherent_power_counts2": 7501.89258,
+        "global_coherent_power_counts2": 7761.60303,
+        "row_coherent_power_counts2": 7614.96484,
+        "mean_amplitude_counts": 124.140305,
+        "fractional_vs_nearest_relative_rms": 0.112765
+      },
+      {
+        "frames": 8,
+        "am_odd_even_correlation": 0.70831138305097407,
+        "mean_coherent_over_incoherent": 0.377755433,
+        "uncorrected_coherent_power_counts2": 3575.0127,
+        "global_coherent_power_counts2": 4175.65088,
+        "row_coherent_power_counts2": 3756.39136,
+        "mean_amplitude_counts": 124.373642,
+        "fractional_vs_nearest_relative_rms": 0.090172939
+      }
+    ],
+    "samples_per_raster_column": 0.88397790009656418,
+    "frame_period_samples": 1.8482917117539041E+6,
+    "line_period_samples": 954.69613210428929,
+    "image_scale_counts": [
+      10.688109397888184,
+      560.88873291015625
+    ],
+    "interpolation": "Catmull-Rom cubic; nearest control, no new measured bandwidth",
+    "phase_fit": "Select training rows before unwrapping; linear mixture-phase fit, otherwise global phase fallback",
+    "minimum_row_phase_coherence": 0.1,
+    "minimum_row_phase_fit_rows": 16,
+    "maximum_phase_design_condition": 1000,
+    "phase_fit_fallback_frames": 0,
+    "validation_caveat": "Row fit excludes validation-row phases, but horizontal alignment shares the full reference. Global fallback uses all rows. Frame 1 is self-reference, not validation.",
+    "caveat": "Repeatability and coherence can reward stable clutter. These are not ground-truth image fidelity, RGB recovery, or proof of LCD-driver origin."
+  },
+  "error": ""
+}

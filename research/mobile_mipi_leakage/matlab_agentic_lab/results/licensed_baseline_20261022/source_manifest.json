@@ -1,0 +1,123 @@
+{
+  "base_commit": "55d5f18997afe384dbc678f4c11f25e438c20db7",
+  "execution_code_state": "working tree with runtime fixes; per-file hashes below",
+  "run_id": "20261022_041904_607",
+  "files": [
+    {
+      "path": "startLab.m",
+      "sha256": "773f6eb621c0923aef9e9dca4dd0414b5a97812a6a881842922919d3e3e946bf"
+    },
+    {
+      "path": "runLicensedBaseline.m",
+      "sha256": "e6c19f0d248eb0ea258c2857c2756f705ac2d422293bf0bf66667c9a267c4000"
+    },
+    {
+      "path": "labWorkbench.m",
+      "sha256": "28eaaa2783498dd292d94a6ebd5fcc18d316a75eb70d04fb672a66fbda9cc27a"
+    },
+    {
+      "path": "showBaselineReview.m",
+      "sha256": "7d616d7b16e07f0f1d6e83e86edb0377e5888b689756a516fb0c46678806ec3e"
+    },
+    {
+      "path": "signal_processing/writeJsonFile.m",
+      "sha256": "06f900df084dd523e815a14fe1910943723b185ea81d9504457209bdef5ddef5"
+    },
+    {
+      "path": "signal_processing/testMobileBaseline.m",
+      "sha256": "bea852ed54d3dfe96f9fb41e1a9cdea24ca50d849b22046595f84efc8c0f4cba"
+    },
+    {
+      "path": "signal_processing/sha256FileRange.m",
+      "sha256": "170ab39f8144d2a40573316f1edab38452c12bbb36054e0e953be2d0c3a7ea8b"
+    },
+    {
+      "path": "signal_processing/separateRpca.m",
+      "sha256": "1a6852fc042cd1da6ac2507c5c2bf7ad2a901400a5bf4643d1b059653406b627"
+    },
+    {
+      "path": "signal_processing/separateMatchedSubspace.m",
+      "sha256": "dad6c87ba5753444fae34daf4c045b997e8e3c18feae27d9fac5ff454a432e6d"
+    },
+    {
+      "path": "signal_processing/sampleQuantile.m",
+      "sha256": "b69f9e2b2352774966b3604638c5ce906dd0cae9c7bb29f7bb16df6484aa551e"
+    },
+    {
+      "path": "signal_processing/sampleFractionalRaster.m",
+      "sha256": "37c27f72a7068b02f16bbed366e16d335fac153a26fc589e1a9b38bf9c92e971"
+    },
+    {
+      "path": "signal_processing/runWeakModulationDemo.m",
+      "sha256": "01e46d7dcd4d2f359b52ec26263d981fcd0f493bf9fcfb9f0acc20cc7099879c"
+    },
+    {
+      "path": "signal_processing/runMobileBaseline.m",
+      "sha256": "9a6cac9858f28013595372b07d3cd4403d0e7447185e046d3e0a460a9bda672c"
+    },
+    {
+      "path": "signal_processing/readRisIqBlock.m",
+      "sha256": "0e71cc7e694a735f2548349fd702134684efde7412dc78434e7fb2b7d2b95752"
+    },
+    {
+      "path": "signal_processing/powerDb.m",
+      "sha256": "a1c628e58f48c24a35e0e0c417e9b0ac47eba3f9461b0621035d47ea0f4e0fcd"
+    },
+    {
+      "path": "signal_processing/periodicHann.m",
+      "sha256": "4113e401f15c0786aadf8cbbe1796662f4e0c40fbb17ffc3d9e869ae13648e62"
+    },
+    {
+      "path": "signal_processing/mobileResearchNotebook.m",
+      "sha256": "4412a354919f40c9b800a04932c60770480b996f56f46a61bb99ffba34348e2d"
+    },
+    {
+      "path": "signal_processing/mobileBaselineConfig.m",
+      "sha256": "a7d8189bb013fca20e53e142e5a3bc26c302028738379037e6bf45080f0368e1"
+    },
+    {
+      "path": "signal_processing/measureFrameCandidates.m",
+      "sha256": "6b2c21de272afcee7beda8196c254bd4016b2ad2d52a23688bc9e14eb824ea03"
+    },
+    {
+      "path": "signal_processing/learnClutterSubspace.m",
+      "sha256": "56afae0d5d47946bc7ff91bbb53826f95436b918341d9f1a898fe53d8ce3a7b5"
+    },
+    {
+      "path": "signal_processing/exportRisForTempest.m",
+      "sha256": "dc9aa6fda0532e1042caf15ce0754ca88ec65df120ea02a0eb3f6d9911866f77"
+    },
+    {
+      "path": "signal_processing/estimateWelchPsd.m",
+      "sha256": "20cbde88cfacc938613ec3320a6f0f6a49c4242a54b71f04a22ee68a92e9147a"
+    },
+    {
+      "path": "signal_processing/estimateSpectrogram.m",
+      "sha256": "1120fe7aca3e1582602d25d4970233889c488726d12faa64fc1f59f3d006b1d7"
+    },
+    {
+      "path": "signal_processing/diagnoseIq.m",
+      "sha256": "2ad5b0b10400d109085c22d26c1440c66b6fdf582e4681a7f1eb5bd0e90f2d55"
+    },
+    {
+      "path": "signal_processing/conditionIq.m",
+      "sha256": "819e9b6e83a0e12f81f3f3ce933ea6f7cb9958b07035f400dd95bd4199b221f8"
+    },
+    {
+      "path": "signal_processing/compareRasterAverages.m",
+      "sha256": "c0c99c12ce39b2603f83b642155e51ef0746e3bf8c07f7d64cc10f3260afb59d"
+    },
+    {
+      "path": "signal_processing/compareParametricPsd.m",
+      "sha256": "2cc792bd5a5d6c0b58b5265ebde4ced20dcdbd38a353204e5f3217d595a755b6"
+    },
+    {
+      "path": "signal_processing/appendResearchNote.m",
+      "sha256": "bc762ed1a0f406a793aca8606a9d41c6e78e3d09b0a85c3774af1edc7df04e6d"
+    },
+    {
+      "path": "signal_processing/analyzeIqBlock.m",
+      "sha256": "001915ef527f672138494535be10f7b1f8d7200b70e10700e596b7c7d71e7260"
+    }
+  ]
+}

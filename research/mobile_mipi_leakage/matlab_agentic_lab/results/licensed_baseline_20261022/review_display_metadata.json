@@ -1,0 +1,6 @@
+{
+  "run_root": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\signal_processing\\outputs\\20261022_041904_607",
+  "am_display": "log1p of fixed first-frame 1/99 percentiles",
+  "phase_display": "H=relative IQ phase; S=complex consistency, masked below P8 amplitude Q25; V=log amplitude",
+  "warning": "Display mapping only; no new bandwidth or original RGB recovery."
+}

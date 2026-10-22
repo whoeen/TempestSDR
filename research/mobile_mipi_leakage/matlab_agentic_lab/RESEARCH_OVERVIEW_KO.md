@@ -1,5 +1,7 @@
 # 스마트폰 누설신호 연구실 구축 현황
-2026-10-22 · 첫 구축/문헌 조사 사이클
+2026-10-22 · 구축·문헌 조사·첫 실제 MATLAB 실행
+
+**업데이트:** 로그인 완료 후 11/11 수치 테스트 및 세 기기 기준 분석 완료. [실행 보고서](results/licensed_baseline_20261022/REPORT_KO.md) 참조.
 
 ## 지금 된 것과 아직 안 된 것
 
@@ -9,11 +11,11 @@
 | 연구 기록 | 출처·페이지·주장·가정·실패·실험 로그 JSONL, 검색용 SQLite |
 | MATLAB MCP | 공식 v0.15.0 설치 파일 검증, Codex 등록, 5개 도구 목록 실통신 확인 |
 | MATLAB 스킬 | 핵심/신호처리/레이더/무선/시험·차트 37개 등록 |
-| MATLAB 실행 | 첫 batch는 로그인 창 이후 종료1; desktop와 공식 애드온 setup 준비. 인증 및 수치 실행 검증 대기 |
-| Toolbox | 로컬 설치 목록: MATLAB, MATLAB Copilot. 추가 Toolbox 가용성 미확인 |
+| MATLAB 실행 | 공식 MCP에서 visible desktop 실제 실행 확인, 수치 테스트 11/11 통과 |
+| Toolbox | 실행 중 ver 확인: MATLAB, MATLAB Copilot. 분석은 명시된 base MATLAB fallback |
 | TempestSDR | Java 준비, GUI 창 생성·응답 확인 |
 | 실제 RF 수신 | 장비 모델/연결/안테나·LNA 정보 미확인. 새 측정 없음 |
-| 새 MATLAB 복원 결과 | 아직 없음. 코드 작성·정적 검사는 수치 결과와 구분 |
+| 새 MATLAB 복원 결과 | LG X2·iPhone6s·Galaxy111.9 MHz P1/P4/P8 및 PSD/STFT/위상 결과 생성. Galaxy 내용 복원 성공은 아님 |
 
 기존 원본은 [GitHub raw IQ 릴리스](https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21)에 유지되어 있다.
 이 폴더는 기존 실험을 MATLAB으로 옮겨 재검증하기 위한 코드와 지식 저장소다.

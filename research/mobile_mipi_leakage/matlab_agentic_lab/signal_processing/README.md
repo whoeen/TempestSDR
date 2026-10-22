@@ -1,10 +1,9 @@
 # MATLAB RF signal-processing baseline
 
 This folder implements the RF-analysis role of the smartphone leakage study. It
-reads the original RIS captures without modifying them. The current execution
-state is **code prepared and static analysis passed; MATLAB runtime validation
-is pending sign-in/licensing**. Do not report synthetic or measured results until
-the corresponding timestamped output actually exists.
+reads the original RIS captures without modifying them. The licensed R2026b runtime has executed **11/11 passing numerical tests and all
+three measured baselines**. See `../results/licensed_baseline_20261022/REPORT_KO.md`
+for P1/P4/P8 images, intermediate measurements and remaining limitations.
 
 ## Run
 

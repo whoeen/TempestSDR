@@ -1,9 +1,19 @@
 {
   "date_korea": "2026-10-22",
-  "matlab_runtime": "pending sign-in; not executed",
-  "static_analyzer": "MATLAB R2026b standalone mlint.exe",
-  "matlab_function_files": 25,
-  "static_issue_lines": 0,
-  "numeric_tests": "not run",
-  "baseline_measurements": "not run"
+  "matlab_runtime": "R2026b: evaluated via official MCP in visible desktop",
+  "numeric_tests": {
+    "passed": 11,
+    "failed": 0,
+    "incomplete": 0
+  },
+  "baseline_measurements": {
+    "run_id": "20261022_041904_607",
+    "status": "complete",
+    "devices": [
+      "lgx2",
+      "iphone6s",
+      "galaxy_s4_lte"
+    ]
+  },
+  "limitations": "Base MATLAB fallbacks used; phase consistency is not screen fidelity. Galaxy P8 content recovery unsuccessful."
 }

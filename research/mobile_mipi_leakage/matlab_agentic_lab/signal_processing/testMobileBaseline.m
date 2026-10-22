@@ -127,3 +127,38 @@ if isfile(filePath)
     delete(filePath);
 end
 end
+
+function testHashWithoutJava(testCase)
+filePath = string(tempname)+".bin";
+cleanup = onCleanup(@() deleteIfPresent(filePath));
+fid = fopen(filePath,'w');
+fwrite(fid,[uint8('prefix'); uint8('prefix')],'uint8');
+fwrite(fid,repmat(uint8('a'),2^20+37,1),'uint8');
+fclose(fid);
+verifyEqual(testCase,sha256FileRange(filePath,12,2^20+37), ...
+    "ca06ecf3f58d6d0d954d693ff5f4b8de02bab250286887ee0adc62417576be69");
+verifyEqual(testCase,sha256FileRange(filePath,12,0), ...
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855");
+end
+
+function testComplexArPrediction(testCase)
+state = rng();
+restore = onCleanup(@() rng(state));
+rng(942,'twister');
+pole = 0.92*exp(1j*0.7);
+noise = (randn(70000,1)+1j*randn(70000,1))/sqrt(2);
+x = filter(1,[1 -pole],noise);
+folder = string(tempname);
+mkdir(folder);
+cleanup = onCleanup(@() cleanupArArtifacts(folder));
+result = compareParametricPsd(x(1001:end),1e6,folder,"off");
+a = complex(result.models(1).coefficients_real,result.models(1).coefficients_imag);
+verifyEqual(testCase,a(2),-pole,'AbsTol',0.04);
+verifyLessThan(testCase,result.models(1).holdout_error_power_ratio,0.2);
+end
+
+function cleanupArArtifacts(folder)
+deleteIfPresent(fullfile(folder,'05_parametric_psd.png'));
+deleteIfPresent(fullfile(folder,'05_parametric_models.json'));
+rmdir(folder);
+end

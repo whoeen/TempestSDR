@@ -1,0 +1,8 @@
+{
+  "name": "matlab_baseline_20261022_041904_607_full.zip",
+  "bytes": 273187905,
+  "sha256": "54eaef92ef8afaa5911ed296f9cb2867eca684bb07f1b3d08edf160f43d48f40",
+  "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/matlab_baseline_20261022_041904_607_full.zip",
+  "remote_size_and_digest_verified": true,
+  "contents": "155 entries: full measured run including MAT arrays, synthetic control, source .m snapshots, review and file manifest"
+}
