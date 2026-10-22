@@ -1,0 +1,28 @@
+[
+  {
+    "source_id": "st_dsi_training",
+    "url": "https://www.st.com/resource/en/product_training/STM32MP1-Peripheral-DSI_HOST_interface_DSIHOST.pdf",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='www.st.com', port=443): Read timed out. (read timeout=75)"
+  },
+  {
+    "source_id": "st_common_mode_filter",
+    "url": "https://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='www.st.com', port=443): Read timed out. (read timeout=75)"
+  },
+  {
+    "source_id": "mipi_dsi_cockpit_2021",
+    "url": "https://www.mipi.org/hubfs/Automotive-Workshop/How-Use-of-DSI-2-and-Video-Compression-Is-Essential-for-Next-Gen-Digital-Cockpits.pdf",
+    "status": "cached",
+    "bytes": 3916241,
+    "sha256": "0007d0e439895aec79aab88a36fbbc9b502eddb6d6f6a2d6dfdb05c4421ed712"
+  },
+  {
+    "source_id": "tek_dphy_tests",
+    "url": "https://download.tek.com/datasheet/D-PHY-Datasheet_61W614877.pdf",
+    "status": "cached",
+    "bytes": 1628891,
+    "sha256": "6201c43f1b73fa12b3855b2454bf234955b1bca78cfb789ad0c4692d55113fe9"
+  }
+]

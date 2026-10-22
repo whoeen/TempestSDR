@@ -1,0 +1,22 @@
+{
+  "record_date_kst": "2026-10-22",
+  "status": "PASS",
+  "checks": {
+    "source_ids_unique": 9,
+    "claim_ids_unique": 35,
+    "claim_source_references_resolve": true,
+    "reading_records_parse": 14,
+    "cached_public_pdf_sha256_verified": 4,
+    "user_local_spec_selected_pages_unique": 119,
+    "user_local_spec_total_pages": 119,
+    "numerical_clock_and_duty_consistency": true,
+    "git_ignores_cache_extracted_local_paths": true,
+    "portable_outputs_contain_no_local_absolute_paths": true,
+    "arasan_text_pages_read": 55,
+    "per_page_records_unique": 174,
+    "visual_pages_reviewed_per_document": 18,
+    "all_page_records_have_text_hash": true
+  },
+  "scope": "Metadata, provenance, full extracted-text reading coverage for two documents, selected visual inspection, and source-derived numerical consistency. No new RF measurement or reconstruction validation was performed by this agent.",
+  "snapshot": "cycle_002"
+}

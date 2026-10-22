@@ -1,0 +1,3 @@
+{"event":"matlab_batch_attempt","status":"blocked","reason":"MathWorks login window observed; no inventory JSON emitted; process later exited 1","date":"2026-10-22"}
+{"event":"mcp_transport_verification","status":"passed","server":"v0.15.0","tools_count":5,"fix":"short --log-folder due socket path is too long","evidence":"environment/mcp_probe.json","date":"2026-10-22"}
+{"event":"tempestsdr_launch","status":"passed","process_id":64372,"window_title":"TempestSDR","responding":true,"new_rf_measurement":false,"date":"2026-10-22"}

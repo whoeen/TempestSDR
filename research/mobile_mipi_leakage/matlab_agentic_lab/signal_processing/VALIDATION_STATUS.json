@@ -1,0 +1,9 @@
+{
+  "date_korea": "2026-10-22",
+  "matlab_runtime": "pending sign-in; not executed",
+  "static_analyzer": "MATLAB R2026b standalone mlint.exe",
+  "matlab_function_files": 25,
+  "static_issue_lines": 0,
+  "numeric_tests": "not run",
+  "baseline_measurements": "not run"
+}

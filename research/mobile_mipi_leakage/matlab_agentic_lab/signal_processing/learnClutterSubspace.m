@@ -1,0 +1,26 @@
+function [basis, metadata] = learnClutterSubspace(training, rankCount, provenance)
+%LEARNCLUTTERSUBSPACE Learn a nuisance hypothesis from independent recordings.
+%   Rows are features; columns are training observations. A reference capture
+%   containing the desired content can cause this basis to remove that content.
+arguments
+    training (:,:) double {mustBeFinite}
+    rankCount (1,1) double {mustBeInteger,mustBePositive}
+    provenance (1,1) string
+end
+assert(strlength(provenance)>0,'mobile:ReferenceProvenance', ...
+    'Document the independent training capture/byte range and experimental condition.');
+assert(rankCount<min(size(training)),'mobile:SubspaceRank', ...
+    'Rank must be below both training dimensions.');
+[u,s,~] = svd(training,'econ');
+singular = diag(s);
+numericalRank = nnz(singular > max(size(training))*eps(max(singular(1),realmin)));
+assert(rankCount<=numericalRank,'mobile:DegenerateTraining', ...
+    'Requested rank exceeds the numerical rank of the training data.');
+basis = u(:,1:rankCount);
+metadata = struct('method','SVD of independent user-supplied nuisance reference', ...
+    'training_provenance',provenance,'training_size',size(training), ...
+    'rank',rankCount,'numerical_training_rank',numericalRank, ...
+    'mean_removed',false,'singular_values',singular, ...
+    'retained_training_energy_fraction',sum(singular(1:rankCount).^2)/max(sum(singular.^2),eps), ...
+    'caveat','Training data are not automatically known to be clutter. Validate desired-content exclusion independently.');
+end

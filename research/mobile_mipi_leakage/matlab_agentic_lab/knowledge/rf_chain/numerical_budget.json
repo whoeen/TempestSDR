@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-22",
+  "kind": "derived_calculation_from_external_metadata",
+  "not_a_new_measurement": true,
+  "formulae": {
+    "payload_bps": "Fs*32",
+    "disk_bytes_s": "Fs*4",
+    "default_export_duration_s": "2^20/Fs",
+    "one_gbe_ideal_sc16_ceiling_sps": "1e9/32",
+    "small_am_per_sideband_dbc": "10*log10(m*m/4)"
+  },
+  "ideal_one_gbe_sps": 31250000.0,
+  "am_example_index": 0.01,
+  "am_example_per_sideband_dbc": -46.020599913279625,
+  "devices": [
+    {
+      "capture_key": "lgx2_344p8",
+      "stored_fs_hz_filename_metadata": 136565510,
+      "receiver_bw_hz_filename_metadata": 60000000.0,
+      "disk_bytes_s": 546262040,
+      "payload_bps": 4370096320,
+      "default_export_duration_s": 0.007678190488945562,
+      "four_second_raw_bytes": 2185048160
+    },
+    {
+      "capture_key": "iphone6s_311",
+      "stored_fs_hz_filename_metadata": 55054870,
+      "receiver_bw_hz_filename_metadata": 20000000.0,
+      "disk_bytes_s": 220219480,
+      "payload_bps": 1761755840,
+      "default_export_duration_s": 0.019046017182494483,
+      "four_second_raw_bytes": 880877920
+    },
+    {
+      "capture_key": "galaxy_s4_111p9",
+      "stored_fs_hz_filename_metadata": 110891050,
+      "receiver_bw_hz_filename_metadata": 20000000.0,
+      "disk_bytes_s": 443564200,
+      "payload_bps": 3548513600,
+      "default_export_duration_s": 0.009455911906326074,
+      "four_second_raw_bytes": 1774256800
+    },
+    {
+      "capture_key": "galaxy_s4_171p5",
+      "stored_fs_hz_filename_metadata": 55816790,
+      "receiver_bw_hz_filename_metadata": 20000000.0,
+      "disk_bytes_s": 223267160,
+      "payload_bps": 1786137280,
+      "default_export_duration_s": 0.018786031944868203,
+      "four_second_raw_bytes": 893068640
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Original publications and extracted full text stay local. Review redistribution rights first.
+cache/
+extracted/
+__pycache__/
+local_source_paths.json

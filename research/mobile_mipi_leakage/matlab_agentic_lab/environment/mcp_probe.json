@@ -1,0 +1,199 @@
+{
+  "created_utc": "2026-10-22T02:13:33Z",
+  "initialize": {
+    "capabilities": {
+      "logging": {},
+      "resources": {
+        "listChanged": true
+      },
+      "tools": {
+        "listChanged": true
+      }
+    },
+    "instructions": "This server provides tools to inspect, analyze, run, and test MATLAB code using a locally installed MATLAB instance. The MATLAB desktop is visible to the user. Graphical output appears within the MATLAB UI.\n\nAvailable tools:\n\n- List installed MATLAB toolboxes and versions.\n- Statically analyze a MATLAB .m script.\n- Execute inline MATLAB commands.\n- Execute a MATLAB script file (.m or .p).\n- Run a MATLAB test script.\n\nAvailable resources:\n\n- guidelines://coding. Provides comprehensive MATLAB coding standards for improving code readability, maintainability, and collaboration. The guidelines encompass naming conventions, formatting, commenting, performance optimization, and error handling.\n- guidelines://plain-text-live-code. Provides rules and guidelines for generating MATLAB Live Scripts using using plain text Live Code .m format, suitable for version control and AI-assisted development. Requires MATLAB R2025a or newer.\n\nBest practices and safety:\n\n- Always inspect tool outputs and catch errors. If execution fails, ask the user for clarification.\n- Do not run untrusted code that could alter the file system or environment settings, without explicit consent from the user.\n- Do not use commands that reset MATLAB's search path (e.g. `restoredefaultpath`) as they remove the MCP server functions from the path and permanently break communication with the MATLAB session.\n",
+    "protocolVersion": "2024-11-05",
+    "serverInfo": {
+      "name": "matlab-mcp-server",
+      "title": "MATLAB MCP Server",
+      "version": "github.com/matlab/matlab-mcp-server v0.15.0"
+    }
+  },
+  "tools": {
+    "tools": [
+      {
+        "annotations": {
+          "destructiveHint": false,
+          "openWorldHint": false,
+          "readOnlyHint": true
+        },
+        "description": "Perform static code analysis on a MATLAB script (`script_path`) using MATLAB's built-in Code Analyzer function in an existing MATLAB session. Returns warnings about coding style, potential errors, deprecated functions, performance issues, and best practice violations. It also includes information about where each issue occurs and how it can be fixed in MATLAB. This is a non-destructive, read-only operation that helps identify code quality issues without executing the script.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "script_path": {
+              "type": "string",
+              "description": "The full absolute path to the MATLAB script file to analyze. Must be a .m file that exists. File is not modified during analysis. Example: C:\\Users\\username\\matlab\\myFunction.m or /home/user/scripts/analysis.m."
+            }
+          },
+          "required": [
+            "script_path"
+          ],
+          "additionalProperties": false
+        },
+        "name": "check_matlab_code",
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "code_issues": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": "object",
+                "properties": {
+                  "description": {
+                    "type": "string",
+                    "description": "Description of the code issue."
+                  },
+                  "line": {
+                    "type": "integer",
+                    "description": "Line number where the issue occurs."
+                  },
+                  "start_column": {
+                    "type": "integer",
+                    "description": "Starting column position of the issue."
+                  },
+                  "end_column": {
+                    "type": "integer",
+                    "description": "Ending column position of the issue."
+                  },
+                  "severity": {
+                    "type": "string",
+                    "description": "Severity level of the issue (e.g., warning, error)."
+                  },
+                  "fixable": {
+                    "type": "boolean",
+                    "description": "Whether the issue can be automatically fixed using MATLAB in-built 'fix' method."
+                  }
+                },
+                "required": [
+                  "description",
+                  "line",
+                  "start_column",
+                  "end_column",
+                  "severity",
+                  "fixable"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Detailed information about each code issue including location, severity, and fixability."
+            }
+          },
+          "required": [
+            "code_issues"
+          ],
+          "additionalProperties": false
+        },
+        "title": "Check MATLAB Code"
+      },
+      {
+        "annotations": {
+          "destructiveHint": false,
+          "openWorldHint": false,
+          "readOnlyHint": true
+        },
+        "description": "Returns information about installed MATLAB and toolboxes, including version numbers.",
+        "inputSchema": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "name": "detect_matlab_toolboxes",
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "installation_info": {
+              "type": "string",
+              "description": "MATLAB installation information including MATLAB version and installed toolboxes with their versions."
+            }
+          },
+          "required": [
+            "installation_info"
+          ],
+          "additionalProperties": false
+        },
+        "title": "Detect MATLAB Toolboxes"
+      },
+      {
+        "annotations": {
+          "destructiveHint": true,
+          "openWorldHint": true
+        },
+        "description": "Evaluate a string of MATLAB code (`code`) in an existing MATLAB session. Optionally specify a project folder (`project_path`) to set as the current working folder before execution. Returns the command window output from code execution. WARNING: Do not use `restoredefaultpath` as it will remove the MCP server functions from the path and break this tool's ability to communicate with MATLAB.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "project_path": {
+              "type": "string",
+              "description": "(Optional) Absolute path to the project folder. When provided, MATLAB sets this as the current working folder. If omitted, code runs in MATLAB's current working folder. Example: C:\\Users\\username\\matlab-project or /home/user/research."
+            },
+            "code": {
+              "type": "string",
+              "description": "The MATLAB code to evaluate."
+            }
+          },
+          "required": [
+            "code"
+          ],
+          "additionalProperties": false
+        },
+        "name": "evaluate_matlab_code",
+        "title": "Evaluate MATLAB Code"
+      },
+      {
+        "annotations": {
+          "destructiveHint": true,
+          "openWorldHint": true
+        },
+        "description": "Execute a MATLAB script file (`script_path`) in an existing MATLAB session and capture its command window output. The script runs with the working folder automatically set to the script's location. The script must exist and be a valid MATLAB source file (.m) or P-code file (.p). If a MATLAB source file (.m) and a P-code file (.p) have the same name and are in the same folder, MATLAB runs the .p file. Returns the command window output or a success message if no output is generated.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "script_path": {
+              "type": "string",
+              "description": "The full absolute path to the MATLAB script file to execute. Must be an existing MATLAB source file (.m) or P-code file (.p). Example: C:\\Users\\username\\projects\\analysis.m or /home/user/matlab/simulation.m."
+            }
+          },
+          "required": [
+            "script_path"
+          ],
+          "additionalProperties": false
+        },
+        "name": "run_matlab_file",
+        "title": "Run MATLAB File"
+      },
+      {
+        "annotations": {
+          "destructiveHint": true,
+          "openWorldHint": true
+        },
+        "description": "Execute a MATLAB test script (`script_path`) using MATLAB's built-in runtests function and return comprehensive test results. Designed specifically for MATLAB unit test files that follow MATLAB's testing framework conventions.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "script_path": {
+              "type": "string",
+              "description": "The full absolute path to the MATLAB test script file. Must be a MATLAB source file (.m) or P-code file (.p) containing MATLAB unit tests. Example: C:\\Users\\username\\tests\\testMyFunction.m or /home/user/matlab/tests/test_analysis.m."
+            }
+          },
+          "required": [
+            "script_path"
+          ],
+          "additionalProperties": false
+        },
+        "name": "run_matlab_test_file",
+        "title": "Run MATLAB test file"
+      }
+    ]
+  }
+}

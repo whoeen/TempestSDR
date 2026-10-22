@@ -1,0 +1,10 @@
+{
+  "indexed_utc": "2026-10-22T02:37:33.254170+00:00",
+  "entry_count": 346,
+  "by_area": {
+    "mipi_dphy": 232,
+    "rf_chain": 44,
+    "signal_processing": 20,
+    "tempest": 50
+  }
+}

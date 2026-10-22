@@ -1,0 +1,77 @@
+[
+  {
+    "source_id": "kuhn2004",
+    "url": "https://www.cl.cam.ac.uk/~mgk25/pet2004-fpd.pdf",
+    "sha256": "9e8cb8e3b47259377e2ca86c3fb5cca9ea82f9ab0f6f64a6e8282521b2eb3412",
+    "bytes": 1911931,
+    "pages": 20,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  },
+  {
+    "source_id": "erdeljan2024",
+    "url": "https://www.cl.cam.ac.uk/~mgk25/emc2024-coherent-demodulation.pdf",
+    "sha256": "23ea3e6e3e593457815776f3cea24fedbd64ab91faa4dbbce2018313641a58e9",
+    "bytes": 10912914,
+    "pages": 6,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  },
+  {
+    "source_id": "erdeljan2025",
+    "url": "https://www.cl.cam.ac.uk/~mgk25/emc2025-hdmi-classification.pdf",
+    "sha256": "7911c46bc5343f6b415e786ed03c6e9d9bdc08c5cfcd198fa8008386588c8799",
+    "bytes": 24103110,
+    "pages": 6,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  },
+  {
+    "source_id": "emeye2024",
+    "url": "https://www.ndss-symposium.org/wp-content/uploads/2024-552-paper.pdf",
+    "sha256": "c5e5a536335dde250f158e5ca7e576b49b990bd4b7c09c8d37d5d379e4f54bb7",
+    "bytes": 6987450,
+    "pages": 17,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  },
+  {
+    "source_id": "deep2024",
+    "url": "https://arxiv.org/pdf/2407.09717",
+    "sha256": "ee71f47bfb275e17ca91870e90cdbd6083cfe4ef58b0c726178fb8594e59b03e",
+    "bytes": 8547408,
+    "pages": 10,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  },
+  {
+    "source_id": "smartphone2019",
+    "url": "https://eudl.eu/pdf/10.1007/978-3-030-23976-3_9",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://eudl.eu/pdf/10.1007/978-3-030-23976-3_9"
+  },
+  {
+    "source_id": "usbee2016",
+    "url": "https://arxiv.org/pdf/1608.08397",
+    "sha256": "5aa2697bf0b8fcf699d5205ead3af6c32aae142f98c3a5abf0372a403502dba7",
+    "bytes": 1041093,
+    "pages": 5,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  },
+  {
+    "source_id": "he2008",
+    "url": "https://repository.upenn.edu/bitstreams/43d2a5a2-9e1c-48b5-8ffc-e464fe44621c/download",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://repository.upenn.edu/bitstreams/43d2a5a2-9e1c-48b5-8ffc-e464fe44621c/download"
+  },
+  {
+    "source_id": "gleaning2021",
+    "url": "https://arxiv.org/pdf/2011.09877",
+    "sha256": "5332e50cf146d6dd151252e081082cc4fb745a9970944147a9a6aa6b78c8c94b",
+    "bytes": 24334020,
+    "pages": 15,
+    "status": "cached",
+    "downloaded_date": "2026-10-22"
+  }
+]

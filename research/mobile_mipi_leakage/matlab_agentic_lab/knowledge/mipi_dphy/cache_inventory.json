@@ -1,0 +1,30 @@
+[
+  {
+    "file": "arasan_dphy_2019.pdf",
+    "total_pages": 55,
+    "sha256": "2dd144af719c4185aff638f876dbe8c2e82d1b5e1c5e49ca19d0f20904774477",
+    "extraction": "extracted\\arasan_dphy_2019.pages.jsonl",
+    "note": "Extracted is not equivalent to read."
+  },
+  {
+    "file": "mipi_dsi_cockpit_2021.pdf",
+    "total_pages": 34,
+    "sha256": "0007d0e439895aec79aab88a36fbbc9b502eddb6d6f6a2d6dfdb05c4421ed712",
+    "extraction": "extracted\\mipi_dsi_cockpit_2021.pages.jsonl",
+    "note": "Extracted is not equivalent to read."
+  },
+  {
+    "file": "tek_dphy_tests.pdf",
+    "total_pages": 8,
+    "sha256": "6201c43f1b73fa12b3855b2454bf234955b1bca78cfb789ad0c4692d55113fe9",
+    "extraction": "extracted\\tek_dphy_tests.pages.jsonl",
+    "note": "Extracted is not equivalent to read."
+  },
+  {
+    "file": "ti_slla104a.pdf",
+    "total_pages": 9,
+    "sha256": "923de7f5a1768517b61a1fc66942e734e26a01324a9a6206dbcc90d64fee7ef5",
+    "extraction": "extracted\\ti_slla104a.pages.jsonl",
+    "note": "Extracted is not equivalent to read."
+  }
+]

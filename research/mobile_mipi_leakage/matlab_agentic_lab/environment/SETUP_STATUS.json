@@ -1,0 +1,49 @@
+{
+  "checked_date": "2026-10-22",
+  "matlab": {
+    "release_from_installation": "R2026b",
+    "installed_products_from_prodcontents": [
+      "MATLAB",
+      "MATLAB Copilot"
+    ],
+    "numeric_execution_verified": false,
+    "first_batch_exit_code": 1,
+    "login_window_observed": true,
+    "desktop_start_script": "startLab.m",
+    "official_addon_setup": "started; completion not confirmed",
+    "shared_session_ready_marker_observed": false
+  },
+  "mcp": {
+    "version": "v0.15.0",
+    "configured_in_codex": true,
+    "transport_initialize_verified": true,
+    "tools_list_verified": 5,
+    "matlab_evaluation_verified": false,
+    "windows_socket_path_fix": "C:/Users/leechanghoon/Documents/Codex/mcp-log",
+    "server_sha256": "a1f67dd917c5731f88399e1671ebe4f6959d2fd520c78dcaa1faf3ad37ea9518",
+    "toolbox_sha256": "f601ca4da02291658f0e1dc8511959873f55aa43b67a76f754dc77c448cf83a2"
+  },
+  "skills": {
+    "registered_count": 37,
+    "source": "user downloaded MATLAB Agentic Toolkit"
+  },
+  "tempestsdr": {
+    "gui_window_title": "TempestSDR",
+    "responding_observed": true,
+    "new_rf_capture": false,
+    "jar_sha256": "5382772e29cfbcd8a93599fb6a9bad8f2544cd2abfdaea6bd4d123cfeeafcdd2",
+    "java": "Temurin8u504b01"
+  },
+  "hardware": {
+    "ethernet_link": "1 Gbps",
+    "adapter": "Realtek PCIe GbE Family Controller",
+    "receiver_model": null,
+    "antenna": null,
+    "lna": null,
+    "pnp_sdr_match": false,
+    "warning": "PnP no-match does not establish absence of an Ethernet receiver"
+  },
+  "document_control": {
+    "connected_sessions": 0
+  }
+}

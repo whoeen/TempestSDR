@@ -1,0 +1,12 @@
+environment/mcp_stderr.log
+environment/server-*.log
+environment/watchdog-*.log
+environment/.matlab-mcp-server-*
+environment/*diary*.txt
+environment/registered_skills.json
+environment/matlab-coding-standards.md
+environment/matlab_inventory.json
+knowledge.sqlite
+**/cache/
+**/extracted/
+**/raw/
