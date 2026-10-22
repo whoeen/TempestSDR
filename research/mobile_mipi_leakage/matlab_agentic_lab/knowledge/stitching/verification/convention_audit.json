@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "dataKind": "synthetic",
+  "matlabVersion": "26.2.0.3386108 (R2026b)",
+  "cases": [
+    {
+      "trueDelaySamples": 7,
+      "estimatedDelaySamples": 7,
+      "truePhaseRad": 0.6,
+      "fftPeakPhaseRad": 0.6,
+      "definition514PeakPhaseRad": -0.60000000000000009,
+      "correctedRelativeError": 1.1146661003114934E-16,
+      "printed517Then520Error": 1.3830353451284432
+    },
+    {
+      "trueDelaySamples": -11,
+      "estimatedDelaySamples": -11,
+      "truePhaseRad": -0.9,
+      "fftPeakPhaseRad": -0.90000000000000013,
+      "definition514PeakPhaseRad": 0.90000000000000013,
+      "correctedRelativeError": 1.2461373660777197E-16,
+      "printed517Then520Error": 1.4253168172907544
+    },
+    {
+      "trueDelaySamples": 0,
+      "estimatedDelaySamples": 0,
+      "truePhaseRad": 1.1,
+      "fftPeakPhaseRad": 1.1,
+      "definition514PeakPhaseRad": -1.1000000000000003,
+      "correctedRelativeError": 1.1564073559252519E-16,
+      "printed517Then520Error": 1.1564073559252519E-16
+    }
+  ],
+  "zeroPhaseComplementMaxError": 8.8817841970012523E-16,
+  "scope": "Algebra audit only; no full stitching or smartphone performance validation."
+}

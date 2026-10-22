@@ -11,12 +11,20 @@ The original RIS captures remain unchanged. The cloud raw-data release remains
 - MCP initialize and five tool schemas verified by real JSON-RPC communication.
 - Core, signal processing, radar, wireless and selected testing/chart skills registered (37).
 - MATLAB R2026b installation contains MATLAB and MATLAB Copilot according to local product metadata.
-- MATLAB runtime/toolbox-test/baseline verification is **pending successful startup/authentication**.
-  Do not treat scripts, synthetic expectations or prior Python figures as new MATLAB results.
+- MATLAB R2026b execution is verified through the official MCP. The licensed baseline passed 11/11 numerical tests and processed LG X2, iPhone 6s and Galaxy S4 LTE.
+  See [measured baseline report](results/licensed_baseline_20261022/REPORT_KO.md). These are distinct from actual iPhone 6 captures.
 - Portable Java 8 and existing TempestSDR JAR prepared; TempestSDR GUI was observed
   by process window title and Responding=true. Hardware capture has not been performed.
 - Codex Document Control reported no connected document sessions. The MATLAB
   MCP connection is a separate integration; no document-control connection is claimed.
+
+## Stitching research — 2026-10-22
+
+O’Connell’s 155-page thesis has been read in full text, with 36 selected pages checked visually.
+[Reading record and MATLAB equation audit](knowledge/stitching/README.md) ·
+[LG X2 / iPhone 6 measurement plan](knowledge/stitching/MEASUREMENT_PLAN_KO.md) ·
+[Capture metadata template](knowledge/stitching/capture_metadata.template.json).
+New RF acquisition and measured mobile stitching have not yet been performed.
 
 ## Four research roles
 
