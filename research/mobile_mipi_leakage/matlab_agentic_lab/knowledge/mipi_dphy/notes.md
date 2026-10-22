@@ -208,3 +208,7 @@ PDF 원문을 자동 추출했다고 그 페이지를 읽은 것으로 기록하
 - **비영상 periodic burst도 후보로 둔다.** Arasan의 deskew calibration 제어 신호가 존재하지만 해당 스마트폰에서 실제로 발생했다는 증거는 아직 없다.
 
 DSI 예시의 CRC polynomial 주석과 30/36-bit packet의 WC 필드에서 본문 규칙과 불일치를 발견했다. 원문 이미지에서도 확인했으므로, 향후 decoder test vector를 만들 때 예시를 무검증으로 복사하지 않는다. 정식 정오표로 확인된 수정이라고 주장하지 않으며 자세한 locator는 `MIPI-028`, `MIPI-029`와 `reading_detail.md`에 남겼다.
+
+## 11. RGB888 packet 후보 심화 검토
+
+2026-10-22 추가 연구: [통합 프로토콜 노트](PROTOCOL_STUDY_KO.md), [속도·lane 분배](rgb888_rates_lanes_20261022.md), [packet/HS 후보](packet_candidates_20261022.md), [stitching 식별 가능성](protocol_stitch_review_20261022.md). 10개 후보를 protocol_candidates.jsonl에 등록했다. MATLAB R2026b에서 원문 ECC 독립 예제 2개와 조건부 header/lane 회전을 계산했으며, 실제 폰 decode 결과와 구분했다.

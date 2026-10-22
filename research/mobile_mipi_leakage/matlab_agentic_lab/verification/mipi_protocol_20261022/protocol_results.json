@@ -1,0 +1,107 @@
+{
+  "kind": "synthetic_protocol_calculation",
+  "matlab_version": "26.2.0.3386108 (R2026b)",
+  "source": "DSI v1.3 DRAFT 23-Mar-2015; source-based A7 PLL example",
+  "independent_ecc_vectors_passed": 2,
+  "sot_lsb_first_bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "packet_examples": [
+    {
+      "width_pixels": 720,
+      "video_wc_bytes": 2160,
+      "video_header_hex": "3E 70 08 13",
+      "video_packet_bytes": 2166,
+      "video_start_lanes_first_four": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "video_lane_cycle_packets": 2,
+      "dcs_wc_bytes": 2161,
+      "dcs_header_hex": "39 71 08 08",
+      "dcs_packet_bytes": 2167,
+      "dcs_start_lanes_first_four": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "dcs_lane_cycle_packets": 4
+    },
+    {
+      "width_pixels": 750,
+      "video_wc_bytes": 2250,
+      "video_header_hex": "3E CA 08 09",
+      "video_packet_bytes": 2256,
+      "video_start_lanes_first_four": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "video_lane_cycle_packets": 1,
+      "dcs_wc_bytes": 2251,
+      "dcs_header_hex": "39 CB 08 12",
+      "dcs_packet_bytes": 2257,
+      "dcs_start_lanes_first_four": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dcs_lane_cycle_packets": 4
+    },
+    {
+      "width_pixels": 1080,
+      "video_wc_bytes": 3240,
+      "video_header_hex": "3E A8 0C 22",
+      "video_packet_bytes": 3246,
+      "video_start_lanes_first_four": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "video_lane_cycle_packets": 2,
+      "dcs_wc_bytes": 3241,
+      "dcs_header_hex": "39 A9 0C 39",
+      "dcs_packet_bytes": 3247,
+      "dcs_start_lanes_first_four": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "dcs_lane_cycle_packets": 4
+    }
+  ],
+  "packet_conditions": "One row per packet; identical lengths; no intervening packets, padding, LP or HS restart. DCS case assumes one command byte plus RGB888.",
+  "a7_assumed_applied_pll": {
+    "reference_hz": 2.6E+7,
+    "p": 3,
+    "m": 230,
+    "s": 1,
+    "lanes": 4,
+    "kind": "source_configuration_derivation_not_measurement"
+  },
+  "a7_lane_bit_rate_bps": 9.9666666666666663E+8,
+  "a7_forwarded_clock_hz": 4.9833333333333331E+8,
+  "a7_byte_clock_hz": 1.2458333333333333E+8,
+  "a7_rgb888_payload_pixel_rate": 1.661111111111111E+8,
+  "a7_component_mapping_rate_hz": 4.1527777777777776E+7,
+  "a7_header_duration_aligned_4lane_s": 8.02675585284281E-9,
+  "assumed_rx_bw_hz": 1.2E+8,
+  "inverse_assumed_bw_s": 8.3333333333333335E-9,
+  "bandwidth_caution": "1/B is a response-time scale, not a hard detection or timing-estimation limit. RX bandwidth remains unverified.",
+  "figure": "rgb888_four_lane_packet_map.png",
+  "diagram_note": "CRC bytes shown symbolically. SoT occurs once per lane for the HS transmission. No claim that this is the phone packetization."
+}
