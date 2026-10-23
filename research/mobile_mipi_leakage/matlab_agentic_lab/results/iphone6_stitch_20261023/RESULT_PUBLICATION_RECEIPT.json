@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-23T10:47:26.065363+00:00",
+  "assets": [
+    {
+      "name": "iphone6_stitch_20261023_v1_views.zip",
+      "bytes": 730082684,
+      "digest": "sha256:ba43735a585854c35c4fa79de2b8750b15084869618cd5248f9bb611ce12af4d",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_stitch_20261023_v1_views.zip",
+      "remote_verified": true
+    },
+    {
+      "name": "iphone6_stitch_20261023_v1_numeric_001.zip",
+      "bytes": 1397073304,
+      "digest": "sha256:cd402b4dbfad6f07a96ffd6fa01dc9fe41890a8c13afe70c5c55c791c772ab72",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_stitch_20261023_v1_numeric_001.zip",
+      "remote_verified": true
+    },
+    {
+      "name": "iphone6_stitch_20261023_v1_numeric_002.zip",
+      "bytes": 1397269274,
+      "digest": "sha256:03c077cbe5307df0321dd7072947a00c32cb1bc3bb7b288687feab4f39329c74",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_stitch_20261023_v1_numeric_002.zip",
+      "remote_verified": true
+    },
+    {
+      "name": "iphone6_stitch_20261023_v1_numeric_003.zip",
+      "bytes": 540122099,
+      "digest": "sha256:1cdd9bf520dc74243fdae0aa8a3b61667c0b9f94cf8b5c3b358c5545473c4b11",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_stitch_20261023_v1_numeric_003.zip",
+      "remote_verified": true
+    },
+    {
+      "name": "iphone6_stitch_20261023_v1_manifest.json",
+      "bytes": 363517,
+      "digest": "sha256:a48e4964e2f8568d7b1ddb23adf624c9e52af757e60e70ea0d3872582cb34b95",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_stitch_20261023_v1_manifest.json",
+      "remote_verified": true
+    }
+  ],
+  "cloud_matlab_executed": false,
+  "completed_utc": "2026-10-23T10:55:04.985314+00:00",
+  "scientific_source_commit": "f1525a44d4fab361e8d861dac2f58c92af8c31d4",
+  "repository": "https://github.com/whoeen/TempestSDR",
+  "branch": "codex/mipi-coherent-hsv-analysis-2026-10-21",
+  "raw_release_receipt": "../../knowledge/stitching/iphone6_sweep_20261023/CLOUD_UPLOAD_RECEIPT.json",
+  "verified_raw_asset_count": 12,
+  "verified_result_asset_count": 5,
+  "result_payload_bytes": 4064910878,
+  "execution_host": "Local MATLAB desktop; no cloud MATLAB execution claimed"
+}
