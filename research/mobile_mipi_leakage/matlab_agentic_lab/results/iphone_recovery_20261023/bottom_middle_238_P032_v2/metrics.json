@@ -1,0 +1,60 @@
+{
+  "frames": 32,
+  "checkpoints": [
+    {
+      "frames": 1,
+      "am_odd_even_correlation": null,
+      "mean_coherent_over_incoherent": 1,
+      "uncorrected_coherent_power_counts2": 13831.7148,
+      "global_coherent_power_counts2": 13831.7148,
+      "row_coherent_power_counts2": 13831.7148,
+      "mean_amplitude_counts": 94.7984085,
+      "fractional_vs_nearest_relative_rms": 0.278464109
+    },
+    {
+      "frames": 8,
+      "am_odd_even_correlation": 0.62665767282095641,
+      "mean_coherent_over_incoherent": 0.384339392,
+      "uncorrected_coherent_power_counts2": 2869.81543,
+      "global_coherent_power_counts2": 2513.8877,
+      "row_coherent_power_counts2": 1996.03271,
+      "mean_amplitude_counts": 95.1222534,
+      "fractional_vs_nearest_relative_rms": 0.144145653
+    },
+    {
+      "frames": 16,
+      "am_odd_even_correlation": 0.76875750742292559,
+      "mean_coherent_over_incoherent": 0.280130863,
+      "uncorrected_coherent_power_counts2": 2130.71021,
+      "global_coherent_power_counts2": 1802.17297,
+      "row_coherent_power_counts2": 1035.02307,
+      "mean_amplitude_counts": 95.1836777,
+      "fractional_vs_nearest_relative_rms": 0.125796199
+    },
+    {
+      "frames": 32,
+      "am_odd_even_correlation": 0.85810296183463486,
+      "mean_coherent_over_incoherent": 0.231333911,
+      "uncorrected_coherent_power_counts2": 1642.53528,
+      "global_coherent_power_counts2": 1443.04236,
+      "row_coherent_power_counts2": 671.299927,
+      "mean_amplitude_counts": 95.0675812,
+      "fractional_vs_nearest_relative_rms": 0.116762854
+    }
+  ],
+  "samples_per_raster_column": 1.0000009565977706,
+  "frame_period_samples": 2.0680019782441896E+6,
+  "line_period_samples": 1100.0010522575476,
+  "image_scale_counts": [
+    8.1292629241943359,
+    320.688720703125
+  ],
+  "interpolation": "Catmull-Rom cubic; nearest control, no new measured bandwidth",
+  "phase_fit": "Select training rows before unwrapping; linear mixture-phase fit, otherwise global phase fallback",
+  "minimum_row_phase_coherence": 0.1,
+  "minimum_row_phase_fit_rows": 16,
+  "maximum_phase_design_condition": 1000,
+  "phase_fit_fallback_frames": 0,
+  "validation_caveat": "Row fit excludes validation-row phases, but horizontal alignment shares the full reference. Global fallback uses all rows. Frame 1 is self-reference, not validation.",
+  "caveat": "Repeatability and coherence can reward stable clutter. These are not ground-truth image fidelity, RGB recovery, or proof of LCD-driver origin."
+}

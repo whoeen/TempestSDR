@@ -1,0 +1,4 @@
+frames,am_odd_even_correlation,mean_coherent_over_incoherent,uncorrected_coherent_power_counts2,global_coherent_power_counts2,row_coherent_power_counts2,mean_amplitude_counts,fractional_vs_nearest_relative_rms
+1,NaN,1,372049.4,372049.4,372049.4,314.51,0.3887276
+4,0.388720625431142,0.5075603,91999.79,111799.4,93867.87,319.2113,0.3324391
+8,0.442178338180675,0.3621894,46836.58,61516.72,47242.43,319.3321,0.3137229

@@ -1,0 +1,108 @@
+{
+  "key": "bottom_middle_238",
+  "source": "C:\\Users\\leechanghoon\\Desktop\\mobile\\0625\\238M_60M_124.08571M_bottom middle_iphone6.rIs",
+  "read_info": {
+    "filename": "238M_60M_124.08571M_bottom middle_iphone6.rIs",
+    "bytes": 2.4354E+9,
+    "first_sample_zero_based": 0,
+    "sample_count": 1.048576E+6,
+    "byte_offset": 0,
+    "byte_count": 4.194304E+6,
+    "disk_dtype": "big-endian signed int16 interleaved I,Q",
+    "memory_dtype": "complex single",
+    "units": "ADC counts"
+  },
+  "device": {
+    "key": "bottom_middle_238",
+    "title": "iPhone 6 / bottom_middle_238",
+    "filename": "238M_60M_124.08571M_bottom middle_iphone6.rIs",
+    "fs_hz": 1.2408571E+8,
+    "rf_center_hz": 2.38E+8,
+    "receiver_bandwidth_hz": 6.0E+7,
+    "prior_line_hz": 112805.083,
+    "raster_rows": 1880,
+    "raster_columns": 1100,
+    "prior_frame_samples": 2.0680019782441896E+6,
+    "origin_columns": 0,
+    "active_row_segments": [
+      1,
+      1880
+    ],
+    "active_column_segments": [
+      1,
+      1100
+    ],
+    "metadata_source": "Existing release manifest and filename; timing transferred as a hypothesis, not individually fitted.",
+    "timing_status": "hypothesis requiring validation on this capture"
+  },
+  "diagnostic": {
+    "sample_count": 1.048576E+6,
+    "finite_fraction": 1,
+    "mean_i_counts": 3.8995866775512695,
+    "mean_q_counts": 22.857726097106934,
+    "median_i_counts": 4,
+    "median_q_counts": 23,
+    "mad_i_counts": 36,
+    "mad_q_counts": 38,
+    "rms_complex_counts": 111.33319594228189,
+    "dc_power_fraction": 0.043378695101975305,
+    "clip_i_fraction": 0,
+    "clip_q_fraction": 0,
+    "zero_pair_fraction": 9.059906005859375E-5,
+    "iq_std_ratio": 0.96053857783783592,
+    "iq_correlation": -0.0191239150778571,
+    "impropriety_abs": 0.044545939554106011,
+    "peak_over_rms": 21.005559248871727,
+    "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction."
+  },
+  "reconstruction": {
+    "frames": 8,
+    "checkpoints": [
+      {
+        "frames": 1,
+        "am_odd_even_correlation": null,
+        "mean_coherent_over_incoherent": 1,
+        "uncorrected_coherent_power_counts2": 13831.7148,
+        "global_coherent_power_counts2": 13831.7148,
+        "row_coherent_power_counts2": 13831.7148,
+        "mean_amplitude_counts": 94.7984085,
+        "fractional_vs_nearest_relative_rms": 0.278464109
+      },
+      {
+        "frames": 4,
+        "am_odd_even_correlation": 0.40777194910901154,
+        "mean_coherent_over_incoherent": 0.506449819,
+        "uncorrected_coherent_power_counts2": 4104.62402,
+        "global_coherent_power_counts2": 3782.85107,
+        "row_coherent_power_counts2": 3353.9668,
+        "mean_amplitude_counts": 95.5904922,
+        "fractional_vs_nearest_relative_rms": 0.175211862
+      },
+      {
+        "frames": 8,
+        "am_odd_even_correlation": 0.62665767282095641,
+        "mean_coherent_over_incoherent": 0.384339392,
+        "uncorrected_coherent_power_counts2": 2869.81543,
+        "global_coherent_power_counts2": 2513.8877,
+        "row_coherent_power_counts2": 1996.03271,
+        "mean_amplitude_counts": 95.1222534,
+        "fractional_vs_nearest_relative_rms": 0.144145653
+      }
+    ],
+    "samples_per_raster_column": 1.0000009565977706,
+    "frame_period_samples": 2.0680019782441896E+6,
+    "line_period_samples": 1100.0010522575476,
+    "image_scale_counts": [
+      8.1292629241943359,
+      320.688720703125
+    ],
+    "interpolation": "Catmull-Rom cubic; nearest control, no new measured bandwidth",
+    "phase_fit": "Select training rows before unwrapping; linear mixture-phase fit, otherwise global phase fallback",
+    "minimum_row_phase_coherence": 0.1,
+    "minimum_row_phase_fit_rows": 16,
+    "maximum_phase_design_condition": 1000,
+    "phase_fit_fallback_frames": 0,
+    "validation_caveat": "Row fit excludes validation-row phases, but horizontal alignment shares the full reference. Global fallback uses all rows. Frame 1 is self-reference, not validation.",
+    "caveat": "Repeatability and coherence can reward stable clutter. These are not ground-truth image fidelity, RGB recovery, or proof of LCD-driver origin."
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "source": "C:\\Users\\leechanghoon\\Desktop\\연구\\APMC 2026\\5. 모바일\\iphone6\\iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+  "read_info": {
+    "filename": "iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+    "bytes": 6.23739072E+8,
+    "first_sample_zero_based": 0,
+    "sample_count": 8.388608E+6,
+    "byte_offset": 0,
+    "byte_count": 3.3554432E+7,
+    "disk_dtype": "big-endian signed int16 interleaved I,Q",
+    "memory_dtype": "complex single",
+    "units": "ADC counts"
+  },
+  "fs_hz": 2.5E+7,
+  "rf_center_hz": 1.05E+8,
+  "receiver_bandwidth_hz": null,
+  "metadata_status": "Fs and fc supported by March13 presentation LabVIEW screenshot; same-file identity linkage from scripts and date; no raw header.",
+  "diagnostic": {
+    "sample_count": 1.048576E+6,
+    "finite_fraction": 1,
+    "mean_i_counts": -7.84993839263916,
+    "mean_q_counts": 4.49886417388916,
+    "median_i_counts": -8,
+    "median_q_counts": 4,
+    "mad_i_counts": 28,
+    "mad_q_counts": 28,
+    "rms_complex_counts": 188.7470896414406,
+    "dc_power_fraction": 0.0022978314604503703,
+    "clip_i_fraction": 0,
+    "clip_q_fraction": 0,
+    "zero_pair_fraction": 0.0001659393310546875,
+    "iq_std_ratio": 0.99658907683658071,
+    "iq_correlation": 0.00021115435439066497,
+    "impropriety_abs": 0.0034232586973555914,
+    "peak_over_rms": 26.632614746985233,
+    "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction."
+  },
+  "line_candidates": [
+    {
+      "single_peak_lag_samples": 221.62785781704335,
+      "refined_line_samples": 221.62275804871393,
+      "conditional_line_hz": 112804.29961306076,
+      "acf": 0.71759531418875966,
+      "multiple_estimate_spread_samples": 0.0025437876125806724
+    },
+    {
+      "single_peak_lag_samples": 303.31790887323831,
+      "refined_line_samples": 303.44354922020739,
+      "conditional_line_hz": 82387.64694205983,
+      "acf": 0.423210491125019,
+      "multiple_estimate_spread_samples": 0.52659539858802873
+    },
+    {
+      "single_peak_lag_samples": 235.68862034571657,
+      "refined_line_samples": 235.47385386704241,
+      "conditional_line_hz": 106168.89981388746,
+      "acf": 0.20027235325100243,
+      "multiple_estimate_spread_samples": 0.00349518601217369
+    },
+    {
+      "single_peak_lag_samples": 207.602893872741,
+      "refined_line_samples": 207.77102012845484,
+      "conditional_line_hz": 120324.7689910927,
+      "acf": 0.19951696621880824,
+      "multiple_estimate_spread_samples": 0.0027013489690830284
+    },
+    {
+      "single_peak_lag_samples": 163.54387436581828,
+      "refined_line_samples": 163.61952290683865,
+      "conditional_line_hz": 152793.50260808697,
+      "acf": 0.14284526310074322,
+      "multiple_estimate_spread_samples": 0.275027516347194
+    },
+    {
+      "single_peak_lag_samples": 279.81292229597193,
+      "refined_line_samples": 279.62539110101437,
+      "conditional_line_hz": 89405.328684793072,
+      "acf": 0.14163340528780741,
+      "multiple_estimate_spread_samples": 0.27117897968815896
+    },
+    {
+      "single_peak_lag_samples": 289.86073976534885,
+      "refined_line_samples": 289.89947244188465,
+      "conditional_line_hz": 86236.790254979438,
+      "acf": 0.13718394019403046,
+      "multiple_estimate_spread_samples": 0.40769031805734812
+    },
+    {
+      "single_peak_lag_samples": 347.82500352685906,
+      "refined_line_samples": 348.01652464730353,
+      "conditional_line_hz": 71835.66937040184,
+      "acf": 0.093549920412393336,
+      "multiple_estimate_spread_samples": 0.45571728142323309
+    },
+    {
+      "single_peak_lag_samples": 317.48551366966609,
+      "refined_line_samples": 317.60269938226065,
+      "conditional_line_hz": 78714.696218341865,
+      "acf": 0.08722975485377138,
+      "multiple_estimate_spread_samples": 0.41012026393786982
+    },
+    {
+      "single_peak_lag_samples": 337.98513194518318,
+      "refined_line_samples": 338.07128073188733,
+      "conditional_line_hz": 73948.901976759866,
+      "acf": 0.038589299906071454,
+      "multiple_estimate_spread_samples": 0.319537027502804
+    },
+    {
+      "single_peak_lag_samples": 326.99789969323257,
+      "refined_line_samples": 327.02225295926053,
+      "conditional_line_hz": 76447.3970005779,
+      "acf": 0.037347729693252986,
+      "multiple_estimate_spread_samples": 0.45537698042977581
+    },
+    {
+      "single_peak_lag_samples": 268.01169643736046,
+      "refined_line_samples": 267.87100897683615,
+      "conditional_line_hz": 93328.502011062519,
+      "acf": 0.016023409403391444,
+      "multiple_estimate_spread_samples": 0.19967666180605192
+    }
+  ],
+  "frame_candidates": [
+    {
+      "frame_samples": 416871.9532063845,
+      "conditional_frame_hz": 59.970453295578338,
+      "acf": 0.87329317860293187
+    },
+    {
+      "frame_samples": 419088.04709321383,
+      "conditional_frame_hz": 59.653335792799368,
+      "acf": 0.86504718361711563
+    },
+    {
+      "frame_samples": 417315.13174722885,
+      "conditional_frame_hz": 59.906766129781033,
+      "acf": 0.86303622840930372
+    },
+    {
+      "frame_samples": 418644.89378648187,
+      "conditional_frame_hz": 59.716481368934481,
+      "acf": 0.85484066306115147
+    },
+    {
+      "frame_samples": 427952.97107215668,
+      "conditional_frame_hz": 58.417633922174076,
+      "acf": 0.84821405343940826
+    },
+    {
+      "frame_samples": 419531.20941779262,
+      "conditional_frame_hz": 59.590322337863554,
+      "acf": 0.84011250396290937
+    },
+    {
+      "frame_samples": 428396.12161470507,
+      "conditional_frame_hz": 58.357204322416194,
+      "acf": 0.83937723001779529
+    },
+    {
+      "frame_samples": 409779.96812626149,
+      "conditional_frame_hz": 61.008350687110685,
+      "acf": 0.83794853083412835
+    },
+    {
+      "frame_samples": 416428.78086888086,
+      "conditional_frame_hz": 60.034275123437354,
+      "acf": 0.83665501677094822
+    },
+    {
+      "frame_samples": 418201.69661322352,
+      "conditional_frame_hz": 59.779767041742559,
+      "acf": 0.83614109944334924
+    },
+    {
+      "frame_samples": 410223.12205343292,
+      "conditional_frame_hz": 60.942444869657216,
+      "acf": 0.83212099741083112
+    },
+    {
+      "frame_samples": 426180.03575421911,
+      "conditional_frame_hz": 58.660654893786877,
+      "acf": 0.83105354491570471
+    },
+    {
+      "frame_samples": 427509.79441885918,
+      "conditional_frame_hz": 58.478192374478965,
+      "acf": 0.82984245012470692
+    },
+    {
+      "frame_samples": 425736.87904786586,
+      "conditional_frame_hz": 58.721715760004045,
+      "acf": 0.8268811663776624
+    },
+    {
+      "frame_samples": 417758.38483131374,
+      "conditional_frame_hz": 59.843203410734,
+      "acf": 0.82614032040213
+    },
+    {
+      "frame_samples": 409336.80481423263,
+      "conditional_frame_hz": 61.074400605989069,
+      "acf": 0.82071878398072518
+    }
+  ],
+  "line_multiples": [
+    8,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "multiple_period_estimates": [
+    [
+      221.61705703690376,
+      221.62423360384247,
+      221.62348313645518,
+      221.6209393488426,
+      221.62313556616019,
+      221.62238053126768
+    ],
+    [
+      302.99218215745435,
+      303.015625,
+      303.454654392184,
+      303.01953125,
+      303.54612664858803,
+      303.43244404823076
+    ],
+    [
+      236.15371574440684,
+      235.47384328412753,
+      235.47694201612146,
+      235.47344683010928,
+      235.47365502886763,
+      235.47405270521719
+    ],
+    [
+      207.1875,
+      207.77568140725558,
+      207.77318827417804,
+      207.77120161028691,
+      207.77048692520896,
+      207.77083864662274
+    ],
+    [
+      163.14431896725659,
+      163.66270678390879,
+      163.66744998321914,
+      163.39242246687195,
+      163.61893485659044,
+      163.62011095708684
+    ],
+    [
+      280.084485619771,
+      279.573805978049,
+      279.58192844972024,
+      279.8531074294084,
+      279.62537394329877,
+      279.62540825873
+    ],
+    [
+      290.186959795102,
+      290.1084145615481,
+      289.60596370823055,
+      289.78556024849803,
+      290.01338463527122,
+      290.0136540262879
+    ],
+    [
+      348.21888868470489,
+      348.10103074923194,
+      347.56157428949075,
+      348.017291570914,
+      348.01618371156741,
+      348.0168655830397
+    ],
+    [
+      317.91354303517875,
+      317.81432734699735,
+      317.30679310274672,
+      317.48866560275081,
+      317.71691336668459,
+      317.71673316177043
+    ],
+    [
+      338.23577540867507,
+      337.90903423716281,
+      338.08157676659067,
+      338.265916539873,
+      337.94637951237019,
+      338.06098469718393
+    ],
+    [
+      326.63226067052557,
+      327.328125,
+      326.7848449337439,
+      327.23786971318088,
+      327.24022191417367,
+      326.80663620534017
+    ],
+    [
+      268.4375,
+      268.2805422771383,
+      267.91773074045886,
+      267.73828125,
+      267.82428721321344,
+      267.93795791180605
+    ]
+  ],
+  "welch": {
+    "implementation": "base MATLAB explicit Welch fallback",
+    "nfft": 8192,
+    "fs_hz": 2.5E+7,
+    "window_samples": 8192,
+    "overlap_samples": 4096,
+    "enbw_hz": 4577.6367187499991,
+    "frequency_range": "centered",
+    "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+    "segment_count": 255
+  },
+  "caveat": "Autocorrelation also detects clutter and harmonics; validate candidate timing by raster and held-out segments."
+}

@@ -1,6 +1,6 @@
 # Raw IQ release assets
 
-The 16 deduplicated smartphone captures and three antenna captures are
+The 17 deduplicated smartphone captures and three antenna captures are
 published as GitHub Release assets under
 [`mobile-mipi-raw-iq-2026-10-21`](https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21).
 They are split into parts smaller than 2 GiB, which keeps the Git repository
@@ -8,8 +8,8 @@ small and avoids Git LFS storage charges.
 
 `RAW_IQ_RELEASE_MANIFEST.json` records every original byte count and SHA-256,
 plus the byte count and SHA-256 of every release asset. The manifest contains
-no local workstation paths. The original captures total 47,638,800,000 bytes
-(44.37 GiB).
+no local workstation paths. The original captures total 48,262,539,072 bytes
+(44.95 GiB).
 
 ## Download and reconstruct all captures
 
@@ -37,3 +37,10 @@ the established filenames and analysis configuration.
 optional `--base-manifest` for incremental additions. It streams the captures,
 creates 1,900 MiB parts, and generates the manifest without loading a capture
 into memory.
+
+## Added on 2026-10-23
+
+`iphone6_password_105m` adds the March13 iPhone 6 capture (623,739,072 bytes).
+The uploaded asset size and server SHA-256 match the local file.
+Fs=25 MS/s and fc=105 MHz are supported by the same-day instrument photograph and exact-path scripts; receiver bandwidth remains unverified.
+The current repository manifest includes this twentieth dataset. The original release manifest asset predates this addition; use the repository manifest or the versioned 20261023 manifest.

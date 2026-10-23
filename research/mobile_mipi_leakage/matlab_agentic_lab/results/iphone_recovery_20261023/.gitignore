@@ -1,0 +1,10 @@
+# Full numeric arrays and redundant high-resolution exports remain local.
+*.mat
+**/*.mat
+presentation/
+**/P[0-9][0-9][0-9]_am.png
+**/P[0-9][0-9][0-9]_nearest_am.png
+**/P[0-9][0-9][0-9]_coherent.png
+**/P[0-9][0-9][0-9]_global_coherent.png
+**/P[0-9][0-9][0-9]_uncorrected_coherent.png
+**/P[0-9][0-9][0-9]_phase_hsv.png

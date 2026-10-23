@@ -1,16 +1,28 @@
 {
-  "indexed_utc": "2026-10-22T08:46:07.833473+00:00",
-  "entry_count": 484,
+  "indexed_utc": "2026-10-23T05:33:47.969490+00:00",
+  "entry_count": 863,
   "by_area": {
     "20261022_041658_091": 1,
     "20261022_041904_607": 6,
-    "galaxy_s4_lte": 19,
-    "iphone6s": 19,
-    "lgx2": 29,
+    "book34_238": 11,
+    "book93_238": 11,
+    "bottom_middle_238": 11,
+    "bottom_middle_238_P032_v2": 36,
+    "galaxy_s4_lte": 38,
+    "iphone6s": 38,
+    "iphone6s_P032": 36,
+    "lgx2": 48,
+    "licensed_baseline_20261022": 6,
     "mipi_dphy": 269,
+    "password_105_P064": 69,
+    "password_105_P064_refined": 69,
+    "response_308": 11,
+    "response_308_P032_v2": 36,
+    "response_312": 11,
     "rf_chain": 44,
-    "signal_processing": 21,
+    "signal_processing": 25,
     "stitching": 26,
-    "tempest": 50
+    "tempest": 50,
+    "topleft_238": 11
   }
 }

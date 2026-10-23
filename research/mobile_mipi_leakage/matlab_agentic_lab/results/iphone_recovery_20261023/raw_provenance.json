@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "record_date_local": "2026-10-23",
+  "timezone": "Asia/Seoul",
+  "purpose": "Raw input identity and acquisition metadata provenance for iPhone recovery outputs",
+  "authoring_scope": {
+    "raw_inputs_read_during_this_provenance_pass": false,
+    "raw_inputs_modified": false,
+    "raw_hashes_recomputed_during_this_provenance_pass": false,
+    "matlab_called_during_this_provenance_pass": false,
+    "code_hashes": "Recorded separately by root; not provided here"
+  },
+  "capture_count": 8,
+  "iphone6_capture_count": 7,
+  "iphone6s_capture_count": 1,
+  "total_original_bytes": 23255139072,
+  "source_document_snapshots": [
+    {
+      "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+      "sha256": "660bcc2628990447d8e58ce187c98bb815bbde1c379f447782c0364f8510dbdd",
+      "hash_scope": "Metadata document only, not raw capture"
+    },
+    {
+      "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+      "sha256": "17e1379b59fd8cda2a4704ff9920616dffc9d13ea86c3f3ab452a0ce51aa63bc",
+      "hash_scope": "Metadata document only, not raw capture"
+    },
+    {
+      "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+      "sha256": "8cc76d8e9843ba275bd95d5e805a4f36a7cd1c660d7d1f59cc36880bb71f0f9a",
+      "hash_scope": "Metadata document only, not raw capture"
+    },
+    {
+      "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/password_diagnostic/diagnostic.json",
+      "sha256": "59f373a02d657edf218cf2cc0838f6282bbff768c760b6d190c5f1198dd94776",
+      "hash_scope": "Metadata document only, not raw capture"
+    }
+  ],
+  "global_notes": [
+    "One capture can have several reconstruction runs. P8 and P32 outputs from the same path are not separate acquisitions.",
+    "Stored IQ sample rate, receiver bandwidth, RF center, raster line period and display pixel rate are different quantities.",
+    "Presentation source/output paths contained repeated Windows separators; raw_path and output_folder here normalize separators to forward slash without changing filename spelling.",
+    "Raw sampling gaps,clock calibration,gain history and start timestamps remain unavailable unless separately documented.",
+    "This file does not claim that stable patterns or high split-half correlation identify desired display emission or prove image fidelity."
+  ],
+  "captures": [
+    {
+      "id": "iphone6_book34_238m",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571_topleft_iphone6_book34page_.rIs",
+      "alternative_raw_paths": [
+        "C:/Users/leechanghoon/Downloads/238M_60M_124.08571_topleft_iphone6_book34page_.rIs"
+      ],
+      "filename": "238M_60M_124.08571_topleft_iphone6_book34page_.rIs",
+      "bytes": 2613600000,
+      "byte_count_status": "Observed during discovery on 2026-10-23 and matched manifest",
+      "sha256": "e17e8d62b15f0d8f94312b4520f8c301953c1209af6ee25699e79e52f2ba0878",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6_book34_238m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 124085710,
+      "rf_center_hz": 238000000,
+      "nominal_receiver_bandwidth_hz": 60000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6_book34_238m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "captures[id=iphone6_book34_238m]",
+          "scope": "Actual local file existence and byte-count comparison"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 238M_60M_124.08571_topleft_iphone6_book34page_.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 653400000,
+        "nominal_duration_s": 5.2657151254564285,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "book34_238",
+          "frames": 8,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/archive_P008/book34_238",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_bottom_middle_238m",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571M_bottom middle_iphone6.rIs",
+      "alternative_raw_paths": [
+        "C:/Users/leechanghoon/Downloads/238M_60M_124.08571M_bottom middle_iphone6.rIs"
+      ],
+      "filename": "238M_60M_124.08571M_bottom middle_iphone6.rIs",
+      "bytes": 2435400000,
+      "byte_count_status": "Observed during discovery on 2026-10-23 and matched manifest",
+      "sha256": "6617bc27d4d72bfa432e7acd67eed050bc8f38fe8c141c1a46a98f1e0f3029d2",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6_bottom_middle_238m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 124085710,
+      "rf_center_hz": 238000000,
+      "nominal_receiver_bandwidth_hz": 60000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6_bottom_middle_238m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "captures[id=iphone6_bottom_middle_238m]",
+          "scope": "Actual local file existence and byte-count comparison"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 238M_60M_124.08571M_bottom middle_iphone6.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 608850000,
+        "nominal_duration_s": 4.9066890941753085,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "bottom_middle_238",
+          "frames": 8,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/archive_P008/bottom_middle_238",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        },
+        {
+          "presentation_key": "bottom_middle_238_P032",
+          "frames": 32,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/bottom_middle_238_P032_v2",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_topleft_238m",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571M_topleft_iphone6.rIs",
+      "alternative_raw_paths": [
+        "C:/Users/leechanghoon/Downloads/238M_60M_124.08571M_topleft_iphone6.rIs"
+      ],
+      "filename": "238M_60M_124.08571M_topleft_iphone6.rIs",
+      "bytes": 4039200000,
+      "byte_count_status": "Observed during discovery on 2026-10-23 and matched manifest",
+      "sha256": "2d0c360bd5ad9804f94ae936638a2aa31d2ed40423d6c85afe78c82656061de1",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6_topleft_238m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 124085710,
+      "rf_center_hz": 238000000,
+      "nominal_receiver_bandwidth_hz": 60000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6_topleft_238m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "captures[id=iphone6_topleft_238m]",
+          "scope": "Actual local file existence and byte-count comparison"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 238M_60M_124.08571M_topleft_iphone6.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 1009800000,
+        "nominal_duration_s": 8.13792337570539,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "topleft_238",
+          "frames": 8,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/archive_P008/topleft_238",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_book93_238m",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs",
+      "alternative_raw_paths": [
+        "C:/Users/leechanghoon/Downloads/238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs"
+      ],
+      "filename": "238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs",
+      "bytes": 3504600000,
+      "byte_count_status": "Observed during discovery on 2026-10-23 and matched manifest",
+      "sha256": "bf04555dde3cb98b49933f58d17761753f6d488ca8b31671fe800b490dabfb9e",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6_book93_238m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 124085710,
+      "rf_center_hz": 238000000,
+      "nominal_receiver_bandwidth_hz": 60000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6_book93_238m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "captures[id=iphone6_book93_238m]",
+          "scope": "Actual local file existence and byte-count comparison"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 876150000,
+        "nominal_duration_s": 7.060845281862029,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "book93_238",
+          "frames": 8,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/archive_P008/book93_238",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_response_308m",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/308M_60M_124.08571M_bageung hwameon_iphone6.rIs",
+      "alternative_raw_paths": [
+        "C:/Users/leechanghoon/Downloads/308M_60M_124.08571M_bageung hwameon_iphone6.rIs"
+      ],
+      "filename": "308M_60M_124.08571M_bageung hwameon_iphone6.rIs",
+      "bytes": 3623400000,
+      "byte_count_status": "Observed during discovery on 2026-10-23 and matched manifest",
+      "sha256": "efa368706446bf52b7302a05311381ba2c566089c9faec78d2d8fb2db419481f",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6_response_308m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 124085710,
+      "rf_center_hz": 308000000,
+      "nominal_receiver_bandwidth_hz": 60000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6_response_308m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "captures[id=iphone6_response_308m]",
+          "scope": "Actual local file existence and byte-count comparison"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 308M_60M_124.08571M_bageung hwameon_iphone6.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 905850000,
+        "nominal_duration_s": 7.300195969382776,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "response_308",
+          "frames": 8,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/archive_P008/response_308",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        },
+        {
+          "presentation_key": "response_308_P032",
+          "frames": 32,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/response_308_P032_v2",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6s_311m",
+      "device": "iPhone 6s",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/311m_55.05487m_20m.rIs",
+      "alternative_raw_paths": [],
+      "filename": "311m_55.05487m_20m.rIs",
+      "bytes": 1069200000,
+      "byte_count_status": "Prior manifest; this provenance-only pass did not restat raw input",
+      "sha256": "d55e8616140e4658f4fdf8bc7bfa63276fc17a9640121fea15952d25c9621af7",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6s_311m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 55054870,
+      "rf_center_hz": 311000000,
+      "nominal_receiver_bandwidth_hz": 20000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6s_311m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 311m_55.05487m_20m.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 267300000,
+        "nominal_duration_s": 4.855156319504523,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "iphone6s_P032",
+          "frames": 32,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/iphone6s_P032",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 488.88454797417506,
+          "frame_period_samples": 917636.666798,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_response_312m",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/mobile/0625/312M_49M_124.08571M_baeung.rIs",
+      "alternative_raw_paths": [
+        "C:/Users/leechanghoon/Downloads/312M_49M_124.08571M_baeung.rIs"
+      ],
+      "filename": "312M_49M_124.08571M_baeung.rIs",
+      "bytes": 5346000000,
+      "byte_count_status": "Observed during discovery on 2026-10-23 and matched manifest",
+      "sha256": "615c3efeaf85b6664d61e5d7a7d9a3206cdec71b6a26890b76450bdee9b991c5",
+      "sha256_status": "Referenced from existing release manifest; not recomputed in discovery or provenance pass",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+        "json_locator": "datasets[id=iphone6_response_312m].sha256",
+        "manifest_created_utc": "2026-10-21T05:19:17+00:00"
+      },
+      "stored_iq_rate_sps": 124085710,
+      "rf_center_hz": 312000000,
+      "nominal_receiver_bandwidth_hz": 49000000,
+      "calibrated_usable_bandwidth_hz": null,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+          "locator": "datasets[id=iphone6_response_312m]",
+          "scope": "Raw bytes/hash and external acquisition metadata"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/DATASETS.md",
+          "locator": "Smartphone captures and Binary format",
+          "scope": "Device label, filename metadata, headerless big-endian int16 IQ format"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "captures[id=iphone6_response_312m]",
+          "scope": "Actual local file existence and byte-count comparison"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "entries with source filename 312M_49M_124.08571M_baeung.rIs",
+          "scope": "Parameters actually reported for these reconstruction outputs"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts unless a run explicitly rescales",
+        "status": "Prior manifest and reader convention; no format re-inference in this provenance pass"
+      },
+      "derived": {
+        "complex_sample_count": 1336500000,
+        "nominal_duration_s": 10.770780938433603,
+        "basis": "bytes/4 and externally recorded stored IQ rate; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "Fs, RF center and nominal receiver bandwidth are external metadata, not fields in this headerless raw file.",
+        "Nominal bandwidth is not a calibrated usable passband.",
+        "Reconstruction raster timing and active crop are processing estimates or priors, not measured MIPI packet or panel timing.",
+        "Release SHA-256 was not rechecked against the local copy in this provenance pass."
+      ],
+      "runs": [
+        {
+          "presentation_key": "response_312",
+          "frames": 8,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/archive_P008/response_312",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 1100.0010522575476,
+          "frame_period_samples": 2068001.9782441896,
+          "timing_status": "Processing parameters copied from presentation summary; not acquisition metadata"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_connector_20260313_105m_candidate",
+      "device": "iPhone 6",
+      "raw_path": "C:/Users/leechanghoon/Desktop/연구/APMC 2026/5. 모바일/iphone6/iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+      "alternative_raw_paths": [],
+      "filename": "iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+      "bytes": 623739072,
+      "byte_count_status": "Observed during discovery 2026-10-23; also recorded by root MATLAB reader diagnostic",
+      "sha256": "e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1",
+      "sha256_status": "Full original hashed once during discovery on 2026-10-23; copied here without re-reading raw input",
+      "sha256_source": {
+        "path": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+        "json_locator": "additional_captures[id=iphone6_connector_20260313_105m_candidate].sha256"
+      },
+      "stored_iq_rate_sps": 25000000,
+      "rf_center_hz": 105000000,
+      "nominal_receiver_bandwidth_hz": null,
+      "calibrated_usable_bandwidth_hz": null,
+      "unconfirmed_bandwidth_candidate_hz": 20000000,
+      "metadata_evidence": [
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.json",
+          "locator": "additional_captures[id=iphone6_connector_20260313_105m_candidate]",
+          "scope": "Raw identity, full hash and discovery reasoning"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_20261023.md",
+          "locator": "Section 2",
+          "scope": "Direct filename references, UI evidence and conflicting code claims"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Downloads/iphone6_reconstruct.m",
+          "locator": "Measurement comment and fs assignment; exact raw filename; IQ reader",
+          "scope": "Existing code explicitly references this file and sets Fs25MS/s and LO105MHz"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Downloads/iphone6_reconstruct_v2_2.m",
+          "locator": "fs and fc assignments; file_path",
+          "scope": "25MS/s,105MHz existing code setting"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Desktop/연구/ProgressReports/ProgressReport_20260313_이창훈.pptx",
+          "locator": "slide7, package media ppt/media/image19.png",
+          "scope": "Contemporaneous LabVIEW photo shows Frequency105MHz,SampleRate25M/s,RX1,Continuous; not direct timestamp binding to exact raw file"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_assets/labview_20260313_slide7_controls.png",
+          "locator": "Entire crop",
+          "scope": "Readable crop of slide7 acquisition controls"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Desktop/연구/ProgressReports/ProgressReport_20260313_이창훈.pptx",
+          "locator": "slide6, package media ppt/media/image18.png",
+          "scope": "Different UI shows20MHz bandwidth at105MHz; NOT adopted as raw bandwidth"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/password_diagnostic/diagnostic.json",
+          "locator": "read_info and metadata_status",
+          "scope": "Root MATLAB reader used big-endian IQ and returned sane finite ADC-count diagnostics"
+        },
+        {
+          "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "locator": "key=password_105_P064",
+          "scope": "Run uses25MS/s and105MHz,bandwidth remains null"
+        }
+      ],
+      "format": {
+        "header_bytes": 0,
+        "component_dtype": "signed int16",
+        "byte_order": "big-endian",
+        "sample_layout": "interleaved I,Q",
+        "bytes_per_complex_sample": 4,
+        "value_units": "ADC counts",
+        "status": "Direct-file scripts support format; root diagnostic read 8388608 complex samples at byte offset0 as big-endian IQ"
+      },
+      "diagnostic_read_provenance": {
+        "source": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/password_diagnostic/diagnostic.json",
+        "filename": "iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+        "bytes": 623739072,
+        "first_sample_zero_based": 0,
+        "sample_count": 8388608,
+        "byte_offset": 0,
+        "byte_count": 33554432,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "derived": {
+        "complex_sample_count": 155934768,
+        "nominal_duration_s": 6.23739072,
+        "basis": "Conditional on25MS/s and int16 IQ; does not establish gap-free acquisition"
+      },
+      "known_uncertainties": [
+        "25MS/s and105MHz are supported by exact-file script references and a contemporaneous LabVIEW photo. No raw header exists and exact acquisition timestamp linkage between photo and file is unavailable.",
+        "Receiver bandwidth is UNKNOWN.20MHz is a candidate from another UI screenshot, not confirmed for this raw file.",
+        "Conflicting MIPI_DSI_ChannelQuant scripts describe this same filename as iPhone6s,1GHz real samples,478.205MHz. Those claims were not adopted because they conflict with stronger acquisition evidence.",
+        "Past code alternates I+jQ and I-jQ. Conjugation leaves AM unchanged but reverses frequency and phase signs; use run-specific phase convention.",
+        "Current line/frame periods are signal-based processing estimates; they do not establish MIPI lane rate,bit rate or panel scan totals."
+      ],
+      "runs": [
+        {
+          "presentation_key": "password_105_P064",
+          "frames": 64,
+          "output_folder": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/password_105_P064",
+          "source_summary": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/results/iphone_recovery_20261023/presentation_summary.json",
+          "line_period_samples": 221.62275804871393,
+          "frame_period_samples": 416871.9532063845,
+          "timing_status": "Signal-derived ACF timing reported by root run,conditional Hz on25MS/s; inspect diagnostic and timing-preview outputs"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "iphone6_empty_20260319",
+      "path": "C:/Users/leechanghoon/Desktop/연구/APMC 2026/5. 모바일/iphone6/2026년03월19일22시58분56.67초.rIs",
+      "bytes": 0,
+      "reason": "Empty file; not counted among seven nonempty iPhone6 captures"
+    },
+    {
+      "filename": "iphone6_비밀번호화면_상단엣지_2026년03월13일11시57분52.84초.rIs",
+      "status": "Not found in the searched Desktop/Downloads/Documents roots"
+    }
+  ],
+  "final_summary_snapshot": {
+    "sha256": "6a4a17f76e304ecc3933a2e1d4095edd0216c87c8821e0c868b3d4ae4180c473",
+    "runs": 11,
+    "refined_password_run_uses_same_raw_capture": true
+  },
+  "remote_new_capture": {
+    "name": "iphone6_._LCD._2026.03.13.11.59.08.54.rIs",
+    "bytes": 623739072,
+    "digest": "sha256:e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1",
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_._LCD._2026.03.13.11.59.08.54.rIs",
+    "remote_verified": true
+  }
+}

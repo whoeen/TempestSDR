@@ -1,0 +1,58 @@
+{
+  "base_git_commit": "64dceda4b761d2e62a8b636f10e9b38aa6f0c920",
+  "matlab_release": "R2026b",
+  "code_sha256": [
+    {
+      "path": "surveyIphoneArchive.m",
+      "sha256": "451736d0766ac309333806278a64fa7d2f58d0f50087efa688b353a82c930a81"
+    },
+    {
+      "path": "inspectIphonePasswordCapture.m",
+      "sha256": "53d6afc64b0d7e5c9a8dc0194b46f83fea797348c4ed7b8a26288caf92653669"
+    },
+    {
+      "path": "previewIphonePasswordTiming.m",
+      "sha256": "bc67cc883589b1e65b7aa4638e397de56f4b6bf3397d7aa708a07c9199b13a45"
+    },
+    {
+      "path": "extendIphoneRecovery.m",
+      "sha256": "32f06c35305b290230eb09b99795abe519c85a59fca0dcf7b5122e48a9398efd"
+    },
+    {
+      "path": "finalizeIphoneRecovery.m",
+      "sha256": "76b8f59ab7b5ff7d00a547fd6fc8533e9cf5aea27017299b682393ad3326f063"
+    },
+    {
+      "path": "signal_processing/compareRasterAverages.m",
+      "sha256": "c0c99c12ce39b2603f83b642155e51ef0746e3bf8c07f7d64cc10f3260afb59d"
+    },
+    {
+      "path": "signal_processing/readRisIqBlock.m",
+      "sha256": "0e71cc7e694a735f2548349fd702134684efde7412dc78434e7fb2b7d2b95752"
+    },
+    {
+      "path": "signal_processing/sampleFractionalRaster.m",
+      "sha256": "37c27f72a7068b02f16bbed366e16d335fac153a26fc589e1a9b38bf9c92e971"
+    },
+    {
+      "path": "signal_processing/estimateWelchPsd.m",
+      "sha256": "20cbde88cfacc938613ec3320a6f0f6a49c4242a54b71f04a22ee68a92e9147a"
+    },
+    {
+      "path": "signal_processing/mobileBaselineConfig.m",
+      "sha256": "a7d8189bb013fca20e53e142e5a3bc26c302028738379037e6bf45080f0368e1"
+    },
+    {
+      "path": "refineIphonePasswordTiming.m",
+      "sha256": "055ca6c1e6b746d40fecd7a418a25f056de9efbb0d636a3f91c6c495f749ec43"
+    },
+    {
+      "path": "exportIphoneRecoveryOverview.m",
+      "sha256": "512c0c0f47397b9509f94bd0a143b3cf975df1a0e0f78d7c84927227d871614c"
+    }
+  ],
+  "execution": "Actual MATLAB MCP runs; numerical PSD/resampling use explicit base MATLAB implementations because pwelch/resample/stft were unavailable.",
+  "input_format": "headerless big-endian signed int16 interleaved I,Q; z=I+jQ",
+  "sample_index": "zero based; per-frame actual starting positions and raw read-block hashes in frame_parameters.csv",
+  "image_processing": "No generated or inpainted imagery. Display crops and independent contrast scaling are separated from fixed-scale checkpoint images."
+}

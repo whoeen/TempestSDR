@@ -15,8 +15,8 @@
     "bytes_per_complex_sample": 4
   },
   "chunk_size_bytes": 1992294400,
-  "dataset_count": 19,
-  "total_bytes": 47638800000,
+  "dataset_count": 20,
+  "total_bytes": 48262539072,
   "datasets": [
     {
       "id": "iphone_emergency_call_311m",
@@ -405,6 +405,25 @@
       ],
       "center_frequency_hz": null,
       "receiver_bandwidth_hz": null
+    },
+    {
+      "id": "iphone6_password_105m",
+      "capture": "iPhone 6 / March13 LCD-connector password-screen capture",
+      "filename": "iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+      "center_frequency_hz": 105000000,
+      "receiver_bandwidth_hz": null,
+      "stored_iq_rate_sps": 25000000,
+      "bytes": 623739072,
+      "sha256": "e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1",
+      "metadata_source": "Same-day March13 LabVIEW control photograph and exact-path existing MATLAB scripts; not embedded header metadata; receiver bandwidth unverified.",
+      "parts": [
+        {
+          "name": "iphone6_._LCD._2026.03.13.11.59.08.54.rIs",
+          "bytes": 623739072,
+          "sha256": "e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_utc": "2026-10-23T05:32:51.288Z"
 }

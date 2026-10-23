@@ -1,0 +1,154 @@
+{
+  "device": {
+    "key": "password_105",
+    "title": "iPhone 6 password capture / 105 MHz",
+    "filename": "iphone6 password capture March13",
+    "fs_hz": 2.5E+7,
+    "rf_center_hz": 1.05E+8,
+    "receiver_bandwidth_hz": null,
+    "prior_line_hz": 112804.29961306076,
+    "raster_rows": 1881,
+    "raster_columns": 1100,
+    "prior_frame_samples": 416871.86641948676,
+    "origin_columns": 0,
+    "active_row_segments": [
+      1,
+      1881
+    ],
+    "active_column_segments": [
+      1,
+      1100
+    ],
+    "metadata_source": "March13 LabVIEW screenshot and exact-path source scripts; BW unknown; line/frame estimates from first0.335s",
+    "timing_status": "hypothesis requiring validation on this capture"
+  },
+  "config": {
+    "schema_version": 1,
+    "sample_count": 1.048576E+6,
+    "first_sample": 0,
+    "max_frames": 64,
+    "checkpoints": [
+      1,
+      8,
+      16,
+      32,
+      64
+    ],
+    "max_stft_frames": 256,
+    "maximum_alignment_columns": 96,
+    "phase_amplitude_quantile": 0.25,
+    "phase_reference_mode": "global_or_linear_row",
+    "verify_full_file_hash": false,
+    "run_synthetic": true,
+    "run_rasters": true,
+    "figure_visible": "off",
+    "output_root": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\signal_processing\\outputs",
+    "release_manifest": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\raw_iq\\RAW_IQ_RELEASE_MANIFEST.json",
+    "search_roots": [
+      "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\data",
+      "C:\\Users\\leechanghoon\\Desktop\\mobile\\0625",
+      "C:\\Users\\leechanghoon\\Downloads"
+    ],
+    "devices": [
+      {
+        "key": "lgx2",
+        "title": "LG X2 (2019)",
+        "filename": "LGX22019_344.8M_60M_136.56551M.rIs",
+        "fs_hz": 1.3656551E+8,
+        "rf_center_hz": 3.448E+8,
+        "receiver_bandwidth_hz": 6.0E+7,
+        "prior_line_hz": 88679.652541,
+        "raster_rows": 1478,
+        "raster_columns": 1022,
+        "prior_frame_samples": 2.276100751364E+6,
+        "origin_columns": 15.5,
+        "active_row_segments": [
+          [
+            753,
+            1478
+          ],
+          [
+            1,
+            714
+          ]
+        ],
+        "active_column_segments": [
+          [
+            916,
+            1022
+          ],
+          [
+            1,
+            613
+          ]
+        ],
+        "metadata_source": "DATASETS.md and vendor/legacy_benchmark.py prior fits",
+        "timing_status": "hypothesis requiring validation on this capture"
+      },
+      {
+        "key": "iphone6s",
+        "title": "iPhone 6s",
+        "filename": "311m_55.05487m_20m.rIs",
+        "fs_hz": 5.505487E+7,
+        "rf_center_hz": 3.11E+8,
+        "receiver_bandwidth_hz": 2.0E+7,
+        "prior_line_hz": 112613.234,
+        "raster_rows": 1877,
+        "raster_columns": 750,
+        "prior_frame_samples": 917636.666798,
+        "origin_columns": 0,
+        "active_row_segments": [
+          [
+            1400,
+            1877
+          ],
+          [
+            1,
+            856
+          ]
+        ],
+        "active_column_segments": [
+          1,
+          750
+        ],
+        "metadata_source": "DATASETS.md and vendor/legacy_benchmark.py prior fits",
+        "timing_status": "hypothesis requiring validation on this capture"
+      },
+      {
+        "key": "galaxy_s4_lte",
+        "title": "Galaxy S4 LTE (111.9 MHz)",
+        "filename": "111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+        "fs_hz": 1.1089105E+8,
+        "rf_center_hz": 1.119E+8,
+        "receiver_bandwidth_hz": 2.0E+7,
+        "prior_line_hz": 116153.24109,
+        "raster_rows": 1936,
+        "raster_columns": 1080,
+        "prior_frame_samples": 1.8482917117539041E+6,
+        "origin_columns": 0,
+        "active_row_segments": [
+          [
+            1638,
+            1936
+          ],
+          [
+            1,
+            1621
+          ]
+        ],
+        "active_column_segments": [
+          [
+            780,
+            1080
+          ],
+          [
+            1,
+            658
+          ]
+        ],
+        "metadata_source": "DATASETS.md and vendor/legacy_benchmark.py prior fits",
+        "timing_status": "hypothesis requiring validation on this capture"
+      }
+    ]
+  }
+}

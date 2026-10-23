@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T05:19:17+00:00",
+  "release": {
+    "repository": "whoeen/TempestSDR",
+    "tag": "mobile-mipi-raw-iq-2026-10-21",
+    "url": "https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21",
+    "asset_base_url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21"
+  },
+  "binary_format": {
+    "header": false,
+    "sample_layout": "interleaved I,Q",
+    "component_dtype": "signed int16",
+    "byte_order": "big-endian",
+    "bytes_per_complex_sample": 4
+  },
+  "chunk_size_bytes": 1992294400,
+  "dataset_count": 20,
+  "total_bytes": 48262539072,
+  "datasets": [
+    {
+      "id": "iphone_emergency_call_311m",
+      "capture": "iPhone (model unresolved)",
+      "filename": "20260625_fs55.05487m_fc311m_25m_smallh_iphoneergentcallidisplay.rIs",
+      "center_frequency_hz": 311000000,
+      "receiver_bandwidth_hz": 25000000,
+      "stored_iq_rate_sps": 55054870,
+      "bytes": 1009800000,
+      "sha256": "b8f0c7b3b5431db97515607e0c0a65bc646c496d63afe814b8f4f385d5be1fc5",
+      "parts": [
+        {
+          "name": "iphone_emergency_call_311m.rIs.part001",
+          "bytes": 1009800000,
+          "sha256": "b8f0c7b3b5431db97515607e0c0a65bc646c496d63afe814b8f4f385d5be1fc5"
+        }
+      ]
+    },
+    {
+      "id": "lgx2_230m",
+      "capture": "LG X2 (2019)",
+      "filename": "230mhz_20m_119.67847m_left_middle top_LGX22019.rIs",
+      "center_frequency_hz": 230000000,
+      "receiver_bandwidth_hz": 20000000,
+      "stored_iq_rate_sps": 119678470,
+      "bytes": 2673000000,
+      "sha256": "d29d961bf6f7d7c5a40bf477944a82ee984cc8f64ae987a066bd7763584435d3",
+      "parts": [
+        {
+          "name": "lgx2_230m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "156613511d1047e3475cdf46cbcfece06238dcfd79bf4653013386b046fccd3f"
+        },
+        {
+          "name": "lgx2_230m.rIs.part002",
+          "bytes": 680705600,
+          "sha256": "6bd7b5ece93260dfbe3ecf8b356f94f3098918a4085b956738484c8a32dab80c"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_book34_238m",
+      "capture": "iPhone 6",
+      "filename": "238M_60M_124.08571_topleft_iphone6_book34page_.rIs",
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 2613600000,
+      "sha256": "e17e8d62b15f0d8f94312b4520f8c301953c1209af6ee25699e79e52f2ba0878",
+      "parts": [
+        {
+          "name": "iphone6_book34_238m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "de69cdcd1e0b1d9f8616e009296f6bcdf0592f0e38ffe62db22af60c2f6c1698"
+        },
+        {
+          "name": "iphone6_book34_238m.rIs.part002",
+          "bytes": 621305600,
+          "sha256": "2d40e33bf9860de28d512c564c5dd60e2e89dcb0898ef201098397f0e29141a2"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_bottom_middle_238m",
+      "capture": "iPhone 6",
+      "filename": "238M_60M_124.08571M_bottom middle_iphone6.rIs",
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 2435400000,
+      "sha256": "6617bc27d4d72bfa432e7acd67eed050bc8f38fe8c141c1a46a98f1e0f3029d2",
+      "parts": [
+        {
+          "name": "iphone6_bottom_middle_238m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "19513e7869d17d2a4e128566ebc6ac4e2a98bbcea6723d2205f257b4db5894db"
+        },
+        {
+          "name": "iphone6_bottom_middle_238m.rIs.part002",
+          "bytes": 443105600,
+          "sha256": "de2c73146be5dfb946f64847df61db8cc55ef59670d7ea0f8e3829fd76eaad22"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_topleft_238m",
+      "capture": "iPhone 6",
+      "filename": "238M_60M_124.08571M_topleft_iphone6.rIs",
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 4039200000,
+      "sha256": "2d0c360bd5ad9804f94ae936638a2aa31d2ed40423d6c85afe78c82656061de1",
+      "parts": [
+        {
+          "name": "iphone6_topleft_238m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "5c090c32b31f62a9b7689d5dd8f27a6a5468285084dbf0bffa4300d3ca1c855c"
+        },
+        {
+          "name": "iphone6_topleft_238m.rIs.part002",
+          "bytes": 1992294400,
+          "sha256": "d42bcc8ef9d33d1fff5211d0d69d823b774318aa58734abe1113538e495de732"
+        },
+        {
+          "name": "iphone6_topleft_238m.rIs.part003",
+          "bytes": 54611200,
+          "sha256": "b70be91b1032507d3620ca61987bb8f422ad889016999667ab05c55e14a033fd"
+        }
+      ],
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000
+    },
+    {
+      "id": "iphone6_book93_238m",
+      "capture": "iPhone 6",
+      "filename": "238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs",
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 3504600000,
+      "sha256": "bf04555dde3cb98b49933f58d17761753f6d488ca8b31671fe800b490dabfb9e",
+      "parts": [
+        {
+          "name": "iphone6_book93_238m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "c91cf931706a939b0e20e32cf42eba83921e454a0fbcfb5276afc64b9f26bbe1"
+        },
+        {
+          "name": "iphone6_book93_238m.rIs.part002",
+          "bytes": 1512305600,
+          "sha256": "3ebeed5273ab3f222b0478150e2e1744405b35cbbf2c1e44963aa6a2b25b31d7"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_response_308m",
+      "capture": "iPhone 6",
+      "filename": "308M_60M_124.08571M_bageung hwameon_iphone6.rIs",
+      "center_frequency_hz": 308000000,
+      "receiver_bandwidth_hz": 60000000,
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 3623400000,
+      "sha256": "efa368706446bf52b7302a05311381ba2c566089c9faec78d2d8fb2db419481f",
+      "parts": [
+        {
+          "name": "iphone6_response_308m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "3e3d18e5654745f57829065c1303dd3fef275d5de21a95a59aa79f9a748753d6"
+        },
+        {
+          "name": "iphone6_response_308m.rIs.part002",
+          "bytes": 1631105600,
+          "sha256": "ecc3b26a4124b4c56a57feb053437d016b3f92766b30e193bc9e36cb9cfef26e"
+        }
+      ]
+    },
+    {
+      "id": "smartphone_311m_23m",
+      "capture": "Smartphone (model unresolved)",
+      "filename": "311m_23m_110.11059m.rIs",
+      "center_frequency_hz": 311000000,
+      "receiver_bandwidth_hz": 23000000,
+      "stored_iq_rate_sps": 110110590,
+      "bytes": 1188000000,
+      "sha256": "780d51681a52171c635cf8a562687018dc3a338990f391b21caea0cd0b852e65",
+      "parts": [
+        {
+          "name": "smartphone_311m_23m.rIs.part001",
+          "bytes": 1188000000,
+          "sha256": "780d51681a52171c635cf8a562687018dc3a338990f391b21caea0cd0b852e65"
+        }
+      ]
+    },
+    {
+      "id": "iphone6s_311m",
+      "capture": "iPhone 6s",
+      "filename": "311m_55.05487m_20m.rIs",
+      "stored_iq_rate_sps": 55054870,
+      "bytes": 1069200000,
+      "sha256": "d55e8616140e4658f4fdf8bc7bfa63276fc17a9640121fea15952d25c9621af7",
+      "parts": [
+        {
+          "name": "iphone6s_311m.rIs.part001",
+          "bytes": 1069200000,
+          "sha256": "d55e8616140e4658f4fdf8bc7bfa63276fc17a9640121fea15952d25c9621af7"
+        }
+      ],
+      "center_frequency_hz": 311000000,
+      "receiver_bandwidth_hz": 20000000
+    },
+    {
+      "id": "iphone6_response_312m",
+      "capture": "iPhone 6",
+      "filename": "312M_49M_124.08571M_baeung.rIs",
+      "center_frequency_hz": 312000000,
+      "receiver_bandwidth_hz": 49000000,
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 5346000000,
+      "sha256": "615c3efeaf85b6664d61e5d7a7d9a3206cdec71b6a26890b76450bdee9b991c5",
+      "parts": [
+        {
+          "name": "iphone6_response_312m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "296e8864b7777910f698f647661151b36d79538bd720caba356c4389ebb925e2"
+        },
+        {
+          "name": "iphone6_response_312m.rIs.part002",
+          "bytes": 1992294400,
+          "sha256": "6f3f2c14beb2221f7ac2113c8926b68928db02975a7f1ffc31779608dd41939c"
+        },
+        {
+          "name": "iphone6_response_312m.rIs.part003",
+          "bytes": 1361411200,
+          "sha256": "734300d6d5c06138d8f65069b11230ab80a162fd1cbf31b16f5e2bb2ef8a468b"
+        }
+      ]
+    },
+    {
+      "id": "smartphone_313p9m",
+      "capture": "Smartphone (model unresolved)",
+      "filename": "313.9m_25m_110.11059m.rIs",
+      "center_frequency_hz": 313900000,
+      "receiver_bandwidth_hz": 25000000,
+      "stored_iq_rate_sps": 110110590,
+      "bytes": 1366200000,
+      "sha256": "69b5b807a5414fdfcc9d85ce810ebc246e95280092301eb2ca4f0d5345c206f0",
+      "parts": [
+        {
+          "name": "smartphone_313p9m.rIs.part001",
+          "bytes": 1366200000,
+          "sha256": "69b5b807a5414fdfcc9d85ce810ebc246e95280092301eb2ca4f0d5345c206f0"
+        }
+      ]
+    },
+    {
+      "id": "smartphone_444page",
+      "capture": "Smartphone (model unresolved)",
+      "filename": "444Page.rIs",
+      "center_frequency_hz": null,
+      "receiver_bandwidth_hz": null,
+      "stored_iq_rate_sps": null,
+      "bytes": 2910600000,
+      "sha256": "408d03ec671982fdf270cb396b74398748550e3963718477f4b01639dd6f8116",
+      "parts": [
+        {
+          "name": "smartphone_444page.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "5ca72f728e9173ea5c36de94fc921e65a39f46d21822b744caa53601bd61da69"
+        },
+        {
+          "name": "smartphone_444page.rIs.part002",
+          "bytes": 918305600,
+          "sha256": "04dfc6a9076c7f5b78a7978f19ba50fe115618fdc6ad0c8ce15ddf5501cde992"
+        }
+      ]
+    },
+    {
+      "id": "lgx2_344p8m",
+      "capture": "LG X2 (2019)",
+      "filename": "LGX22019_344.8M_60M_136.56551M.rIs",
+      "stored_iq_rate_sps": 136565510,
+      "bytes": 3742200000,
+      "sha256": "709da78b467f8e97983960837966765fd9f8e4813f0d50e49211b8617dc228f3",
+      "parts": [
+        {
+          "name": "lgx2_344p8m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "36b4b42c99addb5814274dcf97ee85164e47e2816b02b867bb762d3e75bbb13f"
+        },
+        {
+          "name": "lgx2_344p8m.rIs.part002",
+          "bytes": 1749905600,
+          "sha256": "a70c6b35c69d5fa636df20f7bea19c1f1b239d2dccef237eaffcf8219ee87350"
+        }
+      ],
+      "center_frequency_hz": 344800000,
+      "receiver_bandwidth_hz": 60000000
+    },
+    {
+      "id": "galaxy_s4_lte_111p9m",
+      "capture": "Galaxy S4 LTE",
+      "filename": "111.9mhz_20m_110.89105m_galaxyS4lte_rightmiddle.rIs",
+      "stored_iq_rate_sps": 110891050,
+      "bytes": 2791800000,
+      "sha256": "973e67f8e4929ea3458d3e6674704cb68b8813810a67c928a0fc9f6aa08963ea",
+      "parts": [
+        {
+          "name": "galaxy_s4_lte_111p9m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "6905bc4d8060b2b996b24441daa45ffbf2efb9efe6f114924f92a3b873c8ac0c"
+        },
+        {
+          "name": "galaxy_s4_lte_111p9m.rIs.part002",
+          "bytes": 799505600,
+          "sha256": "6cd1c41c836a1de92571f71c7e69039b180c7a5e3554d56f29ff1e558f5a5ecb"
+        }
+      ],
+      "center_frequency_hz": 111900000,
+      "receiver_bandwidth_hz": 20000000
+    },
+    {
+      "id": "galaxy_s4_lte_171p5m",
+      "capture": "Galaxy S4 LTE",
+      "filename": "171.5mhz_20m_55.81679m_galaxS4lte.rIs",
+      "stored_iq_rate_sps": 55816790,
+      "bytes": 1306800000,
+      "sha256": "543453a72d38326b5255f0d7518fc7f13ac0d887cd63a11b302b3fa5c0d2f88c",
+      "parts": [
+        {
+          "name": "galaxy_s4_lte_171p5m.rIs.part001",
+          "bytes": 1306800000,
+          "sha256": "543453a72d38326b5255f0d7518fc7f13ac0d887cd63a11b302b3fa5c0d2f88c"
+        }
+      ],
+      "center_frequency_hz": 171500000,
+      "receiver_bandwidth_hz": 20000000
+    },
+    {
+      "id": "smartphone_topmiddle_390m",
+      "capture": "Smartphone (model unresolved)",
+      "filename": "390M_60M_124.08571M_topmiddle.rIs",
+      "center_frequency_hz": 390000000,
+      "receiver_bandwidth_hz": 60000000,
+      "stored_iq_rate_sps": 124085710,
+      "bytes": 3385800000,
+      "sha256": "180a9264ef768721375a1644fbea1a56f89286117b1726236427767231fdff89",
+      "parts": [
+        {
+          "name": "smartphone_topmiddle_390m.rIs.part001",
+          "bytes": 1992294400,
+          "sha256": "62429566e5faff87e51badb5a327681f50547517dc8a47901b19693df90b3ed6"
+        },
+        {
+          "name": "smartphone_topmiddle_390m.rIs.part002",
+          "bytes": 1393505600,
+          "sha256": "f8f8c3c275809c81e4c3f8172b32786eb92a11824beb41adf0377a63ab18f6f2"
+        }
+      ]
+    },
+    {
+      "id": "antenna1",
+      "capture": "Antenna 1",
+      "filename": "antenna1.rIs",
+      "stored_iq_rate_sps": null,
+      "bytes": 1366200000,
+      "sha256": "ba2a2d46a7560595949b72ac0d018008906492332777e0daa87d2892b90c4a5f",
+      "parts": [
+        {
+          "name": "antenna1.rIs.part001",
+          "bytes": 1366200000,
+          "sha256": "ba2a2d46a7560595949b72ac0d018008906492332777e0daa87d2892b90c4a5f"
+        }
+      ],
+      "center_frequency_hz": null,
+      "receiver_bandwidth_hz": null
+    },
+    {
+      "id": "antenna2",
+      "capture": "Antenna 2",
+      "filename": "antenna2.rIs",
+      "stored_iq_rate_sps": null,
+      "bytes": 1425600000,
+      "sha256": "7631b80d95547988ac60a51ea5d00a63c3fed32cdc85231576ce652ccb672ade",
+      "parts": [
+        {
+          "name": "antenna2.rIs.part001",
+          "bytes": 1425600000,
+          "sha256": "7631b80d95547988ac60a51ea5d00a63c3fed32cdc85231576ce652ccb672ade"
+        }
+      ],
+      "center_frequency_hz": null,
+      "receiver_bandwidth_hz": null
+    },
+    {
+      "id": "antenna3",
+      "capture": "Antenna 3",
+      "filename": "antenna3.rIs",
+      "stored_iq_rate_sps": null,
+      "bytes": 1841400000,
+      "sha256": "05125630944dfdad3181753d5f88fb924fe5a6b12a034ffa450b1b09aaea4732",
+      "parts": [
+        {
+          "name": "antenna3.rIs.part001",
+          "bytes": 1841400000,
+          "sha256": "05125630944dfdad3181753d5f88fb924fe5a6b12a034ffa450b1b09aaea4732"
+        }
+      ],
+      "center_frequency_hz": null,
+      "receiver_bandwidth_hz": null
+    },
+    {
+      "id": "iphone6_password_105m",
+      "capture": "iPhone 6 / March13 LCD-connector password-screen capture",
+      "filename": "iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+      "center_frequency_hz": 105000000,
+      "receiver_bandwidth_hz": null,
+      "stored_iq_rate_sps": 25000000,
+      "bytes": 623739072,
+      "sha256": "e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1",
+      "metadata_source": "Same-day March13 LabVIEW control photograph and exact-path existing MATLAB scripts; not embedded header metadata; receiver bandwidth unverified.",
+      "parts": [
+        {
+          "name": "iphone6_._LCD._2026.03.13.11.59.08.54.rIs",
+          "bytes": 623739072,
+          "sha256": "e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1"
+        }
+      ]
+    }
+  ],
+  "updated_utc": "2026-10-23T05:32:51.288Z"
+}

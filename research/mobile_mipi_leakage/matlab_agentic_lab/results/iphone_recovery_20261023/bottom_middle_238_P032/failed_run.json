@@ -1,0 +1,5 @@
+{
+  "status": "failed_before_raw_raster_read",
+  "reason": "jsondecode converted segment vector to column; repaired by explicit1x2segments",
+  "retry": "../bottom_middle_238_P032_v2"
+}

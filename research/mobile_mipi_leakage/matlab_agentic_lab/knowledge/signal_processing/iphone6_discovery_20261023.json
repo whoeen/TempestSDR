@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "review_date_local": "2026-10-23",
+  "timezone": "Asia/Seoul",
+  "originals_modified": false,
+  "search_roots": [
+    "C:/Users/leechanghoon/Desktop",
+    "C:/Users/leechanghoon/Downloads",
+    "C:/Users/leechanghoon/Documents"
+  ],
+  "captures": [
+    {
+      "id": "iphone6_book34_238m",
+      "status": "existing_manifest_found",
+      "device": "iPhone 6",
+      "path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571_topleft_iphone6_book34page_.rIs",
+      "alternative_path": "C:/Users/leechanghoon/Downloads/238M_60M_124.08571_topleft_iphone6_book34page_.rIs",
+      "bytes": 2613600000,
+      "sha256": "e17e8d62b15f0d8f94312b4520f8c301953c1209af6ee25699e79e52f2ba0878",
+      "hash_status": "prior_manifest_not_recomputed",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "stored_iq_rate_sps": 124085710,
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "metadata_status": "external_filename_and_prior_manifest"
+    },
+    {
+      "id": "iphone6_bottom_middle_238m",
+      "status": "existing_manifest_found",
+      "device": "iPhone 6",
+      "path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571M_bottom middle_iphone6.rIs",
+      "alternative_path": "C:/Users/leechanghoon/Downloads/238M_60M_124.08571M_bottom middle_iphone6.rIs",
+      "bytes": 2435400000,
+      "sha256": "6617bc27d4d72bfa432e7acd67eed050bc8f38fe8c141c1a46a98f1e0f3029d2",
+      "hash_status": "prior_manifest_not_recomputed",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "stored_iq_rate_sps": 124085710,
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "metadata_status": "external_filename_and_prior_manifest"
+    },
+    {
+      "id": "iphone6_topleft_238m",
+      "status": "existing_manifest_found",
+      "device": "iPhone 6",
+      "path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571M_topleft_iphone6.rIs",
+      "alternative_path": "C:/Users/leechanghoon/Downloads/238M_60M_124.08571M_topleft_iphone6.rIs",
+      "bytes": 4039200000,
+      "sha256": "2d0c360bd5ad9804f94ae936638a2aa31d2ed40423d6c85afe78c82656061de1",
+      "hash_status": "prior_manifest_not_recomputed",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "stored_iq_rate_sps": 124085710,
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "metadata_status": "external_filename_and_prior_manifest"
+    },
+    {
+      "id": "iphone6_book93_238m",
+      "status": "existing_manifest_found",
+      "device": "iPhone 6",
+      "path": "C:/Users/leechanghoon/Desktop/mobile/0625/238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs",
+      "alternative_path": "C:/Users/leechanghoon/Downloads/238M_60M_124.08571M_topmiddle_book93page_iphone6.rIs",
+      "bytes": 3504600000,
+      "sha256": "bf04555dde3cb98b49933f58d17761753f6d488ca8b31671fe800b490dabfb9e",
+      "hash_status": "prior_manifest_not_recomputed",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "stored_iq_rate_sps": 124085710,
+      "center_frequency_hz": 238000000,
+      "receiver_bandwidth_hz": 60000000,
+      "metadata_status": "external_filename_and_prior_manifest"
+    },
+    {
+      "id": "iphone6_response_308m",
+      "status": "existing_manifest_found",
+      "device": "iPhone 6",
+      "path": "C:/Users/leechanghoon/Desktop/mobile/0625/308M_60M_124.08571M_bageung hwameon_iphone6.rIs",
+      "alternative_path": "C:/Users/leechanghoon/Downloads/308M_60M_124.08571M_bageung hwameon_iphone6.rIs",
+      "bytes": 3623400000,
+      "sha256": "efa368706446bf52b7302a05311381ba2c566089c9faec78d2d8fb2db419481f",
+      "hash_status": "prior_manifest_not_recomputed",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "stored_iq_rate_sps": 124085710,
+      "center_frequency_hz": 308000000,
+      "receiver_bandwidth_hz": 60000000,
+      "metadata_status": "external_filename_and_prior_manifest"
+    },
+    {
+      "id": "iphone6_response_312m",
+      "status": "existing_manifest_found",
+      "device": "iPhone 6",
+      "path": "C:/Users/leechanghoon/Desktop/mobile/0625/312M_49M_124.08571M_baeung.rIs",
+      "alternative_path": "C:/Users/leechanghoon/Downloads/312M_49M_124.08571M_baeung.rIs",
+      "bytes": 5346000000,
+      "sha256": "615c3efeaf85b6664d61e5d7a7d9a3206cdec71b6a26890b76450bdee9b991c5",
+      "hash_status": "prior_manifest_not_recomputed",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "stored_iq_rate_sps": 124085710,
+      "center_frequency_hz": 312000000,
+      "receiver_bandwidth_hz": 49000000,
+      "metadata_status": "external_filename_and_prior_manifest"
+    }
+  ],
+  "additional_captures": [
+    {
+      "id": "iphone6_connector_20260313_105m_candidate",
+      "path": "C:/Users/leechanghoon/Desktop/연구/APMC 2026/5. 모바일/iphone6/iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+      "bytes": 623739072,
+      "sha256": "e4dcb3c7a958d9c9bdddfb3c6f7c9ab29ac1a5e22ce6a0e5247a4789216e08e1",
+      "hash_status": "full_original_recomputed_this_turn",
+      "device": "iPhone 6",
+      "device_status": "filename_and_contemporaneous_presentation_label",
+      "screen": "passcode entry screen per file label",
+      "probe_position": "LCD connector per file label",
+      "component_dtype": "signed int16",
+      "byte_order": "big-endian",
+      "layout": "interleaved I,Q",
+      "format_status": "direct_file_reference_scripts_and_byte_prefix_support_pending_raw_diagnostic",
+      "stored_iq_rate_sps": 25000000,
+      "center_frequency_hz": 105000000,
+      "rate_center_status": "direct_file_reference_code_matches_contemporaneous_LabVIEW_photo_not_file_header",
+      "receiver_bandwidth_hz": null,
+      "bandwidth_candidate_hz": 20000000,
+      "bandwidth_candidate_status": "different_UI_on_slide6_not_confirmed_for_this_raw",
+      "complex_samples_if_int16_iq": 155934768,
+      "duration_s_if_25MSps": 6.23739072,
+      "frame_rate_prior_hz": 59.98,
+      "total_rows_prior": [
+        1880,
+        1884
+      ],
+      "line_rate_prior_hz": 113000,
+      "line_timing_status": "prior_native_endian_code_not_validated",
+      "evidence": {
+        "direct_file_scripts": [
+          "C:/Users/leechanghoon/Downloads/iphone6_reconstruct.m",
+          "C:/Users/leechanghoon/Downloads/iphone6_reconstruct_v2_2.m",
+          "C:/Users/leechanghoon/Downloads/iphone6_em_reconstruct_v2.m"
+        ],
+        "acquisition_photo_deck": "C:/Users/leechanghoon/Desktop/연구/ProgressReports/ProgressReport_20260313_이창훈.pptx",
+        "acquisition_photo_slide": 7,
+        "acquisition_photo_package_media": "ppt/media/image19.png",
+        "controls_crop": "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd/tempestsdr-cloud/research/mobile_mipi_leakage/matlab_agentic_lab/knowledge/signal_processing/iphone6_discovery_assets/labview_20260313_slide7_controls.png"
+      },
+      "conflicting_scripts": [
+        "C:/Users/leechanghoon/Downloads/MIPI_DSI_ChannelQuant_8.m"
+      ],
+      "conflicting_script_claims_not_adopted": {
+        "device": "iPhone 6s",
+        "stored_iq_rate_sps": 1000000000,
+        "center_frequency_hz": 478205000,
+        "layout": "real scalar"
+      },
+      "related_unavailable_filename": "iphone6_비밀번호화면_상단엣지_2026년03월13일11시57분52.84초.rIs"
+    },
+    {
+      "id": "iphone6_empty_20260319",
+      "path": "C:/Users/leechanghoon/Desktop/연구/APMC 2026/5. 모바일/iphone6/2026년03월19일22시58분56.67초.rIs",
+      "bytes": 0,
+      "status": "empty_not_processable"
+    }
+  ]
+}

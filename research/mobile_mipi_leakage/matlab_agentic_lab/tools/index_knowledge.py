@@ -21,6 +21,7 @@ def main():
         rows=[]
         candidates=list((ROOT/"knowledge").rglob("*.jsonl"))
         candidates+=list((ROOT/"signal_processing"/"outputs").rglob("*.jsonl"))
+        candidates+=list((ROOT/"results").rglob("*.jsonl"))
         for path in sorted(candidates):
             if any(part in {"cache","extracted","raw"} for part in path.parts): continue
             relative=path.relative_to(ROOT).as_posix()

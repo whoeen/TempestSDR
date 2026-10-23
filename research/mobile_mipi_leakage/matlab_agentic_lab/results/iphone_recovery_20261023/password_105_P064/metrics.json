@@ -1,0 +1,70 @@
+{
+  "frames": 64,
+  "checkpoints": [
+    {
+      "frames": 1,
+      "am_odd_even_correlation": null,
+      "mean_coherent_over_incoherent": 1,
+      "uncorrected_coherent_power_counts2": 35161.625,
+      "global_coherent_power_counts2": 35161.625,
+      "row_coherent_power_counts2": 35161.625,
+      "mean_amplitude_counts": 91.0564575,
+      "fractional_vs_nearest_relative_rms": 0.186209112
+    },
+    {
+      "frames": 8,
+      "am_odd_even_correlation": 0.96482101370684148,
+      "mean_coherent_over_incoherent": 0.667591512,
+      "uncorrected_coherent_power_counts2": 24935.3574,
+      "global_coherent_power_counts2": 24861.252,
+      "row_coherent_power_counts2": 23000.5293,
+      "mean_amplitude_counts": 92.2323685,
+      "fractional_vs_nearest_relative_rms": 0.0764848739
+    },
+    {
+      "frames": 16,
+      "am_odd_even_correlation": 0.97453113430918248,
+      "mean_coherent_over_incoherent": 0.630599856,
+      "uncorrected_coherent_power_counts2": 24301.8242,
+      "global_coherent_power_counts2": 24188.002,
+      "row_coherent_power_counts2": 22116.5098,
+      "mean_amplitude_counts": 92.0726547,
+      "fractional_vs_nearest_relative_rms": 0.0494922474
+    },
+    {
+      "frames": 32,
+      "am_odd_even_correlation": 0.97737087997346062,
+      "mean_coherent_over_incoherent": 0.609767377,
+      "uncorrected_coherent_power_counts2": 23473.0098,
+      "global_coherent_power_counts2": 23949.0215,
+      "row_coherent_power_counts2": 21893.0781,
+      "mean_amplitude_counts": 92.2874298,
+      "fractional_vs_nearest_relative_rms": 0.0436069816
+    },
+    {
+      "frames": 64,
+      "am_odd_even_correlation": 0.97920637158668067,
+      "mean_coherent_over_incoherent": 0.586817682,
+      "uncorrected_coherent_power_counts2": 5022.20801,
+      "global_coherent_power_counts2": 23550.6484,
+      "row_coherent_power_counts2": 21625.8418,
+      "mean_amplitude_counts": 91.4688416,
+      "fractional_vs_nearest_relative_rms": 0.0403599143
+    }
+  ],
+  "samples_per_raster_column": 0.20147523458973993,
+  "frame_period_samples": 416871.9532063845,
+  "line_period_samples": 221.62275804871393,
+  "image_scale_counts": [
+    4.9140362739562988,
+    854.182861328125
+  ],
+  "interpolation": "Catmull-Rom cubic; nearest control, no new measured bandwidth",
+  "phase_fit": "Select training rows before unwrapping; linear mixture-phase fit, otherwise global phase fallback",
+  "minimum_row_phase_coherence": 0.1,
+  "minimum_row_phase_fit_rows": 16,
+  "maximum_phase_design_condition": 1000,
+  "phase_fit_fallback_frames": 0,
+  "validation_caveat": "Row fit excludes validation-row phases, but horizontal alignment shares the full reference. Global fallback uses all rows. Frame 1 is self-reference, not validation.",
+  "caveat": "Repeatability and coherence can reward stable clutter. These are not ground-truth image fidelity, RGB recovery, or proof of LCD-driver origin."
+}

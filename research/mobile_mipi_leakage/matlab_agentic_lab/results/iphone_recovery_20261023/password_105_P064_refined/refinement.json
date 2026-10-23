@@ -1,0 +1,91 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\leechanghoon\\Desktop\\연구\\APMC 2026\\5. 모바일\\iphone6\\iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+  "prior_output": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone_recovery_20261023\\password_105_P064",
+  "output": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone_recovery_20261023\\password_105_P064_refined",
+  "training_frames": [
+    1,
+    48
+  ],
+  "period_fit_frames": [
+    2,
+    48
+  ],
+  "evaluation_frames": [
+    49,
+    64
+  ],
+  "fit_method": "polyfit(frame-1, shift_columns, 1), saved frames 2:48 only",
+  "shift_slope_columns_per_frame": 0.43075714956263766,
+  "shift_intercept_columns": 0.091742034816809648,
+  "fit_residual_rms_columns": 0.19037178858146886,
+  "old_frame_period_samples": 416871.9532063845,
+  "new_frame_period_samples": 416871.86641948676,
+  "period_change_samples": -0.086786897736601532,
+  "line_period_samples": 221.62275804871393,
+  "samples_per_output_column": 0.20147523458973993,
+  "first_sample": 0,
+  "origin_columns": 0,
+  "old_alignment_limit_columns": 24,
+  "new_alignment_limit_columns": 96,
+  "old_training_alignment": {
+    "frame_range": [
+      1,
+      48
+    ],
+    "count": 48,
+    "minimum_shift_columns": 0,
+    "maximum_shift_columns": 20.2661057974655,
+    "saturated_frames": [],
+    "mean_profile_correlation": 0.99948568962535234,
+    "minimum_profile_correlation": 0.998329642571499
+  },
+  "old_evaluation_alignment": {
+    "frame_range": [
+      49,
+      64
+    ],
+    "count": 16,
+    "minimum_shift_columns": 21.074703649871,
+    "maximum_shift_columns": 24,
+    "saturated_frames": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "mean_profile_correlation": 0.98200680046423694,
+    "minimum_profile_correlation": 0.920588846338174
+  },
+  "caveat": "Only the frame-period slope excludes frames 49:64. Every frame still aligns to the common frame-1 profile; phase fitting and aggregate odd/even metrics are not independent held-out image validation. The alignment window also changes from 24 to 96 columns, so this run does not isolate the period correction alone. Stable clutter may determine the timing. No raw-file playback loop or new independent observations are created.",
+  "new_training_alignment": {
+    "frame_range": [
+      1,
+      48
+    ],
+    "count": 48,
+    "minimum_shift_columns": -0.166813461025717,
+    "maximum_shift_columns": 0.391059637978112,
+    "saturated_frames": [],
+    "mean_profile_correlation": 0.99958449537448135,
+    "minimum_profile_correlation": 0.998701189433391
+  },
+  "new_evaluation_alignment": {
+    "frame_range": [
+      49,
+      64
+    ],
+    "count": 16,
+    "minimum_shift_columns": 0.0565561013373814,
+    "maximum_shift_columns": 0.595286640079636,
+    "saturated_frames": [],
+    "mean_profile_correlation": 0.99906213268507182,
+    "minimum_profile_correlation": 0.998097059943329
+  },
+  "frames_processed": 64
+}

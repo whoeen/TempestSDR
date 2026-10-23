@@ -1,0 +1,37 @@
+{
+  "source": "C:\\Users\\leechanghoon\\Desktop\\연구\\APMC 2026\\5. 모바일\\iphone6\\iphone6_비밀번호화면_LCD커넥터부분_2026년03월13일11시59분08.54초.rIs",
+  "line_samples": 221.62275804871393,
+  "candidates": [
+    {
+      "rows": 1880,
+      "columns": 550,
+      "line_samples": 221.62275804871393,
+      "frame_samples": 416650.78513158218,
+      "frame_hz_conditional": 60.002287028223812,
+      "frames": 8,
+      "am_odd_even_correlation": 0.8185370854841445,
+      "row_column_removed_odd_even_correlation": 0.52743342851230846
+    },
+    {
+      "rows": 1881,
+      "columns": 550,
+      "line_samples": 221.62275804871393,
+      "frame_samples": 416871.9532063845,
+      "frame_hz_conditional": 59.970453295578338,
+      "frames": 8,
+      "am_odd_even_correlation": 0.96174202569628253,
+      "row_column_removed_odd_even_correlation": 0.89700853171111972
+    },
+    {
+      "rows": 1884,
+      "columns": 550,
+      "line_samples": 221.62275804871393,
+      "frame_samples": 417537.27616377705,
+      "frame_hz_conditional": 59.874893637505714,
+      "frames": 8,
+      "am_odd_even_correlation": 0.80658521632121083,
+      "row_column_removed_odd_even_correlation": 0.50073974539678723
+    }
+  ],
+  "caveat": "550 display columns interpolate about222 acquired samples/line; no extra measured resolution. No ground-truth image was used."
+}
