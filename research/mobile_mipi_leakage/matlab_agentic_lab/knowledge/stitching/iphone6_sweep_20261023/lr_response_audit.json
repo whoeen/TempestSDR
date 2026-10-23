@@ -1,0 +1,63 @@
+{
+  "kind": "scalar analytical filter response audit, not IQ processing",
+  "W": 8,
+  "butterworth_order": 4,
+  "Fs_out_MHz": 1440,
+  "ideal_rectangular_input_bandwidth_MHz": 120,
+  "center_step_MHz": 60,
+  "checks": [
+    {
+      "crossover_analytic_MHz": 90,
+      "incoming_weight_at_overlap_left": 0.035516750153378074,
+      "existing_weight_at_overlap_right": 0.08444235975635447
+    },
+    {
+      "crossover_analytic_MHz": 150,
+      "incoming_weight_at_overlap_left": 0.1309785089509402,
+      "existing_weight_at_overlap_right": 0.1690549469209651
+    },
+    {
+      "crossover_analytic_MHz": 210,
+      "incoming_weight_at_overlap_left": 0.19855036064439446,
+      "existing_weight_at_overlap_right": 0.2207742386291581
+    },
+    {
+      "crossover_analytic_MHz": 270,
+      "incoming_weight_at_overlap_left": 0.23706266162009348,
+      "existing_weight_at_overlap_right": 0.2484567876763005
+    },
+    {
+      "crossover_analytic_MHz": 330,
+      "incoming_weight_at_overlap_left": 0.2556814093694887,
+      "existing_weight_at_overlap_right": 0.2591865050724362
+    },
+    {
+      "crossover_analytic_MHz": 390,
+      "incoming_weight_at_overlap_left": 0.25918650507243657,
+      "existing_weight_at_overlap_right": 0.255681409369488
+    },
+    {
+      "crossover_analytic_MHz": 450,
+      "incoming_weight_at_overlap_left": 0.24845678767630064,
+      "existing_weight_at_overlap_right": 0.23706266162009382
+    },
+    {
+      "crossover_analytic_MHz": 510,
+      "incoming_weight_at_overlap_left": 0.22077423862915757,
+      "existing_weight_at_overlap_right": 0.19855036064439477
+    },
+    {
+      "crossover_analytic_MHz": 570,
+      "incoming_weight_at_overlap_left": 0.16905494692096457,
+      "existing_weight_at_overlap_right": 0.13097850895094057
+    },
+    {
+      "crossover_analytic_MHz": 630,
+      "incoming_weight_at_overlap_left": 0.08444235975635472,
+      "existing_weight_at_overlap_right": 0.03551675015337829
+    }
+  ],
+  "passband_gain_min_RF_inner": 0.703558790805528,
+  "passband_gain_max_RF_inner": 0.9990958956003977,
+  "note": "weights applied in ascending band order, all bands share same ideal underlying complex spectrum; physical analog responses and finite block effects omitted"
+}

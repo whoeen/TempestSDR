@@ -1,0 +1,860 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-10-23T09:35:27.638Z",
+  "device": "Apple iPhone 6",
+  "capture_setup": {
+    "receiver": "NI USRP-2940R",
+    "instantaneous_bandwidth_hz": 120000000,
+    "bandwidth_status": "user_stated; actual filter configuration not independently read",
+    "probe_measurement": true,
+    "probe_and_phone_positions": "clamp-fixed; user stated",
+    "external_lna": false,
+    "external_bpf": false,
+    "center_step_hz": 60000000,
+    "overlap_fraction_nominal": 0.5,
+    "rf_center_span_hz": [
+      100000000,
+      700000000
+    ],
+    "nominal_synthesis_interval_hz": [
+      40000000,
+      760000000
+    ],
+    "nominal_synthesis_width_hz": 720000000,
+    "fs_hz": 124082800,
+    "fs_status": "user_reported: complex IQ sample rate 124.0828 MS/s",
+    "gain_db": null,
+    "clock_reference": null,
+    "overflow_drop_counts": null,
+    "capture_order": null,
+    "fs_provenance": {
+      "source": "current user clarification relayed by root",
+      "value_text": "124.0828MHz",
+      "interpretation": "complex IQ sample rate 124.0828 MS/s",
+      "recorded_utc": "2026-10-23T09:36:28.273Z"
+    }
+  },
+  "format_assessment": {
+    "chosen_candidate": "big-endian signed int16, interleaved I then Q, no header",
+    "status": "strong byte-statistical support and prior project format; producer metadata unavailable",
+    "phase_convention": "I+jQ is analysis convention; hardware spectrum polarity/complex sign not confirmed",
+    "sample_bytes": 4,
+    "header_bytes_assumed": 0,
+    "global_clipping_status": "not tested; only first and last 1 MiB inspected",
+    "full_hash_status": "complete: all 11 entire files streamed sequentially, immutable originals"
+  },
+  "reference_image": {
+    "path": "C:/Users/leechanghoon/Downloads/5D0ED11B-F431-49D4-84C4-E25AD8746E2C.png",
+    "bytes": 105197,
+    "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+    "width": 750,
+    "height": 1334,
+    "source": "user_stated_iPhone6_screenshot"
+  },
+  "total_bytes": 11107800000,
+  "captures": [
+    {
+      "fc_mhz": 100,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+      "bytes": 1158300000,
+      "mtime": "2026-10-23T09:11:39.436Z",
+      "birthtime": "2026-10-23T09:00:19.465Z",
+      "full_sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "bf41c27fe483a48af8dd99cdacca43cfa4f31906c47e7666f418a2ae7d9f162f"
+        },
+        {
+          "byte_offset": 1157251424,
+          "byte_count": 1048576,
+          "sha256": "d95a8ae821fcb097888eda82f86d4bf03aa767a9882ce770453108aedbb077ce"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 289575000,
+      "first_64_bytes_hex": "001400450003001bffdaffdcffcc004a00000015ffecffdaffb9ffd4ff7e01de032100c8ffbeff86fe6b01110090ffd2ffd1ff78005b00080013004000010087",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": -0.38269615173339844,
+        "rms": 42.099265753171714,
+        "min": -716,
+        "max": 801,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9973068237304688
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 30.701475143432617,
+        "rms": 8892.166453040483,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0000820159912109375,
+        "abs_lt_256_fraction": 0.021280288696289062
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 0.3630790710449219,
+        "rms": 51.51181068912655,
+        "min": -923,
+        "max": 900,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9943122863769531
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 202.0051784515381,
+        "rms": 9690.906219130904,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0001430511474609375,
+        "abs_lt_256_fraction": 0.018011093139648438
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 2.3337239327287906,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        40,
+        160
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:36:42.311Z",
+      "full_hash_elapsed_s": 3.832
+    },
+    {
+      "fc_mhz": 160,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc160MHz.rIs",
+      "bytes": 1306800000,
+      "mtime": "2026-10-23T09:12:24.938Z",
+      "birthtime": "2026-10-23T09:00:17.978Z",
+      "full_sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "9fe0681162389a96ae2f3fbfdb077aecabcb0c5d5b48d97f5db3ea77dc2607ab"
+        },
+        {
+          "byte_offset": 1305751424,
+          "byte_count": 1048576,
+          "sha256": "b4ba0e5fda490fbfb56e92958561b8561549d34bed348622a113bd856b481161"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 326700000,
+      "first_64_bytes_hex": "003a000fffef002fffef0025fffcffa8ffdcfff800490058ffdfffedffc2001a002d00070019ffeeffda0029ffe0001a0007ffceffdc000a00460004005cfff6",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 1.6690673828125,
+        "rms": 38.44597550897771,
+        "min": -870,
+        "max": 740,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9988632202148438
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 552.7841262817383,
+        "rms": 8925.139352090537,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0000629425048828125,
+        "abs_lt_256_fraction": 0.021728515625
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 0.5705471038818359,
+        "rms": 49.10912031398349,
+        "min": -894,
+        "max": 918,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9966373443603516
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 260.37523078918457,
+        "rms": 10410.389882088166,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000152587890625,
+        "abs_lt_256_fraction": 0.01876068115234375
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 2.632919308719661,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        100,
+        220
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:36:46.711Z",
+      "full_hash_elapsed_s": 4.398
+    },
+    {
+      "fc_mhz": 220,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc220MHz.rIs",
+      "bytes": 1158300000,
+      "mtime": "2026-10-23T09:12:12.552Z",
+      "birthtime": "2026-10-23T09:00:34.230Z",
+      "full_sha256": "1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "e090f419fad871af806396bb839b62b2defd2905fbcb495788e1a4c4362597cc"
+        },
+        {
+          "byte_offset": 1157251424,
+          "byte_count": 1048576,
+          "sha256": "2c397ad20ebd524b562ba3af1542ba46b822f0283bb9ac97df87fddaf2c146dc"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 289575000,
+      "first_64_bytes_hex": "001cffd7003afff200200013fffe0036001e001afff90013fff60026fff1001b00040004fff4000fffe0ffe000100016003600100004ffdffff6003f00100034",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 3.9795799255371094,
+        "rms": 37.08851089051276,
+        "min": -1222,
+        "max": 1186,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9984874725341797
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1100.2630996704102,
+        "rms": 8361.885121608624,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0000762939453125,
+        "abs_lt_256_fraction": 0.02442169189453125
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 3.889049530029297,
+        "rms": 38.33930099033166,
+        "min": -599,
+        "max": 572,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9982891082763672
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1082.7462902069092,
+        "rms": 8573.674178863688,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000095367431640625,
+        "abs_lt_256_fraction": 0.023828506469726562
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 2.3337239327287906,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        160,
+        280
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:36:50.577Z",
+      "full_hash_elapsed_s": 3.862
+    },
+    {
+      "fc_mhz": 280,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc280MHz.rIs",
+      "bytes": 950400000,
+      "mtime": "2026-10-23T09:10:36.819Z",
+      "birthtime": "2026-10-23T09:00:36.658Z",
+      "full_sha256": "f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "dfafca067cc56ce138b4d9516a290dfb117abe0bb7b3096bf7f63542ddec4b72"
+        },
+        {
+          "byte_offset": 949351424,
+          "byte_count": 1048576,
+          "sha256": "29c91b675b5517a011fb1b1360e69d5d21cb66abddc54605010d53810b02173c"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 237600000,
+      "first_64_bytes_hex": "0034ff7a002800aeff70ffed006affc8ffc70082fff5ff980042002fffd80038fffeffe8001b002efffa00220003ffe00006003cffaeffeb004cffccffd80054",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 4.275932312011719,
+        "rms": 53.22645997732265,
+        "min": -600,
+        "max": 490,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9995651245117188
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 849.1953029632568,
+        "rms": 12669.316270563577,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000911712646484375,
+        "abs_lt_256_fraction": 0.018003463745117188
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 4.949398040771484,
+        "rms": 35.769791413323695,
+        "min": -422,
+        "max": 411,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9996414184570312
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1327.2636280059814,
+        "rms": 8696.705085463289,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0001430511474609375,
+        "abs_lt_256_fraction": 0.026216506958007812
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 1.9148504063415719,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        220,
+        340
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:36:53.887Z",
+      "full_hash_elapsed_s": 3.308
+    },
+    {
+      "fc_mhz": 340,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc340MHz.rIs",
+      "bytes": 1039500000,
+      "mtime": "2026-10-23T09:11:39.616Z",
+      "birthtime": "2026-10-23T09:00:44.624Z",
+      "full_sha256": "74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "d346a8d83661a80b23d742c766639f7b92c9cc0e710274141922f529de2f77bd"
+        },
+        {
+          "byte_offset": 1038451424,
+          "byte_count": 1048576,
+          "sha256": "adb6bf2db34264e4eef35fd32f63ea328ec6c7962a5a9a0180cd9a0ebcb8f5d1"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 259875000,
+      "first_64_bytes_hex": "0003fff000080022000a000500090008fffb0000000e001b0006001a00170008ffd7000900160018fff4001200040006fffcfffafffb001a0006fff4fff00020",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 6.610576629638672,
+        "rms": 23.019720413671056,
+        "min": -348,
+        "max": 370,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9998760223388672
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1761.4006652832031,
+        "rms": 5545.5793664625435,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000064849853515625,
+        "abs_lt_256_fraction": 0.042285919189453125
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 6.942047119140625,
+        "rms": 23.073639864527234,
+        "min": -332,
+        "max": 348,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999008178710938
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1832.3408069610596,
+        "rms": 5583.643307042994,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0000514984130859375,
+        "abs_lt_256_fraction": 0.04172515869140625
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 2.094367631936094,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        280,
+        400
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:11.268Z",
+      "full_hash_elapsed_s": 3.402
+    },
+    {
+      "fc_mhz": 400,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc400MHz.rIs",
+      "bytes": 891000000,
+      "mtime": "2026-10-23T09:11:25.229Z",
+      "birthtime": "2026-10-23T09:01:29.386Z",
+      "full_sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "f5a95a83c0de51a396d15cdabfa0e868512019330a5655629e7b7c5b10753436"
+        },
+        {
+          "byte_offset": 889951424,
+          "byte_count": 1048576,
+          "sha256": "a1dfd8b9b64590adac9635a6bf0e237a058e329abe9095ebad6eb7f470952a29"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 222750000,
+      "first_64_bytes_hex": "00320033ffb4ffe0ffee006d0071ffc3ff80000c00530068ffeaffb5ffc100590056000effd4ffcdfffb004d00090009ff98002600060023000d0006fff3fff2",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 10.055459976196289,
+        "rms": 32.20181806300865,
+        "min": -458,
+        "max": 338,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999866485595703
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 2489.239414215088,
+        "rms": 8019.915628383738,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0002613067626953125,
+        "abs_lt_256_fraction": 0.03324127197265625
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 10.314266204833984,
+        "rms": 35.97281457387925,
+        "min": -261,
+        "max": 370,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999790191650391
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 2528.058338165283,
+        "rms": 8918.517173582672,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000308990478515625,
+        "abs_lt_256_fraction": 0.027788162231445312
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 1.7951722559452237,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        340,
+        460
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:14.210Z",
+      "full_hash_elapsed_s": 2.935
+    },
+    {
+      "fc_mhz": 460,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc460MHz.rIs",
+      "bytes": 980100000,
+      "mtime": "2026-10-23T09:12:02.354Z",
+      "birthtime": "2026-10-23T09:01:28.469Z",
+      "full_sha256": "49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "c4928081996c1b1afceaa02446cf7ce2264df290fb2c707fb1cdff474df9a601"
+        },
+        {
+          "byte_offset": 979051424,
+          "byte_count": 1048576,
+          "sha256": "6056c1fef25e60b5f4563330f01c17680602ec1c05b82d16286e42eec9d64939"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 245025000,
+      "first_64_bytes_hex": "0000001f00020019fffe0007fff7001cfff60012000c0010000c0004fffe0013fff7000ffff50014fff0fff90010000ffff80012000d0011000000010019000e",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 3.4226016998291016,
+        "rms": 28.343932600179713,
+        "min": -268,
+        "max": 251,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999980926513672
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 947.0122184753418,
+        "rms": 7104.212611444399,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0001392364501953125,
+        "abs_lt_256_fraction": 0.03855133056640625
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 4.073396682739258,
+        "rms": 31.667693469482806,
+        "min": -298,
+        "max": 300,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999904632568359
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1098.1560802459717,
+        "rms": 7914.947470614771,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0001544952392578125,
+        "abs_lt_256_fraction": 0.030019760131835938
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 1.974689481539746,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        400,
+        520
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:17.346Z",
+      "full_hash_elapsed_s": 3.134
+    },
+    {
+      "fc_mhz": 520,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc520MHz.rIs",
+      "bytes": 712800000,
+      "mtime": "2026-10-23T09:11:27.953Z",
+      "birthtime": "2026-10-23T09:03:19.696Z",
+      "full_sha256": "9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "e5679ae9b13b336c49cc70db17160fd3030c0f35ecaef5f2e81015410e556e15"
+        },
+        {
+          "byte_offset": 711751424,
+          "byte_count": 1048576,
+          "sha256": "377d38bcc27742e777db191950d92ab978a46f67f8f797e03a6dbb77ff566f35"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 178200000,
+      "first_64_bytes_hex": "ffe0002affebffda00150023ffdf0031fffdfff0001b0020ffed0018ffdf0006000affeaffee0030ffeb000a000dffeafffd0036ffec0018000cffef000b0020",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 4.641990661621094,
+        "rms": 28.396104400378363,
+        "min": -1188,
+        "max": 633,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999961853027344
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1292.8581447601318,
+        "rms": 7162.019081654758,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000019073486328125,
+        "abs_lt_256_fraction": 0.027362823486328125
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 5.419775009155273,
+        "rms": 28.91609553745079,
+        "min": -212,
+        "max": 1334,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999980926513672
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1485.711254119873,
+        "rms": 7301.428042760388,
+        "min": -32768,
+        "max": 32512,
+        "near_int16_rail_fraction": 0.0000057220458984375,
+        "abs_lt_256_fraction": 0.0267181396484375
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 1.436137804756179,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        460,
+        580
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:19.676Z",
+      "full_hash_elapsed_s": 2.328
+    },
+    {
+      "fc_mhz": 580,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc580MHz.rIs",
+      "bytes": 861300000,
+      "mtime": "2026-10-23T09:14:44.566Z",
+      "birthtime": "2026-10-23T09:11:39.762Z",
+      "full_sha256": "1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "b7bef25510afbe220f4a4535a28913ab7ad603456976c2411c55d576ceea5a64"
+        },
+        {
+          "byte_offset": 860251424,
+          "byte_count": 1048576,
+          "sha256": "d181f5ea0fb2fa4f145e2bdaddf595d9523be031859c59a23aa241254d9ac95d"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 215325000,
+      "first_64_bytes_hex": "0009ffc5fffaffceffd0ffe8001e000cffd400480024000e000c0006ffd7000ffff4ffdb0045ffe8000000210068ffe8ffe10015ffedffeefff20008ffde0029",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 4.080320358276367,
+        "rms": 25.213399931733793,
+        "min": -144,
+        "max": 136,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 1
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1152.0462493896484,
+        "rms": 6376.19521417883,
+        "min": -32768,
+        "max": 32256,
+        "near_int16_rail_fraction": 0.0000057220458984375,
+        "abs_lt_256_fraction": 0.03173255920410156
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 3.7064075469970703,
+        "rms": 27.23615147481034,
+        "min": -674,
+        "max": 602,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999847412109375
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1057.738447189331,
+        "rms": 6875.580569760941,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.000011444091796875,
+        "abs_lt_256_fraction": 0.030061721801757812
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 1.7353331807470496,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        520,
+        640
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:34.285Z",
+      "full_hash_elapsed_s": 2.742
+    },
+    {
+      "fc_mhz": 640,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc640MHz.rIs",
+      "bytes": 1009800000,
+      "mtime": "2026-10-23T09:14:57.747Z",
+      "birthtime": "2026-10-23T09:11:41.635Z",
+      "full_sha256": "3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "aac1cc775aee931c39841cfc7a174dac246a5423f475f9c568dcc371de2f3563"
+        },
+        {
+          "byte_offset": 1008751424,
+          "byte_count": 1048576,
+          "sha256": "4efdd6bff3ce82609f509dbc69dbc3657d5efcff57c9ae75679fed4cfd1073b9"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 252450000,
+      "first_64_bytes_hex": "002800110003002ffff700060014ffecfff6ffec0001ffe60028fff6fff80047ffeb00070022fffe0017001cfff7ffe30017ffdc00090020000ffffc0037fffc",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 6.986715316772461,
+        "rms": 27.401859536382485,
+        "min": -122,
+        "max": 146,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 1
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1886.8398189544678,
+        "rms": 6946.057904110169,
+        "min": -32768,
+        "max": 32512,
+        "near_int16_rail_fraction": 0.0000057220458984375,
+        "abs_lt_256_fraction": 0.027387619018554688
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 7.345792770385742,
+        "rms": 27.14747036974525,
+        "min": -965,
+        "max": 273,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999942779541016
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1978.0953750610352,
+        "rms": 6872.588178471513,
+        "min": -32768,
+        "max": 32512,
+        "near_int16_rail_fraction": 0.0000019073486328125,
+        "abs_lt_256_fraction": 0.027536392211914062
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 2.03452855673792,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        580,
+        700
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:37.286Z",
+      "full_hash_elapsed_s": 2.999
+    },
+    {
+      "fc_mhz": 700,
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc700MHz.rIs",
+      "bytes": 1039500000,
+      "mtime": "2026-10-23T09:28:35.716Z",
+      "birthtime": "2026-10-23T09:27:05.633Z",
+      "full_sha256": "81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e",
+      "partial_hashes": [
+        {
+          "byte_offset": 0,
+          "byte_count": 1048576,
+          "sha256": "55b5948b438deca1c6a108ca295cd83cda9474164d8363e81ccae0f142e702dc"
+        },
+        {
+          "byte_offset": 1038451424,
+          "byte_count": 1048576,
+          "sha256": "9b21a9dfd928d484a44f871c5c2989687479d86d81af9ad6530e23f6f21a2461"
+        }
+      ],
+      "complex_sample_count_if_int16_iq": 259875000,
+      "first_64_bytes_hex": "fff60009ffed0031ffcc001a0008003a000f0008fff6001affe3ffde00070017ffda0029ffeefffd0013fff6ffd40056ffe30022000cffea001e0020fff2001d",
+      "first_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 5.704347610473633,
+        "rms": 34.15944816505442,
+        "min": -147,
+        "max": 179,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 1
+      },
+      "first_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1565.903190612793,
+        "rms": 8660.16567927051,
+        "min": -32768,
+        "max": 32256,
+        "near_int16_rail_fraction": 0.0000057220458984375,
+        "abs_lt_256_fraction": 0.019105911254882812
+      },
+      "last_block_int16_BE": {
+        "scalar_count": 524288,
+        "mean": 4.971872329711914,
+        "rms": 32.847323265932864,
+        "min": -361,
+        "max": 616,
+        "near_int16_rail_fraction": 0,
+        "abs_lt_256_fraction": 0.9999942779541016
+      },
+      "last_block_int16_LE": {
+        "scalar_count": 524288,
+        "mean": 1382.0767421722412,
+        "rms": 8314.312039394556,
+        "min": -32768,
+        "max": 32767,
+        "near_int16_rail_fraction": 0.0000152587890625,
+        "abs_lt_256_fraction": 0.017972946166992188
+      },
+      "fs_hz": 124082800,
+      "capture_duration_s": 2.094367631936094,
+      "bandwidth_hz": 120000000,
+      "bandwidth_source": "user_stated_instantaneous_bandwidth",
+      "nominal_rf_interval_mhz": [
+        640,
+        760
+      ],
+      "fs_source": "user_reported",
+      "full_hash_completed_utc": "2026-10-23T09:37:39.705Z",
+      "full_hash_elapsed_s": 2.416
+    }
+  ],
+  "metadata_search": {
+    "paths": [
+      "C:/Users/leechanghoon/Downloads",
+      "C:/Users/leechanghoon/Desktop",
+      "C:/Users/leechanghoon/Documents/Codex/2026-09-21/snr-svd"
+    ],
+    "text_types": [
+      ".m",
+      ".txt",
+      ".json",
+      ".md",
+      ".csv"
+    ],
+    "search_terms": [
+      "black글",
+      "black.*fc100MHz"
+    ],
+    "result": "no matching text metadata found",
+    "recent_record_checks": [
+      {
+        "path": "C:/Users/leechanghoon/Desktop/EMC SIPI/test2.m",
+        "result": "unrelated HDMI/TMDS January experiment; its Fs=148.5 MHz must not be transferred"
+      },
+      {
+        "path": "C:/Users/leechanghoon/Desktop/figure notation.pptx",
+        "result": "slide text concerns HDMI defense experiments, no sweep Fs metadata"
+      }
+    ],
+    "warning": "File creation/modified times can represent copy/download, not physical acquisition timestamps"
+  },
+  "hardware_context": {
+    "note": "Existing NI specifications distinguish 120 MHz RF bandwidth from up to 200 MS/s complex rate. This inventory adopts user-stated 120 MHz measurement bandwidth; it does not infer Fs=120 MHz or Fs=200 MHz.",
+    "source_note": "../hardware_notes.md"
+  },
+  "warnings": [
+    "Both full-file SHA-256 and endpoint partial hashes are recorded; partial hashes alone do not identify the entire file.",
+    "Bytes/4 sample counts are conditional on the documented int16 I/Q candidate.",
+    "All file sizes are multiples of 29,700,000 bytes; buffer granularity is not sample-rate evidence.",
+    "Usable overlap and synthesized bandwidth require passband validation; Fs=124.0828 MS/s is user-reported.",
+    "No raw files were changed. No signal reconstruction or MATLAB execution was performed in this inventory."
+  ],
+  "full_hash_started_utc": "2026-10-23T09:36:28.273Z",
+  "full_hash_completed_utc": "2026-10-23T09:37:39.708Z",
+  "full_hash_total_read_s": 35.355999999999995
+}

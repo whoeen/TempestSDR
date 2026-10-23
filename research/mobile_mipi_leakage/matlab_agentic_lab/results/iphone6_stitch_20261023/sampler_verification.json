@@ -1,0 +1,265 @@
+{
+  "status": "synthetic verification executed",
+  "fs_hz": 1.240828E+8,
+  "raw_samples": 32768,
+  "guard_samples": 512,
+  "fractional_offsets": [
+    0,
+    0.03125,
+    0.125,
+    0.249,
+    0.375,
+    0.5,
+    0.625,
+    0.875,
+    0.999
+  ],
+  "cases": [
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": -6.0000365173339844E+7,
+      "max_complex_error": 0.00085730894613861232,
+      "rms_complex_error": 0.00058262627259670382,
+      "max_magnitude_error": 0.00085730894130653379,
+      "max_phase_error_rad": 8.307508542962724E-5,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": -5.4998125830078125E+7,
+      "max_complex_error": 0.0005160655253845667,
+      "rms_complex_error": 0.00035062347794371585,
+      "max_magnitude_error": 0.00051606551601823814,
+      "max_phase_error_rad": 4.6032241114957673E-5,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": -3.9998981213378906E+7,
+      "max_complex_error": 7.9694799490267581E-5,
+      "rms_complex_error": 5.38529336734983E-5,
+      "max_magnitude_error": 7.96947843012541E-5,
+      "max_phase_error_rad": 5.5527599363417032E-6,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": -2.0001383959960938E+7,
+      "max_complex_error": 1.8238572088011856E-6,
+      "rms_complex_error": 9.7545229757259733E-7,
+      "max_magnitude_error": 1.823185985072584E-6,
+      "max_phase_error_rad": 4.554567342546101E-7,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": -999690.52734375,
+      "max_complex_error": 5.2586856724192269E-7,
+      "rms_complex_error": 1.7629985506203245E-7,
+      "max_magnitude_error": 5.0543569141137112E-7,
+      "max_phase_error_rad": 3.6090708471945743E-7,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": 0,
+      "max_complex_error": 8.7477708986102572E-8,
+      "rms_complex_error": 7.6695783393852845E-8,
+      "max_magnitude_error": 8.1382129146767568E-8,
+      "max_phase_error_rad": 3.9660460260756764E-8,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": 999690.52734375,
+      "max_complex_error": 5.487079131963552E-7,
+      "rms_complex_error": 1.6046619728587235E-7,
+      "max_magnitude_error": 5.1361980801800655E-7,
+      "max_phase_error_rad": 3.2124687314057309E-7,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": 2.0001383959960938E+7,
+      "max_complex_error": 2.1210805071952631E-6,
+      "rms_complex_error": 1.0353605702682305E-6,
+      "max_magnitude_error": 2.1210226629486684E-6,
+      "max_phase_error_rad": 3.8535078926861093E-7,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": 3.9998981213378906E+7,
+      "max_complex_error": 7.9594565668238091E-5,
+      "rms_complex_error": 5.3832866545488958E-5,
+      "max_magnitude_error": 7.9594563276108588E-5,
+      "max_phase_error_rad": 5.4537407136324623E-6,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": 5.4998125830078125E+7,
+      "max_complex_error": 0.0005161068346642314,
+      "rms_complex_error": 0.0003506378389752957,
+      "max_magnitude_error": 0.0005161068273157321,
+      "max_phase_error_rad": 4.6061695872136117E-5,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "periodic_bin_tone",
+      "frequency_hz": 6.0000365173339844E+7,
+      "max_complex_error": 0.00085734548218541358,
+      "rms_complex_error": 0.000582642319428611,
+      "max_magnitude_error": 0.00085734548125160348,
+      "max_phase_error_rad": 8.31390880781861E-5,
+      "complex_error_limit": 0.002,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": -6.0E+7,
+      "max_complex_error": 0.00088950573547412048,
+      "rms_complex_error": 0.00058257891136317258,
+      "max_magnitude_error": 0.00088950567423717875,
+      "max_phase_error_rad": 8.612037277101235E-5,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": -5.5E+7,
+      "max_complex_error": 0.000516411274697739,
+      "rms_complex_error": 0.00035074462614929312,
+      "max_magnitude_error": 0.00051641125808665755,
+      "max_phase_error_rad": 4.6281771262339767E-5,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": -4.0E+7,
+      "max_complex_error": 7.9765690481060708E-5,
+      "rms_complex_error": 5.3891330463264395E-5,
+      "max_magnitude_error": 7.9765661923802966E-5,
+      "max_phase_error_rad": 5.6671757461789658E-6,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": -2.0E+7,
+      "max_complex_error": 1.9957912722576032E-6,
+      "rms_complex_error": 9.9844281986513218E-7,
+      "max_magnitude_error": 1.9830040749457822E-6,
+      "max_phase_error_rad": 6.1779515124886243E-7,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": -1.0E+6,
+      "max_complex_error": 7.0278347075567159E-7,
+      "rms_complex_error": 2.2159091083900867E-7,
+      "max_magnitude_error": 6.9712175732039583E-7,
+      "max_phase_error_rad": 4.9504135905085091E-7,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": 0,
+      "max_complex_error": 2.1655663768843903E-7,
+      "rms_complex_error": 9.28220941664072E-8,
+      "max_magnitude_error": 2.1213661827168551E-7,
+      "max_phase_error_rad": 1.3096856054029485E-7,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": 1.0E+6,
+      "max_complex_error": 5.0812451521940964E-7,
+      "rms_complex_error": 1.5434043479467483E-7,
+      "max_magnitude_error": 4.98222887168609E-7,
+      "max_phase_error_rad": 4.0180212951466458E-7,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": 2.0E+7,
+      "max_complex_error": 1.9629716074220821E-6,
+      "rms_complex_error": 9.90744838820497E-7,
+      "max_magnitude_error": 1.9559521768908184E-6,
+      "max_phase_error_rad": 4.87254081129017E-7,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": 4.0E+7,
+      "max_complex_error": 7.9786059399198042E-5,
+      "rms_complex_error": 5.3829186867162378E-5,
+      "max_magnitude_error": 7.9786058341690946E-5,
+      "max_phase_error_rad": 5.5303149306153779E-6,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": 5.5E+7,
+      "max_complex_error": 0.00051636255129682723,
+      "rms_complex_error": 0.00035075095451768233,
+      "max_magnitude_error": 0.000516362550749494,
+      "max_phase_error_rad": 4.6237729817311332E-5,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_offbin_tone",
+      "frequency_hz": 6.0E+7,
+      "max_complex_error": 0.00088946834257645324,
+      "rms_complex_error": 0.00058257642865504485,
+      "max_magnitude_error": 0.00088946819564406088,
+      "max_phase_error_rad": 8.6207419017236446E-5,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_affine_25ppm",
+      "frequency_hz": -6.0E+7,
+      "max_complex_error": 0.00088991970535837943,
+      "rms_complex_error": 0.00062548553434965324,
+      "max_magnitude_error": 0.00088990823327905755,
+      "max_phase_error_rad": 0.00010264972750265907,
+      "complex_error_limit": 0.003,
+      "passed": true
+    },
+    {
+      "case_name": "finite_affine_25ppm",
+      "frequency_hz": 6.0E+7,
+      "max_complex_error": 0.000889737403544576,
+      "rms_complex_error": 0.0006255211637266983,
+      "max_magnitude_error": 0.00088972540472032069,
+      "max_phase_error_rad": 0.00010267600941912003,
+      "complex_error_limit": 0.003,
+      "passed": true
+    }
+  ],
+  "maximum_complex_error": 0.00088991970535837943,
+  "integer_grid_max_complex_error": 6.518990652763382E-7,
+  "integer_grid_tolerance": 1E-5,
+  "insufficient_guard_rejected": true,
+  "passed": true,
+  "interpretation": "Error normalized to unit-amplitude complex tones; not an RF SNR or image-fidelity score."
+}

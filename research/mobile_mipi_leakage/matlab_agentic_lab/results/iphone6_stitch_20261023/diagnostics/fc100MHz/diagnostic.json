@@ -1,0 +1,213 @@
+{
+  "fc_hz": 1.0E+8,
+  "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc100MHz.rIs",
+  "full_sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+  "read_info": {
+    "filename": "black글_fc100MHz.rIs",
+    "bytes": 1.1583E+9,
+    "first_sample_zero_based": 0,
+    "sample_count": 8.388608E+6,
+    "byte_offset": 0,
+    "byte_count": 3.3554432E+7,
+    "disk_dtype": "big-endian signed int16 interleaved I,Q",
+    "memory_dtype": "complex single",
+    "units": "ADC counts"
+  },
+  "fs_hz": 1.240828E+8,
+  "receiver_bandwidth_hz": 1.2E+8,
+  "quality": {
+    "sample_count": 1.048576E+6,
+    "finite_fraction": 1,
+    "mean_i_counts": -9.2234563827514648,
+    "mean_q_counts": 8.218022346496582,
+    "median_i_counts": -9,
+    "median_q_counts": 8,
+    "mad_i_counts": 25,
+    "mad_q_counts": 26,
+    "rms_complex_counts": 66.148870417839731,
+    "dc_power_fraction": 0.034876472013489208,
+    "clip_i_fraction": 0,
+    "clip_q_fraction": 0,
+    "zero_pair_fraction": 0.00014781951904296875,
+    "iq_std_ratio": 0.97390159132464293,
+    "iq_correlation": 0.0076035994184348128,
+    "impropriety_abs": 0.027509766697561961,
+    "peak_over_rms": 17.630938910605312,
+    "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+    "statistics_first_sample_zero_based": 0,
+    "statistics_complex_sample_count": 1.048576E+6,
+    "global_clipping_tested": false
+  },
+  "welch": {
+    "implementation": "base MATLAB explicit Welch fallback",
+    "nfft": 8192,
+    "fs_hz": 1.240828E+8,
+    "window_samples": 8192,
+    "overlap_samples": 4096,
+    "enbw_hz": 22720.239257812496,
+    "frequency_range": "centered",
+    "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+    "segment_count": 255,
+    "dc_removed": false,
+    "input_complex_sample_count": 1.048576E+6,
+    "frequency_bin_spacing_hz": 15146.826171875,
+    "integrated_power_count_squared": 4370.9960808684909,
+    "unweighted_time_power_count_squared": 4375.6730575561523
+  },
+  "envelope_mean_counts": 54.142489656798773,
+  "envelope_variance_counts_squared": 2408.3755414656039,
+  "autocorrelation_fft_length": 1.6777216E+7,
+  "line_candidates": [
+    {
+      "single_peak_lag_samples": 1099.2000364709975,
+      "refined_line_samples": 1099.9997995303338,
+      "line_hz": 112802.56601226614,
+      "acf": 0.38218392026500175,
+      "multiple_estimate_spread_samples": 0.00052733386178260844,
+      "any_refinement_at_search_boundary": false
+    },
+    {
+      "single_peak_lag_samples": 1647.7145862716661,
+      "refined_line_samples": 1650.0000521403244,
+      "line_hz": 75201.694593308639,
+      "acf": 0.14772764252338841,
+      "multiple_estimate_spread_samples": 4.2977191046063581,
+      "any_refinement_at_search_boundary": false
+    },
+    {
+      "single_peak_lag_samples": 1650.8618015245147,
+      "refined_line_samples": 1650.0001738244837,
+      "line_hz": 75201.6890473365,
+      "acf": 0.14562969044681856,
+      "multiple_estimate_spread_samples": 0.00080587430807099736,
+      "any_refinement_at_search_boundary": false
+    }
+  ],
+  "line_refinement_multiples": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "multiple_period_estimates": [
+    [
+      1099.9994602753322,
+      1099.9996671213869,
+      1099.9999319392807,
+      1099.999987609194
+    ],
+    [
+      1650.0001676626159,
+      1649.999936618033,
+      1650.000742492341,
+      1645.7030233877347
+    ],
+    [
+      1650.0001676626159,
+      1649.999936618033,
+      1650.000742492341,
+      1650.0001799863514
+    ]
+  ],
+  "multiple_acf": [
+    [
+      0.3094318987016007,
+      0.29030093447824368,
+      0.25111027529698815,
+      0.14820473360001424
+    ],
+    [
+      0.31018813251406724,
+      0.27646038855393185,
+      0.19847106631408595,
+      0.1349359841398648
+    ],
+    [
+      0.31018813251406724,
+      0.27646038855393185,
+      0.19847106631408595,
+      0.13167583189932144
+    ]
+  ],
+  "multiple_boundary_flags": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "frame_peak_min_separation_samples": 275,
+  "frame_candidates": [
+    {
+      "frame_samples": 2.0690998554110127E+6,
+      "frame_hz": 59.969459509411543,
+      "acf": 0.38683871848240964,
+      "frame_over_best_line": 1881.0002113586338
+    },
+    {
+      "frame_samples": 2.0669000223927123E+6,
+      "frame_hz": 60.033285914021917,
+      "acf": 0.35436026693963407,
+      "frame_over_best_line": 1879.0003627957162
+    },
+    {
+      "frame_samples": 2.0712998315877814E+6,
+      "frame_hz": 59.905764538629221,
+      "acf": 0.3519689970346192,
+      "frame_over_best_line": 1883.0001900656373
+    },
+    {
+      "frame_samples": 2.0646997850616202E+6,
+      "frame_hz": 60.097260094545319,
+      "acf": 0.35189418729393629,
+      "frame_over_best_line": 1877.0001466756482
+    },
+    {
+      "frame_samples": 2.0657997455158066E+6,
+      "frame_hz": 60.065260570074251,
+      "acf": 0.34519039378045974,
+      "frame_over_best_line": 1878.0001109071472
+    }
+  ],
+  "frame_by_line_ratios": [
+    [
+      1881.0002113586338,
+      1253.9998727436682,
+      1253.9997802637263
+    ],
+    [
+      1879.0003627957162,
+      1252.6666406534953,
+      1252.6665482718765
+    ],
+    [
+      1883.0001900656373,
+      1255.3331915965464,
+      1255.3330990182749
+    ],
+    [
+      1877.0001466756482,
+      1251.3331635252746,
+      1251.333071241997
+    ],
+    [
+      1878.0001109071472,
+      1251.9998062037155,
+      1251.9997138712745
+    ]
+  ],
+  "completed_utc": "2026-10-23T09:51:27.453Z"
+}

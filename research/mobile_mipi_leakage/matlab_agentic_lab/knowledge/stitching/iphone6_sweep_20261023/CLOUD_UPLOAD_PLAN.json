@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "status": "prepared_not_uploaded",
+  "created_utc": "2026-10-23T10:10:47.450Z",
+  "repository": "whoeen/TempestSDR",
+  "release_tag": "mobile-mipi-raw-iq-2026-10-21",
+  "release_url": "https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21",
+  "base_manifest_path": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage/raw_iq/RAW_IQ_RELEASE_MANIFEST.json",
+  "base_manifest_sha256": "ce48a9ae14490e1e00e6e31b43d9bf27d7bae2bd191e9a9ad608232f28c9d4f9",
+  "base_dataset_count": 20,
+  "raw_dataset_count": 11,
+  "raw_total_bytes": 11107800000,
+  "asset_count": 12,
+  "total_upload_bytes": 11107905197,
+  "naming_policy": "Stable ASCII asset names; original Unicode filenames retained in dataset metadata. No local source file renamed or copied.",
+  "remote_verification": "After authenticated upload, require GitHub asset bytes and digest sha256 match. No remote delete/replace.",
+  "assets": [
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 100,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc100MHz.rIs",
+      "bytes": 1158300000,
+      "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 160,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc160MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc160MHz.rIs",
+      "bytes": 1306800000,
+      "sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 220,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc220MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc220MHz.rIs",
+      "bytes": 1158300000,
+      "sha256": "1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 280,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc280MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc280MHz.rIs",
+      "bytes": 950400000,
+      "sha256": "f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 340,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc340MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc340MHz.rIs",
+      "bytes": 1039500000,
+      "sha256": "74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 400,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc400MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc400MHz.rIs",
+      "bytes": 891000000,
+      "sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 460,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc460MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc460MHz.rIs",
+      "bytes": 980100000,
+      "sha256": "49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 520,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc520MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc520MHz.rIs",
+      "bytes": 712800000,
+      "sha256": "9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 580,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc580MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc580MHz.rIs",
+      "bytes": 861300000,
+      "sha256": "1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 640,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc640MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc640MHz.rIs",
+      "bytes": 1009800000,
+      "sha256": "3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2"
+    },
+    {
+      "kind": "raw_iq",
+      "fc_mhz": 700,
+      "source_path": "C:/Users/leechanghoon/Downloads/black글_fc700MHz.rIs",
+      "name": "iphone6_black_text_sweep_20261023_fc700MHz.rIs",
+      "bytes": 1039500000,
+      "sha256": "81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e"
+    },
+    {
+      "kind": "reference_image",
+      "source_path": "C:/Users/leechanghoon/Downloads/5D0ED11B-F431-49D4-84C4-E25AD8746E2C.png",
+      "name": "iphone6_black_text_sweep_20261023_reference.png",
+      "bytes": 105197,
+      "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc100m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc100MHz.rIs",
+      "center_frequency_hz": 100000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 289575000,
+      "duration_seconds": 2.3337239327287906,
+      "bytes": 1158300000,
+      "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc100MHz.rIs",
+          "bytes": 1158300000,
+          "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc160m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc160MHz.rIs",
+      "center_frequency_hz": 160000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 326700000,
+      "duration_seconds": 2.632919308719661,
+      "bytes": 1306800000,
+      "sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc160MHz.rIs",
+          "bytes": 1306800000,
+          "sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc220m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc220MHz.rIs",
+      "center_frequency_hz": 220000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 289575000,
+      "duration_seconds": 2.3337239327287906,
+      "bytes": 1158300000,
+      "sha256": "1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc220MHz.rIs",
+          "bytes": 1158300000,
+          "sha256": "1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc280m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc280MHz.rIs",
+      "center_frequency_hz": 280000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 237600000,
+      "duration_seconds": 1.9148504063415719,
+      "bytes": 950400000,
+      "sha256": "f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc280MHz.rIs",
+          "bytes": 950400000,
+          "sha256": "f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc340m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc340MHz.rIs",
+      "center_frequency_hz": 340000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 259875000,
+      "duration_seconds": 2.094367631936094,
+      "bytes": 1039500000,
+      "sha256": "74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc340MHz.rIs",
+          "bytes": 1039500000,
+          "sha256": "74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc400m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc400MHz.rIs",
+      "center_frequency_hz": 400000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 222750000,
+      "duration_seconds": 1.7951722559452237,
+      "bytes": 891000000,
+      "sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc400MHz.rIs",
+          "bytes": 891000000,
+          "sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc460m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc460MHz.rIs",
+      "center_frequency_hz": 460000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 245025000,
+      "duration_seconds": 1.974689481539746,
+      "bytes": 980100000,
+      "sha256": "49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc460MHz.rIs",
+          "bytes": 980100000,
+          "sha256": "49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc520m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc520MHz.rIs",
+      "center_frequency_hz": 520000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 178200000,
+      "duration_seconds": 1.436137804756179,
+      "bytes": 712800000,
+      "sha256": "9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc520MHz.rIs",
+          "bytes": 712800000,
+          "sha256": "9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc580m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc580MHz.rIs",
+      "center_frequency_hz": 580000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 215325000,
+      "duration_seconds": 1.7353331807470496,
+      "bytes": 861300000,
+      "sha256": "1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc580MHz.rIs",
+          "bytes": 861300000,
+          "sha256": "1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc640m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc640MHz.rIs",
+      "center_frequency_hz": 640000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 252450000,
+      "duration_seconds": 2.03452855673792,
+      "bytes": 1009800000,
+      "sha256": "3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc640MHz.rIs",
+          "bytes": 1009800000,
+          "sha256": "3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2"
+        }
+      ]
+    },
+    {
+      "id": "iphone6_black_text_sweep_20261023_fc700m",
+      "capture": "iPhone 6 / clamp-fixed probe / black text sweep",
+      "filename": "black글_fc700MHz.rIs",
+      "center_frequency_hz": 700000000,
+      "receiver_bandwidth_hz": 120000000,
+      "stored_iq_rate_sps": 124082800,
+      "complex_sample_count": 259875000,
+      "duration_seconds": 2.094367631936094,
+      "bytes": 1039500000,
+      "sha256": "81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e",
+      "capture_group": "iphone6_black_text_sweep_20261023",
+      "ingested_on": "2026-10-23",
+      "acquisition_datetime": null,
+      "metadata_source": "User stated iPhone6, USRP2940R 120MHz instantaneous bandwidth, Fs124.0828MS/s, fixed-clamp probe/phone geometry, no external LNA/BPF; not embedded RIS header metadata.",
+      "receiver_model": "NI USRP-2940R",
+      "measurement_mode": "probe",
+      "probe_phone_position_fixed_by_clamp": true,
+      "external_lna": false,
+      "external_bpf": false,
+      "center_step_hz": 60000000,
+      "nominal_overlap_fraction": 0.5,
+      "receiver_gain_db": null,
+      "clock_reference": null,
+      "overflow_drop_counts": null,
+      "binary_format_status": "BE int16 interleaved I,Q headerless supported by byte statistics and established reader; producer metadata not available",
+      "reference_image": {
+        "name": "iphone6_black_text_sweep_20261023_reference.png",
+        "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+        "bytes": 105197,
+        "width": 750,
+        "height": 1334,
+        "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+        "role": "user-provided iPhone6 screen screenshot; independent ground-truth/control"
+      },
+      "parts": [
+        {
+          "name": "iphone6_black_text_sweep_20261023_fc700MHz.rIs",
+          "bytes": 1039500000,
+          "sha256": "81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e"
+        }
+      ]
+    }
+  ],
+  "plan_note": "Only --execute performs network/auth. Primary repository manifest is updated only with --execute --apply-manifest after all planned assets remotely verify."
+}

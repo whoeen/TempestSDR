@@ -1,0 +1,2535 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-23T09:51:24.185Z",
+  "fs_hz": 1.240828E+8,
+  "fs_source": "user reported complex IQ sample rate",
+  "receiver_bandwidth_hz": 1.2E+8,
+  "receiver_bandwidth_source": "user reported",
+  "rf_center_mhz": [
+    100,
+    160,
+    220,
+    280,
+    340,
+    400,
+    460,
+    520,
+    580,
+    640,
+    700
+  ],
+  "first_sample_zero_based": 0,
+  "requested_complex_sample_count": 8.388608E+6,
+  "diagnostic_duration_s": 0.067604921874748147,
+  "line_search_hz": [
+    70000,
+    160000
+  ],
+  "frame_search_hz": [
+    58,
+    62
+  ],
+  "line_refinement_multiples": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "line_refinement_half_width_fraction": 0.0015,
+  "signal_convention": "big-endian int16 I,Q -> I+jQ; RF spectrum polarity not independently confirmed",
+  "autocorrelation_method": "demean abs(IQ); FFT length >=2N-1; divide each lag by N-lag; normalize to lag zero",
+  "warning": "Repetition can be clutter, a harmonic or packet timing. No pixel or physical source identity is assumed.",
+  "source_inventory": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\knowledge\\stitching\\iphone6_sweep_20261023\\CAPTURE_INVENTORY.json",
+  "implementation": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\inspectIphoneStitchSweep",
+  "bands": [
+    {
+      "fc_hz": 1.0E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc100MHz.rIs",
+      "full_sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+      "read_info": {
+        "filename": "black글_fc100MHz.rIs",
+        "bytes": 1.1583E+9,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -9.2234563827514648,
+        "mean_q_counts": 8.218022346496582,
+        "median_i_counts": -9,
+        "median_q_counts": 8,
+        "mad_i_counts": 25,
+        "mad_q_counts": 26,
+        "rms_complex_counts": 66.148870417839731,
+        "dc_power_fraction": 0.034876472013489208,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.00014781951904296875,
+        "iq_std_ratio": 0.97390159132464293,
+        "iq_correlation": 0.0076035994184348128,
+        "impropriety_abs": 0.027509766697561961,
+        "peak_over_rms": 17.630938910605312,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 4370.9960808684909,
+        "unweighted_time_power_count_squared": 4375.6730575561523
+      },
+      "envelope_mean_counts": 54.142489656798773,
+      "envelope_variance_counts_squared": 2408.3755414656039,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1099.2000364709975,
+          "refined_line_samples": 1099.9997995303338,
+          "line_hz": 112802.56601226614,
+          "acf": 0.38218392026500175,
+          "multiple_estimate_spread_samples": 0.00052733386178260844,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1647.7145862716661,
+          "refined_line_samples": 1650.0000521403244,
+          "line_hz": 75201.694593308639,
+          "acf": 0.14772764252338841,
+          "multiple_estimate_spread_samples": 4.2977191046063581,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1650.8618015245147,
+          "refined_line_samples": 1650.0001738244837,
+          "line_hz": 75201.6890473365,
+          "acf": 0.14562969044681856,
+          "multiple_estimate_spread_samples": 0.00080587430807099736,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1099.9994602753322,
+          1099.9996671213869,
+          1099.9999319392807,
+          1099.999987609194
+        ],
+        [
+          1650.0001676626159,
+          1649.999936618033,
+          1650.000742492341,
+          1645.7030233877347
+        ],
+        [
+          1650.0001676626159,
+          1649.999936618033,
+          1650.000742492341,
+          1650.0001799863514
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.3094318987016007,
+          0.29030093447824368,
+          0.25111027529698815,
+          0.14820473360001424
+        ],
+        [
+          0.31018813251406724,
+          0.27646038855393185,
+          0.19847106631408595,
+          0.1349359841398648
+        ],
+        [
+          0.31018813251406724,
+          0.27646038855393185,
+          0.19847106631408595,
+          0.13167583189932144
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 275,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0690998554110127E+6,
+          "frame_hz": 59.969459509411543,
+          "acf": 0.38683871848240964,
+          "frame_over_best_line": 1881.0002113586338
+        },
+        {
+          "frame_samples": 2.0669000223927123E+6,
+          "frame_hz": 60.033285914021917,
+          "acf": 0.35436026693963407,
+          "frame_over_best_line": 1879.0003627957162
+        },
+        {
+          "frame_samples": 2.0712998315877814E+6,
+          "frame_hz": 59.905764538629221,
+          "acf": 0.3519689970346192,
+          "frame_over_best_line": 1883.0001900656373
+        },
+        {
+          "frame_samples": 2.0646997850616202E+6,
+          "frame_hz": 60.097260094545319,
+          "acf": 0.35189418729393629,
+          "frame_over_best_line": 1877.0001466756482
+        },
+        {
+          "frame_samples": 2.0657997455158066E+6,
+          "frame_hz": 60.065260570074251,
+          "acf": 0.34519039378045974,
+          "frame_over_best_line": 1878.0001109071472
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1881.0002113586338,
+          1253.9998727436682,
+          1253.9997802637263
+        ],
+        [
+          1879.0003627957162,
+          1252.6666406534953,
+          1252.6665482718765
+        ],
+        [
+          1883.0001900656373,
+          1255.3331915965464,
+          1255.3330990182749
+        ],
+        [
+          1877.0001466756482,
+          1251.3331635252746,
+          1251.333071241997
+        ],
+        [
+          1878.0001109071472,
+          1251.9998062037155,
+          1251.9997138712745
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:51:27.453Z"
+    },
+    {
+      "fc_hz": 1.6E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc160MHz.rIs",
+      "full_sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+      "read_info": {
+        "filename": "black글_fc160MHz.rIs",
+        "bytes": 1.3068E+9,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -4.286712646484375,
+        "mean_q_counts": 7.4767093658447266,
+        "median_i_counts": -4,
+        "median_q_counts": 8,
+        "mad_i_counts": 26,
+        "mad_q_counts": 26,
+        "rms_complex_counts": 60.48937929737734,
+        "dc_power_fraction": 0.020300026946654278,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.0001583099365234375,
+        "iq_std_ratio": 0.98027541851269373,
+        "iq_correlation": 0.0062595144786996874,
+        "impropriety_abs": 0.020879066615037703,
+        "peak_over_rms": 15.668440406059473,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 3654.7587823815188,
+        "unweighted_time_power_count_squared": 3658.9650077819824
+      },
+      "envelope_mean_counts": 52.719045380355666,
+      "envelope_variance_counts_squared": 1582.3117236362659,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1101.6275349693674,
+          "refined_line_samples": 1099.9990942280792,
+          "line_hz": 112802.63833951126,
+          "acf": 0.26012014920561588,
+          "multiple_estimate_spread_samples": 0.0059580101910796657,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1649.1531142281842,
+          "refined_line_samples": 1650.0003665582253,
+          "line_hz": 75201.680263154878,
+          "acf": 0.15631988364454463,
+          "multiple_estimate_spread_samples": 0.0092311557268658362,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1095.42241183553,
+          "refined_line_samples": 1095.6995270074901,
+          "line_hz": 113245.28024474705,
+          "acf": 0.1480991191147526,
+          "multiple_estimate_spread_samples": 0.31566995674688769,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1099.9979631952635,
+          1099.99431546951,
+          1100.0002252608951,
+          1100.000273479701
+        ],
+        [
+          1649.993558621499,
+          1650.0006529569077,
+          1650.0027897772259,
+          1650.0000801595427
+        ],
+        [
+          1095.3879335911861,
+          1095.6980377447828,
+          1095.7010162701974,
+          1095.703603547933
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.20834488671221846,
+          0.20250698993281713,
+          0.17455809143788181,
+          0.10385768496410519
+        ],
+        [
+          0.20683437729807894,
+          0.18017162479924503,
+          0.13035421813077414,
+          0.10025721595776202
+        ],
+        [
+          0.025139039595901937,
+          0.13047436824455816,
+          0.15539076468060381,
+          0.10581117624388081
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 275,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0702000254935462E+6,
+          "frame_hz": 59.9375898328559,
+          "acf": 0.25201638054039133,
+          "frame_over_best_line": 1882.0015728706596
+        },
+        {
+          "frame_samples": 2.0690995382137313E+6,
+          "frame_hz": 59.969468702854954,
+          "acf": 0.2510269852981809,
+          "frame_over_best_line": 1881.0011290652153
+        },
+        {
+          "frame_samples": 2.071300545375773E+6,
+          "frame_hz": 59.905743894587275,
+          "acf": 0.24732206367967391,
+          "frame_over_best_line": 1883.0020463146848
+        },
+        {
+          "frame_samples": 2.0668999671368569E+6,
+          "frame_hz": 60.033287518932951,
+          "acf": 0.24473551660436052,
+          "frame_over_best_line": 1879.0015173487911
+        },
+        {
+          "frame_samples": 2.0118997897818203E+6,
+          "frame_hz": 61.674443543461038,
+          "acf": 0.24382039689470145,
+          "frame_over_best_line": 1829.0013149453221
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1882.0015728706596,
+          1254.6664033850036,
+          1889.3866196579954
+        ],
+        [
+          1881.0011290652153,
+          1253.9994415454069,
+          1888.3822500724571
+        ],
+        [
+          1883.0020463146848,
+          1255.3333849836336,
+          1890.3910189984172
+        ],
+        [
+          1879.0015173487911,
+          1252.666368461634,
+          1886.3747918025044
+        ],
+        [
+          1829.0013149453221,
+          1219.3329350456386,
+          1836.17838667559
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:51:35.928Z"
+    },
+    {
+      "fc_hz": 2.2E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc220MHz.rIs",
+      "full_sha256": "1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29",
+      "read_info": {
+        "filename": "black글_fc220MHz.rIs",
+        "bytes": 1.1583E+9,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -3.7421588897705078,
+        "mean_q_counts": 11.920046806335449,
+        "median_i_counts": -4,
+        "median_q_counts": 12,
+        "mad_i_counts": 20,
+        "mad_q_counts": 20,
+        "rms_complex_counts": 49.267595827006858,
+        "dc_power_fraction": 0.064306647855581878,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.000232696533203125,
+        "iq_std_ratio": 0.99989967232385424,
+        "iq_correlation": 0.014545217661613239,
+        "impropriety_abs": 0.014545563631102728,
+        "peak_over_rms": 27.100741446992128,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 2424.9757986120949,
+        "unweighted_time_power_count_squared": 2427.2959985733032
+      },
+      "envelope_mean_counts": 42.673550036354527,
+      "envelope_variance_counts_squared": 965.93134906511568,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1100.784015315302,
+          "refined_line_samples": 1100.0008430286732,
+          "line_hz": 112802.4590039024,
+          "acf": 0.22056154032599246,
+          "multiple_estimate_spread_samples": 2.1520174272052373,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1098.468719628255,
+          "refined_line_samples": 1099.9971984026001,
+          "line_hz": 112802.83275283904,
+          "acf": 0.18059415480937574,
+          "multiple_estimate_spread_samples": 0.014382144270712161,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1650.1967396170628,
+          "refined_line_samples": 1650.01447927996,
+          "line_hz": 75201.037056443136,
+          "acf": 0.15059757782635269,
+          "multiple_estimate_spread_samples": 2.1584774388750247,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1099.9932589237767,
+          1099.994044989299,
+          1100.0076410680474,
+          1102.1452763509819
+        ],
+        [
+          1099.9932589237767,
+          1099.994044989299,
+          1100.0076410680474,
+          1100.0003518159012
+        ],
+        [
+          1650.0242138813335,
+          1649.9913889121183,
+          1650.0047446785863,
+          1652.1498663509933
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.1839476718784139,
+          0.19054011228048606,
+          0.15437876772297593,
+          0.10083894212557311
+        ],
+        [
+          0.1839476718784139,
+          0.19054011228048606,
+          0.15437876772297593,
+          0.094318199271504047
+        ],
+        [
+          0.18581031411319329,
+          0.15871594316276214,
+          0.13366054241559433,
+          0.10576248960982741
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 275,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.069099706803588E+6,
+          "frame_hz": 59.969463816553876,
+          "acf": 0.2432571716856326,
+          "frame_over_best_line": 1880.9982918800852
+        },
+        {
+          "frame_samples": 2.0646999350817874E+6,
+          "frame_hz": 60.09725572790547,
+          "acf": 0.23808602254131897,
+          "frame_over_best_line": 1876.9985024711184
+        },
+        {
+          "frame_samples": 2.0613999906016577E+6,
+          "frame_hz": 60.193461029261066,
+          "acf": 0.22630108625829534,
+          "frame_over_best_line": 1873.9985552428564
+        },
+        {
+          "frame_samples": 2.0713010185825359E+6,
+          "frame_hz": 59.905730208598179,
+          "acf": 0.22624538525942589,
+          "frame_over_best_line": 1882.9994828727092
+        },
+        {
+          "frame_samples": 2.0096998886015096E+6,
+          "frame_hz": 61.741954957436718,
+          "acf": 0.22600704721053738,
+          "frame_over_best_line": 1826.9984985358085
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1880.9982918800852,
+          1881.0045242008837,
+          1253.9888181505596
+        ],
+        [
+          1876.9985024711184,
+          1877.0047215393952,
+          1251.3223132337539
+        ],
+        [
+          1873.9985552428564,
+          1874.0047643713935,
+          1249.3223644323532
+        ],
+        [
+          1882.9994828727092,
+          1883.0057218240638,
+          1255.3229347941351
+        ],
+        [
+          1826.9984985358085,
+          1827.0045519388291,
+          1217.9892442389419
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:51:53.515Z"
+    },
+    {
+      "fc_hz": 2.8E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc280MHz.rIs",
+      "full_sha256": "f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead",
+      "read_info": {
+        "filename": "black글_fc280MHz.rIs",
+        "bytes": 9.504E+8,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -5.50786018371582,
+        "mean_q_counts": 14.905773162841797,
+        "median_i_counts": -5,
+        "median_q_counts": 15,
+        "mad_i_counts": 22,
+        "mad_q_counts": 23,
+        "rms_complex_counts": 60.1769545715902,
+        "dc_power_fraction": 0.069732134298495146,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.000232696533203125,
+        "iq_std_ratio": 0.92777320469595159,
+        "iq_correlation": -0.059672222580987956,
+        "impropriety_abs": 0.095603566531598544,
+        "peak_over_rms": 12.4234742996401,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 3617.6059934189188,
+        "unweighted_time_power_count_squared": 3621.2658615112305
+      },
+      "envelope_mean_counts": 60.81843302732311,
+      "envelope_variance_counts_squared": 1663.1691201340436,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1100.5303178089387,
+          "refined_line_samples": 1100.0000046525906,
+          "line_hz": 112802.54497743267,
+          "acf": 0.25595778222240784,
+          "multiple_estimate_spread_samples": 0.0028298818479015608,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1094.8833198003565,
+          "refined_line_samples": 1095.7023857272673,
+          "line_hz": 113244.98478447743,
+          "acf": 0.24570195040665657,
+          "multiple_estimate_spread_samples": 0.26712978312730229,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1009.9737496708541,
+          "refined_line_samples": 1009.7673921568933,
+          "line_hz": 122882.55786806052,
+          "acf": 0.23665517501529126,
+          "multiple_estimate_spread_samples": 1.5207283642926086,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1100.0015011803989,
+          1099.998671298551,
+          1099.9997441835142,
+          1100.0002651216671
+        ],
+        [
+          1095.4369878457069,
+          1095.7041176288342,
+          1095.7010339629653,
+          1095.7037374915692
+        ],
+        [
+          1011.2804384888366,
+          1009.759710124544,
+          1009.768079502866,
+          1009.7667048109206
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.18842180895046914,
+          0.15937783995757626,
+          0.11696642788412151,
+          0.050145708438918191
+        ],
+        [
+          0.16333714742796404,
+          0.14381999378943774,
+          0.11578679954353271,
+          0.0536122990619961
+        ],
+        [
+          0.17532784608243263,
+          0.15842082847796971,
+          0.12202942744947719,
+          0.061039392698459934
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 275,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.1218999822393861E+6,
+          "frame_hz": 58.477214307267651,
+          "acf": -0.0066158275702638582,
+          "frame_over_best_line": 1928.9999756950353
+        },
+        {
+          "frame_samples": 2.1263001282704417E+6,
+          "frame_hz": 58.35620209501208,
+          "acf": -0.0076825281148382727,
+          "frame_over_best_line": 1933.0001084336213
+        },
+        {
+          "frame_samples": 2.1372996720455461E+6,
+          "frame_hz": 58.055873784533,
+          "acf": -0.0081222363909342465,
+          "frame_over_best_line": 1942.9996936414218
+        },
+        {
+          "frame_samples": 2.0977000425095642E+6,
+          "frame_hz": 59.1518317612058,
+          "acf": -0.0082661521703896665,
+          "frame_over_best_line": 1907.000030579158
+        },
+        {
+          "frame_samples": 2.1196992033796795E+6,
+          "frame_hz": 58.537928307073273,
+          "acf": -0.0087777589929262014,
+          "frame_over_best_line": 1926.9992676492188
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1928.9999756950353,
+          1936.5659962773423,
+          2101.3750282695746
+        ],
+        [
+          1933.0001084336213,
+          1940.581818537449,
+          2105.7326120707871
+        ],
+        [
+          1942.9996936414218,
+          1950.6206246205475,
+          2116.6257582156722
+        ],
+        [
+          1907.000030579158,
+          1914.4797618718569,
+          2077.4091724518994
+        ],
+        [
+          1926.9992676492188,
+          1934.5574409539495,
+          2099.1955373523588
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:51:58.743Z"
+    },
+    {
+      "fc_hz": 3.4E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc340MHz.rIs",
+      "full_sha256": "74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e",
+      "read_info": {
+        "filename": "black글_fc340MHz.rIs",
+        "bytes": 1.0395E+9,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": 3.2091007232666016,
+        "mean_q_counts": 10.317804336547852,
+        "median_i_counts": 3,
+        "median_q_counts": 10,
+        "mad_i_counts": 13,
+        "mad_q_counts": 13,
+        "rms_complex_counts": 34.125351676945328,
+        "dc_power_fraction": 0.1002588585779545,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.0005779266357421875,
+        "iq_std_ratio": 0.96978240881957,
+        "iq_correlation": 0.0044249401677134408,
+        "impropriety_abs": 0.030991152233389833,
+        "peak_over_rms": 11.151637287094024,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 1165.4728852517671,
+        "unweighted_time_power_count_squared": 1164.5396270751953
+      },
+      "envelope_mean_counts": 25.243606464662349,
+      "envelope_variance_counts_squared": 360.24216107754307,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1009.9800440672693,
+          "refined_line_samples": 1010.165964038115,
+          "line_hz": 122834.07322889981,
+          "acf": 0.20286849168274282,
+          "multiple_estimate_spread_samples": 1.4569295756406291,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1683.044118345777,
+          "refined_line_samples": 1684.3763325849711,
+          "line_hz": 73666.910178898775,
+          "acf": 0.20075482083415677,
+          "multiple_estimate_spread_samples": 2.16282296535519,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1178.0794821492111,
+          "refined_line_samples": 1177.3454941573309,
+          "line_hz": 105392.00312548067,
+          "acf": 0.19050322421199409,
+          "multiple_estimate_spread_samples": 0.87716018664718831,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1011.2199660552684,
+          1010.567813841599,
+          1009.7630364796278,
+          1009.7641142346311
+        ],
+        [
+          1684.3893027723552,
+          1684.375057548498,
+          1684.3776076214442,
+          1682.226479807
+        ],
+        [
+          1178.2204651887446,
+          1177.3433050020974,
+          1177.3454711997617,
+          1177.3455171149003
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.11483487246702792,
+          0.0835336160007964,
+          0.099260302062210759,
+          0.075068727636475333
+        ],
+        [
+          0.13786229178379589,
+          0.11281714883035313,
+          0.073464934486537445,
+          0.083205775446009211
+        ],
+        [
+          0.1055463047033057,
+          0.11666286937218737,
+          0.094047175532212229,
+          0.054832629332050666
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 253,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0691002784017471E+6,
+          "frame_hz": 59.969447249722641,
+          "acf": 0.19234256474216554,
+          "frame_over_best_line": 2048.2775623626903
+        },
+        {
+          "frame_samples": 2.0624996778248376E+6,
+          "frame_hz": 60.161366973332449,
+          "acf": 0.17970766393150941,
+          "frame_over_best_line": 2041.7433879676989
+        },
+        {
+          "frame_samples": 2.0657998324873061E+6,
+          "frame_hz": 60.06525804128821,
+          "acf": 0.17701416783719476,
+          "frame_over_best_line": 2045.0103310047382
+        },
+        {
+          "frame_samples": 2.0119002187552764E+6,
+          "frame_hz": 61.674430393356,
+          "acf": 0.17599048571144235,
+          "frame_over_best_line": 1991.653144511771
+        },
+        {
+          "frame_samples": 2.1241002200190094E+6,
+          "frame_hz": 58.416640999589717,
+          "acf": 0.17597207494241149,
+          "frame_over_best_line": 2102.7240034181791
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          2048.2775623626903,
+          1228.4073567017826,
+          1757.4282898858653
+        ],
+        [
+          2041.7433879676989,
+          1224.4886358974006,
+          1751.8219486634582
+        ],
+        [
+          2045.0103310047382,
+          1226.4479098426737,
+          1754.6249955845581
+        ],
+        [
+          1991.653144511771,
+          1194.4481644833268,
+          1708.8443695920089
+        ],
+        [
+          2102.7240034181791,
+          1261.0603574316465,
+          1804.143499558985
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:04.136Z"
+    },
+    {
+      "fc_hz": 4.0E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc400MHz.rIs",
+      "full_sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf",
+      "read_info": {
+        "filename": "black글_fc400MHz.rIs",
+        "bytes": 8.91E+8,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": 6.8735513687133789,
+        "mean_q_counts": 14.381590843200684,
+        "median_i_counts": 7,
+        "median_q_counts": 14,
+        "mad_i_counts": 16,
+        "mad_q_counts": 16,
+        "rms_complex_counts": 49.213762031788761,
+        "dc_power_fraction": 0.10490357302157338,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.0003795623779296875,
+        "iq_std_ratio": 0.97808031294514086,
+        "iq_correlation": 0.036961678588949373,
+        "impropriety_abs": 0.043087752386249532,
+        "peak_over_rms": 10.35976710731245,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 2423.2856576758695,
+        "unweighted_time_power_count_squared": 2421.9943733215332
+      },
+      "envelope_mean_counts": 38.935415541126943,
+      "envelope_variance_counts_squared": 847.91108789710324,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1029.337205789039,
+          "refined_line_samples": 1029.3537408193286,
+          "line_hz": 120544.37175429561,
+          "acf": 0.24340793191193241,
+          "multiple_estimate_spread_samples": 1.3607602840861546,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1372.2447955641665,
+          "refined_line_samples": 1371.7993720305503,
+          "line_hz": 90452.58550915611,
+          "acf": 0.24207211006517321,
+          "multiple_estimate_spread_samples": 3.3365609850213787,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1714.3168179809784,
+          "refined_line_samples": 1712.0695736572948,
+          "line_hz": 72475.3257164289,
+          "acf": 0.23746332299924255,
+          "multiple_estimate_spread_samples": 2.0206194906818382,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1028.8503574647229,
+          1028.8529124515981,
+          1030.2111177488091,
+          1029.854569187059
+        ],
+        [
+          1371.8124408626365,
+          1370.4654315348662,
+          1371.7863031984639,
+          1373.8019925198876
+        ],
+        [
+          1712.0692634857173,
+          1712.069883828872,
+          1714.0790350254545,
+          1712.0584155347726
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.19735355374739219,
+          0.19006479676022886,
+          0.15910132947376132,
+          0.17568413776049743
+        ],
+        [
+          0.193682136076885,
+          0.16123664815950475,
+          0.203741268111828,
+          0.16194473434865733
+        ],
+        [
+          0.17949491164157319,
+          0.15454252156327558,
+          0.20208377799825006,
+          0.13173329933768926
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 257,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0386485525287306E+6,
+          "frame_hz": 60.86522360418045,
+          "acf": 0.13286568545198066,
+          "frame_over_best_line": 1980.5130847496991
+        },
+        {
+          "frame_samples": 2.0509924884818834E+6,
+          "frame_hz": 60.498905138284726,
+          "acf": 0.12823672199890679,
+          "frame_over_best_line": 1992.5050127562242
+        },
+        {
+          "frame_samples": 2.0196135985904827E+6,
+          "frame_hz": 61.438881222922625,
+          "acf": 0.12743530305041892,
+          "frame_over_best_line": 1962.020944309138
+        },
+        {
+          "frame_samples": 2.0263097316787648E+6,
+          "frame_hz": 61.235850600786193,
+          "acf": 0.12727624791696177,
+          "frame_over_best_line": 1968.5261259806518
+        },
+        {
+          "frame_samples": 2.0700277793952557E+6,
+          "frame_hz": 59.942577213263256,
+          "acf": 0.12418853925740189,
+          "frame_over_best_line": 2010.9974805625013
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1980.5130847496991,
+          1486.1127611620814,
+          1190.7509974456254
+        ],
+        [
+          1992.5050127562242,
+          1495.1111148607577,
+          1197.9609474050678
+        ],
+        [
+          1962.020944309138,
+          1472.2368589519265,
+          1179.6329014107864
+        ],
+        [
+          1968.5261259806518,
+          1477.1181362179821,
+          1183.5440351586853
+        ],
+        [
+          2010.9974805625013,
+          1508.9872627155246,
+          1209.0792402631726
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:08.969Z"
+    },
+    {
+      "fc_hz": 4.6E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc460MHz.rIs",
+      "full_sha256": "49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb",
+      "read_info": {
+        "filename": "black글_fc460MHz.rIs",
+        "bytes": 9.801E+8,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -1.9025506973266602,
+        "mean_q_counts": 8.4465160369873047,
+        "median_i_counts": -2,
+        "median_q_counts": 8,
+        "mad_i_counts": 16,
+        "mad_q_counts": 16,
+        "rms_complex_counts": 44.261176093446835,
+        "dc_power_fraction": 0.038265111619001833,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.00044536590576171875,
+        "iq_std_ratio": 0.98076437260017546,
+        "iq_correlation": -0.0085442731615465936,
+        "impropriety_abs": 0.0212164244078573,
+        "peak_over_rms": 18.379521366466665,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 1960.7090734202377,
+        "unweighted_time_power_count_squared": 1959.0517091751099
+      },
+      "envelope_mean_counts": 37.992363070226446,
+      "envelope_variance_counts_squared": 715.8844446446526,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1029.7114628337308,
+          "refined_line_samples": 1030.2404086368811,
+          "line_hz": 120440.62624584381,
+          "acf": 0.24122073551428455,
+          "multiple_estimate_spread_samples": 1.3284385747124361,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1371.2650182719465,
+          "refined_line_samples": 1370.905532333365,
+          "line_hz": 90511.561207870749,
+          "acf": 0.23105246105358498,
+          "multiple_estimate_spread_samples": 3.3407113296607349,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1714.9823506409191,
+          "refined_line_samples": 1714.858055602519,
+          "line_hz": 72357.475649145345,
+          "acf": 0.22772443318512714,
+          "multiple_estimate_spread_samples": 4.690873907175046,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1028.9197752733528,
+          1030.2482138480652,
+          1030.2383312759853,
+          1030.2424859977771
+        ],
+        [
+          1369.2517910704016,
+          1369.2198704200416,
+          1372.5592735963287,
+          1372.5605817497024
+        ],
+        [
+          1717.5424809674068,
+          1714.852416483147,
+          1714.8636947218909,
+          1712.8516070602318
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.18380492687052524,
+          0.17976427840625769,
+          0.23074555812172623,
+          0.13478348288617736
+        ],
+        [
+          0.30113368634427962,
+          0.21451095524603531,
+          0.19282972027618392,
+          0.0946051423109862
+        ],
+        [
+          0.18040540650060305,
+          0.13948134416521002,
+          0.14909941362270535,
+          0.080496567154313192
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 258,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0691489908909488E+6,
+          "frame_hz": 59.968035432079517,
+          "acf": 0.18076359494703703,
+          "frame_over_best_line": 2008.413738720126
+        },
+        {
+          "frame_samples": 2.0404920103575152E+6,
+          "frame_hz": 60.810235654027096,
+          "acf": 0.17827858273308997,
+          "frame_over_best_line": 1980.5979199139604
+        },
+        {
+          "frame_samples": 2.08336694257108E+6,
+          "frame_hz": 59.558783171854309,
+          "acf": 0.17651455948790132,
+          "frame_over_best_line": 2022.2143541502112
+        },
+        {
+          "frame_samples": 2.0471859439000087E+6,
+          "frame_hz": 60.611397010481141,
+          "acf": 0.17538087389756543,
+          "frame_over_best_line": 1987.0953679720794
+        },
+        {
+          "frame_samples": 2.0195750612996938E+6,
+          "frame_hz": 61.440053592336767,
+          "acf": 0.17226035401711481,
+          "frame_over_best_line": 1960.2949412281439
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          2008.413738720126,
+          1509.3301048753744,
+          1206.6007353383827
+        ],
+        [
+          1980.5979199139604,
+          1488.4264175989376,
+          1189.8897425889772
+        ],
+        [
+          2022.2143541502112,
+          1519.701316709301,
+          1214.8917723916716
+        ],
+        [
+          1987.0953679720794,
+          1493.30927304347,
+          1193.7932339133022
+        ],
+        [
+          1960.2949412281439,
+          1473.168656531901,
+          1177.6922612933768
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:14.977Z"
+    },
+    {
+      "fc_hz": 5.2E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc520MHz.rIs",
+      "full_sha256": "9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c",
+      "read_info": {
+        "filename": "black글_fc520MHz.rIs",
+        "bytes": 7.128E+8,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -1.4583148956298828,
+        "mean_q_counts": 11.406055450439453,
+        "median_i_counts": -2,
+        "median_q_counts": 12,
+        "mad_i_counts": 22,
+        "mad_q_counts": 23,
+        "rms_complex_counts": 50.489364316085009,
+        "dc_power_fraction": 0.051869619042095867,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.000186920166015625,
+        "iq_std_ratio": 0.94797512493301006,
+        "iq_correlation": -0.028476706910099167,
+        "impropriety_abs": 0.0604783884172217,
+        "peak_over_rms": 26.661412148847109,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 2547.1107496850091,
+        "unweighted_time_power_count_squared": 2549.1759090423584
+      },
+      "envelope_mean_counts": 40.314474316551554,
+      "envelope_variance_counts_squared": 522.37573256285577,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1088.8764068009261,
+          "refined_line_samples": 1088.4519501499217,
+          "line_hz": 113999.33638127896,
+          "acf": 0.2915381297523,
+          "multiple_estimate_spread_samples": 1.9494786728496365,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1039.0835781742678,
+          "refined_line_samples": 1040.0106719750211,
+          "line_hz": 119309.16032271275,
+          "acf": 0.25906758706537664,
+          "multiple_estimate_spread_samples": 1.18721084509707,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1057.924163326521,
+          "refined_line_samples": 1057.073277374782,
+          "line_hz": 117383.34764090988,
+          "acf": 0.24548230192118131,
+          "multiple_estimate_spread_samples": 1.5064899278270332,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1088.0642156548165,
+          1089.2266830896931,
+          1087.2772044168435,
+          1088.8396846450266
+        ],
+        [
+          1039.060765569777,
+          1039.8339295477956,
+          1040.1874144022465,
+          1040.2479764148741
+        ],
+        [
+          1057.1394251580946,
+          1056.8451101027465,
+          1057.0071295914695,
+          1058.3516000305735
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.17820004065426912,
+          0.18696639727505998,
+          0.19093734474896149,
+          0.039344957189051157
+        ],
+        [
+          0.17273846199496046,
+          0.18490528387512004,
+          0.14584584443153195,
+          0.047963506702070974
+        ],
+        [
+          0.19116036778865814,
+          0.19700105142020882,
+          0.15600722559116345,
+          0.038126090377244508
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 272,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0690991936520014E+6,
+          "frame_hz": 59.969478689415261,
+          "acf": 0.33301420592078079,
+          "frame_over_best_line": 1900.955934129207
+        },
+        {
+          "frame_samples": 2.0833998898090841E+6,
+          "frame_hz": 59.557841299190308,
+          "acf": 0.32445864586372,
+          "frame_over_best_line": 1914.094498633697
+        },
+        {
+          "frame_samples": 2.0723840771576832E+6,
+          "frame_hz": 59.8744225878159,
+          "acf": 0.31472751837083485,
+          "frame_over_best_line": 1903.973874889228
+        },
+        {
+          "frame_samples": 2.1262990976737314E+6,
+          "frame_hz": 58.356230379701643,
+          "acf": 0.3049196787966606,
+          "frame_over_best_line": 1953.507545630157
+        },
+        {
+          "frame_samples": 2.0658329353990753E+6,
+          "frame_hz": 60.064295555453434,
+          "acf": 0.30165014265330997,
+          "frame_over_best_line": 1897.9551050595578
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1900.955934129207,
+          1989.4980401717426,
+          1957.3848265188988
+        ],
+        [
+          1914.094498633697,
+          2003.2485684523083,
+          1970.9134025061737
+        ],
+        [
+          1903.973874889228,
+          1992.6565495930388,
+          1960.4923532873738
+        ],
+        [
+          1953.507545630157,
+          2044.4973835083883,
+          2011.4964053905023
+        ],
+        [
+          1897.9551050595578,
+          1986.3574394635561,
+          1954.2949193924619
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:19.905Z"
+    },
+    {
+      "fc_hz": 5.8E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc580MHz.rIs",
+      "full_sha256": "1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a",
+      "read_info": {
+        "filename": "black글_fc580MHz.rIs",
+        "bytes": 8.613E+8,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": 2.7233304977416992,
+        "mean_q_counts": 4.5781841278076172,
+        "median_i_counts": 3,
+        "median_q_counts": 5,
+        "mad_i_counts": 19,
+        "mad_q_counts": 19,
+        "rms_complex_counts": 42.193948063634863,
+        "dc_power_fraction": 0.015938792702017254,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.000293731689453125,
+        "iq_std_ratio": 0.97222970103355144,
+        "iq_correlation": -0.010875283940915963,
+        "impropriety_abs": 0.030181513946382629,
+        "peak_over_rms": 4.5583087933054651,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 1783.969504137365,
+        "unweighted_time_power_count_squared": 1780.3292531967163
+      },
+      "envelope_mean_counts": 33.651066370286912,
+      "envelope_variance_counts_squared": 370.90368270206625,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1105.9165149624105,
+          "refined_line_samples": 1105.209102209024,
+          "line_hz": 112270.88136714666,
+          "acf": 0.26183795149489669,
+          "multiple_estimate_spread_samples": 3.1296771466772952,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1131.0712673664575,
+          "refined_line_samples": 1130.0887881531396,
+          "line_hz": 109799.16029676193,
+          "acf": 0.22850653367186741,
+          "multiple_estimate_spread_samples": 3.2110551938128538,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1088.9388631733689,
+          "refined_line_samples": 1089.5114575442108,
+          "line_hz": 113888.47647337835,
+          "acf": 0.22507383058060007,
+          "multiple_estimate_spread_samples": 3.0795813355996415,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1106.0912305098386,
+          1107.406850049432,
+          1104.3269739082091,
+          1104.2771729027547
+        ],
+        [
+          1132.7646489609563,
+          1129.5535937671434,
+          1130.1131771147552,
+          1130.064399191524
+        ],
+        [
+          1089.7162415544335,
+          1090.4223320242429,
+          1087.3427506886433,
+          1089.3066735339878
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.12121202930643639,
+          0.10965408271595521,
+          0.14658138751769356,
+          0.066334467985635762
+        ],
+        [
+          0.17049630008296196,
+          0.10112454688218685,
+          0.21125491554959394,
+          0.0721598840273549
+        ],
+        [
+          0.10575486505826132,
+          0.14749678594771004,
+          0.12266118086392511,
+          0.055040277350209506
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 276,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0691420038609686E+6,
+          "frame_hz": 59.968237930729025,
+          "acf": 0.26482282504433036,
+          "frame_over_best_line": 1872.1724239560594
+        },
+        {
+          "frame_samples": 2.0724009369623023E+6,
+          "frame_hz": 59.873935485610673,
+          "acf": 0.262463857570352,
+          "frame_over_best_line": 1875.1211266900668
+        },
+        {
+          "frame_samples": 2.0085829703478098E+6,
+          "frame_hz": 61.77628797605189,
+          "acf": 0.25362068843278956,
+          "frame_over_best_line": 1817.3782375961052
+        },
+        {
+          "frame_samples": 2.1010009349818365E+6,
+          "frame_hz": 59.058898039506452,
+          "acf": 0.25216490275898484,
+          "frame_over_best_line": 1900.9985809766542
+        },
+        {
+          "frame_samples": 2.1076019791719932E+6,
+          "frame_hz": 58.87392459592774,
+          "acf": 0.24980063555074655,
+          "frame_over_best_line": 1906.9712463998424
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1872.1724239560594,
+          1830.9552537393874,
+          1899.1466216655238
+        ],
+        [
+          1875.1211266900668,
+          1833.8390387441566,
+          1902.1378092099662
+        ],
+        [
+          1817.3782375961052,
+          1777.3673992734316,
+          1843.562962499919
+        ],
+        [
+          1900.9985809766542,
+          1859.1467829845662,
+          1928.3881049929948
+        ],
+        [
+          1906.9712463998424,
+          1864.9879560493346,
+          1934.446824379972
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:25.391Z"
+    },
+    {
+      "fc_hz": 6.4E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc640MHz.rIs",
+      "full_sha256": "3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2",
+      "read_info": {
+        "filename": "black글_fc640MHz.rIs",
+        "bytes": 1.0098E+9,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": 11.426149368286133,
+        "mean_q_counts": 3.2406320571899414,
+        "median_i_counts": 12,
+        "median_q_counts": 3,
+        "mad_i_counts": 19,
+        "mad_q_counts": 20,
+        "rms_complex_counts": 41.160789673851156,
+        "dc_power_fraction": 0.08325917980270138,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.00022602081298828125,
+        "iq_std_ratio": 0.94861014918759667,
+        "iq_correlation": -0.020061294355480593,
+        "impropriety_abs": 0.056387238218740171,
+        "peak_over_rms": 3.9773316047206464,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 1692.4292563957747,
+        "unweighted_time_power_count_squared": 1694.2106065750122
+      },
+      "envelope_mean_counts": 34.731771628639464,
+      "envelope_variance_counts_squared": 310.39690308864522,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1088.9566266600314,
+          "refined_line_samples": 1088.3947031381972,
+          "line_hz": 114005.33247931911,
+          "acf": 0.21719314970933584,
+          "multiple_estimate_spread_samples": 3.1376140500701695,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1063.9617828563169,
+          "refined_line_samples": 1065.2783268271137,
+          "line_hz": 116479.23070919442,
+          "acf": 0.20755358800281576,
+          "multiple_estimate_spread_samples": 1.9137753377726767,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1126.1207444509469,
+          "refined_line_samples": 1125.8015538369452,
+          "line_hz": 110217.29324950946,
+          "acf": 0.19693713048070091,
+          "multiple_estimate_spread_samples": 1.1631079273900014,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1087.4830174257518,
+          1090.4621370977563,
+          1087.3245230476862,
+          1089.3063888506424
+        ],
+        [
+          1065.0917101981245,
+          1065.5485614094475,
+          1065.4649434561031,
+          1063.6347860716749
+        ],
+        [
+          1125.0945119068815,
+          1126.2576198342715,
+          1125.8591668103727,
+          1125.7439408635178
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.12640338744017235,
+          0.13195422575901258,
+          0.13728552335059668,
+          0.15648754886964178
+        ],
+        [
+          0.20141145261596916,
+          0.1637685218466759,
+          0.1542342195711279,
+          0.14488100398726289
+        ],
+        [
+          0.13346575924135948,
+          0.1609906177247373,
+          0.17348549940809624,
+          0.12563660360400905
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 272,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0756849105679281E+6,
+          "frame_hz": 59.779207994555257,
+          "acf": 0.20790168436692058,
+          "frame_over_best_line": 1907.106773473861
+        },
+        {
+          "frame_samples": 2.0294759333365303E+6,
+          "frame_hz": 61.140316059823128,
+          "acf": 0.20473028125277576,
+          "frame_over_best_line": 1864.6506892075906
+        },
+        {
+          "frame_samples": 2.1109030050087427E+6,
+          "frame_hz": 58.78185767208479,
+          "acf": 0.20338632898156508,
+          "frame_over_best_line": 1939.4646068400739
+        },
+        {
+          "frame_samples": 2.0085830491538045E+6,
+          "frame_hz": 61.776285552282644,
+          "acf": 0.20087442409988873,
+          "frame_over_best_line": 1845.4546345754936
+        },
+        {
+          "frame_samples": 2.0152000863936995E+6,
+          "frame_hz": 61.573439202284042,
+          "acf": 0.19779334591380704,
+          "frame_over_best_line": 1851.5342647140967
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1907.106773473861,
+          1948.4906979664813,
+          1843.73960356832
+        ],
+        [
+          1864.6506892075906,
+          1905.1133231830956,
+          1802.6942016731914
+        ],
+        [
+          1939.4646068400739,
+          1981.5506913540405,
+          1875.0222877330243
+        ],
+        [
+          1845.4546345754936,
+          1885.5007171095688,
+          1784.1359716622992
+        ],
+        [
+          1851.5342647140967,
+          1891.7122742897507,
+          1790.0135947809945
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:30.083Z"
+    },
+    {
+      "fc_hz": 7.0E+8,
+      "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc700MHz.rIs",
+      "full_sha256": "81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e",
+      "read_info": {
+        "filename": "black글_fc700MHz.rIs",
+        "bytes": 1.0395E+9,
+        "first_sample_zero_based": 0,
+        "sample_count": 8.388608E+6,
+        "byte_offset": 0,
+        "byte_count": 3.3554432E+7,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      "fs_hz": 1.240828E+8,
+      "receiver_bandwidth_hz": 1.2E+8,
+      "quality": {
+        "sample_count": 1.048576E+6,
+        "finite_fraction": 1,
+        "mean_i_counts": -18.141633987426758,
+        "mean_q_counts": 29.495137214660645,
+        "median_i_counts": -18,
+        "median_q_counts": 29,
+        "mad_i_counts": 14,
+        "mad_q_counts": 14,
+        "rms_complex_counts": 46.754959567552973,
+        "dc_power_fraction": 0.54852132093420869,
+        "clip_i_fraction": 0,
+        "clip_q_fraction": 0,
+        "zero_pair_fraction": 0.0001220703125,
+        "iq_std_ratio": 0.959923820224475,
+        "iq_correlation": -0.041973093497227595,
+        "impropriety_abs": 0.058564948255416791,
+        "peak_over_rms": 75.225308078014208,
+        "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+        "statistics_first_sample_zero_based": 0,
+        "statistics_complex_sample_count": 1.048576E+6,
+        "global_clipping_tested": false
+      },
+      "welch": {
+        "implementation": "base MATLAB explicit Welch fallback",
+        "nfft": 8192,
+        "fs_hz": 1.240828E+8,
+        "window_samples": 8192,
+        "overlap_samples": 4096,
+        "enbw_hz": 22720.239257812496,
+        "frequency_range": "centered",
+        "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+        "segment_count": 255,
+        "dc_removed": false,
+        "input_complex_sample_count": 1.048576E+6,
+        "frequency_bin_spacing_hz": 15146.826171875,
+        "integrated_power_count_squared": 2187.618052313539,
+        "unweighted_time_power_count_squared": 2186.0262441635132
+      },
+      "envelope_mean_counts": 45.896003511530495,
+      "envelope_variance_counts_squared": 519.03636148675764,
+      "autocorrelation_fft_length": 1.6777216E+7,
+      "line_candidates": [
+        {
+          "single_peak_lag_samples": 1106.0123377741179,
+          "refined_line_samples": 1105.9246748221158,
+          "line_hz": 112198.23811233645,
+          "acf": 0.10438734984277083,
+          "multiple_estimate_spread_samples": 3.2104401024889739,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1097.4447268503943,
+          "refined_line_samples": 1098.1425631351512,
+          "line_hz": 112993.34363814183,
+          "acf": 0.10124508193363774,
+          "multiple_estimate_spread_samples": 3.046226664421738,
+          "any_refinement_at_search_boundary": false
+        },
+        {
+          "single_peak_lag_samples": 1047.2467265418472,
+          "refined_line_samples": 1048.2711971985705,
+          "line_hz": 118368.98727314304,
+          "acf": 0.10042956901413146,
+          "multiple_estimate_spread_samples": 2.3539716542313727,
+          "any_refinement_at_search_boundary": false
+        }
+      ],
+      "line_refinement_multiples": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "multiple_period_estimates": [
+        [
+          1107.3922248252989,
+          1107.5697976218953,
+          1104.4571248189327,
+          1104.3593575194063
+        ],
+        [
+          1098.4705177885689,
+          1098.9295901677222,
+          1095.8833635033004,
+          1097.8146084817338
+        ],
+        [
+          1048.5962993044818,
+          1048.1399868026979,
+          1048.402407594443,
+          1046.2423276502504
+        ]
+      ],
+      "multiple_acf": [
+        [
+          0.04382647808180843,
+          0.044406490850843874,
+          0.060586145886164254,
+          0.02738449976354029
+        ],
+        [
+          0.062148288778269084,
+          0.046748666094017656,
+          0.052561464795777585,
+          0.034674937418366567
+        ],
+        [
+          0.092619576444746152,
+          0.066680987591650948,
+          0.06198284306736411,
+          0.0326578290267598
+        ]
+      ],
+      "multiple_boundary_flags": [
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "frame_peak_min_separation_samples": 276,
+      "frame_candidates": [
+        {
+          "frame_samples": 2.0481990016575665E+6,
+          "frame_hz": 60.581418065130521,
+          "acf": 0.076219275651432522,
+          "frame_over_best_line": 1852.0239653636559
+        },
+        {
+          "frame_samples": 2.0724009258532308E+6,
+          "frame_hz": 59.873935806563935,
+          "acf": 0.07239959291981049,
+          "frame_over_best_line": 1873.9078465597754
+        },
+        {
+          "frame_samples": 2.1087079732860643E+6,
+          "frame_hz": 58.843045870708195,
+          "acf": 0.072374617881647618,
+          "frame_over_best_line": 1906.7374309423406
+        },
+        {
+          "frame_samples": 2.0470930487238488E+6,
+          "frame_hz": 60.614147499232054,
+          "acf": 0.0690851503286196,
+          "frame_over_best_line": 1851.023939811377
+        },
+        {
+          "frame_samples": 2.0767989361892E+6,
+          "frame_hz": 59.747141544517739,
+          "acf": 0.068960556769573647,
+          "frame_over_best_line": 1877.8846186095325
+        }
+      ],
+      "frame_by_line_ratios": [
+        [
+          1852.0239653636559,
+          1865.1485430179882,
+          1953.8827424918584
+        ],
+        [
+          1873.9078465597754,
+          1887.1875068175234,
+          1976.9702071291986
+        ],
+        [
+          1906.7374309423406,
+          1920.2497417692207,
+          2011.6053736107938
+        ],
+        [
+          1851.023939811377,
+          1864.1414306713359,
+          1952.8277169062337
+        ],
+        [
+          1877.8846186095325,
+          1891.1924607129567,
+          1981.1656961855826
+        ]
+      ],
+      "completed_utc": "2026-10-23T09:52:34.883Z"
+    }
+  ],
+  "completed_utc": "2026-10-23T09:52:38.516Z",
+  "summary": [
+    {
+      "fc_mhz": 100,
+      "complex_rms_counts": 66.148870417839731,
+      "dc_power_fraction": 0.034876472013489208,
+      "line_samples": 1099.9997995303338,
+      "line_hz": 112802.56601226614,
+      "line_acf": 0.38218392026500175,
+      "line_multiple_spread_samples": 0.00052733386178260844,
+      "frame_samples": 2.0690998554110127E+6,
+      "frame_hz": 59.969459509411543,
+      "frame_acf": 0.38683871848240964,
+      "frame_over_line": 1881.0002113586338
+    },
+    {
+      "fc_mhz": 160,
+      "complex_rms_counts": 60.48937929737734,
+      "dc_power_fraction": 0.020300026946654278,
+      "line_samples": 1099.9990942280792,
+      "line_hz": 112802.63833951126,
+      "line_acf": 0.26012014920561588,
+      "line_multiple_spread_samples": 0.0059580101910796657,
+      "frame_samples": 2.0702000254935462E+6,
+      "frame_hz": 59.9375898328559,
+      "frame_acf": 0.25201638054039133,
+      "frame_over_line": 1882.0015728706596
+    },
+    {
+      "fc_mhz": 220,
+      "complex_rms_counts": 49.267595827006858,
+      "dc_power_fraction": 0.064306647855581878,
+      "line_samples": 1100.0008430286732,
+      "line_hz": 112802.4590039024,
+      "line_acf": 0.22056154032599246,
+      "line_multiple_spread_samples": 2.1520174272052373,
+      "frame_samples": 2.069099706803588E+6,
+      "frame_hz": 59.969463816553876,
+      "frame_acf": 0.2432571716856326,
+      "frame_over_line": 1880.9982918800852
+    },
+    {
+      "fc_mhz": 280,
+      "complex_rms_counts": 60.1769545715902,
+      "dc_power_fraction": 0.069732134298495146,
+      "line_samples": 1100.0000046525906,
+      "line_hz": 112802.54497743267,
+      "line_acf": 0.25595778222240784,
+      "line_multiple_spread_samples": 0.0028298818479015608,
+      "frame_samples": 2.1218999822393861E+6,
+      "frame_hz": 58.477214307267651,
+      "frame_acf": -0.0066158275702638582,
+      "frame_over_line": 1928.9999756950353
+    },
+    {
+      "fc_mhz": 340,
+      "complex_rms_counts": 34.125351676945328,
+      "dc_power_fraction": 0.1002588585779545,
+      "line_samples": 1010.165964038115,
+      "line_hz": 122834.07322889981,
+      "line_acf": 0.20286849168274282,
+      "line_multiple_spread_samples": 1.4569295756406291,
+      "frame_samples": 2.0691002784017471E+6,
+      "frame_hz": 59.969447249722641,
+      "frame_acf": 0.19234256474216554,
+      "frame_over_line": 2048.2775623626903
+    },
+    {
+      "fc_mhz": 400,
+      "complex_rms_counts": 49.213762031788761,
+      "dc_power_fraction": 0.10490357302157338,
+      "line_samples": 1029.3537408193286,
+      "line_hz": 120544.37175429561,
+      "line_acf": 0.24340793191193241,
+      "line_multiple_spread_samples": 1.3607602840861546,
+      "frame_samples": 2.0386485525287306E+6,
+      "frame_hz": 60.86522360418045,
+      "frame_acf": 0.13286568545198066,
+      "frame_over_line": 1980.5130847496991
+    },
+    {
+      "fc_mhz": 460,
+      "complex_rms_counts": 44.261176093446835,
+      "dc_power_fraction": 0.038265111619001833,
+      "line_samples": 1030.2404086368811,
+      "line_hz": 120440.62624584381,
+      "line_acf": 0.24122073551428455,
+      "line_multiple_spread_samples": 1.3284385747124361,
+      "frame_samples": 2.0691489908909488E+6,
+      "frame_hz": 59.968035432079517,
+      "frame_acf": 0.18076359494703703,
+      "frame_over_line": 2008.413738720126
+    },
+    {
+      "fc_mhz": 520,
+      "complex_rms_counts": 50.489364316085009,
+      "dc_power_fraction": 0.051869619042095867,
+      "line_samples": 1088.4519501499217,
+      "line_hz": 113999.33638127896,
+      "line_acf": 0.2915381297523,
+      "line_multiple_spread_samples": 1.9494786728496365,
+      "frame_samples": 2.0690991936520014E+6,
+      "frame_hz": 59.969478689415261,
+      "frame_acf": 0.33301420592078079,
+      "frame_over_line": 1900.955934129207
+    },
+    {
+      "fc_mhz": 580,
+      "complex_rms_counts": 42.193948063634863,
+      "dc_power_fraction": 0.015938792702017254,
+      "line_samples": 1105.209102209024,
+      "line_hz": 112270.88136714666,
+      "line_acf": 0.26183795149489669,
+      "line_multiple_spread_samples": 3.1296771466772952,
+      "frame_samples": 2.0691420038609686E+6,
+      "frame_hz": 59.968237930729025,
+      "frame_acf": 0.26482282504433036,
+      "frame_over_line": 1872.1724239560594
+    },
+    {
+      "fc_mhz": 640,
+      "complex_rms_counts": 41.160789673851156,
+      "dc_power_fraction": 0.08325917980270138,
+      "line_samples": 1088.3947031381972,
+      "line_hz": 114005.33247931911,
+      "line_acf": 0.21719314970933584,
+      "line_multiple_spread_samples": 3.1376140500701695,
+      "frame_samples": 2.0756849105679281E+6,
+      "frame_hz": 59.779207994555257,
+      "frame_acf": 0.20790168436692058,
+      "frame_over_line": 1907.106773473861
+    },
+    {
+      "fc_mhz": 700,
+      "complex_rms_counts": 46.754959567552973,
+      "dc_power_fraction": 0.54852132093420869,
+      "line_samples": 1105.9246748221158,
+      "line_hz": 112198.23811233645,
+      "line_acf": 0.10438734984277083,
+      "line_multiple_spread_samples": 3.2104401024889739,
+      "frame_samples": 2.0481990016575665E+6,
+      "frame_hz": 60.581418065130521,
+      "frame_acf": 0.076219275651432522,
+      "frame_over_line": 1852.0239653636559
+    }
+  ]
+}

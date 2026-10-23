@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "test_count": 11,
+  "results": [
+    {
+      "Name": "alignPeriodicOverlapTest/recoversFractionalDelayAndGlobalPhase(delaySamples=positive)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 1.4654167,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/recoversFractionalDelayAndGlobalPhase(delaySamples=negative)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0436261,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/recoversFractionalDelayAndGlobalPhase(delaySamples=zero)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0315094,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/recoversFractionalDelayAndGlobalPhase(delaySamples=nearPositiveWrap)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0302101,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/recoversFractionalDelayAndGlobalPhase(delaySamples=nearNegativeWrap)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0670513,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/handlesNegativeGlobalFrequencyBins",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0099874,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/heldoutPhaseErrorIsNotRefitted",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0128394,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/flagsSingleToneDelayAmbiguity",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0647559,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/rejectsNonoverlappingBands",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0847194,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/rejectsNoSharedEnergy",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0270017,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "alignPeriodicOverlapTest/rejectsOddLength",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0627846,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    }
+  ]
+}

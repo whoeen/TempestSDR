@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "test_count": 10,
+  "results": [
+    {
+      "Name": "resamplePeriodicAmTest/preservesDcAmplitude",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0745894,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/preservesLowToneGainAndTimePhase",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0837734,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/rejectsOutOfBandToneWithoutAliasing",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0212479,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/appliesSpecifiedRaisedCosineGain",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0034619,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/rejectsTargetNyquistExactly",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0131372,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/handlesEvenNonPowerOfTwoLengths",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0087899,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/preservesSinglePrecisionRowOrientation",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.4877092,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/zeroInputHasFiniteImaginaryDiagnostic",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.1320381,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/rejectsOddOutput",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0128242,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "resamplePeriodicAmTest/rejectsOddInput",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0030251,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    }
+  ]
+}

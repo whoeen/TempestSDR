@@ -1,0 +1,144 @@
+{
+  "am_train_test_correlation": 0.37085225750477385,
+  "stitched_train_power_counts_squared": 610.73208324206337,
+  "synthesis": {
+    "method": "raised_cosine",
+    "input_order": [
+      1,
+      2
+    ],
+    "center_bins_sorted": [
+      8.003991E+6,
+      9.004488E+6
+    ],
+    "input_fft_lengths": [
+      2.097152E+6,
+      2.097152E+6
+    ],
+    "period_seconds": 0.01667515455004975,
+    "nominal_band_hz": 1.2E+8,
+    "edge_guard_hz": 3.0E+6,
+    "usable_band_hz": 1.14E+8,
+    "nominal_union_hz": 1.7999926399464855E+8,
+    "nominal_rf_low_hz": 4.1999501149907607E+8,
+    "nominal_rf_high_hz": 5.9999427549372458E+8,
+    "source_exact_rate_hz": 3.5999852798929709E+8,
+    "source_lr_filter_rate_hz": 3.5999852798929709E+8,
+    "source_analytic_low_hz": 4.1999501149907607E+8,
+    "output_reference_rounding_hz": -43.59761780500412,
+    "output_rate_hz": 5.0306028497798675E+8,
+    "output_fft_length": 8.388608E+6,
+    "output_rate_is_exact_source_2B": false,
+    "output_reference_global_bin": 7.003481E+6,
+    "output_reference_rf_hz": 4.1999496790145826E+8,
+    "frequency_coordinate_caveat": "Hz fields use supplied integer centers/T; upstream mapping owns the common Floquet offset and absolute RF reference",
+    "positive_nominal_span_bins": 3.001517E+6,
+    "output_spectrum_convention": "fftshift FFT/N; positive analytic, no conjugate mirror",
+    "coefficient_scaling": "Fourier-series coefficients preserved; time waveform is ifft(ifftshift(Y))*Nout",
+    "output_class": "single",
+    "estimated_output_bytes_only": 6.7108864E+7,
+    "support_first_global_bins": [
+      7.053508E+6,
+      8.054005E+6
+    ],
+    "support_last_global_bins": [
+      8.954474E+6,
+      9.954971E+6
+    ],
+    "crossover_analytic_hz": 8.9999631997324288E+7,
+    "covered_bin_count": 2.901464E+6,
+    "covered_frequency_measure_hz": 1.7399922689120406E+8,
+    "internal_gap_bin_count": 0,
+    "minimum_weight_sum_on_covered_bins": 1,
+    "maximum_weight_sum_on_covered_bins": 1,
+    "max_abs_weight_sum_minus_one_on_covered_bins": 0,
+    "support_limited_partition_unity": true,
+    "periodic_boundary_assumption": true,
+    "source_lr_formula": "L(f)=1/(1+(abs(tan(pi*f/Fs_filter))/tan(pi*fx/Fs_filter))^8); high=1-L; Fs_filter=2*nominal_union_hz",
+    "source_lr_caveat": "Sequential zero-phase W8 on source Fs_filter=2B, sampled on power2 synthesis grid; absent-band attenuation retained, no renormalization",
+    "phase_alignment_performed": false
+  },
+  "heldout_synthesis": {
+    "method": "raised_cosine",
+    "input_order": [
+      1,
+      2
+    ],
+    "center_bins_sorted": [
+      8.003991E+6,
+      9.004488E+6
+    ],
+    "input_fft_lengths": [
+      2.097152E+6,
+      2.097152E+6
+    ],
+    "period_seconds": 0.01667515455004975,
+    "nominal_band_hz": 1.2E+8,
+    "edge_guard_hz": 3.0E+6,
+    "usable_band_hz": 1.14E+8,
+    "nominal_union_hz": 1.7999926399464855E+8,
+    "nominal_rf_low_hz": 4.1999501149907607E+8,
+    "nominal_rf_high_hz": 5.9999427549372458E+8,
+    "source_exact_rate_hz": 3.5999852798929709E+8,
+    "source_lr_filter_rate_hz": 3.5999852798929709E+8,
+    "source_analytic_low_hz": 4.1999501149907607E+8,
+    "output_reference_rounding_hz": -43.59761780500412,
+    "output_rate_hz": 5.0306028497798675E+8,
+    "output_fft_length": 8.388608E+6,
+    "output_rate_is_exact_source_2B": false,
+    "output_reference_global_bin": 7.003481E+6,
+    "output_reference_rf_hz": 4.1999496790145826E+8,
+    "frequency_coordinate_caveat": "Hz fields use supplied integer centers/T; upstream mapping owns the common Floquet offset and absolute RF reference",
+    "positive_nominal_span_bins": 3.001517E+6,
+    "output_spectrum_convention": "fftshift FFT/N; positive analytic, no conjugate mirror",
+    "coefficient_scaling": "Fourier-series coefficients preserved; time waveform is ifft(ifftshift(Y))*Nout",
+    "output_class": "single",
+    "estimated_output_bytes_only": 6.7108864E+7,
+    "support_first_global_bins": [
+      7.053508E+6,
+      8.054005E+6
+    ],
+    "support_last_global_bins": [
+      8.954474E+6,
+      9.954971E+6
+    ],
+    "crossover_analytic_hz": 8.9999631997324288E+7,
+    "covered_bin_count": 2.901464E+6,
+    "covered_frequency_measure_hz": 1.7399922689120406E+8,
+    "internal_gap_bin_count": 0,
+    "minimum_weight_sum_on_covered_bins": 1,
+    "maximum_weight_sum_on_covered_bins": 1,
+    "max_abs_weight_sum_minus_one_on_covered_bins": 0,
+    "support_limited_partition_unity": true,
+    "periodic_boundary_assumption": true,
+    "source_lr_formula": "L(f)=1/(1+(abs(tan(pi*f/Fs_filter))/tan(pi*fx/Fs_filter))^8); high=1-L; Fs_filter=2*nominal_union_hz",
+    "source_lr_caveat": "Sequential zero-phase W8 on source Fs_filter=2B, sampled on power2 synthesis grid; absent-band attenuation retained, no renormalization",
+    "phase_alignment_performed": false
+  },
+  "antialias": {
+    "method": "periodic Fourier-series truncation with explicit raised-cosine lowpass",
+    "input_samples": 8.388608E+6,
+    "output_samples": 2.0691E+6,
+    "output_over_input_rate": 0.24665594100952148,
+    "passband_nyquist_fraction": 0.9,
+    "passband_last_harmonic": 931095,
+    "stopband_first_harmonic": 1.03455E+6,
+    "nyquist_coefficient_zero": true,
+    "anti_alias_filter_applied": true,
+    "phase_response": "real even zero-phase frequency weights",
+    "time_origin": "unchanged: input n/Nin and output m/Nout sample the same periodic coordinate",
+    "normalization": "retained FFT(input)/Nin coefficients; ifft(outputCoefficients)*Nout",
+    "input_class": "single",
+    "output_class": "single",
+    "periodic_boundary_assumption": true,
+    "negative_values_clipped": false,
+    "imaginary_relative_rms_before_real_projection": 0,
+    "period_seconds": 0.01667515455004975,
+    "input_rate_hz": 5.0306028497798675E+8,
+    "output_rate_hz": 1.2408280797576337E+8,
+    "passband_edge_hz": 5.5837263589093521E+7,
+    "stopband_edge_hz": 6.2041403987881683E+7
+  },
+  "image_scaling": "independent1st/99thpercentile; display only",
+  "image_registration": "none; common time raster 1100x1881, same raw origin in anchor band"
+}

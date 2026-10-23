@@ -1,0 +1,145 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-23T10:15:17.051552+00:00",
+  "release_url": "https://github.com/whoeen/TempestSDR/releases/tag/mobile-mipi-raw-iq-2026-10-21",
+  "assets": [
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc100MHz.rIs",
+      "id": 668745296,
+      "bytes": 1158300000,
+      "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+      "server_digest": "sha256:32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc100MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:17:27.898886+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc160MHz.rIs",
+      "id": 668750348,
+      "bytes": 1306800000,
+      "sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+      "server_digest": "sha256:0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc160MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:19:55.072141+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc220MHz.rIs",
+      "id": 668755626,
+      "bytes": 1158300000,
+      "sha256": "1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29",
+      "server_digest": "sha256:1ecfc50ca15dca8e32f3fde9f657bde3342063720f59377b266d030e49079a29",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc220MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:22:05.280478+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc280MHz.rIs",
+      "id": 668760432,
+      "bytes": 950400000,
+      "sha256": "f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead",
+      "server_digest": "sha256:f8215c948cbb6ec76ce95ef43536f200a768b6e0cfdeb7240d0ce2036925aead",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc280MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:23:47.402928+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc340MHz.rIs",
+      "id": 668763894,
+      "bytes": 1039500000,
+      "sha256": "74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e",
+      "server_digest": "sha256:74619acd83706b5689b494fa5a46c440e402c9ee1120a186c789694a922ca10e",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc340MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:25:51.728883+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc400MHz.rIs",
+      "id": 668768719,
+      "bytes": 891000000,
+      "sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf",
+      "server_digest": "sha256:07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc400MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:27:36.429334+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc460MHz.rIs",
+      "id": 668772481,
+      "bytes": 980100000,
+      "sha256": "49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb",
+      "server_digest": "sha256:49fea73b0e07c93eacb7da97fc4f318105e17821aeb66886d2650a7de3f621fb",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc460MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:29:25.294989+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc520MHz.rIs",
+      "id": 668776366,
+      "bytes": 712800000,
+      "sha256": "9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c",
+      "server_digest": "sha256:9f3dad72a300772945e3900c0b37b98b973dee6ee5e67341b3082b4c6f472f7c",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc520MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:30:46.522945+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc580MHz.rIs",
+      "id": 668779579,
+      "bytes": 861300000,
+      "sha256": "1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a",
+      "server_digest": "sha256:1c04e379fce518a29fad74ba180d76fe3c34e3900fa09deb56c1dbff28c1c00a",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc580MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:32:20.577048+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc640MHz.rIs",
+      "id": 668783772,
+      "bytes": 1009800000,
+      "sha256": "3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2",
+      "server_digest": "sha256:3f52365fd1183b806fda2249a9b916ea39b6bc3c550e2fdaed64d0ba609ce9d2",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc640MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:34:04.080903+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_fc700MHz.rIs",
+      "id": 668788612,
+      "bytes": 1039500000,
+      "sha256": "81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e",
+      "server_digest": "sha256:81a7d88a9e3cbce4815fa44f9aa78ef1de436121f653397f4a786401ee53ed5e",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_fc700MHz.rIs",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:36:06.000139+00:00"
+    },
+    {
+      "name": "iphone6_black_text_sweep_20261023_reference.png",
+      "id": 668793419,
+      "bytes": 105197,
+      "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+      "server_digest": "sha256:f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+      "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_black_text_sweep_20261023_reference.png",
+      "action": "uploaded",
+      "remote_verified": true,
+      "verified_utc": "2026-10-23T10:36:07.272337+00:00"
+    }
+  ],
+  "completed_utc": "2026-10-23T10:36:07.274538+00:00",
+  "manifest_update": {
+    "path": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\raw_iq\\RAW_IQ_RELEASE_MANIFEST.json",
+    "dataset_count": 31,
+    "total_bytes": 59370339072
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "fc_hz": 4.0E+8,
+  "source": "C:\\Users\\leechanghoon\\Downloads\\black글_fc400MHz.rIs",
+  "full_sha256": "07310a2a1fd06e885033cb00b648c9ff5a1c7dd1cbb4081c8c39ef507e200bdf",
+  "read_info": {
+    "filename": "black글_fc400MHz.rIs",
+    "bytes": 8.91E+8,
+    "first_sample_zero_based": 0,
+    "sample_count": 8.388608E+6,
+    "byte_offset": 0,
+    "byte_count": 3.3554432E+7,
+    "disk_dtype": "big-endian signed int16 interleaved I,Q",
+    "memory_dtype": "complex single",
+    "units": "ADC counts"
+  },
+  "fs_hz": 1.240828E+8,
+  "receiver_bandwidth_hz": 1.2E+8,
+  "quality": {
+    "sample_count": 1.048576E+6,
+    "finite_fraction": 1,
+    "mean_i_counts": 6.8735513687133789,
+    "mean_q_counts": 14.381590843200684,
+    "median_i_counts": 7,
+    "median_q_counts": 14,
+    "mad_i_counts": 16,
+    "mad_q_counts": 16,
+    "rms_complex_counts": 49.213762031788761,
+    "dc_power_fraction": 0.10490357302157338,
+    "clip_i_fraction": 0,
+    "clip_q_fraction": 0,
+    "zero_pair_fraction": 0.0003795623779296875,
+    "iq_std_ratio": 0.97808031294514086,
+    "iq_correlation": 0.036961678588949373,
+    "impropriety_abs": 0.043087752386249532,
+    "peak_over_rms": 10.35976710731245,
+    "interpretation": "IQ correlation/impropriety can be modulation, not solely receiver imbalance; no automatic correction.",
+    "statistics_first_sample_zero_based": 0,
+    "statistics_complex_sample_count": 1.048576E+6,
+    "global_clipping_tested": false
+  },
+  "welch": {
+    "implementation": "base MATLAB explicit Welch fallback",
+    "nfft": 8192,
+    "fs_hz": 1.240828E+8,
+    "window_samples": 8192,
+    "overlap_samples": 4096,
+    "enbw_hz": 22720.239257812496,
+    "frequency_range": "centered",
+    "scaling": "abs(FFT(window*x))^2 / (Fs*sum(window^2)); average segments",
+    "segment_count": 255,
+    "dc_removed": false,
+    "input_complex_sample_count": 1.048576E+6,
+    "frequency_bin_spacing_hz": 15146.826171875,
+    "integrated_power_count_squared": 2423.2856576758695,
+    "unweighted_time_power_count_squared": 2421.9943733215332
+  },
+  "envelope_mean_counts": 38.935415541126943,
+  "envelope_variance_counts_squared": 847.91108789710324,
+  "autocorrelation_fft_length": 1.6777216E+7,
+  "line_candidates": [
+    {
+      "single_peak_lag_samples": 1029.337205789039,
+      "refined_line_samples": 1029.3537408193286,
+      "line_hz": 120544.37175429561,
+      "acf": 0.24340793191193241,
+      "multiple_estimate_spread_samples": 1.3607602840861546,
+      "any_refinement_at_search_boundary": false
+    },
+    {
+      "single_peak_lag_samples": 1372.2447955641665,
+      "refined_line_samples": 1371.7993720305503,
+      "line_hz": 90452.58550915611,
+      "acf": 0.24207211006517321,
+      "multiple_estimate_spread_samples": 3.3365609850213787,
+      "any_refinement_at_search_boundary": false
+    },
+    {
+      "single_peak_lag_samples": 1714.3168179809784,
+      "refined_line_samples": 1712.0695736572948,
+      "line_hz": 72475.3257164289,
+      "acf": 0.23746332299924255,
+      "multiple_estimate_spread_samples": 2.0206194906818382,
+      "any_refinement_at_search_boundary": false
+    }
+  ],
+  "line_refinement_multiples": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "multiple_period_estimates": [
+    [
+      1028.8503574647229,
+      1028.8529124515981,
+      1030.2111177488091,
+      1029.854569187059
+    ],
+    [
+      1371.8124408626365,
+      1370.4654315348662,
+      1371.7863031984639,
+      1373.8019925198876
+    ],
+    [
+      1712.0692634857173,
+      1712.069883828872,
+      1714.0790350254545,
+      1712.0584155347726
+    ]
+  ],
+  "multiple_acf": [
+    [
+      0.19735355374739219,
+      0.19006479676022886,
+      0.15910132947376132,
+      0.17568413776049743
+    ],
+    [
+      0.193682136076885,
+      0.16123664815950475,
+      0.203741268111828,
+      0.16194473434865733
+    ],
+    [
+      0.17949491164157319,
+      0.15454252156327558,
+      0.20208377799825006,
+      0.13173329933768926
+    ]
+  ],
+  "multiple_boundary_flags": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "frame_peak_min_separation_samples": 257,
+  "frame_candidates": [
+    {
+      "frame_samples": 2.0386485525287306E+6,
+      "frame_hz": 60.86522360418045,
+      "acf": 0.13286568545198066,
+      "frame_over_best_line": 1980.5130847496991
+    },
+    {
+      "frame_samples": 2.0509924884818834E+6,
+      "frame_hz": 60.498905138284726,
+      "acf": 0.12823672199890679,
+      "frame_over_best_line": 1992.5050127562242
+    },
+    {
+      "frame_samples": 2.0196135985904827E+6,
+      "frame_hz": 61.438881222922625,
+      "acf": 0.12743530305041892,
+      "frame_over_best_line": 1962.020944309138
+    },
+    {
+      "frame_samples": 2.0263097316787648E+6,
+      "frame_hz": 61.235850600786193,
+      "acf": 0.12727624791696177,
+      "frame_over_best_line": 1968.5261259806518
+    },
+    {
+      "frame_samples": 2.0700277793952557E+6,
+      "frame_hz": 59.942577213263256,
+      "acf": 0.12418853925740189,
+      "frame_over_best_line": 2010.9974805625013
+    }
+  ],
+  "frame_by_line_ratios": [
+    [
+      1980.5130847496991,
+      1486.1127611620814,
+      1190.7509974456254
+    ],
+    [
+      1992.5050127562242,
+      1495.1111148607577,
+      1197.9609474050678
+    ],
+    [
+      1962.020944309138,
+      1472.2368589519265,
+      1179.6329014107864
+    ],
+    [
+      1968.5261259806518,
+      1477.1181362179821,
+      1183.5440351586853
+    ],
+    [
+      2010.9974805625013,
+      1508.9872627155246,
+      1209.0792402631726
+    ]
+  ],
+  "completed_utc": "2026-10-23T09:52:08.969Z"
+}

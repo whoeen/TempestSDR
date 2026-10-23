@@ -1,0 +1,107 @@
+[
+  {
+    "attachment_pdf_page": 1,
+    "full_pdf_page": 109,
+    "normalized_text_equal": true,
+    "chars_attachment": 1814,
+    "chars_full": 1814
+  },
+  {
+    "attachment_pdf_page": 2,
+    "full_pdf_page": 110,
+    "normalized_text_equal": true,
+    "chars_attachment": 1111,
+    "chars_full": 1111
+  },
+  {
+    "attachment_pdf_page": 3,
+    "full_pdf_page": 111,
+    "normalized_text_equal": true,
+    "chars_attachment": 1039,
+    "chars_full": 1039
+  },
+  {
+    "attachment_pdf_page": 4,
+    "full_pdf_page": 112,
+    "normalized_text_equal": true,
+    "chars_attachment": 1397,
+    "chars_full": 1397
+  },
+  {
+    "attachment_pdf_page": 5,
+    "full_pdf_page": 113,
+    "normalized_text_equal": true,
+    "chars_attachment": 1331,
+    "chars_full": 1331
+  },
+  {
+    "attachment_pdf_page": 6,
+    "full_pdf_page": 114,
+    "normalized_text_equal": true,
+    "chars_attachment": 1732,
+    "chars_full": 1732
+  },
+  {
+    "attachment_pdf_page": 7,
+    "full_pdf_page": 115,
+    "normalized_text_equal": true,
+    "chars_attachment": 1820,
+    "chars_full": 1820
+  },
+  {
+    "attachment_pdf_page": 8,
+    "full_pdf_page": 116,
+    "normalized_text_equal": true,
+    "chars_attachment": 1631,
+    "chars_full": 1631
+  },
+  {
+    "attachment_pdf_page": 9,
+    "full_pdf_page": 117,
+    "normalized_text_equal": true,
+    "chars_attachment": 977,
+    "chars_full": 977
+  },
+  {
+    "attachment_pdf_page": 10,
+    "full_pdf_page": 118,
+    "normalized_text_equal": true,
+    "chars_attachment": 1712,
+    "chars_full": 1712
+  },
+  {
+    "attachment_pdf_page": 11,
+    "full_pdf_page": 119,
+    "normalized_text_equal": true,
+    "chars_attachment": 1867,
+    "chars_full": 1867
+  },
+  {
+    "attachment_pdf_page": 12,
+    "full_pdf_page": 120,
+    "normalized_text_equal": true,
+    "chars_attachment": 1525,
+    "chars_full": 1525
+  },
+  {
+    "attachment_pdf_page": 13,
+    "full_pdf_page": 121,
+    "normalized_text_equal": true,
+    "chars_attachment": 802,
+    "chars_full": 802
+  },
+  {
+    "attachment_pdf_page": 14,
+    "full_pdf_page": 122,
+    "normalized_text_equal": true,
+    "chars_attachment": 1190,
+    "chars_full": 1190
+  },
+  {
+    "attachment_pdf_page": 15,
+    "full_pdf_page": 123,
+    "normalized_text_equal": true,
+    "chars_attachment": 1211,
+    "chars_full": 1211
+  }
+]

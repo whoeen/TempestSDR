@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "test_count": 8,
+  "results": [
+    {
+      "Name": "synthesizePeriodicBandsTest/pairRaisedCosinePreservesCommonSpectrum",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.1941685,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/elevenBandsHaveContinuousUnityCoverage",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.1092022,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/literalLrHasUnityOverlapButOutOfOverlapLoss",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0271232,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/literalLrSupportsTinyThreeWayOverlap",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.053411,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/oneBandKeepsFourierSeriesCoefficientNormalization",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0974574,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/sortingCentersPreservesBandAssociation",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0184494,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/rejectsDisconnectedSupport",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0175985,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "synthesizePeriodicBandsTest/rejectsThreeWayOverlap",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0061087,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    }
+  ]
+}

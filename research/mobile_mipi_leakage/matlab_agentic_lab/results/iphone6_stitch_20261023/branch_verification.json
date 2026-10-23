@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "test_count": 6,
+  "results": [
+    {
+      "Name": "searchPeriodicOverlapBranchesTest/recoversKnownBranchDelayPhaseGain(trueOffset=positive)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.2446247,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "searchPeriodicOverlapBranchesTest/recoversKnownBranchDelayPhaseGain(trueOffset=negative)",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0425303,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "searchPeriodicOverlapBranchesTest/heldoutMismatchDoesNotChooseAnotherBranch",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0356382,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "searchPeriodicOverlapBranchesTest/recordsSelectedBoundary",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0263619,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "searchPeriodicOverlapBranchesTest/alwaysRefinesNominalAlongsideChosenCandidates",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0991623,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    },
+    {
+      "Name": "searchPeriodicOverlapBranchesTest/rejectsAllZeroSharedEnergy",
+      "Passed": true,
+      "Failed": false,
+      "Incomplete": false,
+      "Duration": 0.0228682,
+      "Details": {
+        "DiagnosticRecord": []
+      }
+    }
+  ]
+}
