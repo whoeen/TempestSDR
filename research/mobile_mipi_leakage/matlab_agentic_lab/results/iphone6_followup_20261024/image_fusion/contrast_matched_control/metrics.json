@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "gains_fitted_only_on_training": [
+    1,
+    2.7706384265174266,
+    1.2424666849377128
+  ],
+  "offsets_fitted_only_on_training": [
+    0,
+    -0.1218145567627338,
+    -0.029438335017630921
+  ],
+  "records": [
+    {
+      "method": "best_single_training_choice",
+      "partition": "training",
+      "fixed_training_gain": 1,
+      "fixed_training_offset": 0,
+      "uniform_roi_std": 0.49119824427791392,
+      "structure_projection": 0.99999999954912833,
+      "structure_gradient_rms": 0.20685616183547059
+    },
+    {
+      "method": "best_single_training_choice",
+      "partition": "reused_test",
+      "fixed_training_gain": 1,
+      "fixed_training_offset": 0,
+      "uniform_roi_std": 0.48875855512388927,
+      "structure_projection": 0.24938630768189646,
+      "structure_gradient_rms": 0.19042216364629885
+    },
+    {
+      "method": "best_single_training_choice",
+      "partition": "later64_71",
+      "fixed_training_gain": 1,
+      "fixed_training_offset": 0,
+      "uniform_roi_std": 0.49159363277745571,
+      "structure_projection": 0.13405813792552185,
+      "structure_gradient_rms": 0.19591313021018236
+    },
+    {
+      "method": "equal_mean",
+      "partition": "training",
+      "fixed_training_gain": 2.7706384265174266,
+      "fixed_training_offset": -0.1218145567627338,
+      "uniform_roi_std": 0.64808640904939285,
+      "structure_projection": 1.0000000024832774,
+      "structure_gradient_rms": 0.33041414851143269
+    },
+    {
+      "method": "equal_mean",
+      "partition": "reused_test",
+      "fixed_training_gain": 2.7706384265174266,
+      "fixed_training_offset": -0.1218145567627338,
+      "uniform_roi_std": 0.64258698244871126,
+      "structure_projection": 0.31240517592113526,
+      "structure_gradient_rms": 0.32349145680637253
+    },
+    {
+      "method": "equal_mean",
+      "partition": "later64_71",
+      "fixed_training_gain": 2.7706384265174266,
+      "fixed_training_offset": -0.1218145567627338,
+      "uniform_roi_std": 0.620484037306097,
+      "structure_projection": 0.18819771638622365,
+      "structure_gradient_rms": 0.31817678370190694
+    },
+    {
+      "method": "simplex_roi_ridge",
+      "partition": "training",
+      "fixed_training_gain": 1.2424666849377128,
+      "fixed_training_offset": -0.029438335017630921,
+      "uniform_roi_std": 0.49067301105052774,
+      "structure_projection": 1.0000000004597169,
+      "structure_gradient_rms": 0.2125465757951239
+    },
+    {
+      "method": "simplex_roi_ridge",
+      "partition": "reused_test",
+      "fixed_training_gain": 1.2424666849377128,
+      "fixed_training_offset": -0.029438335017630921,
+      "uniform_roi_std": 0.48824412541567447,
+      "structure_projection": 0.25300902118258994,
+      "structure_gradient_rms": 0.19633117485863583
+    },
+    {
+      "method": "simplex_roi_ridge",
+      "partition": "later64_71",
+      "fixed_training_gain": 1.2424666849377128,
+      "fixed_training_offset": -0.029438335017630921,
+      "uniform_roi_std": 0.49108745733496112,
+      "structure_projection": 0.13491529571748118,
+      "structure_gradient_rms": 0.20097129989161608
+    }
+  ],
+  "purpose": "Test whether the apparent flatness improvement is only attenuation of useful structure.",
+  "limitation": "Anchor gradient includes clutter and may drift. This is a contrast-controlled proxy, not OCR or pixel fidelity."
+}

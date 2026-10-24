@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "authored_date": "2026-10-24",
+  "scope": "Literature and exact byte-level derivation; no raw IQ DSP or MATLAB calls",
+  "lane_assessment": {
+    "user_capture_active_lane_count": null,
+    "apple_official_lane_count": null,
+    "schematic_supported_candidate": 3,
+    "four_lane_status": "Not established for iPhone6; must not import6Plus configuration",
+    "capture_hardware_match_verified": false
+  },
+  "capture_metadata": {
+    "device": "iPhone6",
+    "sample_rate_complex_sps": 124082800,
+    "sample_rate_source": "user_reported",
+    "bandwidth_hz": 120000000,
+    "bandwidth_source": "user_reported",
+    "centers_mhz": [
+      100,
+      160,
+      220,
+      280,
+      340,
+      400,
+      460,
+      520,
+      580,
+      640,
+      700
+    ]
+  },
+  "conditional_headers": {
+    "assumptions": "VC0, one packet contains exactly750RGB888pixels, no extra payload bytes; not decoded from IQ",
+    "video": {
+      "word_count": 2250,
+      "header_hex": "3E CA 08 09",
+      "packet_length_bytes": 2256
+    },
+    "dcs": {
+      "word_count": 2251,
+      "header_hex": "39 CB 08 12",
+      "command_hex_candidates": [
+        "2C",
+        "3C"
+      ],
+      "packet_length_bytes": 2257
+    },
+    "ecc_checks": {
+      "eotp_08_0f_0f_ecc": 1,
+      "spec_fig46_37_f0_01_ecc": 63
+    },
+    "calculation_engine": "JavaScript integer XOR using prior-reviewed DSI Table26 syndrome columns"
+  },
+  "sources": [
+    {
+      "id": "APPLE_IPHONE6_SPECS",
+      "title": "iPhone 6 - Technical Specifications",
+      "url": "https://support.apple.com/en-ie/111954",
+      "publisher": "Apple",
+      "type": "primary_official_vendor",
+      "reviewed": "Display section, web text",
+      "supports": [
+        "1334 by 750 pixels",
+        "IPS LED-backlit display"
+      ],
+      "does_not_support": [
+        "DSI lane count",
+        "DSI bit rate",
+        "video versus command mode",
+        "capture-time PLL setting"
+      ]
+    },
+    {
+      "id": "IPHONE6_SCHEMATIC_MIRROR",
+      "title": "IPhone_6_SCH.pdf, Apple-labelled N61 schematic, drawing 051-9903, branch 7.0.0",
+      "url": "https://w.electrodragon.com/w/images/7/74/IPhone_6_SCH.pdf",
+      "publisher": "Apple-labelled design artifact hosted by Electrodragon, bearing a third-party watermark",
+      "type": "primary_design_artifact_on_unofficial_mirror",
+      "authenticity": "not independently authenticated; not an official Apple publication",
+      "reviewed": "Web-extracted text on PDF pages 7,20,27; screenshot calls returned no reviewable pixels; no claim of visual verification",
+      "supports": [
+        "Display DATA0/1/2 and clock nets on PDF page 20",
+        "L2041-L2044 in MIPI Common Mode Chokes section",
+        "N56 fourth-lane exception note",
+        "N61-specific configuration on PDF page 27"
+      ],
+      "inference": "N=3 is the best supported iPhone6 lane hypothesis in this review",
+      "does_not_support": [
+        "Measured active lane count of user DUT",
+        "actual lane bit rate",
+        "actual common-mode-only capture",
+        "independent confirmation from several mirrors"
+      ],
+      "read_failures": [
+        "Direct Node fetch failed; no local full PDF was saved",
+        "iFixit CDN alternate redirected to an inaccessible Document page"
+      ]
+    },
+    {
+      "id": "DSI_V13_LOCAL",
+      "title": "MIPI Alliance Specification for DSI v1.3, 2015-03-23, user-supplied DRAFT",
+      "url": "https://www.mipi.org/specifications/dsi",
+      "local_source_id": "knowledge/mipi_dphy/local_source_paths.json:local_dsi_v13",
+      "sha256": "8252c82e49f093c21fced2d848d5e3cf391b2fe12a24feb18b921069c2f78dea",
+      "type": "primary_specification_user_supplied_draft",
+      "reviewed": "Re-read PDF31-33 (printed19-21, section6), PDF77 (printed65, section8.8.23). Prior reviewed packet/ECC pages referenced via packet_candidates_20261022.md; not newly reread in full.",
+      "supports": [
+        "1/2/3/4 data lanes, common clock",
+        "byte round robin after parallel SoT",
+        "RGB888 R/G/B bytes, LSB first",
+        "conditional lane/pixel mapping derivation"
+      ],
+      "limitations": [
+        "User copy has DRAFT marking; final official release equivalence unverified",
+        "Official landing page does not expose the full member specification",
+        "Full original/extracted text not redistributed"
+      ]
+    },
+    {
+      "id": "AMD_DPHY_CLOCKING",
+      "title": "MIPI D-PHY v4.3 PG202 - Clocking",
+      "url": "https://docs.amd.com/r/en-US/pg202-mipi-dphy/Clocking",
+      "publisher": "AMD",
+      "type": "primary_vendor_implementation_documentation",
+      "reviewed": "Clocking Table1, txbyteclkhs and rxbyteclkhs entries",
+      "supports": [
+        "Byte clock equals per-lane line rate divided by8"
+      ],
+      "does_not_support": [
+        "iPhone6-specific clock"
+      ]
+    },
+    {
+      "id": "ARASAN_DPHY",
+      "title": "Total MIPI Camera IP Solution CSI-2 v1.3, August2019",
+      "url": "https://www.arasan.com/wp-content/uploads/2019/08/Total-MIPI-Camera-IP-Solution_CSI-2-v1.3_Aug-2019.pdf",
+      "publisher": "Arasan",
+      "type": "primary_vendor_datasheet",
+      "reviewed": "D-PHY clock signals, PDF30 and47-48 tables; PHY clock relationships only",
+      "supports": [
+        "Forwarded DDR clock and byte rate relation"
+      ],
+      "limitations": [
+        "CSI-2 camera packet protocol not reused as DSI packet specification"
+      ]
+    },
+    {
+      "id": "MICROCHIP_DSI",
+      "title": "PolarFire MIPI DSI Transmitter User Guide DS50003436A, 2022",
+      "url": "https://www.microchip.com/content/dam/mchp/documents/FPGA/ProductDocuments/UserGuides/Microchip_UG0948_PolarFire_MIPI_DSI_Transmitter_User_Guide_V1.pdf",
+      "publisher": "Microchip",
+      "type": "primary_vendor_implementation_documentation",
+      "reviewed": "PDF3-7 and10-12 relevant text; packet types and Fig6-3 command packet",
+      "supports": [
+        "RGB888 video type0x3E",
+        "DCS long write type0x39 and command0x2C/0x3C distinction",
+        "ECC header and payload CRC distinction",
+        "burst transfer can compress pixel transport in time"
+      ],
+      "limitations": [
+        "Its4-lane IP configuration is not iPhone6 evidence"
+      ]
+    },
+    {
+      "id": "KEYSIGHT_HS_SYNC",
+      "title": "M8085A MIPI D-PHY Editor User Guide, Edition6.2 June2019",
+      "url": "https://www.keysight.com/ge/en/assets/9018-04458/user-manuals/9018-04458.pdf",
+      "publisher": "Keysight",
+      "type": "primary_vendor_test_equipment_manual",
+      "reviewed": "PDF68 HS Sync Word and PDF116 leader pattern text",
+      "supports": [
+        "0xB8 LSB-first equals time-order00011101"
+      ],
+      "limitations": [
+        "Later optional preamble features not assumed present in iPhone6"
+      ]
+    },
+    {
+      "id": "ESPRESSIF_DSI",
+      "title": "MIPI DSI LCD Detailed Guide",
+      "url": "https://docs.espressif.com/projects/esp-iot-solution/en/latest/display/lcd/mipi_dsi_lcd.html",
+      "publisher": "Espressif",
+      "type": "primary_vendor_guide_with_detected_scope_issue",
+      "reviewed": "RGB888 and bitrate calculation portions, current web text and upstreamrst",
+      "supports": [
+        "RGB88824bpp and DT0x3E example"
+      ],
+      "limitations": [
+        "Its generic8b/10b×1.25 overhead statement is not applied to legacy forwarded-clock D-PHY; conflicts with the8bit-per-byte interface relation",
+        "ESP32-P4two-lane limit is not iPhone6 lane evidence"
+      ]
+    },
+    {
+      "id": "SCREEN_GLEANING",
+      "title": "Screen Gleaning, NDSS2021",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-2_23021_paper.pdf",
+      "publisher": "NDSS, original authors",
+      "type": "primary_research_paper",
+      "reviewed": "Title/abstract and lane text search; prior local research notes referenced",
+      "supports": [
+        "Prior smartphone emanation work context"
+      ],
+      "does_not_support": [
+        "No iPhone6 lane-count evidence found in this search; not cited as proof of4lanes"
+      ]
+    }
+  ]
+}

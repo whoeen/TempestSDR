@@ -1,0 +1,1 @@
+Initial diagnostic used local-frame exp(j2pi frac*u) for both frames. Coherence magnitudes remain valid, but residual phase and complex error omit the known nominal inter-frame translation. Corrected assessment is in ../narrow_overlap_100_160_global_phase. Preserve this original output for traceability.

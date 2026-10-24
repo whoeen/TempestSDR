@@ -1,0 +1,290 @@
+[
+  {
+    "frame": 1,
+    "fixed_start_sample": 4,
+    "saved_aligned_start_sample": 4,
+    "rounded_frame_start_sample": 4,
+    "common_raw_block_first_sample": 2,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "9766362eec853b42e0333573ee1597d2c2cf2c14b33fc3c5047eba99a4bd2feb"
+  },
+  {
+    "frame": 2,
+    "fixed_start_sample": 917640.666798,
+    "saved_aligned_start_sample": 917640.35012597,
+    "rounded_frame_start_sample": 917641,
+    "common_raw_block_first_sample": 917638,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "11db7dd482aca5ae75cd3e905548260fc005f7757fa977dfa5d1196bb1836676"
+  },
+  {
+    "frame": 3,
+    "fixed_start_sample": 1.835277333596E+6,
+    "saved_aligned_start_sample": 1.83527720260851E+6,
+    "rounded_frame_start_sample": 1.835278E+6,
+    "common_raw_block_first_sample": 1.835275E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "b18b732a02debdc7c59ace6d5d1beb656f1a5f744fee1b365780306cdd89df38"
+  },
+  {
+    "frame": 4,
+    "fixed_start_sample": 2.7529140003939997E+6,
+    "saved_aligned_start_sample": 2.75291404136837E+6,
+    "rounded_frame_start_sample": 2.752915E+6,
+    "common_raw_block_first_sample": 2.752912E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "cfa6a6e34eb09aabf1e670e17a3dc79b98105b4971bc7eab3b44a08b94802fa1"
+  },
+  {
+    "frame": 5,
+    "fixed_start_sample": 3.670550667192E+6,
+    "saved_aligned_start_sample": 3.67055055553387E+6,
+    "rounded_frame_start_sample": 3.670552E+6,
+    "common_raw_block_first_sample": 3.670548E+6,
+    "common_raw_block_sample_count": 917643,
+    "raw_block_sha256": "08622adc2627b6f3b7406097b2fa75f3d97c8f52428d3ca750cd1175407031e4"
+  },
+  {
+    "frame": 6,
+    "fixed_start_sample": 4.58818733399E+6,
+    "saved_aligned_start_sample": 4.58818740819611E+6,
+    "rounded_frame_start_sample": 4.588189E+6,
+    "common_raw_block_first_sample": 4.588185E+6,
+    "common_raw_block_sample_count": 917643,
+    "raw_block_sha256": "0b90625dbe9214d895e369ffdd6bb24f23a6fbe028d502c4afc3040778072e8f"
+  },
+  {
+    "frame": 7,
+    "fixed_start_sample": 5.5058240007879995E+6,
+    "saved_aligned_start_sample": 5.50582375439523E+6,
+    "rounded_frame_start_sample": 5.505826E+6,
+    "common_raw_block_first_sample": 5.505821E+6,
+    "common_raw_block_sample_count": 917644,
+    "raw_block_sha256": "2c2c58fe8a1d79a22febb550f61b0d280d7e6c8d96c072b4ff7ffc86fdb37bb7"
+  },
+  {
+    "frame": 8,
+    "fixed_start_sample": 6.423460667586E+6,
+    "saved_aligned_start_sample": 6.42346060275981E+6,
+    "rounded_frame_start_sample": 6.423463E+6,
+    "common_raw_block_first_sample": 6.423458E+6,
+    "common_raw_block_sample_count": 917644,
+    "raw_block_sha256": "5b22d0a2d661629704cf80199bb4d4c5c37a1ac4404c6db4339af970ab7f5081"
+  },
+  {
+    "frame": 9,
+    "fixed_start_sample": 7.341097334384E+6,
+    "saved_aligned_start_sample": 7.34109745155265E+6,
+    "rounded_frame_start_sample": 7.3411E+6,
+    "common_raw_block_first_sample": 7.341095E+6,
+    "common_raw_block_sample_count": 917644,
+    "raw_block_sha256": "8a54cc60df6c420d7ba3f3efd7aa647460c78c3acf9caaf6745ed407b59ffe00"
+  },
+  {
+    "frame": 10,
+    "fixed_start_sample": 8.258734001182E+6,
+    "saved_aligned_start_sample": 8.25873398605038E+6,
+    "rounded_frame_start_sample": 8.258737E+6,
+    "common_raw_block_first_sample": 8.258731E+6,
+    "common_raw_block_sample_count": 917645,
+    "raw_block_sha256": "12802b215e3ee92c15acdbe2ad67999d3c2c3ca73828bbfa340e2e0c228b424e"
+  },
+  {
+    "frame": 11,
+    "fixed_start_sample": 9.17637066798E+6,
+    "saved_aligned_start_sample": 9.1763708041175E+6,
+    "rounded_frame_start_sample": 9.176374E+6,
+    "common_raw_block_first_sample": 9.176368E+6,
+    "common_raw_block_sample_count": 917645,
+    "raw_block_sha256": "3be6c3c9cb90c8928065259c781842effaeeae2ed8064c62ed05746e208d4ebc"
+  },
+  {
+    "frame": 12,
+    "fixed_start_sample": 1.0094007334778E+7,
+    "saved_aligned_start_sample": 1.00940071522516E+7,
+    "rounded_frame_start_sample": 1.0094011E+7,
+    "common_raw_block_first_sample": 1.0094005E+7,
+    "common_raw_block_sample_count": 917645,
+    "raw_block_sha256": "e0d7a169fee458f5f63b1ca67656ca8e6f313700853499b7c31e6a48ec4e7215"
+  },
+  {
+    "frame": 13,
+    "fixed_start_sample": 1.1011644001575999E+7,
+    "saved_aligned_start_sample": 1.10116440144301E+7,
+    "rounded_frame_start_sample": 1.1011648E+7,
+    "common_raw_block_first_sample": 1.1011642E+7,
+    "common_raw_block_sample_count": 917645,
+    "raw_block_sha256": "edca96afd885bc69bcc8c0d1776e156fa4c63dec6c8a9a2a13bf6dd4202240ef"
+  },
+  {
+    "frame": 14,
+    "fixed_start_sample": 1.1929280668374E+7,
+    "saved_aligned_start_sample": 1.19292808534824E+7,
+    "rounded_frame_start_sample": 1.1929285E+7,
+    "common_raw_block_first_sample": 1.1929278E+7,
+    "common_raw_block_sample_count": 917646,
+    "raw_block_sha256": "1b3e0f60291bbb4fce0b646c1b6f1222ef3a9563fef49df0aa16247e518a0792"
+  },
+  {
+    "frame": 15,
+    "fixed_start_sample": 1.2846917335172E+7,
+    "saved_aligned_start_sample": 1.28469173697144E+7,
+    "rounded_frame_start_sample": 1.2846922E+7,
+    "common_raw_block_first_sample": 1.2846915E+7,
+    "common_raw_block_sample_count": 917646,
+    "raw_block_sha256": "3ec68e604b103b0b3f264add4e3b7d727776710f8164a2f5562a4484d9916092"
+  },
+  {
+    "frame": 16,
+    "fixed_start_sample": 1.376455400197E+7,
+    "saved_aligned_start_sample": 1.37645542043263E+7,
+    "rounded_frame_start_sample": 1.3764559E+7,
+    "common_raw_block_first_sample": 1.3764552E+7,
+    "common_raw_block_sample_count": 917646,
+    "raw_block_sha256": "4d5d06d4fc489498c5b0d2750b0790a6f441c3611dfa6dc522f33c9f29bbe524"
+  },
+  {
+    "frame": 17,
+    "fixed_start_sample": 1.4682190668768E+7,
+    "saved_aligned_start_sample": 1.46821905658329E+7,
+    "rounded_frame_start_sample": 1.4682196E+7,
+    "common_raw_block_first_sample": 1.4682188E+7,
+    "common_raw_block_sample_count": 917647,
+    "raw_block_sha256": "1db204f9561776e95349e611f78209d132b3d6059c036849948023867cb02c47"
+  },
+  {
+    "frame": 18,
+    "fixed_start_sample": 1.5599827335566E+7,
+    "saved_aligned_start_sample": 1.55998274269447E+7,
+    "rounded_frame_start_sample": 1.5599833E+7,
+    "common_raw_block_first_sample": 1.5599825E+7,
+    "common_raw_block_sample_count": 917647,
+    "raw_block_sha256": "466010ef63d927a4abb473d745aa500e0d19cba44b939acd1042d1e4b2e900b3"
+  },
+  {
+    "frame": 19,
+    "fixed_start_sample": 1.6517464002364E+7,
+    "saved_aligned_start_sample": 1.65174642726151E+7,
+    "rounded_frame_start_sample": 1.651747E+7,
+    "common_raw_block_first_sample": 1.6517462E+7,
+    "common_raw_block_sample_count": 917647,
+    "raw_block_sha256": "fa45571fb3f6e47455ab456ab0e375734f87638f708f55ab0980fc7f6733e422"
+  },
+  {
+    "frame": 20,
+    "fixed_start_sample": 1.7435100669162E+7,
+    "saved_aligned_start_sample": 1.7435100750571E+7,
+    "rounded_frame_start_sample": 1.7435107E+7,
+    "common_raw_block_first_sample": 1.7435098E+7,
+    "common_raw_block_sample_count": 917648,
+    "raw_block_sha256": "9e4dcebbbb68e7cafc4079ac07f039fe78599cb99b4a52a412039e0eb4909c79"
+  },
+  {
+    "frame": 21,
+    "fixed_start_sample": 1.835273733596E+7,
+    "saved_aligned_start_sample": 1.83527376370822E+7,
+    "rounded_frame_start_sample": 1.8352744E+7,
+    "common_raw_block_first_sample": 1.8352735E+7,
+    "common_raw_block_sample_count": 917648,
+    "raw_block_sha256": "df7fe8469edc778434cabccea7f55b5fe7d1fb238adf5b967fb9ef8b8d427e12"
+  },
+  {
+    "frame": 22,
+    "fixed_start_sample": 1.9270374002758E+7,
+    "saved_aligned_start_sample": 1.92703739608457E+7,
+    "rounded_frame_start_sample": 1.9270381E+7,
+    "common_raw_block_first_sample": 1.9270371E+7,
+    "common_raw_block_sample_count": 917649,
+    "raw_block_sha256": "17b70036a28af55c0e5c77499f1af92b8b5119617979364b7874efa186a72e60"
+  },
+  {
+    "frame": 23,
+    "fixed_start_sample": 2.0188010669556E+7,
+    "saved_aligned_start_sample": 2.01880108111437E+7,
+    "rounded_frame_start_sample": 2.0188018E+7,
+    "common_raw_block_first_sample": 2.0188008E+7,
+    "common_raw_block_sample_count": 917649,
+    "raw_block_sha256": "5a13143bfa9312d4d74c27239fd5c93a81c4b07c367b55601b0bd8fb9a2e6cf7"
+  },
+  {
+    "frame": 24,
+    "fixed_start_sample": 2.1105647336354E+7,
+    "saved_aligned_start_sample": 2.11056476741761E+7,
+    "rounded_frame_start_sample": 2.1105655E+7,
+    "common_raw_block_first_sample": 2.1105645E+7,
+    "common_raw_block_sample_count": 917649,
+    "raw_block_sha256": "96c42e04a90c5499fdf067a7b8fdb0c81a4724a21c04cbcaa32596e1d894d7f3"
+  },
+  {
+    "frame": 25,
+    "fixed_start_sample": 2.2023284003151998E+7,
+    "saved_aligned_start_sample": 2.20232841624115E+7,
+    "rounded_frame_start_sample": 2.2023292E+7,
+    "common_raw_block_first_sample": 2.2023282E+7,
+    "common_raw_block_sample_count": 917649,
+    "raw_block_sha256": "68efef95aa385c276a4c1561b0a8eeaba497aae4fcefe17090c15ab50dca266e"
+  },
+  {
+    "frame": 26,
+    "fixed_start_sample": 2.294092066995E+7,
+    "saved_aligned_start_sample": 2.29409210309772E+7,
+    "rounded_frame_start_sample": 2.2940929E+7,
+    "common_raw_block_first_sample": 2.2940918E+7,
+    "common_raw_block_sample_count": 917650,
+    "raw_block_sha256": "7f6c744b85f740ca5a2acc6b7eb159c20dae5067abf7b8cf99419eedecd77423"
+  },
+  {
+    "frame": 27,
+    "fixed_start_sample": 2.3858557336748E+7,
+    "saved_aligned_start_sample": 2.38585573623568E+7,
+    "rounded_frame_start_sample": 2.3858566E+7,
+    "common_raw_block_first_sample": 2.3858555E+7,
+    "common_raw_block_sample_count": 917650,
+    "raw_block_sha256": "e0db59e181ac3da6cb0c56deb283d9303e6968d37efb01fc24d7064457480a34"
+  },
+  {
+    "frame": 28,
+    "fixed_start_sample": 2.4776194003546E+7,
+    "saved_aligned_start_sample": 2.47761942146282E+7,
+    "rounded_frame_start_sample": 2.4776203E+7,
+    "common_raw_block_first_sample": 2.4776192E+7,
+    "common_raw_block_sample_count": 917650,
+    "raw_block_sha256": "f2a4a4980d108992724927a29ea20160317b9f7e12fc866eaed4660b1da13c08"
+  },
+  {
+    "frame": 29,
+    "fixed_start_sample": 2.5693830670344E+7,
+    "saved_aligned_start_sample": 2.56938310792919E+7,
+    "rounded_frame_start_sample": 2.569384E+7,
+    "common_raw_block_first_sample": 2.5693828E+7,
+    "common_raw_block_sample_count": 917651,
+    "raw_block_sha256": "6d2bd3912ae6ee8c6a56850e1d7b68f15f63ee3db14e5a8fe74c96d7a32e79f2"
+  },
+  {
+    "frame": 30,
+    "fixed_start_sample": 2.6611467337141998E+7,
+    "saved_aligned_start_sample": 2.66114675672977E+7,
+    "rounded_frame_start_sample": 2.6611477E+7,
+    "common_raw_block_first_sample": 2.6611465E+7,
+    "common_raw_block_sample_count": 917651,
+    "raw_block_sha256": "0b64c256d3d05eac8e0a0e9c87f4da33d740202874ecf8ff638da62efea3ac02"
+  },
+  {
+    "frame": 31,
+    "fixed_start_sample": 2.752910400394E+7,
+    "saved_aligned_start_sample": 2.75291044406639E+7,
+    "rounded_frame_start_sample": 2.7529114E+7,
+    "common_raw_block_first_sample": 2.7529102E+7,
+    "common_raw_block_sample_count": 917651,
+    "raw_block_sha256": "95f46deee459c49328f0d82d926d71b1301f38beb20c9f6bbe81cb72c9ab1495"
+  },
+  {
+    "frame": 32,
+    "fixed_start_sample": 2.8446740670738E+7,
+    "saved_aligned_start_sample": 2.84467407509171E+7,
+    "rounded_frame_start_sample": 2.8446751E+7,
+    "common_raw_block_first_sample": 2.8446738E+7,
+    "common_raw_block_sample_count": 917652,
+    "raw_block_sha256": "9548ad315d62e7e067c2f29dc23fe2910a924c7d348baba3d3614a8b756f2d2e"
+  }
+]

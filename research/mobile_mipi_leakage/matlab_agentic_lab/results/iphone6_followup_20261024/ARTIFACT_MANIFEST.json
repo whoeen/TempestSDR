@@ -1,0 +1,1007 @@
+{
+  "created_at": "2026-10-24T08:06:27.972Z",
+  "file_count": 200,
+  "total_bytes": 466211915,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "ef7d0df7b27eca5e51dff8d9ecc561bc8e6d6409ceddc47fc1bbb3b9ccebb899"
+    },
+    {
+      "path": "EXECUTION_RECORD.json",
+      "bytes": 8979,
+      "sha256": "01b30da6381700937bf88c9b7c86b7b6466b356812827f97ed123efc795c25c5"
+    },
+    {
+      "path": "gallery/fusion_contrast.png",
+      "bytes": 1314082,
+      "sha256": "4a08ca39b224a71d466625fd94bc3ac1a7760036885cf970d26d70b8eb0e385e"
+    },
+    {
+      "path": "gallery/index.html",
+      "bytes": 9730,
+      "sha256": "24f1fcd969bbdf186e8ceb52bea1f080f02690e74bdbc208d8f1e639ac0c2d6f"
+    },
+    {
+      "path": "gallery/iphone6_am_1.png",
+      "bytes": 1789965,
+      "sha256": "67ed6420fb46ab20892be6d4702188a1f19b34930fca38a24cb8b81eb41345e4"
+    },
+    {
+      "path": "gallery/iphone6_am_16.png",
+      "bytes": 1425357,
+      "sha256": "5e26a25ff6cec4377ba288308374d7faba378475ecbcc589d401b89ecd803cea"
+    },
+    {
+      "path": "gallery/iphone6_am_64.png",
+      "bytes": 1219317,
+      "sha256": "409944eccaa59e5fb5676e1d212c3756f83c21c46bd7c7af95d511c6f1074e39"
+    },
+    {
+      "path": "gallery/iphone6_am_8.png",
+      "bytes": 1524105,
+      "sha256": "48aaf6ac3fa0de8ca80422aa3d886af9f324ad73fc169d37e2a774159de08ae7"
+    },
+    {
+      "path": "gallery/iphone6_original.png",
+      "bytes": 105197,
+      "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef"
+    },
+    {
+      "path": "gallery/lr_response.png",
+      "bytes": 69381,
+      "sha256": "d51ca2f2fbbf3e3b0ecae98744ef36651462a6a80d810b1bd317ebf159e6ee0e"
+    },
+    {
+      "path": "gallery/narrow_calibrated.png",
+      "bytes": 66285,
+      "sha256": "46a894309f19fc8c56a983a3e987863a491920100989e58e4187c1aadff36e81"
+    },
+    {
+      "path": "gallery/pair_iir.png",
+      "bytes": 721561,
+      "sha256": "22b478ffbf943725eb714cb9209b937eaab1d65d6c41f2d941e30c95e7cd008e"
+    },
+    {
+      "path": "gallery/sixs_period_text.png",
+      "bytes": 638196,
+      "sha256": "84f60965a2b890e85753bb71ac207274133bd3b8e100433af91e8d38332fe188"
+    },
+    {
+      "path": "image_fusion/bands/fc100_fresh64_71.png",
+      "bytes": 1439879,
+      "sha256": "7b78b7a6815715cd868bf69a646d798b68ac4c1334c667221a6b88fc2c52b672"
+    },
+    {
+      "path": "image_fusion/bands/fc100_reused_test.png",
+      "bytes": 1444913,
+      "sha256": "c55b397180f659550835ece421a4f2ecbeb291986619fe1bf7fc1a68367895d9"
+    },
+    {
+      "path": "image_fusion/bands/fc100_train.png",
+      "bytes": 1443483,
+      "sha256": "fbf4bfd40a34a98dfd706ecdd6db337800fb9b90c32b9926d1e8a596ba5ba703"
+    },
+    {
+      "path": "image_fusion/bands/fc160_fresh64_71.png",
+      "bytes": 1519888,
+      "sha256": "54baf0faf5e8a2e25dd6e5ed681a1707a2faf8549e7695fb836731679dfdea96"
+    },
+    {
+      "path": "image_fusion/bands/fc160_reused_test.png",
+      "bytes": 1516565,
+      "sha256": "a754731f7893bed353456f40d186d3e3cf6406fa755e48f771761b867e71f20e"
+    },
+    {
+      "path": "image_fusion/bands/fc160_train.png",
+      "bytes": 1520051,
+      "sha256": "76ec699eeb9ddf90df29426d7f0e0aa47eb5b4133f1a9d8d40e1fbeb20e02ad7"
+    },
+    {
+      "path": "image_fusion/bands/fc220_fresh64_71.png",
+      "bytes": 1494351,
+      "sha256": "3b355419e12c56d1c6b9d3243b706427bcb9224072f66cfb6d129ed47817129b"
+    },
+    {
+      "path": "image_fusion/bands/fc220_reused_test.png",
+      "bytes": 1478117,
+      "sha256": "63f6747f5ca81e89b511a0d9c3de4d73a03d9285ed7a26c6e815a9695da679cb"
+    },
+    {
+      "path": "image_fusion/bands/fc220_train.png",
+      "bytes": 1487867,
+      "sha256": "d3f7cf9bfb6be9691579a057f1aae7b953738a51977e02d800b6c61c0bfc7044"
+    },
+    {
+      "path": "image_fusion/bands/fc280_fresh64_71.png",
+      "bytes": 1243900,
+      "sha256": "cdafdd5bb5ce230af79b30cdd4d76bbd96e2cd1fd1ec7b9ca4b3082dcb38c87c"
+    },
+    {
+      "path": "image_fusion/bands/fc280_reused_test.png",
+      "bytes": 826596,
+      "sha256": "ae158f75839d7b8059ffd0888c6340e71bfdbe55f7562dc94cd0dcdf284f6202"
+    },
+    {
+      "path": "image_fusion/bands/fc280_train.png",
+      "bytes": 1418627,
+      "sha256": "c500f7cd037d9522a616b2617644cb7f6bda9423e504e2258d2b250978abedd5"
+    },
+    {
+      "path": "image_fusion/bands/fc340_fresh64_71.png",
+      "bytes": 1494207,
+      "sha256": "2e63481581cdaee6a7b0a440fb6139cfb0fa120ffc864b128bbfff40cfcc5b0c"
+    },
+    {
+      "path": "image_fusion/bands/fc340_reused_test.png",
+      "bytes": 1491979,
+      "sha256": "c7cda539182fa5e67cf85e8a6d4a76d754fddcf462564860e89c870214bfb170"
+    },
+    {
+      "path": "image_fusion/bands/fc340_train.png",
+      "bytes": 1487974,
+      "sha256": "a3c27d07d09e55abd072483f4893119034091f1dff6c10e85211c47568163f5d"
+    },
+    {
+      "path": "image_fusion/bands/fc400_fresh64_71.png",
+      "bytes": 1408886,
+      "sha256": "395b62281a78cd86b9d95899c0b4fdd702bde0badd5a9ecf29ce80b9c3df0775"
+    },
+    {
+      "path": "image_fusion/bands/fc400_reused_test.png",
+      "bytes": 1408302,
+      "sha256": "a0b1a6c986ebeed4d1185b4a11589de71b1f66ed2e1f08c69c168d800699c06a"
+    },
+    {
+      "path": "image_fusion/bands/fc400_train.png",
+      "bytes": 1407970,
+      "sha256": "8d8a53ad285b0d106d003ec259821e1392f74088f8a3dea7b185bed50d27da1b"
+    },
+    {
+      "path": "image_fusion/bands/fc460_fresh64_71.png",
+      "bytes": 1409767,
+      "sha256": "c588dd233f73c8e3c160abe1dd5b0f9bcc9a75324856d7381d7e52dc63921a09"
+    },
+    {
+      "path": "image_fusion/bands/fc460_reused_test.png",
+      "bytes": 1411818,
+      "sha256": "e0ff3296e6fd91c4334e052c68ed6122fd64f8a54f46167039fa6d9831264773"
+    },
+    {
+      "path": "image_fusion/bands/fc460_train.png",
+      "bytes": 1414423,
+      "sha256": "82238d8563b25a77d1382c823513adf347e1fa32045d55b67811743377a67340"
+    },
+    {
+      "path": "image_fusion/bands/fc520_fresh64_71.png",
+      "bytes": 1279725,
+      "sha256": "3c48f96244add43b19e77669d7d9b03615643397a310031dd879dc0c43e762c0"
+    },
+    {
+      "path": "image_fusion/bands/fc520_reused_test.png",
+      "bytes": 1289596,
+      "sha256": "fcecb8403f480228a27deb3bc70e649e12c5ef432e03a2345ca0a16333e4fd90"
+    },
+    {
+      "path": "image_fusion/bands/fc520_train.png",
+      "bytes": 1283644,
+      "sha256": "6a751a456f56d610782f9e2a7324f006c11e4131e94d2f0c5e25403cd353aaf1"
+    },
+    {
+      "path": "image_fusion/bands/fc580_fresh64_71.png",
+      "bytes": 1451942,
+      "sha256": "f563a52d85be45ec6e4bce2dc71f2cd93a1d0355ee10d951bfd09a33e966caef"
+    },
+    {
+      "path": "image_fusion/bands/fc580_reused_test.png",
+      "bytes": 1421797,
+      "sha256": "e0d787eee00d31cdb586d9e4c570d09e32244fcd01db587d71ff226f553d5f3e"
+    },
+    {
+      "path": "image_fusion/bands/fc580_train.png",
+      "bytes": 1417683,
+      "sha256": "6aec447e651ffcc656c2806f064b50111f6246d24a15c6743c22bfe50b832e5e"
+    },
+    {
+      "path": "image_fusion/bands/fc640_fresh64_71.png",
+      "bytes": 1512599,
+      "sha256": "f0e3ae7afe8d7f6165e75a6bcd052b6452aa1028fbd896b58bf7b7023d905a5e"
+    },
+    {
+      "path": "image_fusion/bands/fc640_reused_test.png",
+      "bytes": 1510843,
+      "sha256": "35db259e6eb19e36db5913ce442f321c10bd805defc7a3bef65202ac09563b08"
+    },
+    {
+      "path": "image_fusion/bands/fc640_train.png",
+      "bytes": 1521438,
+      "sha256": "9d800c936fd203977e5398f79b99931bfabc4bd7a6b05685ecbdcadcb761947a"
+    },
+    {
+      "path": "image_fusion/bands/fc700_fresh64_71.png",
+      "bytes": 1530493,
+      "sha256": "6738f4be4bcb86041c59a162bb0027a704ccff9423c2d40e2d60a290295cfa2c"
+    },
+    {
+      "path": "image_fusion/bands/fc700_reused_test.png",
+      "bytes": 1478706,
+      "sha256": "893c969a2c2988bd8450dfba8f23e185487ddc6aac1337a22389ad4086d4ed69"
+    },
+    {
+      "path": "image_fusion/bands/fc700_train.png",
+      "bytes": 1480150,
+      "sha256": "d7c42d303f4a8d847f32ec7ef929b15991d59896d37d3756a26418a1a3b9dfb4"
+    },
+    {
+      "path": "image_fusion/best_single_training_choice_fresh64_71.png",
+      "bytes": 1439879,
+      "sha256": "995666bb4a70a7eff7d86e3288e90e3be562be05d8bea9e3de813e5c36f25eb7"
+    },
+    {
+      "path": "image_fusion/best_single_training_choice_reused_test.png",
+      "bytes": 1444913,
+      "sha256": "ce4ffd3433750de647a825a273c9f482ac0c6052f3f1c86dfd0e84a17bfe990e"
+    },
+    {
+      "path": "image_fusion/best_single_training_choice_train.png",
+      "bytes": 1443483,
+      "sha256": "e3fe22f1d8195de15d6b662273a10f85178623e6d9a989413430b9f41bb3e47d"
+    },
+    {
+      "path": "image_fusion/comparison_full.png",
+      "bytes": 1299791,
+      "sha256": "4de7bdf3004533ab9827105bddacc9599740d12d66f9415a22d0bc81edbe0563"
+    },
+    {
+      "path": "image_fusion/comparison_text_crop.png",
+      "bytes": 1813250,
+      "sha256": "f2b2513e1a62e600241e72c78fbf98bfa3e443b5c541c785d8e5005ac14665cd"
+    },
+    {
+      "path": "image_fusion/contrast_matched_control/contrast_matched_text.png",
+      "bytes": 1314082,
+      "sha256": "4a08ca39b224a71d466625fd94bc3ac1a7760036885cf970d26d70b8eb0e385e"
+    },
+    {
+      "path": "image_fusion/contrast_matched_control/metrics.csv",
+      "bytes": 1110,
+      "sha256": "360701f7c0789df6c5ad0f784325e8a57c53e6bf4bbdc25d228dede1e6650942"
+    },
+    {
+      "path": "image_fusion/contrast_matched_control/metrics.json",
+      "bytes": 3378,
+      "sha256": "07d70ce39f0ba09ade8f71198e38ceece2a523bf414b397b46eb4f6e23640473"
+    },
+    {
+      "path": "image_fusion/equal_mean_fresh64_71.png",
+      "bytes": 1259660,
+      "sha256": "4a4741c02c886a429fce292ff73e094b601928d810cdaf699f0db5ab4ef4910c"
+    },
+    {
+      "path": "image_fusion/equal_mean_reused_test.png",
+      "bytes": 1262836,
+      "sha256": "1d8e3d2aaf906421c7a2270a59221fc33b2619929545ea195f100830be6e49f1"
+    },
+    {
+      "path": "image_fusion/equal_mean_train.png",
+      "bytes": 1260436,
+      "sha256": "dd40656de657000431495457d232af3804808d6695ebc12288d15abe8817da66"
+    },
+    {
+      "path": "image_fusion/fresh/fc100_fresh64_71.mat",
+      "bytes": 7670641,
+      "sha256": "d6d56cbf57ec1c9aa47d6816419e2a465531cfdd90105e69a7792802f6b3bdfc"
+    },
+    {
+      "path": "image_fusion/fresh/fc160_fresh64_71.mat",
+      "bytes": 7658992,
+      "sha256": "98ab7009502821ba82132326a37a53037d1a0d775ad8839b7432e62b501f947d"
+    },
+    {
+      "path": "image_fusion/fresh/fc220_fresh64_71.mat",
+      "bytes": 7647817,
+      "sha256": "d9aac0c3ffc951c9158a330437884c6eb15244d69c158387635e646996a31911"
+    },
+    {
+      "path": "image_fusion/fresh/fc280_fresh64_71.mat",
+      "bytes": 7520537,
+      "sha256": "170f616bcb448fc24ed038a03440381af23808361c77d5e8eef4e332aef4c1d5"
+    },
+    {
+      "path": "image_fusion/fresh/fc340_fresh64_71.mat",
+      "bytes": 7692506,
+      "sha256": "4be7db25f26d888a2087d2f178ba0b382c53a4be4f80c2835ceeade4398d6dd8"
+    },
+    {
+      "path": "image_fusion/fresh/fc400_fresh64_71.mat",
+      "bytes": 7682393,
+      "sha256": "73ffa0b0977254b4bf4fd458077dc43dbee3f31fe0c2cb51c6056959f08460a7"
+    },
+    {
+      "path": "image_fusion/fresh/fc460_fresh64_71.mat",
+      "bytes": 7674909,
+      "sha256": "f550300b49ef6a51f07fb736c90d2e103fc16b732e16e8b308d976f4887b1587"
+    },
+    {
+      "path": "image_fusion/fresh/fc520_fresh64_71.mat",
+      "bytes": 7667649,
+      "sha256": "72eed5ef7edbf52b15fd9faebdec804ace24b62d0ed9b263517d9e662e7e128d"
+    },
+    {
+      "path": "image_fusion/fresh/fc580_fresh64_71.mat",
+      "bytes": 7679116,
+      "sha256": "333d971ac2082aa329efd7039665c5a61182a408daf13ee87003b9c3548bcd7a"
+    },
+    {
+      "path": "image_fusion/fresh/fc640_fresh64_71.mat",
+      "bytes": 7702102,
+      "sha256": "c0cdbd9bdb95c3e049e4a9f49f8508d22fac481931b64e95a1f0e01818053d82"
+    },
+    {
+      "path": "image_fusion/fresh/fc700_fresh64_71.mat",
+      "bytes": 7492299,
+      "sha256": "41f8b6252f8414f377de47d0e12a96e4f5ff4aaae36451dec088ccec7dd3d346"
+    },
+    {
+      "path": "image_fusion/frozen_parameters.json",
+      "bytes": 455744,
+      "sha256": "3d76007ed127f67cfab4104dce239e6a35477e5e5b77717deedf815d8f6f6bb5"
+    },
+    {
+      "path": "image_fusion/frozen_parameters.mat",
+      "bytes": 811290,
+      "sha256": "d419b9715b9cbb82988554f02c6077de5c8d078b0cb55a266b0622f04a627ee5"
+    },
+    {
+      "path": "image_fusion/fusion_images.mat",
+      "bytes": 74106026,
+      "sha256": "8bc23a2e22453aaca6be3b6ccc13bc90f48471c6a4ae9a05c9b0f400968c446a"
+    },
+    {
+      "path": "image_fusion/metrics.csv",
+      "bytes": 5733,
+      "sha256": "862a9d28fb39b9400a2d7f11a6a4fe9dd1070d1c76124ba3460f03d98f5e0746"
+    },
+    {
+      "path": "image_fusion/overview.json",
+      "bytes": 519250,
+      "sha256": "5f0922374a311746d2e54dd5e89a573d5d9a19efcd51e6e450abdb4db8280d13"
+    },
+    {
+      "path": "image_fusion/simplex_roi_ridge_fresh64_71.png",
+      "bytes": 1374464,
+      "sha256": "fcad4d8b223e016813cf46522a4839a0473b7b5f5271db911a2100535a0a74e0"
+    },
+    {
+      "path": "image_fusion/simplex_roi_ridge_reused_test.png",
+      "bytes": 1378813,
+      "sha256": "63d69e13b8bc24d16931394764aba48ab8e831297f54f3c92015f485f06a71ab"
+    },
+    {
+      "path": "image_fusion/simplex_roi_ridge_train.png",
+      "bytes": 1377626,
+      "sha256": "683de9a945ff9d876adbea0d0c6c9f904dce236fcdaf4b4b942a5d774c17f235"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/arm_metrics.csv",
+      "bytes": 865,
+      "sha256": "3b3250849dc10248e8fff9c61e8e4cb51456aa15e6b7f4df4df1135f4be9436b"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/fixed_prior_cubic_shared_scale.png",
+      "bytes": 722623,
+      "sha256": "831ee81fac5ab9a4f34b56c0578679805a6d4884996aaa57e3e8f7b4ca3ea367"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/fixed_prior_nearest_shared_scale.png",
+      "bytes": 726951,
+      "sha256": "8f44cfefdc119ff796977ee3ec1e14b45c1a9f4fe70ecd58cce37d8529fde520"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/frame_origins.csv",
+      "bytes": 4127,
+      "sha256": "c2f432d00bb220d0bd5f81c79c80c813f0d85fc5da0ba2bcdbf5a12056d84a25"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/metrics.json",
+      "bytes": 4398,
+      "sha256": "a47de27573a21102aab5fc38ed3fc52a44b5360e790eade25cbf94283348b91f"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/paired_am_arrays.mat",
+      "bytes": 88505687,
+      "sha256": "dd5c86bca68361fff317aa0fe59d87b92f4efb3b7ad7ef8fa0656084b8f0a8e8"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/period_comparison_full.png",
+      "bytes": 1350381,
+      "sha256": "eeb0cdb697ade684a11eb0539203a9507eac5ab872460c9c4175a4366aece610"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/period_comparison_text.png",
+      "bytes": 638196,
+      "sha256": "84f60965a2b890e85753bb71ac207274133bd3b8e100433af91e8d38332fe188"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/raw_blocks.json",
+      "bytes": 11478,
+      "sha256": "6a6c24624550d9b85e78f0d211b4c635a6d9bbc9fca426cd7d3be5534c3a4eb1"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/rounded_frame_cubic_shared_scale.png",
+      "bytes": 769650,
+      "sha256": "63997a57eb20e16c07d2a0f649583420770ebc68de331f2ac3ce5676fa6d8e7d"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/rounded_frame_nearest_shared_scale.png",
+      "bytes": 538725,
+      "sha256": "c86fc25285dd6b87c4975352e1b53c08143b1e3928839f0ed1165ea0c1b48475"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/saved_aligned_cubic_shared_scale.png",
+      "bytes": 730291,
+      "sha256": "221636a6425ec0f771d7c0c59eda941aa931f1fa754ab8aa3d37a42c73078164"
+    },
+    {
+      "path": "iphone6s_frame_period_P032/saved_aligned_nearest_shared_scale.png",
+      "bytes": 715194,
+      "sha256": "6d46f62a8a6ac9655dfc0d9dddfeae4b4b2cce59ca3cb415c482777333ed48a7"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/arm_metrics.csv",
+      "bytes": 645,
+      "sha256": "261ad0185f19089ba0634ab73746d454d8197b0361c14fa227d63ba26342b3b5"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/fixed_prior_cubic_shared_scale.png",
+      "bytes": 722623,
+      "sha256": "39bc51d725e81ea64999c89c601da21d00ede624749288c9980026358ef2b764"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/fixed_prior_nearest_shared_scale.png",
+      "bytes": 726951,
+      "sha256": "fcb4bf910429cbe34507fb1c95bb874f9ab23cb1b0392c8981c5350e6d874141"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/frame_origins.csv",
+      "bytes": 3830,
+      "sha256": "024a073004dbfc56f2e0620d9fa10ea45699263ea3f5d0ecd437dab7f955de42"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/metrics.json",
+      "bytes": 3295,
+      "sha256": "cb9e0a42b39049a1236da92f2416f37184f2e3e6ff35404cb96c0f14aee8f4d7"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/paired_am_arrays.mat",
+      "bytes": 59152449,
+      "sha256": "aeb724be0ce000cadb38b1ba6078dc9cd5db0b6f90df795782f90563d0fe7c14"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/raw_blocks.json",
+      "bytes": 9972,
+      "sha256": "71ba712b583d1e9fdc6103b1872a114ade0c8dc715edfe86fb3925fcc82f608f"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/saved_aligned_cubic_shared_scale.png",
+      "bytes": 730291,
+      "sha256": "60bf388f4677bda4a6f87ccaa2a66fcfb03996bb4f112993179c9a8ee9a32214"
+    },
+    {
+      "path": "iphone6s_paired_timing_P032/saved_aligned_nearest_shared_scale.png",
+      "bytes": 715194,
+      "sha256": "32063dc60fde1bf5f9aeab0be1b72cabf2651aceb5a64fc5d5efc89e34bc5c1b"
+    },
+    {
+      "path": "lr_finite_iir/audit.json",
+      "bytes": 22158,
+      "sha256": "7adbc06f74cdba9ae7c0a5bca6860e9c311a1f69ab3306796233223fd02341f1"
+    },
+    {
+      "path": "lr_finite_iir/frequency_response.csv",
+      "bytes": 289720,
+      "sha256": "540ba98bb05c5374a4762e1fa5028188e3fffa5c037fc00df38b66b922f807bc"
+    },
+    {
+      "path": "lr_finite_iir/measured_fc100_template_excerpt.png",
+      "bytes": 165947,
+      "sha256": "f4cc9fb9a7f5f3a5b018309ef7793813e20085bf971d03c1930e718d4bb7bfb6"
+    },
+    {
+      "path": "lr_finite_iir/measured_fc100_template_excerpt_guards.csv",
+      "bytes": 1819,
+      "sha256": "fc8278ad02464b0c461b3aeab6302d5a61a45e9effc7b99cfb9fc103917768f7"
+    },
+    {
+      "path": "lr_finite_iir/numerical_arrays.mat",
+      "bytes": 2755296,
+      "sha256": "c62ed2ecb25f8557ca58df42bcef6f64bc3ee7eef672cbe141f39285f0664030"
+    },
+    {
+      "path": "lr_finite_iir/response_verification.png",
+      "bytes": 69381,
+      "sha256": "d51ca2f2fbbf3e3b0ecae98744ef36651462a6a80d810b1bd317ebf159e6ee0e"
+    },
+    {
+      "path": "lr_finite_iir/synthetic_broadband_periodic_extension.png",
+      "bytes": 164845,
+      "sha256": "de51ecffa6329aa6f8855df0d91793cfcb96a67b61b0c67a42c2e9de2190b9c3"
+    },
+    {
+      "path": "lr_finite_iir/synthetic_broadband_periodic_extension_guards.csv",
+      "bytes": 1824,
+      "sha256": "1d602717e2e03169e2a644c67f247ea2c8a7e634f19549335e449dbba9c29db8"
+    },
+    {
+      "path": "lr_finite_iir/synthetic_nonperiodic_seam.png",
+      "bytes": 165878,
+      "sha256": "8e50c5d704ef53a77867ffba67c0d9a58ebe50a30500b2a88d9065eaf34e4375"
+    },
+    {
+      "path": "lr_finite_iir/synthetic_nonperiodic_seam_guards.csv",
+      "bytes": 1831,
+      "sha256": "170220c6503a1715409b7745ab6d8a93b23d6d12809492e3629ed0f1ba2b9414"
+    },
+    {
+      "path": "narrow_overlap_100_160/LOCAL_FRAME_CONVENTION.md",
+      "bytes": 305,
+      "sha256": "7f94091d326ab6b9af9749696363aeb12de5c146cc61d6a23cf78aa2cae03646"
+    },
+    {
+      "path": "narrow_overlap_100_160/narrow_overlap_validation.png",
+      "bytes": 103492,
+      "sha256": "84ea5e1716f36e07735a066d97142209c157789bc7d3b0fad6b855503452900f"
+    },
+    {
+      "path": "narrow_overlap_100_160/overview.json",
+      "bytes": 34418,
+      "sha256": "14c4c3cd2d982528e982173e22ac8992a8c3640179e01dd4ff4218ef897500a5"
+    },
+    {
+      "path": "narrow_overlap_100_160/training_branch_search.csv",
+      "bytes": 37247,
+      "sha256": "d9d30fadc93148b09e729fc0a931b8151e866e7c7af037c3d840bf787168b8aa"
+    },
+    {
+      "path": "narrow_overlap_100_160/window_metrics.csv",
+      "bytes": 8727,
+      "sha256": "82f0a20881780faf1bb8a900f17db3d51aa86990397273eab66b68a35edf840b"
+    },
+    {
+      "path": "narrow_overlap_100_160_calibrated/narrow_overlap_validation.png",
+      "bytes": 66285,
+      "sha256": "46a894309f19fc8c56a983a3e987863a491920100989e58e4187c1aadff36e81"
+    },
+    {
+      "path": "narrow_overlap_100_160_calibrated/overview.json",
+      "bytes": 35872,
+      "sha256": "ad1513d66bbb3ff17e51864278d2704ffbb2ba86ace100d8ab64f6219c61af06"
+    },
+    {
+      "path": "narrow_overlap_100_160_calibrated/training_branch_search.csv",
+      "bytes": 18943,
+      "sha256": "f7b88c5aafb4244a63462760be30e1be46914f9f5f6876731decd1c633ec2e14"
+    },
+    {
+      "path": "narrow_overlap_100_160_calibrated/window_metrics.csv",
+      "bytes": 4458,
+      "sha256": "dbfb3133fbaab8b4cd8de31ffdd221e0c3449062b9e0bd6c8e1631af608ff9e4"
+    },
+    {
+      "path": "narrow_overlap_100_160_global_phase/narrow_overlap_validation.png",
+      "bytes": 103492,
+      "sha256": "c03f27d816c6c8269b019d6ab4851b3d8714db8195751b83eb34b0cfb2a7a9af"
+    },
+    {
+      "path": "narrow_overlap_100_160_global_phase/overview.json",
+      "bytes": 34586,
+      "sha256": "7d23d8bf3edf307964a326d2dbfb5a848a28b443cb9ad3761877e0f167e39c49"
+    },
+    {
+      "path": "narrow_overlap_100_160_global_phase/training_branch_search.csv",
+      "bytes": 37247,
+      "sha256": "d9d30fadc93148b09e729fc0a931b8151e866e7c7af037c3d840bf787168b8aa"
+    },
+    {
+      "path": "narrow_overlap_100_160_global_phase/window_metrics.csv",
+      "bytes": 8696,
+      "sha256": "7993e5660899de69e0ab63cd6626bb5f45c1de447b3cabb7f0f15e36acc46335"
+    },
+    {
+      "path": "pair_100_160_literal_iir/audit.json",
+      "bytes": 8087,
+      "sha256": "73eea30b6f4e8c4cf6af8b3da0f8506f564944c68e3b07de510136fb6febc7e2"
+    },
+    {
+      "path": "pair_100_160_literal_iir/comparison_shared_scale.png",
+      "bytes": 721561,
+      "sha256": "22b478ffbf943725eb714cb9209b937eaab1d65d6c41f2d941e30c95e7cd008e"
+    },
+    {
+      "path": "pair_100_160_literal_iir/filter_rate_comparison.csv",
+      "bytes": 226166,
+      "sha256": "284fd3df02bfdfe6b39a44801a6305661629ce18dd2dd2bbe0e9821bc81438d9"
+    },
+    {
+      "path": "pair_100_160_literal_iir/heldout_fft_shared_scale.png",
+      "bytes": 1736703,
+      "sha256": "a59707b276ee9be7ac03aabca2d2721388ca4cb055265d49d4f449711296cdc8"
+    },
+    {
+      "path": "pair_100_160_literal_iir/heldout_iir_shared_scale.png",
+      "bytes": 1736703,
+      "sha256": "a59707b276ee9be7ac03aabca2d2721388ca4cb055265d49d4f449711296cdc8"
+    },
+    {
+      "path": "pair_100_160_literal_iir/image_arrays.mat",
+      "bytes": 29014640,
+      "sha256": "0436631457cf8036f0ddc20788d7a05cfd98567ec9a6fd08b99e2196fe4849eb"
+    },
+    {
+      "path": "pair_100_160_literal_iir/train_fft_shared_scale.png",
+      "bytes": 1734308,
+      "sha256": "5c8bd13195b302ab4ad97665ad29b73e13199faf148f7284b106d1613d3cc097"
+    },
+    {
+      "path": "pair_100_160_literal_iir/train_iir_shared_scale.png",
+      "bytes": 1734308,
+      "sha256": "5c8bd13195b302ab4ad97665ad29b73e13199faf148f7284b106d1613d3cc097"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 18958,
+      "sha256": "588a8c66a181944d63e54979ae6b6d196be5f1d3cde3a281e89b4a3c2133bfe5"
+    },
+    {
+      "path": "rf_cycle_candidates/fc100MHz/heldout_peaks_baseband.csv",
+      "bytes": 11467,
+      "sha256": "668c29e640158cc1717ab564fe22b2aecb27b84af7546f693e7232efd79cb5ae"
+    },
+    {
+      "path": "rf_cycle_candidates/fc100MHz/overview.json",
+      "bytes": 108579,
+      "sha256": "4282956b56a20d4fb6491b984efd41fb878f56fc37dfa85b739f58eddec631a7"
+    },
+    {
+      "path": "rf_cycle_candidates/fc100MHz/psd_and_modulation_guides.png",
+      "bytes": 219028,
+      "sha256": "c253a60353b4b343e0b0384408ba48c7e64ac92f503c1c8646c49a6123a999ff"
+    },
+    {
+      "path": "rf_cycle_candidates/fc100MHz/train_peaks_baseband.csv",
+      "bytes": 13307,
+      "sha256": "58e2f0be31ca5f2d5ccdbd20e2024699e290aeaf167af10724abec3abf2ad5bb"
+    },
+    {
+      "path": "rf_cycle_candidates/fc100MHz/welch_psd.mat",
+      "bytes": 2567430,
+      "sha256": "96d3026530ee4ca0d7bb80a13659b193842383e621daec73a6cba5035a4d2411"
+    },
+    {
+      "path": "rf_cycle_candidates/fc160MHz/heldout_peaks_baseband.csv",
+      "bytes": 11418,
+      "sha256": "7d1be32eace8d45a59c45e65aee140896e68ef6392fb15daad18dced29107204"
+    },
+    {
+      "path": "rf_cycle_candidates/fc160MHz/overview.json",
+      "bytes": 109048,
+      "sha256": "34b1d73acd082332ff038f807aa23e47f37ba0e96420c48d24a9574306b41349"
+    },
+    {
+      "path": "rf_cycle_candidates/fc160MHz/psd_and_modulation_guides.png",
+      "bytes": 211932,
+      "sha256": "f0b0856ab3cf2962f00b31d5addbfee8f0ee4b6a7db5b5eaa46aa65a88488f7f"
+    },
+    {
+      "path": "rf_cycle_candidates/fc160MHz/train_peaks_baseband.csv",
+      "bytes": 13787,
+      "sha256": "badb6353355215c83549671a7ca199984e19789cd6c3a116acd48c545bbcf25a"
+    },
+    {
+      "path": "rf_cycle_candidates/fc160MHz/welch_psd.mat",
+      "bytes": 2562575,
+      "sha256": "4c8e42beda4ce6e6b9627c8199e35b9dc242fb9ab06134c9ee7dea6dcf485acd"
+    },
+    {
+      "path": "rf_cycle_candidates/fc220MHz/heldout_peaks_baseband.csv",
+      "bytes": 11430,
+      "sha256": "ade6b754d7f7e6d711ecd8b238ce3c741233c055c70bf76a2ad5d2e78e910fa1"
+    },
+    {
+      "path": "rf_cycle_candidates/fc220MHz/overview.json",
+      "bytes": 108451,
+      "sha256": "4d45f49429470af802797b0aec0d4a60b1a0fc235df07518080d7d36d257479e"
+    },
+    {
+      "path": "rf_cycle_candidates/fc220MHz/psd_and_modulation_guides.png",
+      "bytes": 213461,
+      "sha256": "58882466a1368ca440f0e57afed37363aed172cb02aaea1823a7518a65fdb8f4"
+    },
+    {
+      "path": "rf_cycle_candidates/fc220MHz/train_peaks_baseband.csv",
+      "bytes": 13447,
+      "sha256": "675f9842dcdfae03fd0f9dc715a8e233d973eaf7b2cbe1b9bfbf1510ed7d6b93"
+    },
+    {
+      "path": "rf_cycle_candidates/fc220MHz/welch_psd.mat",
+      "bytes": 2560363,
+      "sha256": "eb6ff02d1ce45439222614e698c618bcffc35128f0cd42ae80d342228456ec09"
+    },
+    {
+      "path": "rf_cycle_candidates/fc280MHz/heldout_peaks_baseband.csv",
+      "bytes": 11443,
+      "sha256": "ef25049f1ec2a837fb5b1230759754365168b33cdbcee0a62e5ac001adac8cbf"
+    },
+    {
+      "path": "rf_cycle_candidates/fc280MHz/overview.json",
+      "bytes": 108804,
+      "sha256": "cbf30992d89fb2766057842937676e02b7d5f129804cabc1d010329ae4168f9f"
+    },
+    {
+      "path": "rf_cycle_candidates/fc280MHz/psd_and_modulation_guides.png",
+      "bytes": 215403,
+      "sha256": "258706f9c2125342f694393d0171ccc55d0b93f959613e630746e9601230b030"
+    },
+    {
+      "path": "rf_cycle_candidates/fc280MHz/train_peaks_baseband.csv",
+      "bytes": 13706,
+      "sha256": "e70e7e395fa974570486a39b6cb5470f9f133b2bc0d135b5daa53a8b8a0027da"
+    },
+    {
+      "path": "rf_cycle_candidates/fc280MHz/welch_psd.mat",
+      "bytes": 2562893,
+      "sha256": "6a59524c153ab6ed3076f84ccfc214413907a7b1099942b6e92efdfd79832228"
+    },
+    {
+      "path": "rf_cycle_candidates/fc340MHz/heldout_peaks_baseband.csv",
+      "bytes": 11429,
+      "sha256": "39bf71a2ea7fa905a1b7294e08834f0a75be7325112e873dbf2a92d855930d5b"
+    },
+    {
+      "path": "rf_cycle_candidates/fc340MHz/overview.json",
+      "bytes": 108864,
+      "sha256": "5cc6478bd7e520a64be70482f630695e4686e59bf5da9dc35bddd75cac46c554"
+    },
+    {
+      "path": "rf_cycle_candidates/fc340MHz/psd_and_modulation_guides.png",
+      "bytes": 222061,
+      "sha256": "3b9206157c9bcef2bc192586d198e088729256b2a83c0c2a6d86c550c9d30a33"
+    },
+    {
+      "path": "rf_cycle_candidates/fc340MHz/train_peaks_baseband.csv",
+      "bytes": 13800,
+      "sha256": "7bec285334314cc9b88f3aaee367dd6dfdd57ccd4847ed25dd2e5c558c8da57f"
+    },
+    {
+      "path": "rf_cycle_candidates/fc340MHz/welch_psd.mat",
+      "bytes": 2560708,
+      "sha256": "4518c2b9a8aa303dd5156f1016a056c0bd9d0db26e54d3c88e83508a36093a05"
+    },
+    {
+      "path": "rf_cycle_candidates/fc400MHz/heldout_peaks_baseband.csv",
+      "bytes": 11452,
+      "sha256": "5f691ef0ab20ed06703094520c46650c2f430b9ef797feff09a4db01e8d27fb5"
+    },
+    {
+      "path": "rf_cycle_candidates/fc400MHz/overview.json",
+      "bytes": 108873,
+      "sha256": "2fa0216919b516d5c169b05b6e67bca24c46eb51ec588d6fbcc406e05ecc3d9f"
+    },
+    {
+      "path": "rf_cycle_candidates/fc400MHz/psd_and_modulation_guides.png",
+      "bytes": 213975,
+      "sha256": "8a953c69950ae35968395d82cbcbc8d7b07d7a8205f9785d7d7f35cf256d8e5e"
+    },
+    {
+      "path": "rf_cycle_candidates/fc400MHz/train_peaks_baseband.csv",
+      "bytes": 13685,
+      "sha256": "d6ffae5413d30c1849ac68b25eccd20ef94610238c8346987789d0f90ed14d53"
+    },
+    {
+      "path": "rf_cycle_candidates/fc400MHz/welch_psd.mat",
+      "bytes": 2559584,
+      "sha256": "440d0bd879388b4a2973462b1d93399a36b2aece5ef601f90dd15db4b53b3212"
+    },
+    {
+      "path": "rf_cycle_candidates/fc460MHz/heldout_peaks_baseband.csv",
+      "bytes": 11422,
+      "sha256": "609c2f1de11e8b4b4978628f25509c574b58be6c22081742238c52785cd2f168"
+    },
+    {
+      "path": "rf_cycle_candidates/fc460MHz/overview.json",
+      "bytes": 108640,
+      "sha256": "ed0018d279be6ea84272f1ce342d7cfe1b0a9d0c459496a25cafc86a50557bdc"
+    },
+    {
+      "path": "rf_cycle_candidates/fc460MHz/psd_and_modulation_guides.png",
+      "bytes": 215208,
+      "sha256": "2e2adcb7f99d2beb29cf0257ca14cf7b70375502ec520ff1b118b2627019737c"
+    },
+    {
+      "path": "rf_cycle_candidates/fc460MHz/train_peaks_baseband.csv",
+      "bytes": 13867,
+      "sha256": "90f876c582184e6443e7cd23947add5f1444bbe4dd4d3f5c21f8c8e98a883928"
+    },
+    {
+      "path": "rf_cycle_candidates/fc460MHz/welch_psd.mat",
+      "bytes": 2558650,
+      "sha256": "422591b9bbc710b66158e06fb13198f703cc9407d0e0c55c6cb74bc46df57993"
+    },
+    {
+      "path": "rf_cycle_candidates/fc520MHz/heldout_peaks_baseband.csv",
+      "bytes": 11374,
+      "sha256": "7f74b3a553f06521e1ab111400a9f82f76a7de4419861f88301421e07b744d82"
+    },
+    {
+      "path": "rf_cycle_candidates/fc520MHz/overview.json",
+      "bytes": 108592,
+      "sha256": "334e08377751268656763aeb75cdfd24d81748df6439c7210c2f39bef923771b"
+    },
+    {
+      "path": "rf_cycle_candidates/fc520MHz/psd_and_modulation_guides.png",
+      "bytes": 202654,
+      "sha256": "981a70efdad1c6e3a172b6dbfcfb4dc69123b969d695347e9724f876391d16ca"
+    },
+    {
+      "path": "rf_cycle_candidates/fc520MHz/train_peaks_baseband.csv",
+      "bytes": 13677,
+      "sha256": "b73f562aa463810b3ff5b93bf8bbb1f126e7933ef50297980515703846b8a728"
+    },
+    {
+      "path": "rf_cycle_candidates/fc520MHz/welch_psd.mat",
+      "bytes": 2560118,
+      "sha256": "2132b78fd7997e52d63f1e1c220797f1fcfb187f8ed32a9d9ddff827987bfdc3"
+    },
+    {
+      "path": "rf_cycle_candidates/fc580MHz/heldout_peaks_baseband.csv",
+      "bytes": 11392,
+      "sha256": "7781f90ed852000448e78c7606aa5c7ae3fa6cc86564313e65bcc1f076dbc02e"
+    },
+    {
+      "path": "rf_cycle_candidates/fc580MHz/overview.json",
+      "bytes": 108846,
+      "sha256": "01de517cd351ede08bedef35bf7a43a4d4cb85c57ec87df1a08c65ddd8607b93"
+    },
+    {
+      "path": "rf_cycle_candidates/fc580MHz/psd_and_modulation_guides.png",
+      "bytes": 200510,
+      "sha256": "e119b67953ae35df41eba30993461b59355a75c6eb1700c9acf99b95398e42d9"
+    },
+    {
+      "path": "rf_cycle_candidates/fc580MHz/train_peaks_baseband.csv",
+      "bytes": 13672,
+      "sha256": "7d7e3b5f11e057ada095c9e7aecaa227eced5caf5fdb5c47c8914a3436bae601"
+    },
+    {
+      "path": "rf_cycle_candidates/fc580MHz/welch_psd.mat",
+      "bytes": 2559805,
+      "sha256": "217c9d3e1274046810e76603951a46968a29ff7428ce18ab943da7c53aef7858"
+    },
+    {
+      "path": "rf_cycle_candidates/fc640MHz/heldout_peaks_baseband.csv",
+      "bytes": 11394,
+      "sha256": "22bb7e97c9f04251b7c6e444b708c3db73ab67142fa567f8f24356364797bb85"
+    },
+    {
+      "path": "rf_cycle_candidates/fc640MHz/overview.json",
+      "bytes": 108866,
+      "sha256": "0d8b849eaa8e85d07bf58d608e608aad6a83f7f55323af6e4ad5660178fff78d"
+    },
+    {
+      "path": "rf_cycle_candidates/fc640MHz/psd_and_modulation_guides.png",
+      "bytes": 201514,
+      "sha256": "0a782cde74a86f5eaf916264912b302619aadf0ecce909d13d04f7e9b1d12dd4"
+    },
+    {
+      "path": "rf_cycle_candidates/fc640MHz/train_peaks_baseband.csv",
+      "bytes": 13686,
+      "sha256": "3083a60adda98900aaef855a010f16805eab194fc31665f812f617f876fe6e59"
+    },
+    {
+      "path": "rf_cycle_candidates/fc640MHz/welch_psd.mat",
+      "bytes": 2559344,
+      "sha256": "3c3b3a912579310bb59c48bd2965608efaca3a00c8ca1451043253ad62c38273"
+    },
+    {
+      "path": "rf_cycle_candidates/fc700MHz/heldout_peaks_baseband.csv",
+      "bytes": 11426,
+      "sha256": "214fc926e27347c20d020c98b8e628d30f80bd994b6f2db857c4a78600e08fe9"
+    },
+    {
+      "path": "rf_cycle_candidates/fc700MHz/overview.json",
+      "bytes": 108998,
+      "sha256": "a254c51086c3a7b02ec58600242858261e0c2562a3ac03e9c273d390b0429d2a"
+    },
+    {
+      "path": "rf_cycle_candidates/fc700MHz/psd_and_modulation_guides.png",
+      "bytes": 211843,
+      "sha256": "3ff5cc4c810aa80349e3deb005ae4e838771c9870501f35c5a1670b1e87778a9"
+    },
+    {
+      "path": "rf_cycle_candidates/fc700MHz/train_peaks_baseband.csv",
+      "bytes": 13708,
+      "sha256": "89c9e9de7d03791db1f10c07325e1bd27df13df3a8ac604e6e6f046d91580bcd"
+    },
+    {
+      "path": "rf_cycle_candidates/fc700MHz/welch_psd.mat",
+      "bytes": 2563541,
+      "sha256": "22c78521d6b38fb343aba69c3d7ecda2e95f662b9ec06c5d2f3e900a3af6edb3"
+    },
+    {
+      "path": "rf_cycle_candidates/overview.json",
+      "bytes": 2040202,
+      "sha256": "10fb5e607ff334888b1acda3bf5ae2659b2b47217cbae3e5638b0c8dc210fc4f"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/comb_candidates.csv",
+      "bytes": 4197,
+      "sha256": "712513fb78b770b8d8d059d8277e8c88d67a8e2bfabf912806927dca17cd0634"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/cross_center_groups.csv",
+      "bytes": 65094,
+      "sha256": "84da7e66b67ec839e82f354f5c0e6c4dfd7ba1487ccf4710f23bcc6694e87c5e"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/heldout_peaks_rf.csv",
+      "bytes": 131219,
+      "sha256": "bed0e77c68997d4c27f8525f57610b0f3b6b3bca5e889e6ba92efa601bcd215f"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/independent_center_fits.csv",
+      "bytes": 23983,
+      "sha256": "6ad1d8bb7499ef4be7cb1b334aac093ee486209f3f0ae1cbff77b7063abbc9fa"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/overview.json",
+      "bytes": 357007,
+      "sha256": "dfea9c3ee4e6eb62e7e3a6d827f5c5dd4a94277e9be4fb49942146ce85060644"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/rf_psd_and_comb_candidates.png",
+      "bytes": 233131,
+      "sha256": "4b50e63391d4c91c36e9d66b56f2710070145e4fe47570a89316b2cb5caaaf15"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_+1/training_peaks_rf.csv",
+      "bytes": 164333,
+      "sha256": "715cfbe60f4a5740a5ee8cfa344a31c86c258f32a2e68482b65869dbcd9096e9"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/comb_candidates.csv",
+      "bytes": 4283,
+      "sha256": "bf64297e68ffc816b6e0e63e25481886e895da566060484851a0ece0503a2586"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/cross_center_groups.csv",
+      "bytes": 49115,
+      "sha256": "281317664a49677d1497fe3faae563481e98e67f72d62bd0063e4920e552b558"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/heldout_peaks_rf.csv",
+      "bytes": 131920,
+      "sha256": "e48967ae3a59b509876e5e24f905998f4832bfeffc77253f9ed034ca40d3c743"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/independent_center_fits.csv",
+      "bytes": 22538,
+      "sha256": "b943383b3697b7174d64b6d42d3b4b5964b846206b75b1d41e6ef01eb8545e2c"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/overview.json",
+      "bytes": 273848,
+      "sha256": "e9a139d3caa0f2c9050c5ab84ede0fa99e3835fbeada977ab10f2f41c141728c"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/rf_psd_and_comb_candidates.png",
+      "bytes": 222039,
+      "sha256": "a6f14692ff47b1e5361d0aac43b80aa9ddd24d82c733b566f58e39fa7f541e65"
+    },
+    {
+      "path": "rf_cycle_candidates/polarity_-1/training_peaks_rf.csv",
+      "bytes": 165034,
+      "sha256": "ca46c3e992d894c34b993ec006f1edc0582693ed6dc0f7fca2ca1acfee8bc3db"
+    }
+  ]
+}

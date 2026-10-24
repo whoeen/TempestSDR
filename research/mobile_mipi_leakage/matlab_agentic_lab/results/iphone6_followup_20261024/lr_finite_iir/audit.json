@@ -1,0 +1,477 @@
+{
+  "status": "complete",
+  "implementation": "custom base MATLAB FILTER two-SOS cascade; forward then reverse/filter/reverse; zero states at each outer boundary",
+  "is_matlab_filtfilt": false,
+  "filter_rate_hz": 3.6E+8,
+  "crossover_hz": 9.0E+7,
+  "butterworth_causal_order": 4,
+  "effective_forward_backward_lr_order": 8,
+  "q_values": [
+    0.541196100146197,
+    1.3065629648763764
+  ],
+  "sos_columns": "b0,b1,b2,a0,a1,a2",
+  "sos_low": [
+    [
+      0.259891532474145,
+      0.51978306494829,
+      0.259891532474145,
+      1,
+      -1.1541502530316496E-16,
+      0.039566129896580045
+    ],
+    [
+      0.36161567304292236,
+      0.72323134608584472,
+      0.36161567304292236,
+      1,
+      -1.6058961851103E-16,
+      0.44646269217168955
+    ]
+  ],
+  "sos_high": [
+    [
+      0.25989153247414504,
+      -0.51978306494829007,
+      0.25989153247414504,
+      1,
+      -1.1541502530316496E-16,
+      0.039566129896580045
+    ],
+    [
+      0.36161567304292241,
+      -0.72323134608584483,
+      0.36161567304292241,
+      1,
+      -1.6058961851103E-16,
+      0.44646269217168955
+    ]
+  ],
+  "pole_radii": [
+    0.19891236737965803,
+    0.19891236737965803,
+    0.66817863791929888,
+    0.66817863791929888
+  ],
+  "coefficient_derivation": "Bilinear prewarp K=tan(pi*fc/Fs); Butterworth Q=1/(2*cos(pi/8)),1/(2*cos(3*pi/8))",
+  "response_checks": {
+    "maximum_low_plus_high_minus_one": 1.6653345369377348E-15,
+    "maximum_low_response_vs_analytic_error": 1.3322676295501878E-15,
+    "maximum_high_response_vs_analytic_error": 1.6653345369377348E-15,
+    "low_zero_phase_amplitude_at_crossover": 0.49999999999999978,
+    "high_zero_phase_amplitude_at_crossover": 0.50000000000000011,
+    "causal_low_amplitude_at_crossover": 0.70710678118654735,
+    "maximum_pole_radius": 0.66817863791929888,
+    "unity_tolerance": 1E-12,
+    "response_tolerance": 1E-12,
+    "periodic_relative_rms_tolerance": 1E-10,
+    "passed": true
+  },
+  "measured_input": {
+    "requested": true,
+    "included": true,
+    "reason": "bounded same-input filter comparison only"
+  },
+  "cases": [
+    {
+      "label": "synthetic_broadband_periodic_extension",
+      "input": {
+        "kind": "synthetic complex broadband plus on-bin tones",
+        "periodic_interpretation": "DFT represents exact repetition of this generated block"
+      },
+      "samples": 8192,
+      "duration_seconds": 2.2755555555555557E-5,
+      "first_last_complex_difference": 0.77604083845721072,
+      "guard_convergence": [
+        {
+          "periodic_guard_samples_each_end": 0,
+          "guard_time_ns": 0,
+          "low_relative_rms_error": 0.014690403541187672,
+          "high_relative_rms_error": 0.01387603801958881,
+          "sum_relative_rms_error": 0.013089011868150521,
+          "low_edge_relative_rms_error": 0.084109098096106616,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 0.94156212987238364,
+          "high_maximum_absolute_error": 0.6046437324875058
+        },
+        {
+          "periodic_guard_samples_each_end": 1,
+          "guard_time_ns": 2.7777777777777781,
+          "low_relative_rms_error": 0.011766355507514349,
+          "high_relative_rms_error": 0.01076963659247409,
+          "sum_relative_rms_error": 0.012553631887947106,
+          "low_edge_relative_rms_error": 0.067367621783872261,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 0.84933655653697293,
+          "high_maximum_absolute_error": 0.58931522387284963
+        },
+        {
+          "periodic_guard_samples_each_end": 2,
+          "guard_time_ns": 5.5555555555555562,
+          "low_relative_rms_error": 0.0046008385159864431,
+          "high_relative_rms_error": 0.0050858975456792846,
+          "sum_relative_rms_error": 0.004099293482762079,
+          "low_edge_relative_rms_error": 0.026341848062954157,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 0.26679018177095343,
+          "high_maximum_absolute_error": 0.21224475991239988
+        },
+        {
+          "periodic_guard_samples_each_end": 4,
+          "guard_time_ns": 11.111111111111112,
+          "low_relative_rms_error": 0.0025091251139998778,
+          "high_relative_rms_error": 0.0023843740780299977,
+          "sum_relative_rms_error": 0.0017040495574303213,
+          "low_edge_relative_rms_error": 0.014365857939649118,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 0.14257251979198418,
+          "high_maximum_absolute_error": 0.12364885210712986
+        },
+        {
+          "periodic_guard_samples_each_end": 8,
+          "guard_time_ns": 22.222222222222225,
+          "low_relative_rms_error": 0.00038244626944439046,
+          "high_relative_rms_error": 0.00052900850978784787,
+          "sum_relative_rms_error": 0.00027512942627632342,
+          "low_edge_relative_rms_error": 0.0021896750966030744,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 0.023061803072446409,
+          "high_maximum_absolute_error": 0.0254150939245574
+        },
+        {
+          "periodic_guard_samples_each_end": 16,
+          "guard_time_ns": 44.44444444444445,
+          "low_relative_rms_error": 1.6706346739182128E-5,
+          "high_relative_rms_error": 2.9296825465321946E-5,
+          "sum_relative_rms_error": 1.0579978730222784E-5,
+          "low_edge_relative_rms_error": 9.5651270080756272E-5,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 0.0010693801979143284,
+          "high_maximum_absolute_error": 0.001336264352389325
+        },
+        {
+          "periodic_guard_samples_each_end": 32,
+          "guard_time_ns": 88.8888888888889,
+          "low_relative_rms_error": 1.7916163129069404E-8,
+          "high_relative_rms_error": 2.4727863974059131E-8,
+          "sum_relative_rms_error": 1.8125046356355079E-8,
+          "low_edge_relative_rms_error": 1.0257800733000951E-7,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 9.2098497837810109E-7,
+          "high_maximum_absolute_error": 1.0219383834653348E-6
+        },
+        {
+          "periodic_guard_samples_each_end": 64,
+          "guard_time_ns": 177.7777777777778,
+          "low_relative_rms_error": 4.578374751685287E-14,
+          "high_relative_rms_error": 7.3290877075238545E-14,
+          "sum_relative_rms_error": 5.1080617787590944E-14,
+          "low_edge_relative_rms_error": 2.6212135041802774E-13,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 2.9073439832234737E-12,
+          "high_maximum_absolute_error": 3.5046555806879685E-12
+        },
+        {
+          "periodic_guard_samples_each_end": 128,
+          "guard_time_ns": 355.5555555555556,
+          "low_relative_rms_error": 4.2543275205927952E-16,
+          "high_relative_rms_error": 4.9317697118870937E-16,
+          "sum_relative_rms_error": 1.7685656189270214E-16,
+          "low_edge_relative_rms_error": 4.2061471756663906E-16,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 1.1857187100668868E-15,
+          "high_maximum_absolute_error": 1.333730499345599E-15
+        },
+        {
+          "periodic_guard_samples_each_end": 256,
+          "guard_time_ns": 711.1111111111112,
+          "low_relative_rms_error": 4.2543275205927952E-16,
+          "high_relative_rms_error": 4.9317697118870937E-16,
+          "sum_relative_rms_error": 1.7685656189270214E-16,
+          "low_edge_relative_rms_error": 4.2061471756663906E-16,
+          "low_interior_relative_rms_error": 4.2558346934105642E-16,
+          "low_maximum_absolute_error": 1.1857187100668868E-15,
+          "high_maximum_absolute_error": 1.333730499345599E-15
+        }
+      ],
+      "checks": {
+        "largest_guard_low_matches_fft": true,
+        "largest_guard_high_matches_fft": true,
+        "largest_guard_sum_matches_input": true,
+        "finite_boundary_difference_detected": true
+      },
+      "interpretation": "Padded convergence establishes periodic steady-state numerical equivalence only; unpadded differences expose finite boundary-policy dependence"
+    },
+    {
+      "label": "synthetic_nonperiodic_seam",
+      "input": {
+        "kind": "synthetic nonperiodic tone/ramp with endpoint phase and level change",
+        "periodic_interpretation": "FFT wraps the two endpoints; no physical periodicity is assumed"
+      },
+      "samples": 8192,
+      "duration_seconds": 2.2755555555555557E-5,
+      "first_last_complex_difference": 1.6798455077021401,
+      "guard_convergence": [
+        {
+          "periodic_guard_samples_each_end": 0,
+          "guard_time_ns": 0,
+          "low_relative_rms_error": 0.01402320289353912,
+          "high_relative_rms_error": 0.47618040199079209,
+          "sum_relative_rms_error": 0.016283521084287204,
+          "low_edge_relative_rms_error": 0.069806241866159857,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 1.0694877727448115,
+          "high_maximum_absolute_error": 0.52499875265201645
+        },
+        {
+          "periodic_guard_samples_each_end": 1,
+          "guard_time_ns": 2.7777777777777781,
+          "low_relative_rms_error": 0.00518713005121029,
+          "high_relative_rms_error": 0.38879744889398671,
+          "sum_relative_rms_error": 0.0088025214843876643,
+          "low_edge_relative_rms_error": 0.0258210665348669,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 0.43107000745522328,
+          "high_maximum_absolute_error": 0.49424894426653621
+        },
+        {
+          "periodic_guard_samples_each_end": 2,
+          "guard_time_ns": 5.5555555555555562,
+          "low_relative_rms_error": 0.0023929785638046727,
+          "high_relative_rms_error": 0.20946228579190787,
+          "sum_relative_rms_error": 0.0030635784632600934,
+          "low_edge_relative_rms_error": 0.011912031914081985,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 0.18314918723886345,
+          "high_maximum_absolute_error": 0.1831491872388635
+        },
+        {
+          "periodic_guard_samples_each_end": 4,
+          "guard_time_ns": 11.111111111111112,
+          "low_relative_rms_error": 0.0012048605012323728,
+          "high_relative_rms_error": 0.073682207429280278,
+          "sum_relative_rms_error": 0.0011683668284689923,
+          "low_edge_relative_rms_error": 0.0059976871334265543,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 0.084423144443524042,
+          "high_maximum_absolute_error": 0.0844231444435239
+        },
+        {
+          "periodic_guard_samples_each_end": 8,
+          "guard_time_ns": 22.222222222222225,
+          "low_relative_rms_error": 0.00017244186401092358,
+          "high_relative_rms_error": 0.0091788484928020213,
+          "sum_relative_rms_error": 0.00011592236556436391,
+          "low_edge_relative_rms_error": 0.00085840007866847586,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 0.011018538669039867,
+          "high_maximum_absolute_error": 0.011018538669039863
+        },
+        {
+          "periodic_guard_samples_each_end": 16,
+          "guard_time_ns": 44.44444444444445,
+          "low_relative_rms_error": 7.6346547469372012E-6,
+          "high_relative_rms_error": 0.00043275694626953003,
+          "sum_relative_rms_error": 4.8249428926027015E-6,
+          "low_edge_relative_rms_error": 3.8004624184312917E-5,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 0.00053043217589816979,
+          "high_maximum_absolute_error": 0.00053043217589816979
+        },
+        {
+          "periodic_guard_samples_each_end": 32,
+          "guard_time_ns": 88.8888888888889,
+          "low_relative_rms_error": 1.3666245011785375E-8,
+          "high_relative_rms_error": 8.29709240258146E-7,
+          "sum_relative_rms_error": 7.6446678705079688E-9,
+          "low_edge_relative_rms_error": 6.8029337658262058E-8,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 1.0545530502823188E-6,
+          "high_maximum_absolute_error": 1.0545530503340857E-6
+        },
+        {
+          "periodic_guard_samples_each_end": 64,
+          "guard_time_ns": 177.7777777777778,
+          "low_relative_rms_error": 2.9322929744800743E-14,
+          "high_relative_rms_error": 1.615835716957737E-12,
+          "sum_relative_rms_error": 1.9255253492385126E-14,
+          "low_edge_relative_rms_error": 1.4595645332723628E-13,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 2.0550577301803109E-12,
+          "high_maximum_absolute_error": 2.055112211782816E-12
+        },
+        {
+          "periodic_guard_samples_each_end": 128,
+          "guard_time_ns": 355.5555555555556,
+          "low_relative_rms_error": 3.5626082479480332E-16,
+          "high_relative_rms_error": 1.2621081102009846E-14,
+          "sum_relative_rms_error": 1.7265053383723779E-16,
+          "low_edge_relative_rms_error": 3.0651597893744891E-16,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 1.6021483794827831E-15,
+          "high_maximum_absolute_error": 6.3786450951845914E-16
+        },
+        {
+          "periodic_guard_samples_each_end": 256,
+          "guard_time_ns": 711.1111111111112,
+          "low_relative_rms_error": 3.5626082479480332E-16,
+          "high_relative_rms_error": 1.2621081102009846E-14,
+          "sum_relative_rms_error": 1.7265053383723779E-16,
+          "low_edge_relative_rms_error": 3.0651597893744891E-16,
+          "low_interior_relative_rms_error": 3.5820140586195239E-16,
+          "low_maximum_absolute_error": 1.6021483794827831E-15,
+          "high_maximum_absolute_error": 6.3786450951845914E-16
+        }
+      ],
+      "checks": {
+        "largest_guard_low_matches_fft": true,
+        "largest_guard_high_matches_fft": true,
+        "largest_guard_sum_matches_input": true,
+        "finite_boundary_difference_detected": true
+      },
+      "interpretation": "Padded convergence establishes periodic steady-state numerical equivalence only; unpadded differences expose finite boundary-policy dependence"
+    },
+    {
+      "label": "measured_fc100_template_excerpt",
+      "input": {
+        "kind": "measured one-frame conditioned template excerpt, not new raw acquisition",
+        "source": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_stitch_20261023\\templates\\fc100MHz\\templates.mat",
+        "variable": "singleTrain",
+        "source_template_length": 2.097152E+6,
+        "source_template_rate_hz": 1.2576507124449669E+8,
+        "source_start_zero_based": 128,
+        "target_rate_hz": 3.6E+8,
+        "analytic_center_shift_hz": 6.0E+7,
+        "resampler": "65-tap centered windowed-sinc interpolation, Blackman support32, row-normalized DC gain",
+        "resampler_caveat": "Finite interpolator error is shared by both filters; this is not a resampler performance or RF stitching validation",
+        "periodic_interpretation": "Excerpt endpoints generally do not close; circular result is only a numerical periodic extension"
+      },
+      "samples": 8192,
+      "duration_seconds": 2.2755555555555557E-5,
+      "first_last_complex_difference": 64.236370920504868,
+      "guard_convergence": [
+        {
+          "periodic_guard_samples_each_end": 0,
+          "guard_time_ns": 0,
+          "low_relative_rms_error": 0.0047898270208560747,
+          "high_relative_rms_error": 0.012740097740822081,
+          "sum_relative_rms_error": 0.0052241247433446047,
+          "low_edge_relative_rms_error": 0.03728529455254119,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 19.583689368200066,
+          "high_maximum_absolute_error": 19.438479115201027
+        },
+        {
+          "periodic_guard_samples_each_end": 1,
+          "guard_time_ns": 2.7777777777777781,
+          "low_relative_rms_error": 0.0033379032880450983,
+          "high_relative_rms_error": 0.010785646022372869,
+          "sum_relative_rms_error": 0.0042854446253413059,
+          "low_edge_relative_rms_error": 0.025983131904503246,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 14.891070110319893,
+          "high_maximum_absolute_error": 19.443840183660953
+        },
+        {
+          "periodic_guard_samples_each_end": 2,
+          "guard_time_ns": 5.5555555555555562,
+          "low_relative_rms_error": 0.0025540951874726821,
+          "high_relative_rms_error": 0.0050226484056659065,
+          "sum_relative_rms_error": 0.0027169998215342836,
+          "low_edge_relative_rms_error": 0.019881760022959362,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 10.696263133737917,
+          "high_maximum_absolute_error": 8.09966698945219
+        },
+        {
+          "periodic_guard_samples_each_end": 4,
+          "guard_time_ns": 11.111111111111112,
+          "low_relative_rms_error": 0.0012134376058616559,
+          "high_relative_rms_error": 0.003089389652600521,
+          "sum_relative_rms_error": 0.0012447047334658073,
+          "low_edge_relative_rms_error": 0.0094457228535981611,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 3.71268004964303,
+          "high_maximum_absolute_error": 3.6436974325460318
+        },
+        {
+          "periodic_guard_samples_each_end": 8,
+          "guard_time_ns": 22.222222222222225,
+          "low_relative_rms_error": 0.00018380826132607128,
+          "high_relative_rms_error": 0.00042591880872555496,
+          "sum_relative_rms_error": 0.00022136744953377705,
+          "low_edge_relative_rms_error": 0.0014308126650277547,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 0.75671854051836129,
+          "high_maximum_absolute_error": 0.61219838168661012
+        },
+        {
+          "periodic_guard_samples_each_end": 16,
+          "guard_time_ns": 44.44444444444445,
+          "low_relative_rms_error": 1.2382782604937011E-5,
+          "high_relative_rms_error": 2.0606166065611243E-5,
+          "sum_relative_rms_error": 1.2063245632287286E-5,
+          "low_edge_relative_rms_error": 9.6390891527987113E-5,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 0.049352002010521673,
+          "high_maximum_absolute_error": 0.024904689479607452
+        },
+        {
+          "periodic_guard_samples_each_end": 32,
+          "guard_time_ns": 88.8888888888889,
+          "low_relative_rms_error": 2.1385324283891053E-8,
+          "high_relative_rms_error": 3.87339474712054E-8,
+          "sum_relative_rms_error": 1.7876848862582794E-8,
+          "low_edge_relative_rms_error": 1.6646908365471194E-7,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 8.1348756845874974E-5,
+          "high_maximum_absolute_error": 4.430766765046918E-5
+        },
+        {
+          "periodic_guard_samples_each_end": 64,
+          "guard_time_ns": 177.7777777777778,
+          "low_relative_rms_error": 5.2087242390821357E-14,
+          "high_relative_rms_error": 1.0440791966732643E-13,
+          "sum_relative_rms_error": 3.8961206935589282E-14,
+          "low_edge_relative_rms_error": 4.054490868923665E-13,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 1.7497785625612252E-10,
+          "high_maximum_absolute_error": 1.4360016492379628E-10
+        },
+        {
+          "periodic_guard_samples_each_end": 128,
+          "guard_time_ns": 355.5555555555556,
+          "low_relative_rms_error": 4.0510630136163991E-16,
+          "high_relative_rms_error": 7.24504523491775E-16,
+          "sum_relative_rms_error": 1.753752229017866E-16,
+          "low_edge_relative_rms_error": 5.1312133773267876E-16,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 1.2710574864626038E-13,
+          "high_maximum_absolute_error": 9.5329311484695288E-14
+        },
+        {
+          "periodic_guard_samples_each_end": 256,
+          "guard_time_ns": 711.1111111111112,
+          "low_relative_rms_error": 4.0510630136163991E-16,
+          "high_relative_rms_error": 7.24504523491775E-16,
+          "sum_relative_rms_error": 1.753752229017866E-16,
+          "low_edge_relative_rms_error": 5.1312133773267876E-16,
+          "low_interior_relative_rms_error": 4.0304694100773763E-16,
+          "low_maximum_absolute_error": 1.2710574864626038E-13,
+          "high_maximum_absolute_error": 9.5329311484695288E-14
+        }
+      ],
+      "checks": {
+        "largest_guard_low_matches_fft": true,
+        "largest_guard_high_matches_fft": true,
+        "largest_guard_sum_matches_input": true,
+        "finite_boundary_difference_detected": true
+      },
+      "interpretation": "Padded convergence establishes periodic steady-state numerical equivalence only; unpadded differences expose finite boundary-policy dependence"
+    }
+  ],
+  "all_numerical_checks_passed": true,
+  "new_rf_alignment_performed": false,
+  "screen_reconstruction_claimed": false,
+  "caveat": "These results validate custom SOS execution and periodic equivalence. They do not validate physical frame-seam closure, multiband alignment, actual120MHz passbands, or library FILTFILT behavior."
+}

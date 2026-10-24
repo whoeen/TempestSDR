@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-24T08:11:21.835551+00:00",
+  "archive": {
+    "name": "iphone6_followup_20261024_v1.zip",
+    "bytes": 455791746,
+    "digest": "sha256:be02f4a64f6874c9db25dae77245df7a79701cbdea4b0144a598d5e45796f613",
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_followup_20261024_v1.zip",
+    "remote_verified": true
+  },
+  "manifest_file_count": 200,
+  "cloud_matlab_executed": false,
+  "scope": "Local MATLAB execution; authored code/records in Git and numeric/image results in data release. Raw IQ already exists in prior release.",
+  "post_bundle_source_formatting": {
+    "file": "renderIphone6sPeriodComparison.m",
+    "prior_sha256": "e030f0363f896d29ac62be9c769a86612aa2957ce7ebcd643fd25c64212cf988",
+    "final_sha256": "cae409d4fb19c515aacf571d110ccc09b2ad2e733c10a07653ba17d452e4ed13",
+    "change": "Trailing whitespace removed on two lines only; no computation or output changed."
+  }
+}

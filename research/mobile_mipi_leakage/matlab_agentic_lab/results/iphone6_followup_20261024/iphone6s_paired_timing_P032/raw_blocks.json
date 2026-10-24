@@ -1,0 +1,258 @@
+[
+  {
+    "frame": 1,
+    "fixed_start_sample": 4,
+    "saved_aligned_start_sample": 4,
+    "common_raw_block_first_sample": 2,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "9766362eec853b42e0333573ee1597d2c2cf2c14b33fc3c5047eba99a4bd2feb"
+  },
+  {
+    "frame": 2,
+    "fixed_start_sample": 917640.666798,
+    "saved_aligned_start_sample": 917640.35012597,
+    "common_raw_block_first_sample": 917638,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "11db7dd482aca5ae75cd3e905548260fc005f7757fa977dfa5d1196bb1836676"
+  },
+  {
+    "frame": 3,
+    "fixed_start_sample": 1.835277333596E+6,
+    "saved_aligned_start_sample": 1.83527720260851E+6,
+    "common_raw_block_first_sample": 1.835275E+6,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "582aaeb3e0156fe5ea7b0d23877d8e5d20e09e46951c99e47576a27e1e231a28"
+  },
+  {
+    "frame": 4,
+    "fixed_start_sample": 2.7529140003939997E+6,
+    "saved_aligned_start_sample": 2.75291404136837E+6,
+    "common_raw_block_first_sample": 2.752912E+6,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "d6f155ac48ad8808c48401f4bd3fabfe6cde5e60dbaca33312fccd6551ba6efd"
+  },
+  {
+    "frame": 5,
+    "fixed_start_sample": 3.670550667192E+6,
+    "saved_aligned_start_sample": 3.67055055553387E+6,
+    "common_raw_block_first_sample": 3.670548E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "b0e1f5b0ce9d2db3c5a5d277cc382f85bbdbf6cf19c023af48f0fbc6a71224b5"
+  },
+  {
+    "frame": 6,
+    "fixed_start_sample": 4.58818733399E+6,
+    "saved_aligned_start_sample": 4.58818740819611E+6,
+    "common_raw_block_first_sample": 4.588185E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "24edcd1b419c030b1219a75060f9fdafab3bf4a3107b6197381fed69621da66a"
+  },
+  {
+    "frame": 7,
+    "fixed_start_sample": 5.5058240007879995E+6,
+    "saved_aligned_start_sample": 5.50582375439523E+6,
+    "common_raw_block_first_sample": 5.505821E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "c3f070e797685e1a24b47d5baf31ab27bfab6f96873d47dabf36bdcf7920beba"
+  },
+  {
+    "frame": 8,
+    "fixed_start_sample": 6.423460667586E+6,
+    "saved_aligned_start_sample": 6.42346060275981E+6,
+    "common_raw_block_first_sample": 6.423458E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "e931f5a94fc6a61d59e80b6e812056d2eafc425c6e23ecab9cea1139cd18aeda"
+  },
+  {
+    "frame": 9,
+    "fixed_start_sample": 7.341097334384E+6,
+    "saved_aligned_start_sample": 7.34109745155265E+6,
+    "common_raw_block_first_sample": 7.341095E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "9f6f97f11a88b8951fd22f50733fef796baf8ef70969d9c2f8c5883620b542a7"
+  },
+  {
+    "frame": 10,
+    "fixed_start_sample": 8.258734001182E+6,
+    "saved_aligned_start_sample": 8.25873398605038E+6,
+    "common_raw_block_first_sample": 8.258731E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "257d0a9d1674b9b20556932b8c3cd9fa68ad122aa5251e0613911d85017762fd"
+  },
+  {
+    "frame": 11,
+    "fixed_start_sample": 9.17637066798E+6,
+    "saved_aligned_start_sample": 9.1763708041175E+6,
+    "common_raw_block_first_sample": 9.176368E+6,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "ce60435e83553bdfa6ab687f2a675707924cff3d300d163c7df9eeec05196994"
+  },
+  {
+    "frame": 12,
+    "fixed_start_sample": 1.0094007334778E+7,
+    "saved_aligned_start_sample": 1.00940071522516E+7,
+    "common_raw_block_first_sample": 1.0094005E+7,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "082a54e3d22f207b40180344e4b7a17254c67f2afcbd196a3e6701896068e109"
+  },
+  {
+    "frame": 13,
+    "fixed_start_sample": 1.1011644001575999E+7,
+    "saved_aligned_start_sample": 1.10116440144301E+7,
+    "common_raw_block_first_sample": 1.1011642E+7,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "a722bac2fd021fa50ace7d956bb3492beadef21522d5aeb51eedcb1401529b6c"
+  },
+  {
+    "frame": 14,
+    "fixed_start_sample": 1.1929280668374E+7,
+    "saved_aligned_start_sample": 1.19292808534824E+7,
+    "common_raw_block_first_sample": 1.1929278E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "7dbef422e3eedca7de9f6a4e8f06c04392199b347374343989e0de23109e83b4"
+  },
+  {
+    "frame": 15,
+    "fixed_start_sample": 1.2846917335172E+7,
+    "saved_aligned_start_sample": 1.28469173697144E+7,
+    "common_raw_block_first_sample": 1.2846915E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "7aa21975da0ff1112950d00005ee117242fa076e32eee8d506e51e23d36d33e2"
+  },
+  {
+    "frame": 16,
+    "fixed_start_sample": 1.376455400197E+7,
+    "saved_aligned_start_sample": 1.37645542043263E+7,
+    "common_raw_block_first_sample": 1.3764552E+7,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "2a602cc4f4fc0ae589a10bfacd2fdaa0be7eb52ef83c02155b8cd8a14baaeafb"
+  },
+  {
+    "frame": 17,
+    "fixed_start_sample": 1.4682190668768E+7,
+    "saved_aligned_start_sample": 1.46821905658329E+7,
+    "common_raw_block_first_sample": 1.4682188E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "86ed02124c533aa4e8ca6973b99d2fb62d001d5c667a004c0026992fcba7160c"
+  },
+  {
+    "frame": 18,
+    "fixed_start_sample": 1.5599827335566E+7,
+    "saved_aligned_start_sample": 1.55998274269447E+7,
+    "common_raw_block_first_sample": 1.5599825E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "83564bff6809a6fe1d4ba5e465433f6f71bd85311a2b2ab9be0eec2ccde4655e"
+  },
+  {
+    "frame": 19,
+    "fixed_start_sample": 1.6517464002364E+7,
+    "saved_aligned_start_sample": 1.65174642726151E+7,
+    "common_raw_block_first_sample": 1.6517462E+7,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "ed62db6521764dd0ee773303e49c9ecbe2e845f5e2f465aab0e61b4cbc73c25c"
+  },
+  {
+    "frame": 20,
+    "fixed_start_sample": 1.7435100669162E+7,
+    "saved_aligned_start_sample": 1.7435100750571E+7,
+    "common_raw_block_first_sample": 1.7435098E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "f620329e231fcf6f0e818250a01f596254da94d9761ee74984012b9b983e57ef"
+  },
+  {
+    "frame": 21,
+    "fixed_start_sample": 1.835273733596E+7,
+    "saved_aligned_start_sample": 1.83527376370822E+7,
+    "common_raw_block_first_sample": 1.8352735E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "43d04f7085af9b67946849494ed0b3c6a3b3aed411fb5909a9d1601170a174f6"
+  },
+  {
+    "frame": 22,
+    "fixed_start_sample": 1.9270374002758E+7,
+    "saved_aligned_start_sample": 1.92703739608457E+7,
+    "common_raw_block_first_sample": 1.9270371E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "f2b92f15e39b5cb096d51661e057a89ca98c2e8e2832fc16d6a59a7e9e25a76e"
+  },
+  {
+    "frame": 23,
+    "fixed_start_sample": 2.0188010669556E+7,
+    "saved_aligned_start_sample": 2.01880108111437E+7,
+    "common_raw_block_first_sample": 2.0188008E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "bc4c01826c3520edbde05823428c68080cdf5196383e2bf69871f8e124e4399f"
+  },
+  {
+    "frame": 24,
+    "fixed_start_sample": 2.1105647336354E+7,
+    "saved_aligned_start_sample": 2.11056476741761E+7,
+    "common_raw_block_first_sample": 2.1105645E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "8cba525dc4e2e2abed873261b0028d5f4a4fee0496aa5cd1dc6843cdab97aa03"
+  },
+  {
+    "frame": 25,
+    "fixed_start_sample": 2.2023284003151998E+7,
+    "saved_aligned_start_sample": 2.20232841624115E+7,
+    "common_raw_block_first_sample": 2.2023282E+7,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "ea569a350f39b50c1006239f5da0c1c0c9ff4dc354bfc78dc425bb5588a03ed2"
+  },
+  {
+    "frame": 26,
+    "fixed_start_sample": 2.294092066995E+7,
+    "saved_aligned_start_sample": 2.29409210309772E+7,
+    "common_raw_block_first_sample": 2.2940918E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "840e65b5f9eccaa97883557f7dd9e34edc2a0aa2cfd0da9a1d128f718291988c"
+  },
+  {
+    "frame": 27,
+    "fixed_start_sample": 2.3858557336748E+7,
+    "saved_aligned_start_sample": 2.38585573623568E+7,
+    "common_raw_block_first_sample": 2.3858555E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "70aee9f272e2fca1c1a1006080827e59bf72bf4bb18f5be7615e19a4d4bee230"
+  },
+  {
+    "frame": 28,
+    "fixed_start_sample": 2.4776194003546E+7,
+    "saved_aligned_start_sample": 2.47761942146282E+7,
+    "common_raw_block_first_sample": 2.4776192E+7,
+    "common_raw_block_sample_count": 917641,
+    "raw_block_sha256": "afe9085d72b59d85f76542fe66be3a863f8b502a4a214cb6e5c4e884efafbd01"
+  },
+  {
+    "frame": 29,
+    "fixed_start_sample": 2.5693830670344E+7,
+    "saved_aligned_start_sample": 2.56938310792919E+7,
+    "common_raw_block_first_sample": 2.5693828E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "c163e2ddcc375c7dc113caeff197d7dd629e81c6cc23e09ed1a138c235b43ee3"
+  },
+  {
+    "frame": 30,
+    "fixed_start_sample": 2.6611467337141998E+7,
+    "saved_aligned_start_sample": 2.66114675672977E+7,
+    "common_raw_block_first_sample": 2.6611465E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "ab52dc80c4a05abfadb6671286ea701c6547528e7f30e6f0a54d242470e1bdc9"
+  },
+  {
+    "frame": 31,
+    "fixed_start_sample": 2.752910400394E+7,
+    "saved_aligned_start_sample": 2.75291044406639E+7,
+    "common_raw_block_first_sample": 2.7529102E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "8192ce2824c3d9ec443a08cb2da254347a2e5e686ec1f793cf1ae7d44f32a058"
+  },
+  {
+    "frame": 32,
+    "fixed_start_sample": 2.8446740670738E+7,
+    "saved_aligned_start_sample": 2.84467407509171E+7,
+    "common_raw_block_first_sample": 2.8446738E+7,
+    "common_raw_block_sample_count": 917642,
+    "raw_block_sha256": "2e92d7070821d09fcf719b8a981095cb46f3d40c75a8901824fc51035c93fdc4"
+  }
+]

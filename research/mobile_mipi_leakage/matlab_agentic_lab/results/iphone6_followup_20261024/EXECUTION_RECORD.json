@@ -1,0 +1,261 @@
+{
+  "created_at": "2026-10-24T08:06:03.916Z",
+  "matlab_release": "R2026b",
+  "installed_products_observed": [
+    "MATLAB",
+    "MATLAB Copilot"
+  ],
+  "prior_commit": "bd1a09d8ccf0e5d6a94ab869cf3392aa01ecdb8d",
+  "entrypoints": [
+    {
+      "path": "auditImageFusionContrastControl.m",
+      "sha256": "4f50fa246141ce7020339da3998bd377988141002bbc02f042ba3fd1cb2a8a72"
+    },
+    {
+      "path": "auditIphone6sFramePeriodAblation.m",
+      "sha256": "89705a8117b8330e87353927581757aeab84d407c0ee2510fc71c53298b4afa1"
+    },
+    {
+      "path": "auditIphone6sPairedTimingAblation.m",
+      "sha256": "42f257a71e188730310101e7c569e9d346e33c1641ccac6b68ddf7c33eaa550b"
+    },
+    {
+      "path": "auditIphoneCalibratedOverlap.m",
+      "sha256": "35c49ca3bd5072456949bc689659131acaca2961d32d73197a627184349f47fe"
+    },
+    {
+      "path": "auditIphoneImageBandFusion.m",
+      "sha256": "79e981860481d4c63feef77fd1dd0e64802adc3324d00fc2edddf14a96d85547"
+    },
+    {
+      "path": "auditIphoneNarrowOverlap.m",
+      "sha256": "52c8231846fbadd0771037f68ff368f3345321090d42328d954fe8ee6cd67465"
+    },
+    {
+      "path": "auditIphonePairLiteralIir.m",
+      "sha256": "f853b61e805cbb329fd62f95ca3ebb11001e2b4b7640bd209a914931f7c0895a"
+    },
+    {
+      "path": "auditIphoneRfCycleCandidates.m",
+      "sha256": "8d01c1c6aacca839c109200abd62f32c0c272f7e55edfbf1c5bd83c866b37017"
+    },
+    {
+      "path": "auditLinkwitzRileyFiniteIir.m",
+      "sha256": "b6cb119d538114627c4681c6a8785981e2ffe1df89f29c7530ef611f83427b29"
+    },
+    {
+      "path": "renderIphone6sPeriodComparison.m",
+      "sha256": "e030f0363f896d29ac62be9c769a86612aa2957ce7ebcd643fd25c64212cf988"
+    }
+  ],
+  "code_hash_scope": "Packaged source after comments and calibrated_integer_center_b label correction. Processing equations unchanged after execution. Original local-frame narrow output retained; corrected global-frame and calibrated results are separate.",
+  "completed_runs": [
+    "iphone6s_paired_timing_P032",
+    "iphone6s_frame_period_P032",
+    "lr_finite_iir",
+    "narrow_overlap_100_160",
+    "narrow_overlap_100_160_global_phase",
+    "narrow_overlap_100_160_calibrated",
+    "image_fusion",
+    "image_fusion/contrast_matched_control",
+    "rf_cycle_candidates",
+    "pair_100_160_literal_iir"
+  ],
+  "raw_modified": false,
+  "raw_hashes_recomputed_in_full": false,
+  "raw_identity_source": "Prior immutable sweep manifest/release and per-run read offsets/size records; sixs blocks hashed during both controls.",
+  "numeric_checks": [
+    "Synthetic fractional delay and phase correction sign",
+    "LR stable SOS, complementary squared responses and crossover .5",
+    "Finite boundary versus periodic padding convergence",
+    "Actual pair IIR vs same-grid FFT relative RMS<1e-10",
+    "Same-frame sixs prior replay RMS recorded"
+  ],
+  "scientific_success_claims": {
+    "full_coherent_screen_stitch": false,
+    "pair_coherent_screen_stitch": false,
+    "measured_byte_clock_identified": false,
+    "fsst_or_wsst_executed": false
+  },
+  "static_analysis": [
+    {
+      "file": "auditIphone6sPairedTimingAblation.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": []
+        }
+      }
+    },
+    {
+      "file": "auditIphone6sFramePeriodAblation.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": []
+        }
+      }
+    },
+    {
+      "file": "auditIphoneNarrowOverlap.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[{\"description\":\"코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.\",\"end_column\":72,\"fixable\":true,\"line\":15,\"severity\":\"info\",\"start_column\":62},{\"description\":\"코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.\",\"end_column\":114,\"fixable\":true,\"line\":78,\"severity\":\"info\",\"start_column\":104}]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": [
+            {
+              "description": "코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.",
+              "end_column": 72,
+              "fixable": true,
+              "line": 15,
+              "severity": "info",
+              "start_column": 62
+            },
+            {
+              "description": "코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.",
+              "end_column": 114,
+              "fixable": true,
+              "line": 78,
+              "severity": "info",
+              "start_column": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "auditIphoneRfCycleCandidates.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[{\"description\":\"변수에 대입된 값이 사용되지 않았을 수 있습니다.\",\"end_column\":54,\"fixable\":false,\"line\":470,\"severity\":\"warning\",\"start_column\":47}]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": [
+            {
+              "description": "변수에 대입된 값이 사용되지 않았을 수 있습니다.",
+              "end_column": 54,
+              "fixable": false,
+              "line": 470,
+              "severity": "warning",
+              "start_column": 47
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "auditLinkwitzRileyFiniteIir.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[{\"description\":\"코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.\",\"end_column\":76,\"fixable\":true,\"line\":52,\"severity\":\"info\",\"start_column\":66}]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": [
+            {
+              "description": "코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.",
+              "end_column": 76,
+              "fixable": true,
+              "line": 52,
+              "severity": "info",
+              "start_column": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "auditIphonePairLiteralIir.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": []
+        }
+      }
+    },
+    {
+      "file": "auditIphoneImageBandFusion.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[{\"description\":\"변수에 대입된 사전할당된 값이 사용되지 않았을 수 있습니다.\",\"end_column\":33,\"fixable\":false,\"line\":101,\"severity\":\"warning\",\"start_column\":24}]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": [
+            {
+              "description": "변수에 대입된 사전할당된 값이 사용되지 않았을 수 있습니다.",
+              "end_column": 33,
+              "fixable": false,
+              "line": 101,
+              "severity": "warning",
+              "start_column": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "auditImageFusionContrastControl.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[{\"description\":\"코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.\",\"end_column\":114,\"fixable\":true,\"line\":33,\"severity\":\"info\",\"start_column\":104}]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": [
+            {
+              "description": "코드 분석기 메시지가 여기에서 차단되었는데, 차단된 이 메시지가 더 이상 생성되지 않습니다.",
+              "end_column": 114,
+              "fixable": true,
+              "line": 33,
+              "severity": "info",
+              "start_column": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "renderIphone6sPeriodComparison.m",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"code_issues\":[]}"
+          }
+        ],
+        "structuredContent": {
+          "code_issues": []
+        }
+      }
+    }
+  ]
+}

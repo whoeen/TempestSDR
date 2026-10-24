@@ -1,0 +1,108 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\leechanghoon\\Desktop\\mobile\\0625\\311m_55.05487m_20m.rIs",
+  "source_bytes": 1.0692E+9,
+  "source_format": "big-endian int16 interleaved I+jQ",
+  "frames": 32,
+  "frame_indices_one_based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "fs_hz": 5.505487E+7,
+  "rf_center_hz": 3.11E+8,
+  "receiver_bandwidth_hz": 2.0E+7,
+  "line_samples": 488.88454797417506,
+  "frame_samples": 917636.666798,
+  "samples_per_output_column": 0.65184606396556677,
+  "dc_removed_counts": [
+    0,
+    0
+  ],
+  "gain_applied": 1,
+  "phase_correction": "none; all arms are AM averages",
+  "normalization_counts": [
+    40.14971923828125,
+    194.93595886230469
+  ],
+  "normalization_origin": "same prior frame1 cubic active-crop 1/99 percentiles",
+  "metrics": [
+    {
+      "arm": "fixed_prior_nearest",
+      "frames": 32,
+      "mean_amplitude_counts": 115.48280482981623,
+      "odd_even_active_am_correlation": 0.9082537890320419,
+      "odd_even_active_row_difference_correlation": 0.54610990568651829,
+      "fixed_scale_clipped_low_fraction": 1.9990004997501248E-6,
+      "fixed_scale_clipped_high_fraction": 0.0068465767116441777
+    },
+    {
+      "arm": "fixed_prior_cubic",
+      "frames": 32,
+      "mean_amplitude_counts": 99.536379533924972,
+      "odd_even_active_am_correlation": 0.91802028391518176,
+      "odd_even_active_row_difference_correlation": 0.64741284294290813,
+      "fixed_scale_clipped_low_fraction": 2.1989005497251375E-5,
+      "fixed_scale_clipped_high_fraction": 0.0011384307846076963
+    },
+    {
+      "arm": "saved_aligned_nearest",
+      "frames": 32,
+      "mean_amplitude_counts": 115.48280546060055,
+      "odd_even_active_am_correlation": 0.88299538610050088,
+      "odd_even_active_row_difference_correlation": 0.44192265403337633,
+      "fixed_scale_clipped_low_fraction": 2.9985007496251872E-6,
+      "fixed_scale_clipped_high_fraction": 0.0069685157421289353
+    },
+    {
+      "arm": "saved_aligned_cubic",
+      "frames": 32,
+      "mean_amplitude_counts": 99.536083624769716,
+      "odd_even_active_am_correlation": 0.9090191049458386,
+      "odd_even_active_row_difference_correlation": 0.63823753510698189,
+      "fixed_scale_clipped_low_fraction": 2.898550724637681E-5,
+      "fixed_scale_clipped_high_fraction": 0.0013593203398300849
+    }
+  ],
+  "comparisons": {
+    "interpolation_fixed_origin_relative_rms": 0.16673396456229833,
+    "interpolation_saved_origin_relative_rms": 0.16623123456511293,
+    "alignment_nearest_relative_rms": 0.032562889995640686,
+    "alignment_cubic_relative_rms": 0.035491044639074709,
+    "replay_saved_cubic_relative_rms": 5.0586547631675316E-8,
+    "replay_saved_nearest_relative_rms": 5.761310000783409E-6
+  },
+  "timing_origin": "prior frame/line model held fixed; saved per-frame horizontal shifts switched on/off",
+  "no_new_estimation": true,
+  "raw_full_hash_recomputed": false,
+  "caveat": "Same-N conditional ablation. Prior shifts used full mixture/reference. Correlation and row differences may reward clutter; differences are not fidelity improvements."
+}
