@@ -1,0 +1,28 @@
+{
+  "status": "design_only_no_new_fam_execution",
+  "created_date": "2026-10-26",
+  "native_fs_hz": 124082800,
+  "prior_model": "results/iphone6_cfo_timing_20261026/timing/model.json",
+  "prior_cfo_hz": 712.642796298489,
+  "predicted_conjugate_alpha_shift_hz": 1425.285592596978,
+  "subband_example": {
+    "physical_center_hz": 106000000,
+    "decimation": 16,
+    "output_fs_hz": 7755175,
+    "channelizer_length": 128,
+    "hop": 32,
+    "coarse_samples": 1048576,
+    "coarse_seconds": 0.1352098437494963,
+    "coarse_alpha_spacing_hz": 7.39591121673584,
+    "long_targeted_samples": 8388608,
+    "long_seconds": 1.0816787499959704,
+    "long_alpha_spacing_hz": 0.92448890209198
+  },
+  "notes": [
+    "prior row/frame are hypotheses, not decoded HS",
+    "unresampled IQ discovery first",
+    "shared physical RF coordinate before comparing conjugate alpha",
+    "complex SCF retained",
+    "coherence normalization and tone/null controls required"
+  ]
+}
