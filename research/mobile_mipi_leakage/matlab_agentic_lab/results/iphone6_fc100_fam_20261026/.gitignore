@@ -1,0 +1,9 @@
+# Numeric arrays and full figures are sealed in the existing research release.
+*.mat
+*.png
+cache/
+failed_periodicity_v1/
+# Small review figures remain directly available with the authored report.
+!summary.png
+!refined/rf78_block1/fam_maps.png
+!periodicity/rf78/periodicity_folds.png

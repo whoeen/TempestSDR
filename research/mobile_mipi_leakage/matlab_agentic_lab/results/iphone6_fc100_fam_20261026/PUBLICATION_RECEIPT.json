@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-26T13:07:20.343922+00:00",
+  "archive": {
+    "name": "iphone6_fc100_fam_20261026_v1.zip",
+    "bytes": 340153317,
+    "digest": "sha256:3387f3d86436cb97c1e738659884ee0603ce957df232cba71567cca00152738b",
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_fc100_fam_20261026_v1.zip",
+    "remote_verified": true
+  },
+  "manifest_file_count": 90,
+  "cloud_matlab_executed": false,
+  "scope": "Local MATLAB analysis; authored code/records in Git and numeric/image artifacts in existing data release."
+}

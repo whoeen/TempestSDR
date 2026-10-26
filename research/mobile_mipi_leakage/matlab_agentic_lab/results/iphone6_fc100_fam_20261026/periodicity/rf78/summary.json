@@ -1,0 +1,1187 @@
+{
+  "rf_center_hz": 7.8E+7,
+  "training_source": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_fc100_fam_20261026\\refined\\rf78_block1",
+  "training_alpha_grid_hz": 7.39591121673584,
+  "integer_family_search_minimum_hz": 37640.873811642326,
+  "discovery_peaks": [
+    {
+      "alpha_hz": 225604.87575531006,
+      "argmax_f_hz": 1.575269921875E+6,
+      "max_pair_coherence": 0.79631945071782873,
+      "max_abs_scf": 9.4703661598766051E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 112802.43787765503,
+      "argmax_f_hz": 1.21174609375E+6,
+      "max_pair_coherence": 0.69945535993332153,
+      "max_abs_scf": 8.41369016854511E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 451209.75151062012,
+      "argmax_f_hz": 1.4540953125E+6,
+      "max_pair_coherence": 0.58861175353164941,
+      "max_abs_scf": 6.8664933683953034E-5,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 338407.31363296509,
+      "argmax_f_hz": 1.332920703125E+6,
+      "max_pair_coherence": 0.557054167621288,
+      "max_abs_scf": 6.6389303242064249E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 281976.51104927063,
+      "argmax_f_hz": -1.575269921875E+6,
+      "max_pair_coherence": 0.43991781093908161,
+      "max_abs_scf": 4.204523924492752E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 169174.0731716156,
+      "argmax_f_hz": -1.575269921875E+6,
+      "max_pair_coherence": 0.42804782037234196,
+      "max_abs_scf": 3.8605145254750963E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 394778.94892692566,
+      "argmax_f_hz": -1.4540953125E+6,
+      "max_pair_coherence": 0.42251976249447237,
+      "max_abs_scf": 3.8239360053540386E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 451150.58422088623,
+      "argmax_f_hz": 484698.4375,
+      "max_pair_coherence": 0.40123540753392256,
+      "max_abs_scf": 4.1906941480228551E-5,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 56371.635293960571,
+      "argmax_f_hz": -1.4540953125E+6,
+      "max_pair_coherence": 0.39064730887513188,
+      "max_abs_scf": 3.9473759178861059E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 451268.918800354,
+      "argmax_f_hz": 484698.4375,
+      "max_pair_coherence": 0.388753475925205,
+      "max_abs_scf": 4.0904605914660215E-5,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 56430.802583694458,
+      "argmax_f_hz": -1.69644453125E+6,
+      "max_pair_coherence": 0.36503209105740436,
+      "max_abs_scf": 3.9471372720533496E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 282035.67833900452,
+      "argmax_f_hz": 1.575269921875E+6,
+      "max_pair_coherence": 0.32955285624273162,
+      "max_abs_scf": 3.8089504700773037E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 169233.24046134949,
+      "argmax_f_hz": 1.817619140625E+6,
+      "max_pair_coherence": 0.32131687760410255,
+      "max_abs_scf": 3.634894432578441E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 59.167289733886719,
+      "argmax_f_hz": -2.66584140625E+6,
+      "max_pair_coherence": 0.31105627640409128,
+      "max_abs_scf": 1.3596900935193704E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 225545.70846557617,
+      "argmax_f_hz": -2.544666796875E+6,
+      "max_pair_coherence": 0.30401111578428863,
+      "max_abs_scf": 2.7739965131519087E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 225664.04304504395,
+      "argmax_f_hz": -2.544666796875E+6,
+      "max_pair_coherence": 0.30090150698161922,
+      "max_abs_scf": 2.7002191242869861E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 281917.34375953674,
+      "argmax_f_hz": -848222.265625,
+      "max_pair_coherence": 0.29913359373108384,
+      "max_abs_scf": 1.8239749210991287E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 451091.41693115234,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.2986662370427931,
+      "max_abs_scf": 3.0150560801455595E-5,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 394838.11621665955,
+      "argmax_f_hz": 1.4540953125E+6,
+      "max_pair_coherence": 0.29273689924688739,
+      "max_abs_scf": 3.4149436624446804E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 338348.1463432312,
+      "argmax_f_hz": 605873.046875,
+      "max_pair_coherence": 0.28456649707651466,
+      "max_abs_scf": 3.0689591501032152E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 169114.90588188171,
+      "argmax_f_hz": -848222.265625,
+      "max_pair_coherence": 0.28414492372920935,
+      "max_abs_scf": 1.7462412026883054E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 338466.480922699,
+      "argmax_f_hz": 605873.046875,
+      "max_pair_coherence": 0.27564273797991584,
+      "max_abs_scf": 2.9966582957592942E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 394719.78163719177,
+      "argmax_f_hz": -969396.875,
+      "max_pair_coherence": 0.2753468771769978,
+      "max_abs_scf": 1.6474572573818835E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 451328.08609008789,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.27366296109252169,
+      "max_abs_scf": 2.7243842696157728E-5,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 56312.468004226685,
+      "argmax_f_hz": -727047.65625,
+      "max_pair_coherence": 0.26068767435460088,
+      "max_abs_scf": 1.6249258235089507E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 225486.54117584229,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.22341908552293746,
+      "max_abs_scf": 2.0094063320266014E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 118.33457946777344,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.21303212794135418,
+      "max_abs_scf": 1.1302949802607708E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 225723.21033477783,
+      "argmax_f_hz": -1.332920703125E+6,
+      "max_pair_coherence": 0.21121007321580662,
+      "max_abs_scf": 1.8720124367549988E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 338288.97905349731,
+      "argmax_f_hz": -848222.265625,
+      "max_pair_coherence": 0.20748712052411175,
+      "max_abs_scf": 2.0933192702461441E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 56489.969873428345,
+      "argmax_f_hz": -969396.875,
+      "max_pair_coherence": 0.20456781749742889,
+      "max_abs_scf": 1.2709201031639035E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 338525.64821243286,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.193250023444957,
+      "max_abs_scf": 1.9715103423852673E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 169292.40775108337,
+      "argmax_f_hz": -848222.265625,
+      "max_pair_coherence": 0.17937853709229215,
+      "max_abs_scf": 1.0740357716526018E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 282154.01291847229,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.173839918864864,
+      "max_abs_scf": 9.9134854025472445E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 169351.57504081726,
+      "argmax_f_hz": -848222.265625,
+      "max_pair_coherence": 0.16492902170910292,
+      "max_abs_scf": 9.8751875207960284E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 394956.45079612732,
+      "argmax_f_hz": -969396.875,
+      "max_pair_coherence": 0.16091018574862673,
+      "max_abs_scf": 9.5526787203329533E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 88.750934600830078,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.15648065301441136,
+      "max_abs_scf": 6.2704004585789342E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 112743.27058792114,
+      "argmax_f_hz": -2.4234921875E+6,
+      "max_pair_coherence": 0.15288681464868373,
+      "max_abs_scf": 1.322764753163974E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 112861.60516738892,
+      "argmax_f_hz": -2.4234921875E+6,
+      "max_pair_coherence": 0.15140251173246796,
+      "max_abs_scf": 1.2591670491449591E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 56549.137163162231,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.15042952003349402,
+      "max_abs_scf": 9.0330262285190936E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 112684.10329818726,
+      "argmax_f_hz": -2.544666796875E+6,
+      "max_pair_coherence": 0.14842250657691328,
+      "max_abs_scf": 1.0322959553935658E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 112920.7724571228,
+      "argmax_f_hz": -2.544666796875E+6,
+      "max_pair_coherence": 0.14361617457610723,
+      "max_abs_scf": 9.69415380507633E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 282094.8456287384,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.14197191808797677,
+      "max_abs_scf": 1.1228023255195741E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 56253.3007144928,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.14153531076486631,
+      "max_abs_scf": 8.4489838540629227E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 281858.17646980286,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.1287951969960191,
+      "max_abs_scf": 8.1536167439453409E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 394897.28350639343,
+      "argmax_f_hz": -969396.875,
+      "max_pair_coherence": 0.12737361324836163,
+      "max_abs_scf": 1.1123809638670489E-5,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 169055.73859214783,
+      "argmax_f_hz": -1.332920703125E+6,
+      "max_pair_coherence": 0.12284581174448422,
+      "max_abs_scf": 8.1082704315592255E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 394660.61434745789,
+      "argmax_f_hz": -969396.875,
+      "max_pair_coherence": 0.11514332900724689,
+      "max_abs_scf": 7.2200146109343711E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 2218.773365020752,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.093460589164309715,
+      "max_abs_scf": 5.3495119717239393E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 2277.9406547546387,
+      "argmax_f_hz": -2.66584140625E+6,
+      "max_pair_coherence": 0.089512849648304679,
+      "max_abs_scf": 5.5103176741228875E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 2337.1079444885254,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.078197629373098071,
+      "max_abs_scf": 3.9416862634630464E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 281799.00918006897,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.077498307749078232,
+      "max_abs_scf": 5.7077319693964638E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 450973.08235168457,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.075390788906410489,
+      "max_abs_scf": 7.3220598558512972E-6,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 56194.133424758911,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.074951221443715382,
+      "max_abs_scf": 5.363616282721142E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 451512.98387050629,
+      "argmax_f_hz": 0,
+      "max_pair_coherence": 0.073946861473444175,
+      "max_abs_scf": 7.97569242127762E-6,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 56608.304452896118,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.073095363013152309,
+      "max_abs_scf": 5.13356897490141E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 394601.447057724,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.0720470877887589,
+      "max_abs_scf": 5.0480889417952644E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 451690.48573970795,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.071590467801604232,
+      "max_abs_scf": 7.1282106005489469E-6,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 168996.57130241394,
+      "argmax_f_hz": -1.332920703125E+6,
+      "max_pair_coherence": 0.0707046499911182,
+      "max_abs_scf": 5.1178286457555407E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 169410.74233055115,
+      "argmax_f_hz": -1.332920703125E+6,
+      "max_pair_coherence": 0.069606676414138258,
+      "max_abs_scf": 5.0098839021397337E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 451572.15116024017,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.067623832011585158,
+      "max_abs_scf": 7.0787181368915024E-6,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 450729.01728153229,
+      "argmax_f_hz": -1.21174609375E+6,
+      "max_pair_coherence": 0.067038316448934848,
+      "max_abs_scf": 6.6186272027971341E-6,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 282213.18020820618,
+      "argmax_f_hz": -1.090571484375E+6,
+      "max_pair_coherence": 0.065613367659460117,
+      "max_abs_scf": 4.8863016284482266E-6,
+      "contributing_pairs": 47
+    },
+    {
+      "alpha_hz": 450913.91506195068,
+      "argmax_f_hz": 0,
+      "max_pair_coherence": 0.064298424541689922,
+      "max_abs_scf": 6.5483465359894391E-6,
+      "contributing_pairs": 45
+    },
+    {
+      "alpha_hz": 2159.6060752868652,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.061825114272162071,
+      "max_abs_scf": 3.9178967171678269E-6,
+      "contributing_pairs": 49
+    }
+  ],
+  "integer_harmonic_families": [
+    {
+      "fundamental_hz": 112802.43787765504,
+      "support_harmonics": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "observed_alpha_hz": [
+        112802.43787765503,
+        225604.87575531006,
+        338407.31363296509,
+        451209.75151062012
+      ],
+      "residual_hz": [
+        -1.4551915228366852E-11,
+        -2.9103830456733704E-11,
+        -5.8207660913467407E-11,
+        -5.8207660913467407E-11
+      ],
+      "coherence": [
+        0.69945535993332153,
+        0.79631945071782873,
+        0.557054167621288,
+        0.58861175353164941
+      ],
+      "score": 1.7801356101811885,
+      "weighted_rms_hz": 4.0124387027218092E-11,
+      "divided_harmonic_gcd": 1,
+      "tolerance_intersection_hz": [
+        112799.66441094875,
+        112805.21134436131
+      ]
+    },
+    {
+      "fundamental_hz": 56396.998597333579,
+      "support_harmonics": [
+        2,
+        5,
+        7
+      ],
+      "observed_alpha_hz": [
+        112802.43787765503,
+        281976.51104927063,
+        394778.94892692566
+      ],
+      "residual_hz": [
+        8.4406829878716962,
+        -8.4819373972713947,
+        -0.041254409414250404
+      ],
+      "coherence": [
+        0.69945535993332153,
+        0.43991781093908161,
+        0.42251976249447237
+      ],
+      "score": 0.42690053543117834,
+      "weighted_rms_hz": 7.5256272592654456,
+      "divided_harmonic_gcd": 1,
+      "tolerance_intersection_hz": [
+        56395.672005414963,
+        56397.520983219147
+      ]
+    },
+    {
+      "fundamental_hz": 56371.635293960564,
+      "support_harmonics": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "observed_alpha_hz": [
+        56371.635293960571,
+        112743.27058792114,
+        169114.90588188171,
+        225486.54117584229,
+        281858.17646980286,
+        394601.447057724,
+        450973.08235168457
+      ],
+      "residual_hz": [
+        7.2759576141834259E-12,
+        1.4551915228366852E-11,
+        2.9103830456733704E-11,
+        2.9103830456733704E-11,
+        5.8207660913467407E-11,
+        5.8207660913467407E-11,
+        5.8207660913467407E-11
+      ],
+      "coherence": [
+        0.39064730887513188,
+        0.15288681464868373,
+        0.28414492372920935,
+        0.22341908552293746,
+        0.1287951969960191,
+        0.0720470877887589,
+        0.075390788906410489
+      ],
+      "score": 0.33409688016065242,
+      "weighted_rms_hz": 2.5470528152397476E-11,
+      "divided_harmonic_gcd": 1,
+      "tolerance_intersection_hz": [
+        56370.248560607433,
+        56373.022027313709
+      ]
+    },
+    {
+      "fundamental_hz": 56405.030273977063,
+      "support_harmonics": [
+        2,
+        5,
+        7
+      ],
+      "observed_alpha_hz": [
+        112802.43787765503,
+        282035.67833900452,
+        394838.11621665955
+      ],
+      "residual_hz": [
+        -7.6226702990970807,
+        10.526969119207934,
+        2.9042988201254047
+      ],
+      "coherence": [
+        0.69945535993332153,
+        0.32955285624273162,
+        0.29273689924688739
+      ],
+      "score": 0.33350813464454593,
+      "weighted_rms_hz": 7.76229391405696,
+      "divided_harmonic_gcd": 1,
+      "tolerance_intersection_hz": [
+        56404.916894435883,
+        56406.765872240067
+      ]
+    },
+    {
+      "fundamental_hz": 56430.802583694465,
+      "support_harmonics": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "observed_alpha_hz": [
+        56430.802583694458,
+        112861.60516738892,
+        169292.40775108337,
+        225723.21033477783,
+        282154.01291847229
+      ],
+      "residual_hz": [
+        -7.2759576141834259E-12,
+        -1.4551915228366852E-11,
+        -2.9103830456733704E-11,
+        -2.9103830456733704E-11,
+        -5.8207660913467407E-11
+      ],
+      "coherence": [
+        0.36503209105740436,
+        0.15140251173246796,
+        0.17937853709229215,
+        0.21121007321580662,
+        0.173839918864864
+      ],
+      "score": 0.26317782004785206,
+      "weighted_rms_hz": 2.6104353683492175E-11,
+      "divided_harmonic_gcd": 1,
+      "tolerance_intersection_hz": [
+        56428.583810329437,
+        56433.021357059479
+      ]
+    },
+    {
+      "fundamental_hz": 56388.762557292306,
+      "support_harmonics": [
+        3,
+        4,
+        7
+      ],
+      "observed_alpha_hz": [
+        169174.0731716156,
+        225545.70846557617,
+        394719.78163719177
+      ],
+      "residual_hz": [
+        7.7854997386748437,
+        -9.3417635930527467,
+        -1.556263854377903
+      ],
+      "coherence": [
+        0.42804782037234196,
+        0.30401111578428863,
+        0.2753468771769978
+      ],
+      "score": 0.17543495850447258,
+      "weighted_rms_hz": 7.4209393558548671,
+      "divided_harmonic_gcd": 1,
+      "tolerance_intersection_hz": [
+        56387.6597682635,
+        56389.200583100319
+      ]
+    }
+  ],
+  "selected_family_is_unique_physical_fundamental": false,
+  "refinement": {
+    "enabled": true,
+    "seed_frequency_hz": 112802.43787765504,
+    "search_limits_hz": [
+      112798.73992204668,
+      112806.13583326341
+    ],
+    "used_frequency_hz": 112802.5501974424,
+    "optimum_frequency_hz": 112802.5501974424,
+    "boundary_optimum": false,
+    "normalized_cyclic_power_magnitude": 0.60779643193008814,
+    "seed_magnitude": 0.60770532575073366,
+    "frequency_grid_hz": [
+      112798.73992204668,
+      112798.9710442722,
+      112799.20216649772,
+      112799.43328872324,
+      112799.66441094877,
+      112799.89553317429,
+      112800.12665539981,
+      112800.35777762534,
+      112800.58889985086,
+      112800.82002207638,
+      112801.05114430191,
+      112801.28226652743,
+      112801.51338875295,
+      112801.74451097847,
+      112801.975633204,
+      112802.20675542952,
+      112802.43787765504,
+      112802.66899988057,
+      112802.90012210609,
+      112803.13124433161,
+      112803.36236655714,
+      112803.59348878266,
+      112803.82461100818,
+      112804.0557332337,
+      112804.28685545923,
+      112804.51797768475,
+      112804.74909991027,
+      112804.9802221358,
+      112805.21134436132,
+      112805.44246658684,
+      112805.67358881237,
+      112805.90471103789,
+      112806.13583326341
+    ],
+    "objective_grid": [
+      0.50982441556338065,
+      0.52065691567659322,
+      0.53097464319725463,
+      0.54074784548009969,
+      0.54994816750957232,
+      0.55854876699232714,
+      0.56652442376600365,
+      0.57385164297211333,
+      0.58050875149258474,
+      0.58647598717708016,
+      0.59173558040839758,
+      0.59627182760751085,
+      0.600071156314919,
+      0.60312218151656849,
+      0.60541575293834315,
+      0.60694499307382177,
+      0.60770532575073366,
+      0.6076944950969243,
+      0.60691257481011029,
+      0.60536196768410311,
+      0.60304739539603358,
+      0.59997587860343493,
+      0.59615670745337912,
+      0.5916014026518861,
+      0.58632366728400431,
+      0.5803393296344973,
+      0.5736662772839296,
+      0.5663243828187412,
+      0.55833542152255744,
+      0.54972298145174,
+      0.54051236635186983,
+      0.53073049189185539,
+      0.52040577572020108
+    ],
+    "frequency_label": "Training power-optimized fold frequency; not a precision clock estimate.",
+    "objective": "Magnitude of Hann-weighted DTFT of mean-subtracted |IQ|^2; training block only.",
+    "assumptions": "A detectable cyclic-power component shares the FAM harmonic-family frequency; sub-bin optimization supplies no confidence interval."
+  },
+  "odd_half_order_groups": [
+    {
+      "offset_hz": -29.58364486698305,
+      "offset_tolerance_hz": 11.09386682510376,
+      "half_orders": [
+        2.5,
+        1.5,
+        3.5,
+        0.5
+      ],
+      "observed_alpha_hz": [
+        281976.51104927063,
+        169174.0731716156,
+        394778.94892692566,
+        56371.635293960571
+      ],
+      "residual_hz": [
+        -29.583644867001567,
+        -29.583644866972463,
+        -29.583644867001567,
+        -29.583644866950635
+      ],
+      "coherence": [
+        0.43991781093908161,
+        0.42804782037234196,
+        0.42251976249447237,
+        0.39064730887513188
+      ],
+      "score": 0.70788088653671433
+    },
+    {
+      "offset_hz": 29.583644866907882,
+      "offset_tolerance_hz": 11.09386682510376,
+      "half_orders": [
+        0.5,
+        2.5,
+        1.5,
+        3.5
+      ],
+      "observed_alpha_hz": [
+        56430.802583694458,
+        282035.67833900452,
+        169233.24046134949,
+        394838.11621665955
+      ],
+      "residual_hz": [
+        29.583644866936083,
+        29.583644866885152,
+        29.583644866914256,
+        29.583644866885152
+      ],
+      "coherence": [
+        0.36503209105740436,
+        0.32955285624273162,
+        0.32131687760410255,
+        0.29273689924688739
+      ],
+      "score": 0.43079294057341577
+    },
+    {
+      "offset_hz": -88.750934600869783,
+      "offset_tolerance_hz": 11.09386682510376,
+      "half_orders": [
+        2.5,
+        1.5,
+        3.5,
+        0.5
+      ],
+      "observed_alpha_hz": [
+        281917.34375953674,
+        169114.90588188171,
+        394719.78163719177,
+        56312.468004226685
+      ],
+      "residual_hz": [
+        -88.750934600888286,
+        -88.750934600859182,
+        -88.750934600888286,
+        -88.750934600837354
+      ],
+      "coherence": [
+        0.29913359373108384,
+        0.28414492372920935,
+        0.2753468771769978,
+        0.26068767435460088
+      ],
+      "score": 0.31399321091108645
+    },
+    {
+      "offset_hz": 88.750934600799653,
+      "offset_tolerance_hz": 11.09386682510376,
+      "half_orders": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "observed_alpha_hz": [
+        56489.969873428345,
+        169292.40775108337,
+        282094.8456287384,
+        394897.28350639343
+      ],
+      "residual_hz": [
+        88.7509346008228,
+        88.750934600800974,
+        88.75093460077187,
+        88.75093460077187
+      ],
+      "coherence": [
+        0.20456781749742889,
+        0.17937853709229215,
+        0.14197191808797677,
+        0.12737361324836163
+      ],
+      "score": 0.1104047144025546
+    },
+    {
+      "offset_hz": 147.91822433467695,
+      "offset_tolerance_hz": 11.09386682510376,
+      "half_orders": [
+        2.5,
+        1.5,
+        3.5,
+        0.5
+      ],
+      "observed_alpha_hz": [
+        282154.01291847229,
+        169351.57504081726,
+        394956.45079612732,
+        56549.137163162231
+      ],
+      "residual_hz": [
+        147.91822433465859,
+        147.91822433468769,
+        147.91822433465859,
+        147.91822433470952
+      ],
+      "coherence": [
+        0.173839918864864,
+        0.16492902170910292,
+        0.16091018574862673,
+        0.15042952003349402
+      ],
+      "score": 0.10594302796802918
+    }
+  ],
+  "low_frequency_candidates": [
+    {
+      "alpha_hz": 59.167289733886719,
+      "argmax_f_hz": -2.66584140625E+6,
+      "max_pair_coherence": 0.31105627640409128,
+      "max_abs_scf": 1.3596900935193704E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 118.33457946777344,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.21303212794135418,
+      "max_abs_scf": 1.1302949802607708E-5,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 88.750934600830078,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.15648065301441136,
+      "max_abs_scf": 6.2704004585789342E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 2218.773365020752,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.093460589164309715,
+      "max_abs_scf": 5.3495119717239393E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 2277.9406547546387,
+      "argmax_f_hz": -2.66584140625E+6,
+      "max_pair_coherence": 0.089512849648304679,
+      "max_abs_scf": 5.5103176741228875E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 2337.1079444885254,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.078197629373098071,
+      "max_abs_scf": 3.9416862634630464E-6,
+      "contributing_pairs": 49
+    },
+    {
+      "alpha_hz": 2159.6060752868652,
+      "argmax_f_hz": -2.908190625E+6,
+      "max_pair_coherence": 0.061825114272162071,
+      "max_abs_scf": 3.9178967171678269E-6,
+      "contributing_pairs": 49
+    }
+  ],
+  "blocks": [
+    {
+      "block": 1,
+      "source_folder": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_fc100_fam_20261026\\refined\\rf78_block1",
+      "first_sample_zero_based": 2.481656E+7,
+      "native_fs_hz": 1.240828E+8,
+      "sample_rate_hz": 7.755175E+6,
+      "first_time_seconds": 0.2,
+      "is_frequency_fit_block": true,
+      "frequency_hz_frozen": 112802.5501974424,
+      "period_seconds_frozen": 8.86504780476739E-6,
+      "family_frequency_fitted_on_this_block": true,
+      "frozen_family_matches": [
+        {
+          "harmonic": 1,
+          "predicted_alpha_hz": 112802.43787765504,
+          "observed_alpha_hz": 112802.43787765503,
+          "residual_hz": -1.4551915228366852E-11,
+          "pair_coherence": 0.69945535993332153,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 2,
+          "predicted_alpha_hz": 225604.87575531009,
+          "observed_alpha_hz": 225604.87575531006,
+          "residual_hz": -2.9103830456733704E-11,
+          "pair_coherence": 0.79631945071782873,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 3,
+          "predicted_alpha_hz": 338407.31363296515,
+          "observed_alpha_hz": 338407.31363296509,
+          "residual_hz": -5.8207660913467407E-11,
+          "pair_coherence": 0.557054167621288,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 4,
+          "predicted_alpha_hz": 451209.75151062018,
+          "observed_alpha_hz": 451209.75151062012,
+          "residual_hz": -5.8207660913467407E-11,
+          "pair_coherence": 0.58861175353164941,
+          "within_training_tolerance": true
+        }
+      ],
+      "family_match_scope": "Nearest later-block CDP peak to a frozen family frequency; descriptive proximity, not frozen k/l/q confirmation.",
+      "fold_metrics": [
+        {
+          "fold_frequency_hz": 112802.5501974424,
+          "fold_period_seconds": 8.86504780476739E-6,
+          "period_multiplier": 1,
+          "unaligned_power_correlation_to_training": 1.0000000000000002,
+          "relative_fold_modulation_rms": 2.78933461794921,
+          "half_cycle_power_correlation": 0.52090728387463248,
+          "half_cycle_difference_relative_to_mean": 3.6192620456858475,
+          "display_only_shift_bins": 0,
+          "display_only_shift_cycles": 0,
+          "display_only_shift_seconds": 0,
+          "display_only_aligned_correlation": 1.0000000000000002,
+          "display_alignment_used_for_validation": false
+        },
+        {
+          "fold_frequency_hz": 56401.2750987212,
+          "fold_period_seconds": 1.773009560953478E-5,
+          "period_multiplier": 2,
+          "unaligned_power_correlation_to_training": 1,
+          "relative_fold_modulation_rms": 2.6468338168366023,
+          "half_cycle_power_correlation": 0.96227909539313594,
+          "half_cycle_difference_relative_to_mean": 0.73510127329090491,
+          "display_only_shift_bins": 0,
+          "display_only_shift_cycles": 0,
+          "display_only_shift_seconds": 0,
+          "display_only_aligned_correlation": 1,
+          "display_alignment_used_for_validation": false
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "source_folder": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_fc100_fam_20261026\\refined\\rf78_block2",
+      "first_sample_zero_based": 1.3649108E+8,
+      "native_fs_hz": 1.240828E+8,
+      "sample_rate_hz": 7.755175E+6,
+      "first_time_seconds": 1.1,
+      "is_frequency_fit_block": false,
+      "frequency_hz_frozen": 112802.5501974424,
+      "period_seconds_frozen": 8.86504780476739E-6,
+      "family_frequency_fitted_on_this_block": false,
+      "frozen_family_matches": [
+        {
+          "harmonic": 1,
+          "predicted_alpha_hz": 112802.43787765504,
+          "observed_alpha_hz": 112802.43787765503,
+          "residual_hz": -1.4551915228366852E-11,
+          "pair_coherence": 0.70013278714598626,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 2,
+          "predicted_alpha_hz": 225604.87575531009,
+          "observed_alpha_hz": 225604.87575531006,
+          "residual_hz": -2.9103830456733704E-11,
+          "pair_coherence": 0.79630078794982206,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 3,
+          "predicted_alpha_hz": 338407.31363296515,
+          "observed_alpha_hz": 338407.31363296509,
+          "residual_hz": -5.8207660913467407E-11,
+          "pair_coherence": 0.55967096004440275,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 4,
+          "predicted_alpha_hz": 451209.75151062018,
+          "observed_alpha_hz": 451209.75151062012,
+          "residual_hz": -5.8207660913467407E-11,
+          "pair_coherence": 0.593509064253619,
+          "within_training_tolerance": true
+        }
+      ],
+      "family_match_scope": "Nearest later-block CDP peak to a frozen family frequency; descriptive proximity, not frozen k/l/q confirmation.",
+      "fold_metrics": [
+        {
+          "fold_frequency_hz": 112802.5501974424,
+          "fold_period_seconds": 8.86504780476739E-6,
+          "period_multiplier": 1,
+          "unaligned_power_correlation_to_training": 0.99742821905110657,
+          "relative_fold_modulation_rms": 2.7343175258764689,
+          "half_cycle_power_correlation": 0.63451785461184074,
+          "half_cycle_difference_relative_to_mean": 3.4781979306186876,
+          "display_only_shift_bins": 0,
+          "display_only_shift_cycles": 0,
+          "display_only_shift_seconds": 0,
+          "display_only_aligned_correlation": 0.99742821905110657,
+          "display_alignment_used_for_validation": false
+        },
+        {
+          "fold_frequency_hz": 56401.2750987212,
+          "fold_period_seconds": 1.773009560953478E-5,
+          "period_multiplier": 2,
+          "unaligned_power_correlation_to_training": 0.96755029449357166,
+          "relative_fold_modulation_rms": 2.5608762184082439,
+          "half_cycle_power_correlation": 0.9724604144281348,
+          "half_cycle_difference_relative_to_mean": 0.70220040185101,
+          "display_only_shift_bins": 64,
+          "display_only_shift_cycles": 0.5,
+          "display_only_shift_seconds": 8.86504780476739E-6,
+          "display_only_aligned_correlation": 0.9929901514307895,
+          "display_alignment_used_for_validation": false
+        }
+      ]
+    },
+    {
+      "block": 3,
+      "source_folder": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_fc100_fam_20261026\\refined\\rf78_block3",
+      "first_sample_zero_based": 2.2334904E+8,
+      "native_fs_hz": 1.240828E+8,
+      "sample_rate_hz": 7.755175E+6,
+      "first_time_seconds": 1.8,
+      "is_frequency_fit_block": false,
+      "frequency_hz_frozen": 112802.5501974424,
+      "period_seconds_frozen": 8.86504780476739E-6,
+      "family_frequency_fitted_on_this_block": false,
+      "frozen_family_matches": [
+        {
+          "harmonic": 1,
+          "predicted_alpha_hz": 112802.43787765504,
+          "observed_alpha_hz": 112802.43787765503,
+          "residual_hz": -1.4551915228366852E-11,
+          "pair_coherence": 0.69724185761171731,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 2,
+          "predicted_alpha_hz": 225604.87575531009,
+          "observed_alpha_hz": 225604.87575531006,
+          "residual_hz": -2.9103830456733704E-11,
+          "pair_coherence": 0.79685408634297217,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 3,
+          "predicted_alpha_hz": 338407.31363296515,
+          "observed_alpha_hz": 338407.31363296509,
+          "residual_hz": -5.8207660913467407E-11,
+          "pair_coherence": 0.55829161968681562,
+          "within_training_tolerance": true
+        },
+        {
+          "harmonic": 4,
+          "predicted_alpha_hz": 451209.75151062018,
+          "observed_alpha_hz": 451209.75151062012,
+          "residual_hz": -5.8207660913467407E-11,
+          "pair_coherence": 0.59296361406770415,
+          "within_training_tolerance": true
+        }
+      ],
+      "family_match_scope": "Nearest later-block CDP peak to a frozen family frequency; descriptive proximity, not frozen k/l/q confirmation.",
+      "fold_metrics": [
+        {
+          "fold_frequency_hz": 112802.5501974424,
+          "fold_period_seconds": 8.86504780476739E-6,
+          "period_multiplier": 1,
+          "unaligned_power_correlation_to_training": 0.99871401595188813,
+          "relative_fold_modulation_rms": 2.8319136856474483,
+          "half_cycle_power_correlation": 0.59735591324831783,
+          "half_cycle_difference_relative_to_mean": 3.6462193198696831,
+          "display_only_shift_bins": 0,
+          "display_only_shift_cycles": 0,
+          "display_only_shift_seconds": 0,
+          "display_only_aligned_correlation": 0.99871401595188813,
+          "display_alignment_used_for_validation": false
+        },
+        {
+          "fold_frequency_hz": 56401.2750987212,
+          "fold_period_seconds": 1.773009560953478E-5,
+          "period_multiplier": 2,
+          "unaligned_power_correlation_to_training": 0.99920133266907574,
+          "relative_fold_modulation_rms": 2.6560940107459516,
+          "half_cycle_power_correlation": 0.96265866550216972,
+          "half_cycle_difference_relative_to_mean": 0.72557119412792215,
+          "display_only_shift_bins": 0,
+          "display_only_shift_cycles": 0,
+          "display_only_shift_seconds": 0,
+          "display_only_aligned_correlation": 0.99920133266907574,
+          "display_alignment_used_for_validation": false
+        }
+      ]
+    }
+  ],
+  "inference_scope": "Radiation periodicity and sideband hypotheses; no bit/byte/lane/packet decoding.",
+  "two_cycle_scope": "F/2 folding is a derived comparison; a split odd-half-order family need not have a peak at F/2.",
+  "uncertainty_scope": "FFT spacing, tolerance intervals and DTFT optimization are not statistical confidence intervals."
+}

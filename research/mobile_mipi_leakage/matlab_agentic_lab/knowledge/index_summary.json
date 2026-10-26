@@ -1,6 +1,6 @@
 {
-  "indexed_utc": "2026-10-26T07:40:52.831961+00:00",
-  "entry_count": 873,
+  "indexed_utc": "2026-10-26T13:06:28.449510+00:00",
+  "entry_count": 883,
   "by_area": {
     "20261022_041658_091": 1,
     "20261022_041904_607": 6,
@@ -9,6 +9,7 @@
     "bottom_middle_238": 11,
     "bottom_middle_238_P032_v2": 36,
     "fam_20261026": 10,
+    "fam_execution_20261026": 10,
     "galaxy_s4_lte": 38,
     "iphone6s": 38,
     "iphone6s_P032": 36,

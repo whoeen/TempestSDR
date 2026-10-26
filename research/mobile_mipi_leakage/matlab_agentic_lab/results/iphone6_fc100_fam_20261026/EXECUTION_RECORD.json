@@ -1,0 +1,119 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-26T13:05:28.635Z",
+  "parent_git_commit": "19dbc1fe154e4d5bbda535b16d7a3f82f2f7970b",
+  "branch": "codex/mipi-coherent-hsv-analysis-2026-10-21",
+  "source_snapshot": [
+    {
+      "path": "preflightIphone100Fam26.m",
+      "sha256": "3fd75806eeeec445ff3438a0a7426dbf5c678a569e0d4d370a8114b7d370c604",
+      "bytes": 2558
+    },
+    {
+      "path": "runIphone100Fam26.m",
+      "sha256": "1944413b66307be07754a2a0519aef6d26da37bd298195f8264f26c3e74451b0",
+      "bytes": 8171
+    },
+    {
+      "path": "verifyFam26.m",
+      "sha256": "3498d85a3417bf0897a042b01a3cd8f2abf85c85237d5ba852416d89b6de55cd",
+      "bytes": 11050
+    },
+    {
+      "path": "analyzeFamPeriodicity26.m",
+      "sha256": "057246177bb310bdf15c671e3aee3ee8cb5839d5aecc88a0bba5fbdbfdea4415",
+      "bytes": 21135
+    },
+    {
+      "path": "signal_processing/famCycleScout26.m",
+      "sha256": "b10f9c8afb4028986ac804475f59efe988815842c08bea47993e81ec71eba8c7",
+      "bytes": 18495
+    },
+    {
+      "path": "signal_processing/validateFamCandidates26.m",
+      "sha256": "862790663c8124959f671f807a0bda29a81de509784665efca7cff38fca894df",
+      "bytes": 19072
+    }
+  ],
+  "raw_identity": {
+    "path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+    "bytes": 1158300000,
+    "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+    "verified_utc": "2026-10-26T13:01:01.526Z",
+    "raw_modified": false
+  },
+  "matlab": "26.2.0.3386108 (R2026b)",
+  "execution": "Local installed MATLAB fresh -batch, serialized; not cloud MATLAB",
+  "data": {
+    "native_fs_hz": 124082800,
+    "capture_rf_center_hz": 100000000,
+    "bandwidth_hz": 120000000,
+    "representation": "big endian interleaved int16 I,Q; input conjugated as I-jQ per existing RF sign hypothesis",
+    "fixed_dc_counts": {
+      "real": -8.94628429,
+      "imag": -7.4582653,
+      "precision_note": "Rounded numeric values from preflight.json; exact stored DC in preflight.mat."
+    },
+    "refined_ddc_centers_hz": [
+      78000000,
+      106000000
+    ],
+    "selection_note": "78MHz selected from native coarse discovery; 106MHz is a prior comparison band. saved per-run selected_on_discovery_block flag is too broad for 106MHz.",
+    "block_start_seconds": [
+      0.2,
+      1.1,
+      1.8
+    ],
+    "AA_decimation": 16,
+    "refined_fs_hz": 7755175,
+    "clock_time_warp": false,
+    "CFO_fit": false
+  },
+  "steps": [
+    {
+      "step": "preflight",
+      "log": "preflight.log",
+      "exit_code": 0
+    },
+    {
+      "step": "20 synthetic verification checks + native coarse FAM",
+      "log": "coarse.log",
+      "exit_code": 0,
+      "verification_all_passed": true
+    },
+    {
+      "step": "6 refined FAM cases",
+      "log": "refined.log",
+      "exit_code": 0
+    },
+    {
+      "step": "validation first attempt",
+      "log": "validation.log",
+      "exit_code": 1,
+      "reason": "MATLAB untyped empty struct array append rejected; fixed first assignment, no DSP change"
+    },
+    {
+      "step": "frozen-pair validation",
+      "log": "validation_v2.log",
+      "exit_code": 0,
+      "replay_max_error": 2.0014830212433605e-16
+    },
+    {
+      "step": "periodicity first attempt",
+      "log": "periodicity.log",
+      "exit_code": 1,
+      "reason": "plot DisplayName received cell instead of scalar string; fixed figure label"
+    },
+    {
+      "step": "periodicity analysis and figures",
+      "log": "periodicity_v2.log",
+      "exit_code": 0
+    }
+  ],
+  "scope_limits": [
+    "FAM magnitude is finite smoothed channel-pair correlation, not calibrated population pointwise coherence.",
+    "Native conjugate alpha scan is restricted to0..1MHz; refined scan covers retained subband domain.",
+    "No decoded HS/SoT/header/ECC, lane count or bit/byte rate measured.",
+    "No new160MHz analysis, stitching improvement or screen reconstruction claimed."
+  ]
+}
