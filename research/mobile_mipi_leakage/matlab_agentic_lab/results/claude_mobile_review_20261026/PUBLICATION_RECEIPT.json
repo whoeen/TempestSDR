@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-26T13:37:23.867246+00:00",
+  "archive": {
+    "name": "claude_mobile_review_20261026_v1.zip",
+    "bytes": 9554135,
+    "digest": "sha256:664b8aeed3d7a717edb0379875fd683cbce619d6d4b0b92a33eace98abffbf88",
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/claude_mobile_review_20261026_v1.zip",
+    "remote_verified": true
+  },
+  "manifest_file_count": 59,
+  "cloud_matlab_executed": false,
+  "scope": "Local MATLAB analysis; authored code/records in Git and numeric/image artifacts in existing data release."
+}

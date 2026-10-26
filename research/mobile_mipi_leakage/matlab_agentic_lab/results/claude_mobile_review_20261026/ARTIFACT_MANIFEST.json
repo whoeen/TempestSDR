@@ -1,0 +1,304 @@
+{
+  "created_utc": "2026-10-26T13:37:20.074543+00:00",
+  "hash_algorithm": "sha256",
+  "file_count": 59,
+  "total_bytes": 9893980,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 30,
+      "sha256": "a20900e20f2ba2b797ed036bc27b2b4affa61608143ab7bec38eedc4b4b6d290"
+    },
+    {
+      "path": "audit_code/auditClaudeMobileEndian26.m",
+      "bytes": 5615,
+      "sha256": "68540f2f08b8a2cc145eac78201f49636e64acebaa8a6aee831169747aa2830e"
+    },
+    {
+      "path": "audit_code/package_claude_mobile_review26.py",
+      "bytes": 3829,
+      "sha256": "9604441b01e9c4b1abdde7cd83b11ce51c8768f63782333adbe68b0312933b35"
+    },
+    {
+      "path": "audit_code/render_claude_mobile_review26.py",
+      "bytes": 22969,
+      "sha256": "97b2136344d42c2d3550ed9b1f78c7f74e99ac72dca8b3358ca20cc4a4817ec3"
+    },
+    {
+      "path": "endian_audit.json",
+      "bytes": 3621,
+      "sha256": "137e34ee8a927c9d2476059a957b75b0d7984216a37ce03993e3294c467b6171"
+    },
+    {
+      "path": "endian_audit.mat",
+      "bytes": 231246,
+      "sha256": "23db6b3635a1f23ac91c7877374069fc6da0b12ed1e1448d939601ca8887f915"
+    },
+    {
+      "path": "endian_comparison.png",
+      "bytes": 188675,
+      "sha256": "99df1b085580a2a2d7c8ec62dd9dae0ae24dbd735092c9b6f827633f2a564bcc"
+    },
+    {
+      "path": "EXECUTION_RECORD.json",
+      "bytes": 577,
+      "sha256": "e0310c286c7b8cc5c1b1abee78276c26ac043c7c23adc053cfc19f3340fc5fd2"
+    },
+    {
+      "path": "gallery/index.html",
+      "bytes": 36411,
+      "sha256": "95ed20de0f5d34ac1aa7e52dd1519d56e664afaba51a8b5c541372d116f26ab6"
+    },
+    {
+      "path": "matlab_audit.log",
+      "bytes": 470,
+      "sha256": "eb8a5a3504be409d35a22600416058fbc7c8c3afb2fe0d00012500fb3dbe522a"
+    },
+    {
+      "path": "REPORT_KO.md",
+      "bytes": 12358,
+      "sha256": "b30b69b738599ea7b05b8862e6e36e24deb73d87f3635c8802e64186bd36133a"
+    },
+    {
+      "path": "REVIEW_SUMMARY.json",
+      "bytes": 971,
+      "sha256": "8e2678ecccb61fb8d9fc359a28f546fc8cb8b38c42c0f3ee8dc79c6d750f8db4"
+    },
+    {
+      "path": "run_audit.ps1",
+      "bytes": 666,
+      "sha256": "4ff55b2c0e7028d061a6a2f93c79990cf22f322fd3cd73a32de6840ade1aedd0"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/final_screens_v1/galaxy_111p9M_K120_equalised_1080x1920.png",
+      "bytes": 1594500,
+      "sha256": "3a07f156c4f0d0db8d24421d52b2de454d066abf28529681501adc8348deda5b"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/final_screens_v1/lgx2_subaligned_K85_equalised_720x1440.png",
+      "bytes": 706576,
+      "sha256": "6aa2426190e73029a15c3e9c88f66ad08a911a5489e906b247c6f93d6092af7b"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/fusion_weights_iphone6_238M_8band/iphone6_238M_8band_bands.csv",
+      "bytes": 825,
+      "sha256": "b6b4fc5169d0ce8a096a7c74dfaa7e94743dae832e075a3c03f73d88016e3a3a"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/fusion_weights_iphone6_238M_8band/iphone6_238M_8band_fusion_weights.png",
+      "bytes": 3278112,
+      "sha256": "07396a7a96283d78700fe433dbb25ddc4bb4bed7b39eda64c5318b6e6ecd88cd"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/fusion_weights_iphone6_238M_8band/iphone6_238M_8band_schemes.csv",
+      "bytes": 441,
+      "sha256": "1e32bed99b1a12bf9f7dee10c98b142cdce9ff29a47adb9f3e5be432e5b9e5dd"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/harmonic_structure_v1/harmonic_structure_v1.png",
+      "bytes": 373017,
+      "sha256": "9608f7f3168d27ffeac74ac9a4f4d56bba7cc181bfc7428405a6fb33426eb966"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/iphone6s_RES_paper_fourier_full_v1/iphone6s_RES_paper_fourier_full_metrics_v1.csv",
+      "bytes": 598,
+      "sha256": "c6fd01638fd905693a06e3cd07e12e187b5de48b652ead065d1b9ebddfbd16d3"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/ppt_galaxy_111p9M/galaxy_111p9M_frame0_3rows.csv",
+      "bytes": 282566,
+      "sha256": "43e02fccb8cbdcef7b18bd2de5c8cdac7d9ee54b770a19c2f8fc6916a0ca150f"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/ppt_galaxy_111p9M/galaxy_111p9M_ppt.png",
+      "bytes": 271782,
+      "sha256": "fafbc25c5b95a79dfc04819909e62260bf6a9883268532d520933f1b7c93c2b7"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/ppt_galaxy_111p9M/galaxy_111p9M_row0700_3frames.csv",
+      "bytes": 273267,
+      "sha256": "b049984ade90b062cadd5c5f33a65a31f8cf633fe2bb90e6a0f34f698bc06864"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/ppt_galaxy_111p9M/galaxy_111p9M_row0700_dense_377frames.csv",
+      "bytes": 116772,
+      "sha256": "b934357117272b67fd93bd189bd3fd08a8e3332e7e018fd8b24eef9d695cc962"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/res_generic_black_fc100M_P139/black_fc100M_P139_active.png",
+      "bytes": 853809,
+      "sha256": "c374081aca14e2758ffaf04b00f2b4513204a0541a250633d87d2b347006bd56"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/res_generic_black_fc100M_P139/black_fc100M_P139_fullraster.png",
+      "bytes": 1120300,
+      "sha256": "d50de2d8dd1749b9a707cf607e11c7f281671e431d851a19b70caccaa833c8a3"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/res_structure_galaxy_111p9M/galaxy_111p9M_frame_bounds.csv",
+      "bytes": 348,
+      "sha256": "5824f8cd4c7f5d9b21428cf739912a63d7e9a237e4d653f8337d08139ad8d1cc"
+    },
+    {
+      "path": "source_snapshot/analysis_outputs/res_structure_lgx2_344p8M/lgx2_344p8M_frame_bounds.csv",
+      "bytes": 349,
+      "sha256": "5526071cdd02b7d68f0795cc7bad1e859ee24af39092888e284ec3668a1db0de"
+    },
+    {
+      "path": "source_snapshot/analyze_line_harmonic_structure_v1.m",
+      "bytes": 12845,
+      "sha256": "851c302b6f31e24df3dcca9cd349a6f897698de232758332b8c06d98a46fc3fd"
+    },
+    {
+      "path": "source_snapshot/analyze_multiband_fusion_weights_v1.m",
+      "bytes": 10019,
+      "sha256": "13bb2b05d64fdb268e10b350a96d415439b4899baa5557135f7da858baf13bfd"
+    },
+    {
+      "path": "source_snapshot/analyze_res_sampling_structure_v1.m",
+      "bytes": 11385,
+      "sha256": "e91a240781e2f039c5c77fd0a0ad4374e83aefddfcb6038fec426b6b02ab0694"
+    },
+    {
+      "path": "source_snapshot/correct_horizontal_echo_v2.m",
+      "bytes": 7872,
+      "sha256": "59512bae8a20607b7bf56de8d3e051f62d6d70208252b987135cbf810aa39a37"
+    },
+    {
+      "path": "source_snapshot/diagnose_frame_horizontal_offset_v1.m",
+      "bytes": 8232,
+      "sha256": "47d9839417ed8294edbe2131cc2947c5138f8cadf8fe49a416cdbcafb7d09308"
+    },
+    {
+      "path": "source_snapshot/diagnose_frame_rate_lowfreq_v1.m",
+      "bytes": 5887,
+      "sha256": "ca7105f1f104b4ebac1d2aff59f099c1723ac1cc5e01d7eb55c0a8b9ddb5e5c7"
+    },
+    {
+      "path": "source_snapshot/diagnose_row_parity_offset_v1.m",
+      "bytes": 6329,
+      "sha256": "a973c99d52652f034a82ae70280b87b03419829f7b31a1e94566702c4dbead59"
+    },
+    {
+      "path": "source_snapshot/docs/experiments/2026-07-27_iphone6_238M_frame_count_200_to_488_v1.md",
+      "bytes": 3461,
+      "sha256": "97de94e46c322e011e3b94088b081b806658ac7cf8733ba6b6b9240ec714ff68"
+    },
+    {
+      "path": "source_snapshot/docs/experiments/2026-07-29_galaxy_111p9M_band_and_linerate_v1.md",
+      "bytes": 5040,
+      "sha256": "9a9416db959354e92ea22df0f3cf793d7cf5a27597124780af32be2f4ec694f0"
+    },
+    {
+      "path": "source_snapshot/docs/theory/2026-07-27_IPHONE6S_CODE_AND_SUBNYQUIST_EQUIVALENT_SAMPLING.md",
+      "bytes": 9256,
+      "sha256": "527974a23f78a22bd2689557cf1394381a8499e9ade938fcbc82a183c93f5528"
+    },
+    {
+      "path": "source_snapshot/docs/theory/2026-07-27_PAPER_RES_EQUATIONS_AND_CODE_COMPARISON.md",
+      "bytes": 15685,
+      "sha256": "e9e3e83585b2439250595ba11bc464ede2488c9b4a6531ece540829c1c21d26c"
+    },
+    {
+      "path": "source_snapshot/docs/theory/2026-07-27_VERTICAL_LINES_BROADBAND_PULSE_AND_LOG_AM.md",
+      "bytes": 7220,
+      "sha256": "2be392d01330325ce3a4baaa78fd876efdaaaaf5a6a1e7a452bdd04395399fce"
+    },
+    {
+      "path": "source_snapshot/docs/theory/2026-07-28_BANDWIDTH_LINERATE_PRECISION_AND_MULTIBAND.md",
+      "bytes": 10480,
+      "sha256": "21e5f86a1015f8221bfab67f741d5090320717e1376638331d5d807edddd2962"
+    },
+    {
+      "path": "source_snapshot/docs/theory/2026-07-28_COMPLEXITY_AND_QUALITY.md",
+      "bytes": 12035,
+      "sha256": "8404638900f2f92c246065a2219354578fbf07c0cefea9bfb1eae19063c9b92f"
+    },
+    {
+      "path": "source_snapshot/estimate_raster_timing_generic_v1.m",
+      "bytes": 16587,
+      "sha256": "0ab768a5d34a072640b77ec2cfde06d92e736e0b2735619a8f43769eef16f56b"
+    },
+    {
+      "path": "source_snapshot/export_ppt_res_waveform_v1.m",
+      "bytes": 8382,
+      "sha256": "aae72bc53e494d3b569ef826da0936920a89e539409a5fc63ef95de95ce67531"
+    },
+    {
+      "path": "source_snapshot/ORIGINAL_FILE_LIST_METADATA_ONLY.csv",
+      "bytes": 293844,
+      "sha256": "24efa879b406b1fda73ea8805d0495cf968d369f3495fe33339bfdc82188c78b"
+    },
+    {
+      "path": "source_snapshot/README_KO.md",
+      "bytes": 2841,
+      "sha256": "9194f7e078408f5ac7a6878c5350b8f91a42f33d22e9fd70c4a39def2e8c20d1"
+    },
+    {
+      "path": "source_snapshot/reconstruct_explicit_res_generic_v1.m",
+      "bytes": 15248,
+      "sha256": "8b8ff8a26d79df9f81b783cc1c84a6baa3e799c7e8f8e0998078332567442b5e"
+    },
+    {
+      "path": "source_snapshot/render_final_screens_v1.m",
+      "bytes": 4103,
+      "sha256": "8407849f076c0e811839be52d7cc407dd140b9c3722f34fa093f591af1e01fa5"
+    },
+    {
+      "path": "source_snapshot/run_bandscan_black_fc100M_v1.m",
+      "bytes": 574,
+      "sha256": "59cc93103138bbf25e644a962afb3558596acfd65ce45d8b91d65b6d831dd77b"
+    },
+    {
+      "path": "source_snapshot/run_framerate_black_fc100M_v1.m",
+      "bytes": 577,
+      "sha256": "a9b1270839b4a65852879d1db4c6a69f10ba14884f69fc6dcb431746954d1aba"
+    },
+    {
+      "path": "source_snapshot/run_fusion_weights_iphone6_v1.m",
+      "bytes": 968,
+      "sha256": "ebb119c69c182770a15afadeecdeda9973f3f5be8c8e3c1751de88c3b227aba8"
+    },
+    {
+      "path": "source_snapshot/run_fusion_weights_lgx2_v1.m",
+      "bytes": 479,
+      "sha256": "ef2bab9448401eaf07a893aa7143c042b428c0857c6a7bf36a0b3ea9c60014e4"
+    },
+    {
+      "path": "source_snapshot/run_recon_black_fc100M_v1.m",
+      "bytes": 1308,
+      "sha256": "de9c82ad78bd40aeb99493f96195ad832a280f1beb72c265a848d7f35f84d100"
+    },
+    {
+      "path": "source_snapshot/run_recon_black_fc100M_v2.m",
+      "bytes": 887,
+      "sha256": "2c5fcecef9323380540b97b1e65afb48126cc9c46dbd86f451ee450df2b16883"
+    },
+    {
+      "path": "source_snapshot/run_survey_black_fc100M_v1.m",
+      "bytes": 756,
+      "sha256": "cc4254ae48155f0a3a519adb1ed60ca5a3ff15b86373af0e40133b7e57015286"
+    },
+    {
+      "path": "source_snapshot/run_timing_black_fc100M_v1.m",
+      "bytes": 799,
+      "sha256": "e941a3aafa2c00c7a0dc1111393d2c51ef742c54a5a532ddf391107fb38e268d"
+    },
+    {
+      "path": "source_snapshot/scan_band_for_line_rate_v1.m",
+      "bytes": 7761,
+      "sha256": "9438c818e02edea68114d7c7014f6749a61cb6ecfb6fc29fbfa9a30d15660ecc"
+    },
+    {
+      "path": "source_snapshot/SOURCE_INVENTORY.json",
+      "bytes": 19356,
+      "sha256": "23b75749169e86c9525a3e5abcd470f1fe586fe2e16d2720820218cc4951a64d"
+    },
+    {
+      "path": "source_snapshot/survey_captures_level_band_linerate_v1.m",
+      "bytes": 13064,
+      "sha256": "61903952266483b39e1aef6a7e14ec357e0a93d1320465e1d31527ac9fb675f1"
+    }
+  ],
+  "exclusion_note": "Raw RIS captures are not included; curated source files retain their original bytes."
+}

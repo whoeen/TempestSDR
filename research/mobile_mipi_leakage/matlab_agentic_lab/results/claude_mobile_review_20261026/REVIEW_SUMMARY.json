@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "source_count": 2537,
+  "snapshot_count": 43,
+  "snapshot_hashes_verified": true,
+  "audit_status": "completed",
+  "saved_csv_rms_reproduced": true,
+  "new_reconstruction_performed": false,
+  "nominal_bandwidth_disagreement_unresolved": true,
+  "timing": {
+    "fam_fs_hz": 124082800.0,
+    "claude_fs_hz": 124084280.0,
+    "fs_label_difference_ppm": 11.927519366183859,
+    "fam_fit_hz": 112802.5501974424,
+    "claude_fit_hz": 112804.136768,
+    "fam_samples_per_cycle": 1099.9999537493911,
+    "claude_samples_per_cycle": 1099.99760252764,
+    "claude_frequency_on_fam_fs_axis_hz": 112802.7913105221,
+    "remaining_normalized_difference_ppm": 2.1374789778150216,
+    "whole_capture_relative_cycle_slip": 0.5626913645581367
+  },
+  "derived_750cell_full_capture_slip": 422.01852341860257,
+  "artifacts": [
+    "REPORT_KO.md",
+    "gallery/index.html",
+    "endian_audit.json",
+    "endian_comparison.png"
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "indexed_utc": "2026-10-26T13:06:28.449510+00:00",
-  "entry_count": 883,
+  "indexed_utc": "2026-10-26T13:32:52.796542+00:00",
+  "entry_count": 893,
   "by_area": {
     "20261022_041658_091": 1,
     "20261022_041904_607": 6,
@@ -8,6 +8,7 @@
     "book93_238": 11,
     "bottom_middle_238": 11,
     "bottom_middle_238_P032_v2": 36,
+    "claude_mobile_review_20261026": 10,
     "fam_20261026": 10,
     "fam_execution_20261026": 10,
     "galaxy_s4_lte": 38,

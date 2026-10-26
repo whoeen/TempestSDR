@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "executed_utc": "2026-10-26T13:32:52.058Z",
+  "matlab_exit_code": 0,
+  "matlab_log": "matlab_audit.log",
+  "code_path": "auditClaudeMobileEndian26.m",
+  "code_sha256": "68540f2f08b8a2cc145eac78201f49636e64acebaa8a6aee831169747aa2830e",
+  "source_root": "C:/Users/leechanghoon/Desktop/mobile/0625",
+  "source_code_executed": false,
+  "source_immutable": true,
+  "measurement": "Own MATLAB byte-order A/B only; no old reconstruction rerun.",
+  "input_full_hash_reference": "../iphone6_fc100_fam_20261026/RAW_IDENTITY.json",
+  "plot_reviewed": true
+}
