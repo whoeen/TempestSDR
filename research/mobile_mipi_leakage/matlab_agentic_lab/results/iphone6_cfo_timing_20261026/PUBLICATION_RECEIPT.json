@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-26T06:53:16.707135+00:00",
+  "archive": {
+    "name": "iphone6_cfo_timing_20261026_v1.zip",
+    "bytes": 1448204918,
+    "digest": "sha256:804f540babada8870f48a9ab717ca64a2fea56a87f7089d832fe590bf87420a8",
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_cfo_timing_20261026_v1.zip",
+    "remote_verified": true
+  },
+  "manifest_file_count": 242,
+  "cloud_matlab_executed": false,
+  "scope": "Local MATLAB execution; authored code/records in Git and numeric/image results in data release. Raw IQ already exists in prior release."
+}
