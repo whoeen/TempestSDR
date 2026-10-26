@@ -1,0 +1,8 @@
+**/*.mat
+**/*.png
+install/mpm_template_web.txt
+install/mpm_input_r2026b.txt
+!gallery/reference.png
+cache/
+!gallery/am_before_after.png
+code_snapshot/

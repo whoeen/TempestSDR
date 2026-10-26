@@ -1,0 +1,743 @@
+{
+  "status": "complete",
+  "training_frame_zero_based": 0,
+  "assessment_frame_zero_based": 72,
+  "frame_average_count": 1,
+  "compared_mean_frame_count": 8,
+  "comparison_mean_training_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "comparison_mean_assessment_frames": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+  ],
+  "nominal_rf_window_hz": [
+    1.03E+8,
+    1.09E+8
+  ],
+  "period_seconds": 0.016675154690699592,
+  "input_grid_samples": 2.097152E+6,
+  "translation_formula": "B(u,k)*exp(+j*2*pi*D*(u+k)); integer part placed by Fourier indices; fraction includes k.",
+  "frequency_timing_parameters_refitted": false,
+  "assessment_parameters_refitted": false,
+  "mean_reference_json": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_cfo_timing_20261026\\stitch\\overview.json",
+  "records": [
+    {
+      "arm": "raw",
+      "translation_cycles": 1.0005093363062629E+6,
+      "integer_center_bin_b": 1.000509E+6,
+      "fractional_cycles": 0.33630626287776977,
+      "assessment_fractional_frame_phase_rad": 1.3449216407675748,
+      "single_frame_training_fit": {
+        "train_coherence": 0.031381172535583833,
+        "test_coherence": 0.021814272647531729,
+        "test_phase_rad": -0.075837072574375178,
+        "test_relative_error": 1.6721838645393459,
+        "delay_seconds": -0.0013144456711987719,
+        "phase_rad": 1.1718797018204932,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.99829217980975471,
+        "training_second_peak_ambiguous": true,
+        "effective_bins": 3658.6360097866923,
+        "training_tone_mask": false,
+        "mask_seed_global_bins": [],
+        "mask_seed_count": 0,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_training_mask_fit": {
+        "train_coherence": 0.025615706547443939,
+        "test_coherence": 0.0043585517728670564,
+        "test_phase_rad": -2.9973367052282356,
+        "test_relative_error": 1.7126823752631717,
+        "delay_seconds": 0.00017045675725602485,
+        "phase_rad": 2.60662273827785,
+        "kept_bin_count": 100018,
+        "removed_bin_count": 33,
+        "retained_training_power": [
+          0.7851010332205669,
+          0.8212900348134996
+        ],
+        "retained_assessment_power": [
+          0.77944572425173142,
+          0.80711521543013831
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.95325211341330252,
+        "training_second_peak_ambiguous": true,
+        "effective_bins": 36636.992741476752,
+        "training_tone_mask": true,
+        "mask_seed_global_bins": [
+          65196,
+          65207,
+          65195,
+          65206,
+          65208,
+          65198,
+          65193,
+          65203,
+          65200,
+          65209
+        ],
+        "mask_seed_count": 10,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_with_frozen_mean_alignment": {
+        "train_coherence": 0.017966969743360817,
+        "test_coherence": 0.015975785369389678,
+        "test_phase_rad": -2.9755845788493933,
+        "test_relative_error": 1.7024633014611408,
+        "delay_seconds": -0.0015537397530315813,
+        "phase_rad": -0.27116177265534847,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true
+      },
+      "single_frame_with_frozen_mean_alignment_and_mask": {
+        "train_coherence": 0.0056409809988486074,
+        "test_coherence": 0.012233126981418782,
+        "test_phase_rad": -2.7975941706460477,
+        "test_relative_error": 1.696831628095854,
+        "delay_seconds": -0.0015493151608130557,
+        "phase_rad": -1.2602021518348416,
+        "kept_bin_count": 99941,
+        "removed_bin_count": 110,
+        "retained_training_power": [
+          0.76437950310066227,
+          0.79077745875600891
+        ],
+        "retained_assessment_power": [
+          0.75831033504972822,
+          0.75523300386524927
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "mask_source": "8-frame TRAINING pilot means; exact published top10-bin +/-8 mask reconstructed",
+        "mask_seed_global_bins": [
+          65207,
+          65195,
+          65196,
+          65206,
+          65208,
+          67088,
+          67076,
+          63326,
+          61445,
+          68957
+        ]
+      },
+      "published_8frame_mean_alignment": {
+        "train_coherence": 0.026198294480968491,
+        "test_coherence": 0.00923869388262288,
+        "test_phase_rad": -1.1008901837621823,
+        "test_relative_error": 1.6853775091831424,
+        "delay_seconds": -0.0015537397530315813,
+        "phase_rad": -0.27116177265534847,
+        "second_peak_ratio": 0.90711097126319107,
+        "effective_bins": 9541.4782400830645,
+        "training_tone_mask": false,
+        "retained_training_power": [
+          1,
+          1
+        ]
+      },
+      "published_8frame_mean_mask_alignment": {
+        "train_coherence": 0.02221297221115786,
+        "test_coherence": 0.010904282477528653,
+        "test_phase_rad": -1.7549176075224744,
+        "test_relative_error": 1.6967121383985808,
+        "delay_seconds": -0.0015493151608130557,
+        "phase_rad": -1.2602021518348416,
+        "second_peak_ratio": 0.99795453474650486,
+        "effective_bins": 49819.371542517,
+        "training_tone_mask": true,
+        "retained_training_power": [
+          0.89157993818762082,
+          0.78627986237679093
+        ]
+      },
+      "single_minus_mean_assessment_coherence": 0.012575578764908849,
+      "single_minus_mean_masked_assessment_coherence": -0.0065457307046615969,
+      "mask_caveat": "Top10 cross-power BINS each +/-8; neighborhoods can overlap. Not guaranteed ten distinct tones.",
+      "assessment_fit_frozen": true,
+      "screen_signal_identified": false
+    },
+    {
+      "arm": "phase",
+      "translation_cycles": 1.0005093363062629E+6,
+      "integer_center_bin_b": 1.000509E+6,
+      "fractional_cycles": 0.33630626287776977,
+      "assessment_fractional_frame_phase_rad": 1.3449216407675748,
+      "single_frame_training_fit": {
+        "train_coherence": 0.29547875607814056,
+        "test_coherence": 0.28239203522663464,
+        "test_phase_rad": 2.2794572560654851,
+        "test_relative_error": 1.8320168032234998,
+        "delay_seconds": 1.0933553893147567E-5,
+        "phase_rad": -1.5214991299029275,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.94627108898296308,
+        "training_second_peak_ambiguous": true,
+        "effective_bins": 76.58115658024353,
+        "training_tone_mask": false,
+        "mask_seed_global_bins": [],
+        "mask_seed_count": 0,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_training_mask_fit": {
+        "train_coherence": 0.080707124123510526,
+        "test_coherence": 0.043604423085383176,
+        "test_phase_rad": 2.4292922295796053,
+        "test_relative_error": 1.7203252211606959,
+        "delay_seconds": 1.0933209981309526E-5,
+        "phase_rad": -1.5337677721210481,
+        "kept_bin_count": 99959,
+        "removed_bin_count": 92,
+        "retained_training_power": [
+          0.744766712550265,
+          0.7843401659018383
+        ],
+        "retained_assessment_power": [
+          0.73862645977321328,
+          0.74407791283193814
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.743768957285013,
+        "training_second_peak_ambiguous": false,
+        "effective_bins": 13826.743868273421,
+        "training_tone_mask": true,
+        "mask_seed_global_bins": [
+          65195,
+          65196,
+          65194,
+          65197,
+          65193,
+          63314,
+          67076,
+          68957,
+          61433,
+          65200
+        ],
+        "mask_seed_count": 10,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_with_frozen_mean_alignment": {
+        "train_coherence": 0.25541557573328111,
+        "test_coherence": 0.27999177065897118,
+        "test_phase_rad": -0.0093430789484823373,
+        "test_relative_error": 1.4466534383257772,
+        "delay_seconds": 6.415439345751075E-5,
+        "phase_rad": 1.2669721570584824,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true
+      },
+      "single_frame_with_frozen_mean_alignment_and_mask": {
+        "train_coherence": 0.030726898228792189,
+        "test_coherence": 0.041795204821413044,
+        "test_phase_rad": 0.18908923178535236,
+        "test_relative_error": 1.6602334026588885,
+        "delay_seconds": 6.41540229475185E-5,
+        "phase_rad": 1.2491834593948434,
+        "kept_bin_count": 99961,
+        "removed_bin_count": 90,
+        "retained_training_power": [
+          0.74559774707443294,
+          0.78512515036781749
+        ],
+        "retained_assessment_power": [
+          0.73946175564695926,
+          0.74465148805437087
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "mask_source": "8-frame TRAINING pilot means; exact published top10-bin +/-8 mask reconstructed",
+        "mask_seed_global_bins": [
+          65195,
+          65196,
+          65194,
+          63314,
+          65197,
+          67076,
+          68957,
+          61433,
+          65193,
+          63315
+        ]
+      },
+      "published_8frame_mean_alignment": {
+        "train_coherence": 0.087340568286686016,
+        "test_coherence": 0.10605138644615721,
+        "test_phase_rad": -1.5622906700471473,
+        "test_relative_error": 1.8116008670759824,
+        "delay_seconds": 6.415439345751075E-5,
+        "phase_rad": 1.2669721570584824,
+        "second_peak_ratio": 0.9862271959936646,
+        "effective_bins": 1037.3101131704309,
+        "training_tone_mask": false,
+        "retained_training_power": [
+          1,
+          1
+        ]
+      },
+      "published_8frame_mean_mask_alignment": {
+        "train_coherence": 0.029930576947429819,
+        "test_coherence": 0.024554661302928174,
+        "test_phase_rad": -1.6889510716097147,
+        "test_relative_error": 1.7433160908180099,
+        "delay_seconds": 6.41540229475185E-5,
+        "phase_rad": 1.2491834593948434,
+        "second_peak_ratio": 0.98693857283174924,
+        "effective_bins": 45351.288921233943,
+        "training_tone_mask": true,
+        "retained_training_power": [
+          0.8731705489768844,
+          0.96974138708757263
+        ]
+      },
+      "single_minus_mean_assessment_coherence": 0.17634064878047745,
+      "single_minus_mean_masked_assessment_coherence": 0.019049761782455002,
+      "mask_caveat": "Top10 cross-power BINS each +/-8; neighborhoods can overlap. Not guaranteed ten distinct tones.",
+      "assessment_fit_frozen": true,
+      "screen_signal_identified": false
+    },
+    {
+      "arm": "time",
+      "translation_cycles": 1.0005092814419755E+6,
+      "integer_center_bin_b": 1.000509E+6,
+      "fractional_cycles": 0.28144197550136596,
+      "assessment_fractional_frame_phase_rad": 1.6576439975604083,
+      "single_frame_training_fit": {
+        "train_coherence": 0.031583416144808592,
+        "test_coherence": 0.021189301269538989,
+        "test_phase_rad": 0.596495995932266,
+        "test_relative_error": 1.6756211959018035,
+        "delay_seconds": -0.0013144456141584598,
+        "phase_rad": 1.1306334117516368,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.99103705110706275,
+        "training_second_peak_ambiguous": true,
+        "effective_bins": 3653.4746358962252,
+        "training_tone_mask": false,
+        "mask_seed_global_bins": [],
+        "mask_seed_count": 0,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_training_mask_fit": {
+        "train_coherence": 0.02559754017609029,
+        "test_coherence": 0.00617130853141663,
+        "test_phase_rad": -2.02964684596468,
+        "test_relative_error": 1.7114044341117447,
+        "delay_seconds": 0.00017045687463357017,
+        "phase_rad": 2.5650233643338147,
+        "kept_bin_count": 100018,
+        "removed_bin_count": 33,
+        "retained_training_power": [
+          0.78510080377682767,
+          0.82128959138251079
+        ],
+        "retained_assessment_power": [
+          0.7794446564093569,
+          0.80711275434885343
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.9517547563310802,
+        "training_second_peak_ambiguous": true,
+        "effective_bins": 36606.162722018169,
+        "training_tone_mask": true,
+        "mask_seed_global_bins": [
+          65196,
+          65207,
+          65195,
+          65206,
+          65208,
+          65198,
+          65193,
+          65203,
+          65209,
+          65200
+        ],
+        "mask_seed_count": 10,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_with_frozen_mean_alignment": {
+        "train_coherence": 0.023556270429927178,
+        "test_coherence": 0.012182590349662809,
+        "test_phase_rad": -1.6124378342043673,
+        "test_relative_error": 1.6902205286524257,
+        "delay_seconds": 0.00032122497684332677,
+        "phase_rad": 3.0714942510517389,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true
+      },
+      "single_frame_with_frozen_mean_alignment_and_mask": {
+        "train_coherence": 0.0062470401624902892,
+        "test_coherence": 0.01380061097060741,
+        "test_phase_rad": -1.8539909163953963,
+        "test_relative_error": 1.7117397774711638,
+        "delay_seconds": -0.001549311359829041,
+        "phase_rad": -1.4087541145712072,
+        "kept_bin_count": 99968,
+        "removed_bin_count": 83,
+        "retained_training_power": [
+          0.77292704127479206,
+          0.808078669137465
+        ],
+        "retained_assessment_power": [
+          0.76654274954278934,
+          0.79294337860923148
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "mask_source": "8-frame TRAINING pilot means; exact published top10-bin +/-8 mask reconstructed",
+        "mask_seed_global_bins": [
+          65207,
+          65196,
+          65195,
+          65206,
+          65208,
+          65198,
+          115068,
+          65193,
+          67076,
+          61445
+        ]
+      },
+      "published_8frame_mean_alignment": {
+        "train_coherence": 0.026140315618089563,
+        "test_coherence": 0.0043748890370472072,
+        "test_phase_rad": -2.873246495683329,
+        "test_relative_error": 1.7044888911783507,
+        "delay_seconds": 0.00032122497684332677,
+        "phase_rad": 3.0714942510517389,
+        "second_peak_ratio": 0.925270989988663,
+        "effective_bins": 9657.3929764429158,
+        "training_tone_mask": false,
+        "retained_training_power": [
+          1,
+          1
+        ]
+      },
+      "published_8frame_mean_mask_alignment": {
+        "train_coherence": 0.02721388992395787,
+        "test_coherence": 0.0110941683219527,
+        "test_phase_rad": -0.6794509536532376,
+        "test_relative_error": 1.7026024171388796,
+        "delay_seconds": -0.001549311359829041,
+        "phase_rad": -1.4087541145712072,
+        "second_peak_ratio": 0.9272140501082915,
+        "effective_bins": 47117.762683093948,
+        "training_tone_mask": true,
+        "retained_training_power": [
+          0.84543161072939632,
+          0.86606275403581179
+        ]
+      },
+      "single_minus_mean_assessment_coherence": 0.016814412232491784,
+      "single_minus_mean_masked_assessment_coherence": -0.0049228597905360705,
+      "mask_caveat": "Top10 cross-power BINS each +/-8; neighborhoods can overlap. Not guaranteed ten distinct tones.",
+      "assessment_fit_frozen": true,
+      "screen_signal_identified": false
+    },
+    {
+      "arm": "both",
+      "translation_cycles": 1.0005092814419755E+6,
+      "integer_center_bin_b": 1.000509E+6,
+      "fractional_cycles": 0.28144197550136596,
+      "assessment_fractional_frame_phase_rad": 1.6576439975604083,
+      "single_frame_training_fit": {
+        "train_coherence": 0.29538501468003125,
+        "test_coherence": 0.2821259585454855,
+        "test_phase_rad": 2.9013465623900676,
+        "test_relative_error": 1.8979305276171865,
+        "delay_seconds": 1.093315986823424E-5,
+        "phase_rad": -1.5819139888027438,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.94714397335722389,
+        "training_second_peak_ambiguous": true,
+        "effective_bins": 76.58249909994376,
+        "training_tone_mask": false,
+        "mask_seed_global_bins": [],
+        "mask_seed_count": 0,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_training_mask_fit": {
+        "train_coherence": 0.080487131973880133,
+        "test_coherence": 0.043392100838693153,
+        "test_phase_rad": 3.0887659212109826,
+        "test_relative_error": 1.7285141027903448,
+        "delay_seconds": 1.0932884404144823E-5,
+        "phase_rad": -1.5909513812466538,
+        "kept_bin_count": 99959,
+        "removed_bin_count": 92,
+        "retained_training_power": [
+          0.74475970743403463,
+          0.78429735504349352
+        ],
+        "retained_assessment_power": [
+          0.73861951018527494,
+          0.74406595615412141
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "second_peak_ratio": 0.74733726872659723,
+        "training_second_peak_ambiguous": false,
+        "effective_bins": 13665.046342733947,
+        "training_tone_mask": true,
+        "mask_seed_global_bins": [
+          65195,
+          65196,
+          65194,
+          65197,
+          65193,
+          63314,
+          67076,
+          68957,
+          61433,
+          65200
+        ],
+        "mask_seed_count": 10,
+        "mask_halfwidth_bins": 8,
+        "fminbnd_exit_flag": 1,
+        "delay_identifiability": "Circular one-period delay; comb aliases can remain."
+      },
+      "single_frame_with_frozen_mean_alignment": {
+        "train_coherence": 0.2614226613564305,
+        "test_coherence": 0.26874309816587583,
+        "test_phase_rad": 1.1991107670187793,
+        "test_relative_error": 1.6092479892906952,
+        "delay_seconds": -7.7645540542870331E-5,
+        "phase_rad": -1.8799132020481186,
+        "kept_bin_count": 100051,
+        "removed_bin_count": 0,
+        "retained_training_power": [
+          1,
+          1
+        ],
+        "retained_assessment_power": [
+          1,
+          1
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true
+      },
+      "single_frame_with_frozen_mean_alignment_and_mask": {
+        "train_coherence": 0.037852012436424567,
+        "test_coherence": 0.022382024189999388,
+        "test_phase_rad": 1.9892384763883895,
+        "test_relative_error": 1.7003414943279389,
+        "delay_seconds": -7.7679215202804876E-5,
+        "phase_rad": 3.0033719993406391,
+        "kept_bin_count": 99945,
+        "removed_bin_count": 106,
+        "retained_training_power": [
+          0.74019921968481084,
+          0.78097551971932977
+        ],
+        "retained_assessment_power": [
+          0.73458023949648266,
+          0.738824429396603
+        ],
+        "assessment_parameters_refitted": false,
+        "unit_gain": true,
+        "mask_source": "8-frame TRAINING pilot means; exact published top10-bin +/-8 mask reconstructed",
+        "mask_seed_global_bins": [
+          65195,
+          65196,
+          65194,
+          63314,
+          65197,
+          67076,
+          68957,
+          61433,
+          65193,
+          59552
+        ]
+      },
+      "published_8frame_mean_alignment": {
+        "train_coherence": 0.13524816314178564,
+        "test_coherence": 0.12156853568878057,
+        "test_phase_rad": -0.59926380486710751,
+        "test_relative_error": 1.5969157301175805,
+        "delay_seconds": -7.7645540542870331E-5,
+        "phase_rad": -1.8799132020481186,
+        "second_peak_ratio": 0.99579155619312776,
+        "effective_bins": 346.24535045211206,
+        "training_tone_mask": false,
+        "retained_training_power": [
+          1,
+          1
+        ]
+      },
+      "published_8frame_mean_mask_alignment": {
+        "train_coherence": 0.034571763601507537,
+        "test_coherence": 0.018566022860897854,
+        "test_phase_rad": 0.0926176429325009,
+        "test_relative_error": 1.6999324822699884,
+        "delay_seconds": -7.7679215202804876E-5,
+        "phase_rad": 3.0033719993406391,
+        "second_peak_ratio": 0.9813442068752779,
+        "effective_bins": 38952.061906743154,
+        "training_tone_mask": true,
+        "retained_training_power": [
+          0.8097093320485812,
+          0.93355102794286571
+        ]
+      },
+      "single_minus_mean_assessment_coherence": 0.16055742285670493,
+      "single_minus_mean_masked_assessment_coherence": 0.024826077977795298,
+      "mask_caveat": "Top10 cross-power BINS each +/-8; neighborhoods can overlap. Not guaranteed ten distinct tones.",
+      "assessment_fit_frozen": true,
+      "screen_signal_identified": false
+    }
+  ],
+  "interpretation": "Single versus conditional 8-frame means separates averaging sensitivity only conditionally. One assessment frame is not the same statistic as an 8-frame mean; no payload recovery is established.",
+  "boundary_assumption": "Finite one-frame periodic FFT and circular-delay approximation. No IIR filtering or screen registration.",
+  "summary": [
+    {
+      "arm": "raw",
+      "single_train_coherence": 0.031381172535583833,
+      "single_assessment_coherence": 0.021814272647531729,
+      "single_assessment_phase_rad": -0.075837072574375178,
+      "single_masked_assessment_coherence": 0.0043585517728670564,
+      "mean8_assessment_coherence": 0.00923869388262288,
+      "mean8_masked_assessment_coherence": 0.010904282477528653,
+      "single_with_mean_fit_assessment_coherence": 0.015975785369389678,
+      "single_with_mean_fit_and_mask_assessment_coherence": 0.012233126981418782
+    },
+    {
+      "arm": "phase",
+      "single_train_coherence": 0.29547875607814056,
+      "single_assessment_coherence": 0.28239203522663464,
+      "single_assessment_phase_rad": 2.2794572560654851,
+      "single_masked_assessment_coherence": 0.043604423085383176,
+      "mean8_assessment_coherence": 0.10605138644615721,
+      "mean8_masked_assessment_coherence": 0.024554661302928174,
+      "single_with_mean_fit_assessment_coherence": 0.27999177065897118,
+      "single_with_mean_fit_and_mask_assessment_coherence": 0.041795204821413044
+    },
+    {
+      "arm": "time",
+      "single_train_coherence": 0.031583416144808592,
+      "single_assessment_coherence": 0.021189301269538989,
+      "single_assessment_phase_rad": 0.596495995932266,
+      "single_masked_assessment_coherence": 0.00617130853141663,
+      "mean8_assessment_coherence": 0.0043748890370472072,
+      "mean8_masked_assessment_coherence": 0.0110941683219527,
+      "single_with_mean_fit_assessment_coherence": 0.012182590349662809,
+      "single_with_mean_fit_and_mask_assessment_coherence": 0.01380061097060741
+    },
+    {
+      "arm": "both",
+      "single_train_coherence": 0.29538501468003125,
+      "single_assessment_coherence": 0.2821259585454855,
+      "single_assessment_phase_rad": 2.9013465623900676,
+      "single_masked_assessment_coherence": 0.043392100838693153,
+      "mean8_assessment_coherence": 0.12156853568878057,
+      "mean8_masked_assessment_coherence": 0.018566022860897854,
+      "single_with_mean_fit_assessment_coherence": 0.26874309816587583,
+      "single_with_mean_fit_and_mask_assessment_coherence": 0.022382024189999388
+    }
+  ]
+}

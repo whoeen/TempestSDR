@@ -1,0 +1,194 @@
+{
+  "status": "complete",
+  "assessment_time_alignment_uses_input_data": true,
+  "period_seconds": 0.016675154690699592,
+  "input_grid_samples": 2.097152E+6,
+  "input_grid_fs_hz": 1.2576507018370669E+8,
+  "nominal_centers_hz": [
+    1.0E+8,
+    1.6E+8
+  ],
+  "nominal_capture_bandwidth_hz": 1.2E+8,
+  "records": [
+    {
+      "arm": "adaptive_time_fixed_cfo",
+      "translation_cycles": 1.0005092814419755E+6,
+      "integer_center_bin_b": 1.000509E+6,
+      "within_frame_fractional_cycles": 0.28144197550136596,
+      "narrow_106mhz_alignment": {
+        "train_coherence": 0.15307798183750929,
+        "test_coherence": 0.26035177531264075,
+        "test_phase_rad": -3.062113273773166,
+        "test_relative_error": 1.9977361074356041,
+        "delay_seconds": -0.00013092757939994282,
+        "phase_rad": 3.116056106972156,
+        "second_peak_ratio": 0.99560360980564611,
+        "effective_bins": 248.12664027723449,
+        "training_tone_mask": false,
+        "retained_training_power": [
+          1,
+          1
+        ]
+      },
+      "narrow_training_tone_mask_control": {
+        "train_coherence": 0.030188987210175086,
+        "test_coherence": 0.030049110799465786,
+        "test_phase_rad": 2.9614472550935642,
+        "test_relative_error": 1.7588856658887662,
+        "delay_seconds": -0.00013091040937101707,
+        "phase_rad": -2.398338569170932,
+        "second_peak_ratio": 0.98232019021419492,
+        "effective_bins": 34302.952093480759,
+        "training_tone_mask": true,
+        "retained_training_power": [
+          0.77983027326318621,
+          0.92092081461075836
+        ]
+      },
+      "full_overlap_alignment": {
+        "status": "ambiguous_periodic_estimate",
+        "fft_length": 2.097152E+6,
+        "period_seconds": 0.016675154690699592,
+        "input_grid_rate_hz": 1.2576507018370669E+8,
+        "center_bin_a": 0,
+        "center_bin_b": 1.000509E+6,
+        "usable_band_hz": 1.2E+8,
+        "edge_guard_hz": 3.0E+6,
+        "overlap_first_global_bin": 50026,
+        "overlap_last_global_bin": 950483,
+        "overlap_bin_count": 900458,
+        "overlap_span_hz": 5.3999918843464836E+7,
+        "overlap_bin_measure_hz": 5.3999978812923506E+7,
+        "coarse_delay_samples": 1373,
+        "fractional_refinement_samples": 0.32253608982283605,
+        "delay_samples": 1373.3225360899232,
+        "delay_seconds": 1.0919745316278145E-5,
+        "phase_rad": 0.398472045334382,
+        "positive_ls_gain": 0.026403154359308557,
+        "fminbnd_exit_flag": 1,
+        "optimized_normalized_cross_peak": 0.03745816432310916,
+        "second_peak_ratio": 0.90386429875635177,
+        "second_peak_ratio_definition": "second outside mainlobe / first coarse peak",
+        "second_peak_delay_samples": 30361,
+        "mainlobe_exclusion_samples": 5,
+        "effective_bin_count": 31673.3010661643,
+        "effective_bin_fraction": 0.035174656748192916,
+        "energy_90_percent_span_hz": 4.1019409575942181E+7,
+        "energy_90_percent_span_fraction": 0.75961983748252282,
+        "cross_energy_rms_bandwidth_hz": 1.0497143219494158E+7,
+        "low_spectral_diversity": false,
+        "competing_periodic_peak": true,
+        "train_uncorrected": {
+          "complex_coherence": 0.0032469210119286111,
+          "normalized_complex_error": 1.3599825964581169,
+          "residual_cross_phase_rad": -2.4693548328066646,
+          "reference_spectral_energy": 346.76601684557971,
+          "measured_spectral_energy": 292.97648943488463
+        },
+        "test_uncorrected": {
+          "complex_coherence": 0.0090969365448689641,
+          "normalized_complex_error": 1.3596319226441596,
+          "residual_cross_phase_rad": -0.893246038046392,
+          "reference_spectral_energy": 341.76197110807612,
+          "measured_spectral_energy": 293.63193398639447
+        },
+        "train_unit_gain": {
+          "complex_coherence": 0.024269114751683602,
+          "normalized_complex_error": 1.3417403764756746,
+          "residual_cross_phase_rad": -6.3150140448452323E-16,
+          "reference_spectral_energy": 346.76601684557971,
+          "measured_spectral_energy": 292.97648943488468
+        },
+        "test_unit_gain": {
+          "complex_coherence": 0.0032347371298512093,
+          "normalized_complex_error": 1.3613314384164936,
+          "residual_cross_phase_rad": 0.12799612986950923,
+          "reference_spectral_energy": 341.76197110807612,
+          "measured_spectral_energy": 293.63193398639453
+        },
+        "train_positive_ls_gain": {
+          "complex_coherence": 0.024269114751683606,
+          "normalized_complex_error": 0.99970546165816743,
+          "residual_cross_phase_rad": -5.393362123907541E-16,
+          "reference_spectral_energy": 346.76601684557971,
+          "measured_spectral_energy": 0.20424169227620667
+        },
+        "test_positive_ls_gain": {
+          "complex_coherence": 0.0032347371298512089,
+          "normalized_complex_error": 1.0002209333632672,
+          "residual_cross_phase_rad": 0.12799612986950853,
+          "reference_spectral_energy": 341.76197110807612,
+          "measured_spectral_energy": 0.20469862008175102
+        },
+        "test_parameters_refitted": false,
+        "delay_identifiability": "modulo one period; single-tone and comb aliases can remain",
+        "phase_reference": "relative B to A on training overlap; no absolute physical RF phase",
+        "correction_formula": "B(k)*exp(+1i*2*pi*k*delay_seconds/T)*exp(-1i*phase_rad)",
+        "scope": "No CFO/rate fitting, crossover synthesis, or image-based registration"
+      },
+      "filter": {
+        "synthesis_fs_hz": 5.0306028073482674E+8,
+        "synthesis_samples": 8.388608E+6,
+        "crossover_hz": 9.0000034652574286E+7,
+        "periodic_guard_samples": 256,
+        "low_sos": [
+          [
+            1,
+            2,
+            1,
+            1,
+            -0.47129404575217104,
+            0.090973442134000354
+          ],
+          [
+            1,
+            2,
+            1,
+            1,
+            -0.6423067499463353,
+            0.48684162724037167
+          ]
+        ],
+        "low_gain": 0.032708803936560664,
+        "high_sos": [
+          [
+            1,
+            -2,
+            1,
+            1,
+            -0.47129404575217038,
+            0.090973442133999841
+          ],
+          [
+            1,
+            -2,
+            1,
+            1,
+            -0.642306749946336,
+            0.48684162724037217
+          ]
+        ],
+        "high_gain": 0.20789370541027463,
+        "complementary_amplitude_unity_error": 2.55351295663786E-15,
+        "response_frequency_spacing_hz": 61408.72567563803,
+        "periodic_boundary_assumed": true,
+        "toolbox_filtfilt_used": true
+      },
+      "parameters_fitted_to_assessment": true,
+      "rf_alignment_fitted_to_assessment": false,
+      "synthesis_alignment": "narrow106MHz unit gain",
+      "training_second_peak_ambiguity": true,
+      "rf_stitch_validated": false
+    }
+  ],
+  "shared_limits_counts": [
+    6.36024808883667,
+    94.729324340820312
+  ],
+  "scale_source": "first arm training stitch 1/99 percentiles",
+  "delay_model": "one-period circular alignment; modulo-frame and comb ambiguity retained",
+  "filter": "MATLAB Butterworth4 SOS + filtfilt; effective zero-phase LR8; actual synthesis Fs",
+  "resampling": "IQ periodic FFT zero-padding onto common synthesis grid; AM anti-alias Fourier truncation to analysis raster",
+  "interpretation": "Numerical synthesis is an attempted stitch, not demonstrated image/payload recovery. No m[i] blanking mask; DSI blanking unverified.",
+  "screenshot_used_for_parameter_fitting": false
+}

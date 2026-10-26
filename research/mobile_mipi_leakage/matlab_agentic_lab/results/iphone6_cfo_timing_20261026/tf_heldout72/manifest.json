@@ -1,0 +1,1213 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-26T06:32:46Z",
+  "matlab_version": "26.2.0.3386108 (R2026b)",
+  "toolboxes": [
+    {
+      "Name": "MATLAB",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "MATLAB Copilot",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "Signal Processing Toolbox",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "Wavelet Toolbox",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    }
+  ],
+  "options": {
+    "MaxNativeSamples": 131072,
+    "NativeWindow": 1024,
+    "NativeHop": 256,
+    "NativeFft": 2048,
+    "SubbandRfHz": 1.06E+8,
+    "Decimation": 16,
+    "ResampleN": 32,
+    "ResampleBeta": 8,
+    "MaxSubbandSamples": 8192,
+    "SubbandWindow": 256,
+    "SubbandHop": 64,
+    "DisplayTimePool": 8,
+    "DisplayNyquistFraction": 0.75,
+    "PhaseGateQuantile": 0.25,
+    "PhasePlotSamples": 1024,
+    "DynamicRangeDb": 60,
+    "EnableWavelet": true,
+    "CwtVoices": 12,
+    "CwtTimeBandwidth": 60
+  },
+  "input_metadata": {
+    "nominal_fc_hz": [
+      1.0E+8,
+      1.6E+8
+    ],
+    "native_fs_hz": [
+      1.240828E+8,
+      1.240828E+8
+    ],
+    "native_start_samples": [
+      1.50083391E+8,
+      1.50083391E+8
+    ],
+    "canonical_start_index_zero_based": [
+      1.114913E+6,
+      1.114913E+6
+    ],
+    "source_frame_zero_based": [
+      72,
+      72
+    ],
+    "raw_description": "Saved frame72 singleTest column1: fixed prior-grid guarded sampling, no fitted time/CFO correction",
+    "corrected_description": "Saved frame72 singleTest column4: frozen training CFO then frozen AM-derived time sampling",
+    "native_description": "Re-read contiguous native-rate frame72 IQ; conjugated and saved fixed training DC removed; no interpolation/CFO correction",
+    "iq_polarity": -1,
+    "rf_coordinate_convention": "All reported baseband frequencies are after conjugating the original I+jQ; +RF=nominal fc+reported fbb.",
+    "input_mat_paths": [
+      "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_cfo_timing_20261026\\timing\\band_fc100.mat",
+      "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_cfo_timing_20261026\\timing\\band_fc160.mat"
+    ],
+    "input_mat_bytes": [
+      2.21723195E+8,
+      4.34525905E+8
+    ],
+    "input_band_metadata": [
+      {
+        "band_index": 1,
+        "fc_hz": 1.0E+8,
+        "fs_grid_hz": 1.2576507018370669E+8,
+        "fs_native_hz": 1.240828E+8,
+        "tf_canonical_start_index_zero_based": 1.114913E+6,
+        "tf_native_start_sample": 1.108191E+6,
+        "tf_first_frame_zero_based": 0,
+        "tf_raw_description": "Fixed baseline-period guarded resampling; no fitted time/CFO correction",
+        "tf_both_description": "Native-time CFO correction then AM-time-model guarded resampling",
+        "arm_names": [
+          "raw",
+          "phase",
+          "time",
+          "both"
+        ],
+        "training_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "heldout_frames": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "nominal_fc_hz": [
+          1.0E+8,
+          1.6E+8
+        ],
+        "used_period_samples": [
+          2.0691E+6,
+          2.0691E+6,
+          2.0690998844551395E+6,
+          2.0690998844551395E+6
+        ],
+        "carrier_translation_cycles_100_to160": [
+          1.0005093363062629E+6,
+          1.0005093363062629E+6,
+          1.0005092814419755E+6,
+          1.0005092814419755E+6
+        ],
+        "meanPilot_period_seconds": 0.016675154690699592,
+        "training_frames_zero_based": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "heldout_frames_zero_based": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "means_are_fft": false,
+        "within_frame_floquet_derotation": false,
+        "model_path": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_cfo_timing_20261026\\timing\\model.mat"
+      },
+      {
+        "band_index": 2,
+        "fc_hz": 1.6E+8,
+        "fs_grid_hz": 1.2576507018370669E+8,
+        "fs_native_hz": 1.240828E+8,
+        "tf_canonical_start_index_zero_based": 1.114913E+6,
+        "tf_native_start_sample": 1.108191E+6,
+        "tf_first_frame_zero_based": 0,
+        "tf_raw_description": "Fixed baseline-period guarded resampling; no fitted time/CFO correction",
+        "tf_both_description": "Native-time CFO correction then AM-time-model guarded resampling",
+        "arm_names": [
+          "raw",
+          "phase",
+          "time",
+          "both"
+        ],
+        "training_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "heldout_frames": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "nominal_fc_hz": [
+          1.0E+8,
+          1.6E+8
+        ],
+        "used_period_samples": [
+          2.0691E+6,
+          2.0691E+6,
+          2.0690999143894049E+6,
+          2.0690999143894049E+6
+        ],
+        "carrier_translation_cycles_100_to160": [
+          1.0005093363062629E+6,
+          1.0005093363062629E+6,
+          1.0005092814419755E+6,
+          1.0005092814419755E+6
+        ],
+        "meanPilot_period_seconds": 0.016675154690699592,
+        "training_frames_zero_based": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "heldout_frames_zero_based": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "means_are_fft": false,
+        "within_frame_floquet_derotation": false,
+        "model_path": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_cfo_timing_20261026\\timing\\model.mat"
+      }
+    ],
+    "native_capture_identities": [
+      {
+        "fc_mhz": 100,
+        "path": "C:\\Users\\leechanghoon\\Downloads\\black글_fc100MHz.rIs",
+        "root_source": "platform Downloads",
+        "selected_filename": "black글_fc100MHz.rIs",
+        "bytes": 1.1583E+9,
+        "expected_bytes": 1.1583E+9,
+        "expected_sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+        "sha256_verified_by_this_helper": false,
+        "identity_note": "Path and size checked. Use downloader/assembler SHA verification for full-file identity.",
+        "environment_modified": false,
+        "raw_modified": false
+      },
+      {
+        "fc_mhz": 160,
+        "path": "C:\\Users\\leechanghoon\\Downloads\\black글_fc160MHz.rIs",
+        "root_source": "platform Downloads",
+        "selected_filename": "black글_fc160MHz.rIs",
+        "bytes": 1.3068E+9,
+        "expected_bytes": 1.3068E+9,
+        "expected_sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+        "sha256_verified_by_this_helper": false,
+        "identity_note": "Path and size checked. Use downloader/assembler SHA verification for full-file identity.",
+        "environment_modified": false,
+        "raw_modified": false
+      }
+    ],
+    "native_guard_read_records": [
+      {
+        "filename": "black글_fc100MHz.rIs",
+        "bytes": 1.1583E+9,
+        "first_sample_zero_based": 1.50082879E+8,
+        "sample_count": 132096,
+        "byte_offset": 6.00331516E+8,
+        "byte_count": 528384,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      },
+      {
+        "filename": "black글_fc160MHz.rIs",
+        "bytes": 1.3068E+9,
+        "first_sample_zero_based": 1.50082879E+8,
+        "sample_count": 132096,
+        "byte_offset": 6.00331516E+8,
+        "byte_count": 528384,
+        "disk_dtype": "big-endian signed int16 interleaved I,Q",
+        "memory_dtype": "complex single",
+        "units": "ADC counts"
+      }
+    ],
+    "physical_query_coordinates": [
+      {
+        "nominal_fc_hz": 1.0E+8,
+        "frame_zero_based": 72,
+        "canonical_start_index_zero_based": 1.114913E+6,
+        "canonical_samples": 131072,
+        "canonical_time_since_origin_start_s": 1.2094761826778384,
+        "canonical_time_since_origin_end_s": 1.2105183718946737,
+        "canonical_duration_s": 0.0010421971681687245,
+        "native_returned_samples": 131072,
+        "native_duration_s": 0.0010563269042929398,
+        "native_first_sample_zero_based": 1.50083391E+8,
+        "native_byte_offset": 6.00333564E+8,
+        "original_timing_read_first_sample_zero_based": 1.48981344E+8,
+        "native_read_guard_each_side": 512,
+        "raw_query_capture_samples": [
+          1.50083391660635E+8,
+          1.5021270942401123E+8
+        ],
+        "corrected_query_capture_samples": [
+          1.5008338327997771E+8,
+          1.5021270103613243E+8
+        ],
+        "raw_query_capture_time_s": [
+          1.2095422706502028,
+          1.2105844599252373
+        ],
+        "corrected_query_capture_time_s": [
+          1.2095422031093568,
+          1.2105843923261921
+        ],
+        "raw_minus_native_start_fraction_samples": 0.66063499450683594,
+        "corrected_minus_raw_start_samples": -8.380657285451889,
+        "corrected_minus_raw_start_ns": -67.540845995189414,
+        "corrected_minus_raw_end_samples": -8.387878805398941,
+        "fixed_dc_after_conjugation_real": -9.1803344449277464,
+        "fixed_dc_after_conjugation_imag": -8.18597699482867,
+        "applied_native_cfo_hz": 0
+      },
+      {
+        "nominal_fc_hz": 1.6E+8,
+        "frame_zero_based": 72,
+        "canonical_start_index_zero_based": 1.114913E+6,
+        "canonical_samples": 131072,
+        "canonical_time_since_origin_start_s": 1.2094761826778384,
+        "canonical_time_since_origin_end_s": 1.2105183718946737,
+        "canonical_duration_s": 0.0010421971681687245,
+        "native_returned_samples": 131072,
+        "native_duration_s": 0.0010563269042929398,
+        "native_first_sample_zero_based": 1.50083391E+8,
+        "native_byte_offset": 6.00333564E+8,
+        "original_timing_read_first_sample_zero_based": 1.48981344E+8,
+        "native_read_guard_each_side": 512,
+        "raw_query_capture_samples": [
+          1.50083391660635E+8,
+          1.5021270942401123E+8
+        ],
+        "corrected_query_capture_samples": [
+          1.5008338545115882E+8,
+          1.5021270320918444E+8
+        ],
+        "raw_query_capture_time_s": [
+          1.2095422706502028,
+          1.2105844599252373
+        ],
+        "corrected_query_capture_time_s": [
+          1.209542220607198,
+          1.210584409839111
+        ],
+        "raw_minus_native_start_fraction_samples": 0.66063499450683594,
+        "corrected_minus_raw_start_samples": -6.2094761729240417,
+        "corrected_minus_raw_start_ns": -50.043004936413766,
+        "corrected_minus_raw_end_samples": -6.2148267924785614,
+        "fixed_dc_after_conjugation_real": -4.6196278575225946,
+        "fixed_dc_after_conjugation_imag": -7.3587559808612442,
+        "applied_native_cfo_hz": 712.642796298489
+      }
+    ],
+    "timing_model": {
+      "fs_native_hz": 1.240828E+8,
+      "canonical_period_seconds": 0.016675154690699592,
+      "fs_grid_hz": 1.2576507018370669E+8,
+      "grid_length": 2.097152E+6,
+      "fc_hz": [
+        1.0E+8,
+        1.6E+8
+      ],
+      "iq_polarity": -1,
+      "origin_samples": 8192,
+      "baseline_period_samples": 2.0691E+6,
+      "prior_period_seed_samples": 2.0690998670029133E+6,
+      "training_frames_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "heldout_frames_zero_based": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "dc_after_conjugation_real": [
+        -9.1803344449277464,
+        -4.6196278575225946
+      ],
+      "dc_after_conjugation_imag": [
+        -8.18597699482867,
+        -7.3587559808612442
+      ],
+      "time_models": [
+        {
+          "method": "32-row mean AM profiles correlated against corresponding frame0 block; robust training-only lag slope",
+          "baseline_period_samples": 2.0691E+6,
+          "fitted_period_samples": 2.0690998844551395E+6,
+          "applied_period_samples": 2.0690998844551395E+6,
+          "slope_samples_per_frame": -0.11554486049955354,
+          "fit_intercept_samples_diagnostic_only": -0.018253851416201727,
+          "origin_intercept_applied": false,
+          "accepted_within_slope_bound": true,
+          "slope_bound_samples_per_frame": 4,
+          "eligible_block_count": 58,
+          "total_blocks": 58,
+          "training_quality_fallback": false,
+          "frame_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "median_lag_samples": [
+            0,
+            -0.16115688623393942,
+            -0.286207974548809,
+            -0.32963990883591476,
+            -0.37621225262822566,
+            -0.6786122201933048,
+            -0.70155373587765135,
+            -0.8263647898123051,
+            -6.1332031655208814,
+            -6.2246468263292734,
+            -6.5823177235979262,
+            -6.3977696028301043,
+            -6.409389154253974,
+            -6.6291375014590281,
+            -6.6072873275622239,
+            -6.7151087623510231
+          ],
+          "frozen_prediction_samples": [
+            -0,
+            -0.11554486048407853,
+            -0.23108972096815705,
+            -0.34663458145223558,
+            -0.46217944193631411,
+            -0.57772430242039263,
+            -0.69326916290447116,
+            -0.80881402338854969,
+            -8.3192299548536539,
+            -8.4347748153377324,
+            -8.550319675821811,
+            -8.66586453630589,
+            -8.781409396789968,
+            -8.8969542572740465,
+            -9.0124991177581251,
+            -9.1280439782422036
+          ],
+          "training_residual_rms_samples": 0.054028569768247055,
+          "heldout_residual_rms_samples": 2.2654314750019404,
+          "heldout_parameters_refitted": false,
+          "implied_line_samples": 1099.9999385726419,
+          "positive_lag_convention": "Current AM profile delayed by d => sample current IQ forward by d.",
+          "within_frame_model": "Uniform affine time scaling inferred from frame-period change; not arbitrary per-row warp.",
+          "event_identity": "Row-periodic AM mixture feature; DSI packet identity unverified; column-driver clutter can dominate.",
+          "synthetic_integer_lag_sign_check_passed": true
+        },
+        {
+          "method": "32-row mean AM profiles correlated against corresponding frame0 block; robust training-only lag slope",
+          "baseline_period_samples": 2.0691E+6,
+          "fitted_period_samples": 2.0690999143894049E+6,
+          "applied_period_samples": 2.0690999143894049E+6,
+          "slope_samples_per_frame": -0.085610594984982441,
+          "fit_intercept_samples_diagnostic_only": 0.019682804076170506,
+          "origin_intercept_applied": false,
+          "accepted_within_slope_bound": true,
+          "slope_bound_samples_per_frame": 4,
+          "eligible_block_count": 58,
+          "total_blocks": 58,
+          "training_quality_fallback": false,
+          "frame_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "median_lag_samples": [
+            0,
+            -0.082210761746256411,
+            -0.084249550041376409,
+            -0.47185002999100684,
+            -0.27963650434567033,
+            -0.36616564288091524,
+            -0.40812804090586541,
+            -0.79676392141375163,
+            -5.8763034281806119,
+            -5.7515967139735888,
+            -5.9738915586421033,
+            -6.0690549501162412,
+            -5.9153410796150734,
+            -6.0576690401848676,
+            -6.3308339772821007,
+            -6.1080909822159075
+          ],
+          "frozen_prediction_samples": [
+            -0,
+            -0.085610595066100359,
+            -0.17122119013220072,
+            -0.25683178519830108,
+            -0.34244238026440144,
+            -0.42805297533050179,
+            -0.51366357039660215,
+            -0.59927416546270251,
+            -6.1639628447592258,
+            -6.2495734398253262,
+            -6.3351840348914266,
+            -6.4207946299575269,
+            -6.5064052250236273,
+            -6.5920158200897276,
+            -6.677626415155828,
+            -6.7632370102219284
+          ],
+          "training_residual_rms_samples": 0.11817521012175435,
+          "heldout_residual_rms_samples": 0.47028534335101929,
+          "heldout_parameters_refitted": false,
+          "implied_line_samples": 1099.9999544866587,
+          "positive_lag_convention": "Current AM profile delayed by d => sample current IQ forward by d.",
+          "within_frame_model": "Uniform affine time scaling inferred from frame-period change; not arbitrary per-row warp.",
+          "event_identity": "Row-periodic AM mixture feature; DSI packet identity unverified; column-driver clutter can dominate.",
+          "synthetic_integer_lag_sign_check_passed": true
+        }
+      ],
+      "cfo": {
+        "anchor_band_mhz": 100,
+        "seed_hz": 714,
+        "applied_native_cfo_hz": [
+          0,
+          712.642796298489
+        ],
+        "clock_ratio_a_over_b": 0.99999998553271152,
+        "relative_clock_scale_b_over_a": 1.0000000144672887,
+        "components": [
+          {
+            "component": 1,
+            "anchor_rf_hz": 1.5582494372780585E+8,
+            "native_frequency_a_hz": 5.582494372780586E+7,
+            "native_frequency_b_hz": -4.1743435689961053E+6,
+            "nominal_rf_difference_hz": 712.70319803804159,
+            "clock_aware_native_cfo_b_hz": 712.642796298489,
+            "training_frequency_mad_a_hz": 2.0088687725365162,
+            "training_frequency_mad_b_hz": 0.74855535966344178,
+            "training_median_phase_residual_a_rad": 0.54825564782734482,
+            "training_median_phase_residual_b_rad": 0.57285074105993183,
+            "peak_selection": {
+              "baseband_hz": [
+                5.5824939515193045E+7,
+                -4.1743463504786408E+6
+              ],
+              "nominal_rf_hz": [
+                1.5582493951519305E+8,
+                1.5582565364952135E+8
+              ],
+              "nominal_difference_hz": 714.13432830572128,
+              "peak_to_local_median_a": 917.28744023150455,
+              "peak_to_local_median_b": 680.48899712300056,
+              "search_seed_hz": 714,
+              "matching_halfwidth_hz": 2500,
+              "selection_source": "training mean Hann spectra; ≥1MHz between candidate anchor peaks"
+            }
+          },
+          {
+            "component": 2,
+            "anchor_rf_hz": 1.4845806531187263E+8,
+            "native_frequency_a_hz": 4.8458065311872631E+7,
+            "native_frequency_b_hz": -1.1541220976300711E+7,
+            "nominal_rf_difference_hz": 713.71182665228844,
+            "clock_aware_native_cfo_b_hz": 713.54484615847468,
+            "training_frequency_mad_a_hz": 0.49801955744624138,
+            "training_frequency_mad_b_hz": 1.1107380017638206,
+            "training_median_phase_residual_a_rad": 0.29231317765512288,
+            "training_median_phase_residual_b_rad": 0.67321540621063836,
+            "peak_selection": {
+              "baseband_hz": [
+                4.845806318984399E+7,
+                -1.1541222507966582E+7
+              ],
+              "nominal_rf_hz": [
+                1.4845806318984398E+8,
+                1.4845877749203342E+8
+              ],
+              "nominal_difference_hz": 714.30218943953514,
+              "peak_to_local_median_a": 849.25685356179838,
+              "peak_to_local_median_b": 734.25562413133673,
+              "search_seed_hz": 714,
+              "matching_halfwidth_hz": 2500,
+              "selection_source": "training mean Hann spectra; ≥1MHz between candidate anchor peaks"
+            }
+          },
+          {
+            "component": 3,
+            "anchor_rf_hz": 1.3375906868764688E+8,
+            "native_frequency_a_hz": 3.3759068687646881E+7,
+            "native_frequency_b_hz": -2.6240276598869763E+7,
+            "nominal_rf_difference_hz": 654.71348334848881,
+            "clock_aware_native_cfo_b_hz": 654.333848234266,
+            "training_frequency_mad_a_hz": 34.322523880749941,
+            "training_frequency_mad_b_hz": 26.997000047937036,
+            "training_median_phase_residual_a_rad": 2.6655282741392252,
+            "training_median_phase_residual_b_rad": 2.5289405375589471,
+            "peak_selection": {
+              "baseband_hz": [
+                3.3759021861575909E+7,
+                -2.6240265093012873E+7
+              ],
+              "nominal_rf_hz": [
+                1.337590218615759E+8,
+                1.3375973490698713E+8
+              ],
+              "nominal_difference_hz": 713.04541122913361,
+              "peak_to_local_median_a": 53.2863802437082,
+              "peak_to_local_median_b": 106.54755928131698,
+              "search_seed_hz": 714,
+              "matching_halfwidth_hz": 2500,
+              "selection_source": "training mean Hann spectra; ≥1MHz between candidate anchor peaks"
+            }
+          }
+        ],
+        "baseband_sign_convention": "All reported baseband frequencies are after conjugating the original I+jQ; +RF=nominal fc+reported fbb.",
+        "empirical_714hz_offset_applied_separately": false,
+        "across_component_cfo_mad_hz": 0.90204985998570919,
+        "pilot_rf_anchor_hz": 1.5582494372780585E+8,
+        "expected_native_pilot_baseband_hz": [
+          5.5824943727805853E+7,
+          -4.1750562117924038E+6
+        ],
+        "correction_formula": "conj(raw[n])-fixedDC, multiplied by exp(-j*2*pi*CFO_b*n/Fs) BEFORE fractional sampling",
+        "clock_aware_formula": "deltaB=fB-(fcA+fA-fcB)*PfitA/PfitB; native sample-time units",
+        "source_identified_as_screen": false,
+        "fit_partition": "training only",
+        "warning": "Matched spectral lines may be clutter or aliases. Common CFO is a candidate until distinct lines, phase residuals and heldout data agree."
+      },
+      "arm_names": [
+        "raw",
+        "phase",
+        "time",
+        "both"
+      ],
+      "used_period_samples_by_arm_and_band": [
+        [
+          2.0691E+6,
+          2.0691E+6
+        ],
+        [
+          2.0691E+6,
+          2.0691E+6
+        ],
+        [
+          2.0690998844551395E+6,
+          2.0690999143894049E+6
+        ],
+        [
+          2.0690998844551395E+6,
+          2.0690999143894049E+6
+        ]
+      ],
+      "carrier_translation_cycles_100_to160": [
+        1.0005093363062629E+6,
+        1.0005093363062629E+6,
+        1.0005092814419755E+6,
+        1.0005092814419755E+6
+      ],
+      "translation_integer_bins": [
+        1.000509E+6,
+        1.000509E+6,
+        1.000509E+6,
+        1.000509E+6
+      ],
+      "translation_fractional_cycles": [
+        0.33630626287776977,
+        0.33630626287776977,
+        0.28144197550136596,
+        0.28144197550136596
+      ],
+      "single_frame_translation": "Multiply B(u,k) by exp(+j*2*pi*D*(u+k)) before comparing to A; D is carrier_translation_cycles.",
+      "pilot_mean_translation": "Across-frame pilot derotation already applied; multiply Bmean(u) only by exp(+j*2*pi*D*u).",
+      "pilot_mean_formula": "mean_k z_arm(k,u)*exp(-j*2*pi*nu_b*k*Pused_arm_b/Fs); same physical pilot, clock-converted native units.",
+      "ordinary_mean_formula": "mean_k z_arm(k,u), with no frame-wise phase fit",
+      "time_mapping": "native sample coordinate origin+(k+u)*Pused; common output coordinate (k+u)*canonicalT",
+      "identities": [
+        {
+          "fc_mhz": 100,
+          "path": "C:\\Users\\leechanghoon\\Downloads\\black글_fc100MHz.rIs",
+          "root_source": "platform Downloads",
+          "selected_filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "expected_bytes": 1.1583E+9,
+          "expected_sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+          "sha256_verified_by_this_helper": false,
+          "identity_note": "Path and size checked. Use downloader/assembler SHA verification for full-file identity.",
+          "environment_modified": false,
+          "raw_modified": false
+        },
+        {
+          "fc_mhz": 160,
+          "path": "C:\\Users\\leechanghoon\\Downloads\\black글_fc160MHz.rIs",
+          "root_source": "platform Downloads",
+          "selected_filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "expected_bytes": 1.3068E+9,
+          "expected_sha256": "0e5d242ecd1cb45f3638623737c6bf5f6a1c4c5d4a5a964e5fc57fd0b2a82b91",
+          "sha256_verified_by_this_helper": false,
+          "identity_note": "Path and size checked. Use downloader/assembler SHA verification for full-file identity.",
+          "environment_modified": false,
+          "raw_modified": false
+        }
+      ],
+      "read_records": [
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 6144,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 24576,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 6144,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 24576,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 2.075244E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 8.300976E+6,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 2.075244E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 8.300976E+6,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 4.144344E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 1.6577376E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 4.144344E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 1.6577376E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 6.213444E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 2.4853776E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 6.213444E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 2.4853776E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 8.282544E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 3.3130176E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 8.282544E+6,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 3.3130176E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.0351644E+7,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 4.1406576E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.0351644E+7,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 4.1406576E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.2420744E+7,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 4.9682976E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.2420744E+7,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 4.9682976E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.4489844E+7,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 5.7959376E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.4489844E+7,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 5.7959376E+7,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.48981344E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 5.95925376E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.48981344E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 5.95925376E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.51050444E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.04201776E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.51050444E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.04201776E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.53119544E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.12478176E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.53119544E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.12478176E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.55188644E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.20754576E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.55188644E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.20754576E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.57257744E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.29030976E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.57257744E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.29030976E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.59326844E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.37307376E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.59326844E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.37307376E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.61395944E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.45583776E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.61395944E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.45583776E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc100MHz.rIs",
+          "bytes": 1.1583E+9,
+          "first_sample_zero_based": 1.63465044E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.53860176E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        },
+        {
+          "filename": "black글_fc160MHz.rIs",
+          "bytes": 1.3068E+9,
+          "first_sample_zero_based": 1.63465044E+8,
+          "sample_count": 2.097152E+6,
+          "byte_offset": 6.53860176E+8,
+          "byte_count": 8.388608E+6,
+          "disk_dtype": "big-endian signed int16 interleaved I,Q",
+          "memory_dtype": "complex single",
+          "units": "ADC counts"
+        }
+      ],
+      "split_caveat": "Training0:7 previously used. Heldout72:79 excluded from this fit, but global prior-access audit/new-screen validation is not claimed.",
+      "signal_model_caveat": "Row-periodic AM events and matched RF lines are proxies. Neither is decoded packet evidence. Conditional pilot means can emphasize clutter."
+    },
+    "selection": "Fixed frame72, canonical line1000 region,131072 samples; prior106MHz/q16/display0.75; no TF-based parameter search",
+    "comparison_scope": "Frame72 excluded from the Oct26 fit; this is a processing diagnostic, not a new independent capture or a stitching validity test",
+    "native_canonical_origin_note": "Native first index is floor of the fixed-prior canonical query. Corrected physical queries differ by frozen time mapping; coordinates logged explicitly."
+  },
+  "interpretation": [
+    "No parameter fitting, image-reference scoring, or RF alignment is done here.",
+    "Corrected RF axes are nominal coordinates under the supplied IQ polarity; hardware polarity/calibration is not inferred.",
+    "STFT uses complex two-sided PSD in input-unit squared/Hz, with no factor of two.",
+    "FSST/CWT magnitude scales are transform-specific and are not STFT PSD.",
+    "Synchrosqueezing does not create measured bandwidth; narrow subband plots discard RF content.",
+    "Phase gate is an amplitude heuristic, not a probability/confidence estimate.",
+    "Time mapping plus CFO changes relative phase; these plots cannot identify sample-clock error from CFO.",
+    "Native and canonical chunk starts need not be the same physical instant; see caller metadata."
+  ],
+  "scales": {
+    "stft_psd_limits_db": [
+      -79.767884585018678,
+      -19.767884585018674
+    ],
+    "subband_stft_psd_limits_db": [
+      -85.771283568348437,
+      -25.771283568348441
+    ],
+    "fsst_magnitude_reference": 3060.025146484375,
+    "cwt_magnitude_reference": 18.552497863769531,
+    "magnitude_limits_db": [
+      -60,
+      0
+    ]
+  },
+  "bands": [
+    {
+      "nominal_fc_hz": 1.0E+8,
+      "analyzed_samples": 131072,
+      "antialias_test": {
+        "pass_frequency_hz": 1.5720633772963337E+6,
+        "stop_frequency_hz": 5.8952376648612507E+6,
+        "pass_gain": 1.0000296678607565,
+        "pass_phase_rad": -4.6898226373769837E-16,
+        "pass_ripple": 9.4894841646589362E-13,
+        "stopband_amplitude": 8.8023227462109617E-6,
+        "passband_gain_tolerance": 0.001,
+        "pass_phase_tolerance_rad": 1E-6,
+        "stopband_amplitude_limit": 0.001,
+        "passed": true
+      },
+      "cwt_status": "success",
+      "cwt_error_message": ""
+    },
+    {
+      "nominal_fc_hz": 1.6E+8,
+      "analyzed_samples": 131072,
+      "antialias_test": {
+        "pass_frequency_hz": 1.5720633772963337E+6,
+        "stop_frequency_hz": 5.8952376648612507E+6,
+        "pass_gain": 1.0000296678607565,
+        "pass_phase_rad": -4.6898226373769837E-16,
+        "pass_ripple": 9.4894841646589362E-13,
+        "stopband_amplitude": 8.8023227462109617E-6,
+        "passband_gain_tolerance": 0.001,
+        "pass_phase_tolerance_rad": 1E-6,
+        "stopband_amplitude_limit": 0.001,
+        "passed": true
+      },
+      "cwt_status": "success",
+      "cwt_error_message": ""
+    }
+  ],
+  "metrics": [
+    {
+      "nominal_fc_hz": 1.0E+8,
+      "canonical_fs_hz": 1.2576507018370669E+8,
+      "stft_window_us": 8.142165376318161,
+      "stft_enbw_hz": 184226.17702691411,
+      "stft_fft_spacing_hz": 61408.72567563803,
+      "subband_fs_hz": 7.8603168864816679E+6,
+      "subband_duration_us": 1033.5461174563864,
+      "fsst_window_us": 32.568661505272644,
+      "fsst_enbw_hz": 46056.544256728521,
+      "fsst_fft_spacing_hz": 30704.362837819015,
+      "phase_gate_amplitude": 6.5172319344469187,
+      "phase_valid_pair_fraction": 0.62296898079763663,
+      "cwt_status": "success",
+      "antialias_passed": true,
+      "antialias_stopband_amplitude": 8.8023227462109617E-6
+    },
+    {
+      "nominal_fc_hz": 1.6E+8,
+      "canonical_fs_hz": 1.2576507018370669E+8,
+      "stft_window_us": 8.142165376318161,
+      "stft_enbw_hz": 184226.17702691411,
+      "stft_fft_spacing_hz": 61408.72567563803,
+      "subband_fs_hz": 7.8603168864816679E+6,
+      "subband_duration_us": 1033.5461174563864,
+      "fsst_window_us": 32.568661505272644,
+      "fsst_enbw_hz": 46056.544256728521,
+      "fsst_fft_spacing_hz": 30704.362837819015,
+      "phase_gate_amplitude": 8.362726914192077,
+      "phase_valid_pair_fraction": 0.61447562776957165,
+      "cwt_status": "success",
+      "antialias_passed": true,
+      "antialias_stopband_amplitude": 8.8023227462109617E-6
+    }
+  ],
+  "wavelet_complete": true
+}

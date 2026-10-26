@@ -1,0 +1,8 @@
+{
+  "shared_limits": [
+    31.535215377807617,
+    166.56103515625
+  ],
+  "source": "raw AM training 1/99 percentile",
+  "per_panel_gain_fit": false
+}
