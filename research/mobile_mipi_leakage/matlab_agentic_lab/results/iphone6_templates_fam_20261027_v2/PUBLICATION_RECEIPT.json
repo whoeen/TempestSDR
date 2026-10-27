@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-27T02:24:03.467Z",
+  "code_commit": "9e4fac5",
+  "branch": "codex/mipi-coherent-hsv-analysis-2026-10-21",
+  "archive": {
+    "name": "iphone6_templates_fam_20261027_v2.zip",
+    "bytes": 14120443,
+    "digest": "sha256:c3300aee2d588b78414c64bb4e070d1874bed0b9b125d18bc184238d7c40a26b",
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_templates_fam_20261027_v2.zip",
+    "remote_verified": true
+  },
+  "cloud_matlab_executed": false,
+  "scope": "Local MATLAB execution, source and figures in research branch, FIG/MAT/Live Script bundle in existing release."
+}
