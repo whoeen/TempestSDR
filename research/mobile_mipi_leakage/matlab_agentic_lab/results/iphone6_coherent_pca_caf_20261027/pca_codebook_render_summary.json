@@ -1,0 +1,264 @@
+{
+  "status": "complete",
+  "methods": [
+    "rawgrid",
+    "PC1",
+    "selected"
+  ],
+  "row_order": [
+    "rawgrid B2",
+    "rawgrid B3",
+    "PC1 B2",
+    "PC1 B3",
+    "selected B2",
+    "selected B3"
+  ],
+  "blocks": [
+    2,
+    3
+  ],
+  "uniform_nmse_columns": [
+    "valid",
+    "strongest_wrong"
+  ],
+  "uniform_nmse": [
+    [
+      0.7230831126302848,
+      0.69851813282298092
+    ],
+    [
+      0.722985384455816,
+      0.70229013223415859
+    ],
+    [
+      0.732907193448724,
+      0.69295264919678212
+    ],
+    [
+      0.71510679591873039,
+      0.71364504868193679
+    ],
+    [
+      0.72781864613897973,
+      0.70508339290040789
+    ],
+    [
+      0.7317141870260776,
+      0.69780208261641441
+    ]
+  ],
+  "text_nmse_columns": [
+    "valid",
+    "same_family_wrong",
+    "strongest_wrong"
+  ],
+  "text_nmse": [
+    [
+      1.9379927675884698,
+      6.0085408466523189,
+      10.036259219518433
+    ],
+    [
+      1.9357936682813703,
+      5.9766501066990729,
+      9.959505064714639
+    ],
+    [
+      2.0953371414371516,
+      6.94016175879121,
+      10.592264320322526
+    ],
+    [
+      2.2995593102594509,
+      8.0404996799807975,
+      12.301419346101506
+    ],
+    [
+      1.6470902366383726,
+      5.7906302379470453,
+      9.1725168096749172
+    ],
+    [
+      1.7257100570036521,
+      6.050939170140099,
+      9.6541676011147661
+    ]
+  ],
+  "uniform_phase_deg": [
+    [
+      -3.9172339111205119,
+      -1.7058305568336118
+    ],
+    [
+      0.20619818090103698,
+      0.17061770727463463
+    ],
+    [
+      -4.649282966499432,
+      -1.2027938314994906
+    ],
+    [
+      0.72817003421031568,
+      0.85182936561873213
+    ],
+    [
+      -0.84497579752599317,
+      -1.0779089957360104
+    ],
+    [
+      3.3881102397210081,
+      0.43178549574358494
+    ]
+  ],
+  "text_phase_deg": [
+    [
+      48.782169598249965,
+      -150.05497575340092
+    ],
+    [
+      59.174694402854165,
+      -151.56220263086993
+    ],
+    [
+      40.919835053523045,
+      -149.80906488390133
+    ],
+    [
+      45.132093131908,
+      -141.94035801063936
+    ],
+    [
+      45.429158347231152,
+      -146.35528459661018
+    ],
+    [
+      78.20867974793417,
+      -151.99728689501976
+    ]
+  ],
+  "uniform_abs_coherence": [
+    [
+      0.52746349277963556,
+      0.549319569298517
+    ],
+    [
+      0.52633451628709149,
+      0.545641784893567
+    ],
+    [
+      0.51937264320277976,
+      0.55444667108783
+    ],
+    [
+      0.53391570577972547,
+      0.53524787096195092
+    ],
+    [
+      0.52185677404314246,
+      0.54340363752973608
+    ],
+    [
+      0.5201266380287104,
+      0.54974158477932755
+    ]
+  ],
+  "text_abs_coherence": [
+    [
+      0.038417353687328591,
+      0.069486465621851276
+    ],
+    [
+      0.041908886516474154,
+      0.071058831132285269
+    ],
+    [
+      0.038216148795252085,
+      0.073955153411877583
+    ],
+    [
+      0.046437675390556987,
+      0.068302467617613341
+    ],
+    [
+      0.044919962631669544,
+      0.069702255591888432
+    ],
+    [
+      0.03266166456979526,
+      0.07644086537772142
+    ]
+  ],
+  "wrong_better_uniform": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "text_worse_than_zero": [
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "candidate_identities": [
+    {
+      "method": "rawgrid",
+      "valid": "video-vc3-valid",
+      "same_family_wrong": "video-vc3-header-byte-permutation",
+      "strongest_wrong": "video-vc0-header-bit-order-reversed",
+      "valid_rate_hypothesis_hz": 7.55E+8,
+      "wrong_rate_hypothesis_hz": 6.95E+8
+    },
+    {
+      "method": "PC1",
+      "valid": "video-vc3-valid",
+      "same_family_wrong": "video-vc3-header-byte-permutation",
+      "strongest_wrong": "video-vc0-header-bit-order-reversed",
+      "valid_rate_hypothesis_hz": 7.55E+8,
+      "wrong_rate_hypothesis_hz": 6.95E+8
+    },
+    {
+      "method": "selected",
+      "valid": "video-vc3-valid",
+      "same_family_wrong": "video-vc3-header-byte-permutation",
+      "strongest_wrong": "video-vc0-header-bit-order-reversed",
+      "valid_rate_hypothesis_hz": 7.55E+8,
+      "wrong_rate_hypothesis_hz": 6.95E+8
+    }
+  ],
+  "selection_scope": "Candidates and channels selected on B1 only.",
+  "phase_scope": "Weighted complex inner-product phase; not RF absolute phase.",
+  "known_reference_scope": "Text forward prediction only.",
+  "packet_decoded": false,
+  "physical_lane_channels_identified": false,
+  "png_path": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_coherent_pca_caf_20261027\\pca_05_codebook_validation.png",
+  "fig_path": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_coherent_pca_caf_20261027\\pca_05_codebook_validation.fig"
+}

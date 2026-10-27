@@ -1,0 +1,271 @@
+{
+  "experiment": "iphone6_coherent_pca_caf_20261027",
+  "base_git_commit": "8fb530d4c8f111bb95cb6dcaab880f4e791e4d9f",
+  "execution": "MATLAB MCP visible desktop; signal processing and all scientific figures generated in MATLAB",
+  "source_snapshot": [
+    {
+      "path": "prepareFramePca27.m",
+      "bytes": 9159,
+      "sha256": "dc30515bda593c34250f3bd3fa9c8e0e792100d244572a51e7f28cda799723a1"
+    },
+    {
+      "path": "auditFrameCoherence27.m",
+      "bytes": 13338,
+      "sha256": "44195f271fa1e51b8cc56ea79d8e6b45d1ab757f143b3f82bcbb0fb4a886f804"
+    },
+    {
+      "path": "renderPcaIqBinary27.m",
+      "bytes": 18175,
+      "sha256": "f31609a0a50fc656eae986c7c03a2d33501d837fdbbfe5e795fb9afb0de872cf"
+    },
+    {
+      "path": "renderFramePcaDiagnostics27.m",
+      "bytes": 15752,
+      "sha256": "2e5d399a795679351f7b5eade34909f9f39dd299ca0d60ad9982c32ab33bd058"
+    },
+    {
+      "path": "renderPcaCodebookValidation27.m",
+      "bytes": 10162,
+      "sha256": "df0a29f45f899295b48907e022d4fc57e2b2f578602df159b5287948e6858931"
+    },
+    {
+      "path": "auditPcaNumerics27.m",
+      "bytes": 6212,
+      "sha256": "b4734f428c3f24d1117f5ae5c7a044bc1e234f0ea99ee0c82856197e32a29f19"
+    },
+    {
+      "path": "reproduceFramePca27.m",
+      "bytes": 1140,
+      "sha256": "219ba2b5a1aac50bba6fcbc9b26ea420fd2cc8f7debf53eda35e4aca08b13ebb"
+    },
+    {
+      "path": "signal_processing/analyzeIqBlock.m",
+      "bytes": 8528,
+      "sha256": "001915ef527f672138494535be10f7b1f8d7200b70e10700e596b7c7d71e7260"
+    },
+    {
+      "path": "signal_processing/appendResearchNote.m",
+      "bytes": 731,
+      "sha256": "bc762ed1a0f406a793aca8606a9d41c6e78e3d09b0a85c3774af1edc7df04e6d"
+    },
+    {
+      "path": "signal_processing/buildDsi3LaneCodebook27.m",
+      "bytes": 18639,
+      "sha256": "2f5ebb05618a0b8df3167d9331823096a94c4fc5908f3881304abbcf42959b9b"
+    },
+    {
+      "path": "signal_processing/buildDsiGrayPacketCaf27.m",
+      "bytes": 11345,
+      "sha256": "ca0330394ae9c5cc1515575b4974244e933e40ff7cc29cebb0970e847b3a5d4c"
+    },
+    {
+      "path": "signal_processing/buildIphoneRowLabelsCaf27.m",
+      "bytes": 6808,
+      "sha256": "894229ca30e416f7d1fb12bcc32f99932dd3e8e12b5272147f6a9137dfd2749b"
+    },
+    {
+      "path": "signal_processing/compareParametricPsd.m",
+      "bytes": 3137,
+      "sha256": "2cc792bd5a5d6c0b58b5265ebde4ced20dcdbd38a353204e5f3217d595a755b6"
+    },
+    {
+      "path": "signal_processing/compareRasterAverages.m",
+      "bytes": 13342,
+      "sha256": "c0c99c12ce39b2603f83b642155e51ef0746e3bf8c07f7d64cc10f3260afb59d"
+    },
+    {
+      "path": "signal_processing/conditionIq.m",
+      "bytes": 3612,
+      "sha256": "819e9b6e83a0e12f81f3f3ce933ea6f7cb9958b07035f400dd95bd4199b221f8"
+    },
+    {
+      "path": "signal_processing/diagnoseIq.m",
+      "bytes": 1508,
+      "sha256": "2ad5b0b10400d109085c22d26c1440c66b6fdf582e4681a7f1eb5bd0e90f2d55"
+    },
+    {
+      "path": "signal_processing/dsi3LanePowerModel27.m",
+      "bytes": 6596,
+      "sha256": "57b630bccd9db1a964dcbf651a30cc9fbc16c326c746197fdc54016f4eabb2ed"
+    },
+    {
+      "path": "signal_processing/dsiCafBasis27.m",
+      "bytes": 4492,
+      "sha256": "d6941080ffde23f68604913a0e8a936400202bca92381ec9e84b2a8a44ce908d"
+    },
+    {
+      "path": "signal_processing/dsiTimeMixCafBasis27.m",
+      "bytes": 4448,
+      "sha256": "1cd7189ff392d5b19d9ad8a04f2470310d271fcec92ef8797410b4e1ffcd54b0"
+    },
+    {
+      "path": "signal_processing/estimateSpectrogram.m",
+      "bytes": 1485,
+      "sha256": "1120fe7aca3e1582602d25d4970233889c488726d12faa64fc1f59f3d006b1d7"
+    },
+    {
+      "path": "signal_processing/estimateWelchPsd.m",
+      "bytes": 2157,
+      "sha256": "20cbde88cfacc938613ec3320a6f0f6a49c4242a54b71f04a22ee68a92e9147a"
+    },
+    {
+      "path": "signal_processing/exportRisForTempest.m",
+      "bytes": 3436,
+      "sha256": "dc9aa6fda0532e1042caf15ce0754ca88ec65df120ea02a0eb3f6d9911866f77"
+    },
+    {
+      "path": "signal_processing/famCycleScout26.m",
+      "bytes": 18495,
+      "sha256": "b10f9c8afb4028986ac804475f59efe988815842c08bea47993e81ec71eba8c7"
+    },
+    {
+      "path": "signal_processing/fitDsiCafChannel27.m",
+      "bytes": 9431,
+      "sha256": "1941a29a509eaf6d4efe60594ca317ddb364bf4ba0cfafa7b840408508e0eb15"
+    },
+    {
+      "path": "signal_processing/fitDsiCafFir27.m",
+      "bytes": 13592,
+      "sha256": "fde37b8b0f5f93e04c6cda60ea282975b4316f3dc34acfe40d6340d4b20f6ff7"
+    },
+    {
+      "path": "signal_processing/fitPcaCafObservationBank27.m",
+      "bytes": 5688,
+      "sha256": "662ef6ae7f43d42e6d7b4d043bf5e275b1bbf7171a7b2a256c0e62867529a426"
+    },
+    {
+      "path": "signal_processing/fitTimeMixedCafCodebook27.m",
+      "bytes": 14213,
+      "sha256": "937870c4530a66007e1a7432a94c20bb271902c24c991b344eb3a342ba07aeed"
+    },
+    {
+      "path": "signal_processing/frameCafStats27.m",
+      "bytes": 1211,
+      "sha256": "cc6ed1f821dbc5f402cc09214f2abf8e6a96f1369edf53e08b2d25404ab1f3ff"
+    },
+    {
+      "path": "signal_processing/learnClutterSubspace.m",
+      "bytes": 1541,
+      "sha256": "56afae0d5d47946bc7ff91bbb53826f95436b918341d9f1a898fe53d8ce3a7b5"
+    },
+    {
+      "path": "signal_processing/measureFrameCandidates.m",
+      "bytes": 3271,
+      "sha256": "6b2c21de272afcee7beda8196c254bd4016b2ad2d52a23688bc9e14eb824ea03"
+    },
+    {
+      "path": "signal_processing/mobileBaselineConfig.m",
+      "bytes": 2352,
+      "sha256": "a7d8189bb013fca20e53e142e5a3bc26c302028738379037e6bf45080f0368e1"
+    },
+    {
+      "path": "signal_processing/mobileResearchNotebook.m",
+      "bytes": 1976,
+      "sha256": "4412a354919f40c9b800a04932c60770480b996f56f46a61bb99ffba34348e2d"
+    },
+    {
+      "path": "signal_processing/periodicHann.m",
+      "bytes": 252,
+      "sha256": "4113e401f15c0786aadf8cbbe1796662f4e0c40fbb17ffc3d9e869ae13648e62"
+    },
+    {
+      "path": "signal_processing/powerDb.m",
+      "bytes": 233,
+      "sha256": "a1c628e58f48c24a35e0e0c417e9b0ac47eba3f9461b0621035d47ea0f4e0fcd"
+    },
+    {
+      "path": "signal_processing/readAlignedFrameIq27.m",
+      "bytes": 1476,
+      "sha256": "8c6c20f65836bddba308b8363af8df6e08ca4a07ec31e447f0d236a8dc50be14"
+    },
+    {
+      "path": "signal_processing/readRisIqBlock.m",
+      "bytes": 1570,
+      "sha256": "0e71cc7e694a735f2548349fd702134684efde7412dc78434e7fb2b7d2b95752"
+    },
+    {
+      "path": "signal_processing/resolveIphoneSweepCapture.m",
+      "bytes": 4148,
+      "sha256": "ab64331d35121a35926364dadd76700e20f8b2d88128719a0e119465f0df9869"
+    },
+    {
+      "path": "signal_processing/runMobileBaseline.m",
+      "bytes": 5180,
+      "sha256": "9a6cac9858f28013595372b07d3cd4403d0e7447185e046d3e0a460a9bda672c"
+    },
+    {
+      "path": "signal_processing/runWeakModulationDemo.m",
+      "bytes": 5186,
+      "sha256": "01e46d7dcd4d2f359b52ec26263d981fcd0f493bf9fcfb9f0acc20cc7099879c"
+    },
+    {
+      "path": "signal_processing/sampleFractionalRaster.m",
+      "bytes": 1244,
+      "sha256": "37c27f72a7068b02f16bbed366e16d335fac153a26fc589e1a9b38bf9c92e971"
+    },
+    {
+      "path": "signal_processing/sampleQuantile.m",
+      "bytes": 482,
+      "sha256": "b69f9e2b2352774966b3604638c5ce906dd0cae9c7bb29f7bb16df6484aa551e"
+    },
+    {
+      "path": "signal_processing/scoreFramePcaCaf27.m",
+      "bytes": 11286,
+      "sha256": "f815ce70bd5851c245e10e48b5b647663127bb09798bde300462a992ba11900d"
+    },
+    {
+      "path": "signal_processing/separateMatchedSubspace.m",
+      "bytes": 3791,
+      "sha256": "dad6c87ba5753444fae34daf4c045b997e8e3c18feae27d9fac5ff454a432e6d"
+    },
+    {
+      "path": "signal_processing/separateRpca.m",
+      "bytes": 3452,
+      "sha256": "1a6852fc042cd1da6ac2507c5c2bf7ad2a901400a5bf4643d1b059653406b627"
+    },
+    {
+      "path": "signal_processing/sha256FileRange.m",
+      "bytes": 1639,
+      "sha256": "170ab39f8144d2a40573316f1edab38452c12bbb36054e0e953be2d0c3a7ea8b"
+    },
+    {
+      "path": "signal_processing/testMobileBaseline.m",
+      "bytes": 6129,
+      "sha256": "bea852ed54d3dfe96f9fb41e1a9cdea24ca50d849b22046595f84efc8c0f4cba"
+    },
+    {
+      "path": "signal_processing/validateFamCandidates26.m",
+      "bytes": 19072,
+      "sha256": "862790663c8124959f671f807a0bda29a81de509784665efca7cff38fca894df"
+    },
+    {
+      "path": "signal_processing/writeJsonFile.m",
+      "bytes": 346,
+      "sha256": "06f900df084dd523e815a14fe1910943723b185ea81d9504457209bdef5ddef5"
+    },
+    {
+      "path": "tools/package_frame_pca27.py",
+      "bytes": 1801,
+      "sha256": "08e117c185bca2ac59364491bb56c8912c5d04658a7ae627c039b40c503b9be5"
+    }
+  ],
+  "raw_unchanged": true,
+  "raw_full_hash_recomputed_this_run": false,
+  "raw_sha256_previous_verified": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+  "reference_sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef",
+  "prior_dependency": {
+    "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_complex_caf_channels_20261027.zip",
+    "sha256": "02027e1275aa2fc98fcf3f32eb02c1e216653a42c970ea1483e49b4525c77f2f"
+  },
+  "run_recovery": [
+    "Initial preparation struct assignment was corrected before completed data were written.",
+    "Rawgrid codebook fit completed before a CSV VariableNames formatting error. The CSV was repaired from saved fit data; resume asserted exact targets, weights and mixing operator and reused the completed fit. PC1 and selected fits then completed.",
+    "Unused code analyzer suppression was removed after plotting; no computational change."
+  ],
+  "claims": {
+    "text_decoded": false,
+    "packet_decoded": false,
+    "physical_lane_count_verified": false,
+    "first_pc_is_driver": false
+  }
+}

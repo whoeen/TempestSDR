@@ -1,0 +1,84 @@
+{
+  "matlab_version": "26.2.0.3386108 (R2026b)",
+  "products": [
+    {
+      "Name": "MATLAB",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "MATLAB Copilot",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "Signal Processing Toolbox",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "Wavelet Toolbox",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    }
+  ],
+  "code_analyzer": [
+    {
+      "file": "prepareFramePca27.m",
+      "issues": []
+    },
+    {
+      "file": "auditFrameCoherence27.m",
+      "issues": []
+    },
+    {
+      "file": "renderPcaIqBinary27.m",
+      "issues": []
+    },
+    {
+      "file": "renderFramePcaDiagnostics27.m",
+      "issues": []
+    },
+    {
+      "file": "signal_processing/frameCafStats27.m",
+      "issues": []
+    },
+    {
+      "file": "signal_processing/readAlignedFrameIq27.m",
+      "issues": []
+    },
+    {
+      "file": "signal_processing/scoreFramePcaCaf27.m",
+      "issues": []
+    },
+    {
+      "file": "signal_processing/dsiTimeMixCafBasis27.m",
+      "issues": []
+    },
+    {
+      "file": "signal_processing/fitTimeMixedCafCodebook27.m",
+      "issues": []
+    },
+    {
+      "file": "signal_processing/fitPcaCafObservationBank27.m",
+      "issues": []
+    },
+    {
+      "file": "auditPcaNumerics27.m",
+      "issues": []
+    },
+    {
+      "file": "renderPcaCodebookValidation27.m",
+      "issues": []
+    },
+    {
+      "file": "reproduceFramePca27.m",
+      "issues": []
+    }
+  ],
+  "timestamp": "2026-10-27 06:44:56"
+}

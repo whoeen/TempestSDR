@@ -1,0 +1,643 @@
+{
+  "matrix": "within-frame sample positions by8 measured frames",
+  "component_energy_fraction": [
+    0.13510266487209577,
+    0.12782063211967482,
+    0.12579871991968497,
+    0.12505312112746667,
+    0.12366563705395923,
+    0.1224670917172723,
+    0.1210286295072788,
+    0.11906350368256745
+  ],
+  "selected_component": 6,
+  "top2_components": [
+    6,
+    7
+  ],
+  "PC1_stripe_fraction": 0.21439144015312195,
+  "all_component_stripe_fractions": [
+    0.21439144015312195,
+    0.20218254625797272,
+    0.21407939493656158,
+    0.21497701108455658,
+    0.20434047281742096,
+    0.20602035522460938,
+    0.21551397442817688,
+    0.20973636209964752
+  ],
+  "PC1_interpretation": "Largest energy component, not an exclusive physical stripe or driver source.",
+  "selection_scope": "Frozen B1-only CAF heuristic from training_pca.mat; this renderer does not reselect.",
+  "component_image_normalization": "Each component divided by its own B1 active-row mean; all share one B1-derived display range.",
+  "component_B1_mean_powers": [
+    0.15686856202573271,
+    0.1474824007735196,
+    0.14663565217956112,
+    0.14456358710298731,
+    0.14126588754242306,
+    0.14288885622075728,
+    0.14052490504892887,
+    0.13829288566680006
+  ],
+  "component_power_display_range": [
+    0.010619401681769827,
+    6.4568158825953139
+  ],
+  "caf_display_normalization": "Each method divided by its B1 active mean power; fixed B1 white baseline and own B1 white CAF phase.",
+  "caf_magnitude_display_range": [
+    0.030051535833978904,
+    5.3070488003586274
+  ],
+  "caf_phase_projection_display_range": [
+    -2.0657819787735692,
+    2.0657819787735692
+  ],
+  "test_image_blocks": [
+    2,
+    3
+  ],
+  "reference_pixels_rendered": false,
+  "binary_threshold_uses_these_caf_images": false,
+  "phase_meaning": "Nonzero-lag correlation phase, not RF carrier or RGB hue.",
+  "phase_consistency_definition": "Complex cosine of each block measured text-minus-white CAF profile; no fitted test rotation.",
+  "phase_consistency_test_white_mean": "Used only to measure class contrast; it does not change frozen image baselines or classifiers.",
+  "effect_definition": "Mean absolute per-row residual energy text-white difference / pooled within-class row SD; not SNR or text pixel accuracy.",
+  "comparison_scope": "Prior CAF has its prior native hard-bin windows; rawgrid/PC methods share newly aligned eight-frame windows. Rawgrid isolates PCA changes.",
+  "methods": [
+    {
+      "name": "prior_CAF",
+      "B1_mean_power": 1.1585599123514234,
+      "phase_reference_valid_fraction": 1,
+      "blocks": [
+        {
+          "block": 1,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.8006626036769986,
+            "mean_white": 0.38289232552884023,
+            "pooled_row_sd": 0.10067712600274167,
+            "standardized_effect": 4.1496047288515321
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.719198909148528,
+            "mean_white": 0.31585539173860672,
+            "pooled_row_sd": 0.086255450002600875,
+            "standardized_effect": 4.67615109999147
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.57305195512558449,
+            "mean_white": 0.19701009179464105,
+            "pooled_row_sd": 0.080240826782509225,
+            "standardized_effect": 4.6864156117208964
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 1.0000000000000007,
+            "absolute_cosine": 1.0000000000000007,
+            "inner_product_phase_deg": 0,
+            "weighted_phase_concentration": 1,
+            "columns": 940,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 1
+        },
+        {
+          "block": 2,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.80650032000892,
+            "mean_white": 0.3831152610991207,
+            "pooled_row_sd": 0.10365640493512471,
+            "standardized_effect": 4.0845045626923175
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.72151430143251072,
+            "mean_white": 0.31635398896102407,
+            "pooled_row_sd": 0.088350263035805524,
+            "standardized_effect": 4.5858416098578925
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.576679692974508,
+            "mean_white": 0.19543547304817183,
+            "pooled_row_sd": 0.0813214348195377,
+            "standardized_effect": 4.6881147728438908
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.9898679841658764,
+            "absolute_cosine": 0.98991247345457989,
+            "inner_product_phase_deg": -0.54321104227530692,
+            "weighted_phase_concentration": 0.99438809000672246,
+            "columns": 940,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 1
+        },
+        {
+          "block": 3,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.78621762137016826,
+            "mean_white": 0.36907273139679508,
+            "pooled_row_sd": 0.096394797468364213,
+            "standardized_effect": 4.3274626943458836
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.712554007533631,
+            "mean_white": 0.31219096101565891,
+            "pooled_row_sd": 0.0837314737575276,
+            "standardized_effect": 4.7815119996258133
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.56146610239764327,
+            "mean_white": 0.18868207750771904,
+            "pooled_row_sd": 0.07767193896940168,
+            "standardized_effect": 4.799468506081455
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.96249339370578635,
+            "absolute_cosine": 0.96325764115520651,
+            "inner_product_phase_deg": -2.2825069893703063,
+            "weighted_phase_concentration": 0.98438397825832036,
+            "columns": 940,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 1
+        }
+      ]
+    },
+    {
+      "name": "rawgrid",
+      "B1_mean_power": 1.1585226927675318,
+      "phase_reference_valid_fraction": 0.99909090909090914,
+      "blocks": [
+        {
+          "block": 1,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.79471963643533938,
+            "mean_white": 0.37893699223297161,
+            "pooled_row_sd": 0.10118378920569236,
+            "standardized_effect": 4.109182384513594
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.7195579995154221,
+            "mean_white": 0.31578180280079643,
+            "pooled_row_sd": 0.086721366677817352,
+            "standardized_effect": 4.6560174520163375
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.57522600953663194,
+            "mean_white": 0.19553996413512106,
+            "pooled_row_sd": 0.080350752854253971,
+            "standardized_effect": 4.7253576589408315
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.99999999999999956,
+            "absolute_cosine": 0.99999999999999956,
+            "inner_product_phase_deg": 0,
+            "weighted_phase_concentration": 1,
+            "columns": 937,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 2,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.804343216299579,
+            "mean_white": 0.38001501940040266,
+            "pooled_row_sd": 0.10353102199041621,
+            "standardized_effect": 4.0985608829250815
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.7219080467430905,
+            "mean_white": 0.31468040882136772,
+            "pooled_row_sd": 0.0874342890827758,
+            "standardized_effect": 4.6575278668554416
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.5790369922753994,
+            "mean_white": 0.19437653038154099,
+            "pooled_row_sd": 0.08149618645738603,
+            "standardized_effect": 4.7199811256812065
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.988708177504991,
+            "absolute_cosine": 0.98871044294221433,
+            "inner_product_phase_deg": -0.12265328055624032,
+            "weighted_phase_concentration": 0.99392236178548421,
+            "columns": 937,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 3,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.78943595474464667,
+            "mean_white": 0.37332424911352841,
+            "pooled_row_sd": 0.097541506908454118,
+            "standardized_effect": 4.2659962801441305
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.70475744977694654,
+            "mean_white": 0.30394255323817737,
+            "pooled_row_sd": 0.0832503477394655,
+            "standardized_effect": 4.8145732411008249
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.56054955635937853,
+            "mean_white": 0.18462233543450629,
+            "pooled_row_sd": 0.0771784764886816,
+            "standardized_effect": 4.8708815984467222
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.97391099675806558,
+            "absolute_cosine": 0.97432334976018176,
+            "inner_product_phase_deg": -1.6670014337674341,
+            "weighted_phase_concentration": 0.98913607358425315,
+            "columns": 937,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        }
+      ]
+    },
+    {
+      "name": "PC1",
+      "B1_mean_power": 0.15686856387347525,
+      "phase_reference_valid_fraction": 0.99818181818181817,
+      "blocks": [
+        {
+          "block": 1,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1392227051757378,
+            "mean_white": 0.78279847674709957,
+            "pooled_row_sd": 0.2133544536540122,
+            "standardized_effect": 1.6705731815030969
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1767085120977929,
+            "mean_white": 0.79333345015563661,
+            "pooled_row_sd": 0.23719875073831373,
+            "standardized_effect": 1.616260881428965
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.83204615501765389,
+            "mean_white": 0.54723467010667559,
+            "pooled_row_sd": 0.18041276363293438,
+            "standardized_effect": 1.5786659390155582
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 1,
+            "absolute_cosine": 1,
+            "inner_product_phase_deg": 0,
+            "weighted_phase_concentration": 1,
+            "columns": 1079,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 2,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.0858614014228665,
+            "mean_white": 0.7477168126411301,
+            "pooled_row_sd": 0.2029729165517952,
+            "standardized_effect": 1.6659591561588842
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1146311126522743,
+            "mean_white": 0.74183219932273337,
+            "pooled_row_sd": 0.24434309654459871,
+            "standardized_effect": 1.5257190344295071
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.81369609262345344,
+            "mean_white": 0.51338177699436049,
+            "pooled_row_sd": 0.1900974469593823,
+            "standardized_effect": 1.5797914197830361
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.92891372936946714,
+            "absolute_cosine": 0.92913991551076447,
+            "inner_product_phase_deg": 1.26426722066543,
+            "weighted_phase_concentration": 0.97269115763887182,
+            "columns": 1079,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 3,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.0359368558835855,
+            "mean_white": 0.75475186580990794,
+            "pooled_row_sd": 0.16620799405549816,
+            "standardized_effect": 1.6917657400990453
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.0422246115428535,
+            "mean_white": 0.72492824081750418,
+            "pooled_row_sd": 0.21626048027767633,
+            "standardized_effect": 1.4671953484887479
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.75797301662779981,
+            "mean_white": 0.50472622006158019,
+            "pooled_row_sd": 0.17152339405345549,
+            "standardized_effect": 1.4764563047726011
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.91805458553412289,
+            "absolute_cosine": 0.91858719680716927,
+            "inner_product_phase_deg": -1.9512081435389852,
+            "weighted_phase_concentration": 0.9511305624548918,
+            "columns": 1079,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        }
+      ]
+    },
+    {
+      "name": "selected",
+      "B1_mean_power": 0.14288886016631328,
+      "phase_reference_valid_fraction": 1,
+      "blocks": [
+        {
+          "block": 1,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1691610049565846,
+            "mean_white": 0.79962336046450988,
+            "pooled_row_sd": 0.22003408393605803,
+            "standardized_effect": 1.6794563727656959
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1948497483278415,
+            "mean_white": 0.78077331607682088,
+            "pooled_row_sd": 0.2559449884112287,
+            "standardized_effect": 1.6178337181805684
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.87488609664598349,
+            "mean_white": 0.53831931876330452,
+            "pooled_row_sd": 0.20102512892261334,
+            "standardized_effect": 1.6742522672986011
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 1.0000000000000002,
+            "absolute_cosine": 1.0000000000000002,
+            "inner_product_phase_deg": 0,
+            "weighted_phase_concentration": 1,
+            "columns": 1043,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 2,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1735517517727783,
+            "mean_white": 0.80267889323821418,
+            "pooled_row_sd": 0.2310179533177443,
+            "standardized_effect": 1.6053854395656515
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1883437520239455,
+            "mean_white": 0.80014671923345559,
+            "pooled_row_sd": 0.2560333713114889,
+            "standardized_effect": 1.5161970129206765
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.86084048163591342,
+            "mean_white": 0.54478968250132076,
+            "pooled_row_sd": 0.19167977092144831,
+            "standardized_effect": 1.6488479593608887
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.91544437121974487,
+            "absolute_cosine": 0.91637373716175974,
+            "inner_product_phase_deg": -2.580663628124233,
+            "weighted_phase_concentration": 0.95079259779523118,
+            "columns": 1043,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 3,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1499612667538894,
+            "mean_white": 0.7997937866507896,
+            "pooled_row_sd": 0.2087135955345511,
+            "standardized_effect": 1.6777415922822911
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 1.1690668517409106,
+            "mean_white": 0.78575900830548706,
+            "pooled_row_sd": 0.24555960424925477,
+            "standardized_effect": 1.5609564309541228
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.85410352629441921,
+            "mean_white": 0.54555582375155087,
+            "pooled_row_sd": 0.19145736784812373,
+            "standardized_effect": 1.6115739290202098
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.94163670743585925,
+            "absolute_cosine": 0.94205819323449269,
+            "inner_product_phase_deg": -1.7139826896979253,
+            "weighted_phase_concentration": 0.97238539041961636,
+            "columns": 1043,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        }
+      ]
+    },
+    {
+      "name": "top2",
+      "B1_mean_power": 0.28341376464693913,
+      "phase_reference_valid_fraction": 1,
+      "blocks": [
+        {
+          "block": 1,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.98525613052511607,
+            "mean_white": 0.61739009899673691,
+            "pooled_row_sd": 0.15115945534841041,
+            "standardized_effect": 2.4336289825897923
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.97872616870368245,
+            "mean_white": 0.59441036046263773,
+            "pooled_row_sd": 0.154092745021004,
+            "standardized_effect": 2.494055175593501
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.744819912751124,
+            "mean_white": 0.40338730943090706,
+            "pooled_row_sd": 0.13320308183127785,
+            "standardized_effect": 2.56324852718268
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 1.0000000000000002,
+            "absolute_cosine": 1.0000000000000002,
+            "inner_product_phase_deg": 0,
+            "weighted_phase_concentration": 1,
+            "columns": 1002,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 2,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.98098048723768272,
+            "mean_white": 0.61379163638909762,
+            "pooled_row_sd": 0.14438753637278429,
+            "standardized_effect": 2.5430785791688097
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.97309384332274629,
+            "mean_white": 0.59727435616635516,
+            "pooled_row_sd": 0.14237678128714321,
+            "standardized_effect": 2.6396121878780532
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.72986870396020287,
+            "mean_white": 0.40041655938631981,
+            "pooled_row_sd": 0.11845184925743825,
+            "standardized_effect": 2.7813170215508047
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.95774346066986893,
+            "absolute_cosine": 0.95860253170193876,
+            "inner_product_phase_deg": -2.4258576941024845,
+            "weighted_phase_concentration": 0.97208509937164367,
+            "columns": 1002,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        },
+        {
+          "block": 3,
+          "power_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.96967978347361072,
+            "mean_white": 0.60298621088541016,
+            "pooled_row_sd": 0.14178777783459506,
+            "standardized_effect": 2.5862142575925913
+          },
+          "caf_abs_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.94884291087495953,
+            "mean_white": 0.57123166314836549,
+            "pooled_row_sd": 0.15339734697488269,
+            "standardized_effect": 2.4616543582622987
+          },
+          "caf_projection_text_white_effect": {
+            "text_count": 170,
+            "white_count": 308,
+            "mean_text": 0.72164518859588145,
+            "mean_white": 0.39069273229321877,
+            "pooled_row_sd": 0.13429395887610174,
+            "standardized_effect": 2.464388264910681
+          },
+          "class_contrast_phase_consistency": {
+            "real_cosine": 0.95179828552362222,
+            "absolute_cosine": 0.95210449779210227,
+            "inner_product_phase_deg": -1.4531761304755235,
+            "weighted_phase_concentration": 0.97775976753266,
+            "columns": 1002,
+            "scope": "Class-contrast lag1 pattern agreement, not mscohere or a significance probability."
+          },
+          "finite_caf_fraction": 0.99999931852255686
+        }
+      ]
+    }
+  ]
+}

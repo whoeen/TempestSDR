@@ -1,0 +1,13 @@
+{
+  "archive": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_coherent_pca_caf_20261027\\iphone6_coherent_pca_caf_20261027.zip",
+  "bytes": 1420610795,
+  "sha256": "c81dfa23c67d7d48f18eda62f1580fd486082648f25c175eab055830937c2be8",
+  "members": 139,
+  "zip_crc_verified": true,
+  "upload_status": "uploaded_and_remote_verified",
+  "download_url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_coherent_pca_caf_20261027.zip",
+  "remote_verified": true,
+  "remote_digest": "sha256:c81dfa23c67d7d48f18eda62f1580fd486082648f25c175eab055830937c2be8",
+  "remote_bytes": 1420610795,
+  "whitespace_check": "New authored changes passed; verbatim source snapshot retains one pre-existing blank EOF line."
+}

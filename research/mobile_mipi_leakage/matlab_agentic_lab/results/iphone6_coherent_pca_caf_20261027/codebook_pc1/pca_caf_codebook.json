@@ -1,0 +1,768 @@
+{
+  "status": "complete",
+  "scope": "Matched frozen linear-IQ operator; conditional prior rate/timing hypotheses.",
+  "candidate_count": 30,
+  "prior_group_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "valid": {
+    "relativeAmplitude": [
+      0.29960246217602166,
+      1,
+      0.22300135965740406
+    ],
+    "relativePhaseRad": [
+      -2.2393020980848446,
+      0,
+      2.558774513675024
+    ],
+    "relativePhaseDeg": [
+      -128.30255927505189,
+      0,
+      146.60698035921862
+    ],
+    "referenceLaneZeroBased": 1,
+    "globalPhaseIdentifiable": false,
+    "corrComplex": 0.53062007557556934,
+    "realCoherence": 0.52876404109108166,
+    "coherencePhaseRad": -0.083664814557693382,
+    "corrComplexUnweighted": 0.49073394908531215,
+    "complexResidualNmse": 0.72040858884902914,
+    "unweightedNmse": 0.79079233596808574,
+    "phaseRotatedPredictionUsed": false,
+    "relaxedHermitianEigenvaluesScaled": [
+      -0.25516968929095574,
+      0.14624633639298268,
+      0.76381282527546213
+    ],
+    "relaxedHermitianNmse": 0.70263066994904488,
+    "rankOneProjectionInitialLoss": 0.723383947940627,
+    "optimized": true,
+    "startLoss": [
+      0.723383947940627,
+      0.98188827974725679,
+      1.0000096788259194
+    ],
+    "finalLoss": [
+      0.72040858884902892,
+      0.72040858884902836,
+      0.72040858884902836
+    ],
+    "exitFlags": [
+      1,
+      1,
+      1
+    ],
+    "iterations": [
+      227,
+      769,
+      899
+    ],
+    "designSingularValues": [
+      91.6328269808147,
+      65.625513018860744,
+      58.314134707107165,
+      30.679298039065063,
+      25.393944287214175,
+      17.001054322848173,
+      15.050037292235599,
+      12.213259568050173,
+      8.7979451795387416
+    ],
+    "designRank": 9,
+    "designCondition": 10.415253233666867,
+    "channelJacobianSingularValues": [
+      73.051420407325935,
+      57.71915512450596,
+      16.386335549423645,
+      16.129352919901145,
+      14.401831058779617
+    ],
+    "channelJacobianRank": 5,
+    "channelJacobianCondition": 5.0723703193832748,
+    "physicalChannelIdentified": false,
+    "settings": {
+      "optimize": true,
+      "maxIterations": 1500,
+      "maxStarts": 3,
+      "ridgeRelative": 1E-8
+    },
+    "weightMeaning": "Precision weights, not square-root weights",
+    "scale": {
+      "basis": 4.5427075679754776E-6,
+      "target": 0.00948216458703047
+    },
+    "scope": "Conditional frequency-flat three-lane channel fit; gauge, model mismatch and rank must be audited.",
+    "name": "video-vc3-valid",
+    "family": 4,
+    "control": 0,
+    "prior_group_index": 16,
+    "rate_hz": 7.55E+8,
+    "emission_index": 2,
+    "emission": "signed_edge",
+    "delay_phase": 0.0108489990234375,
+    "delay_seconds": 9.6176894976648166E-8,
+    "blocks": [
+      {
+        "nmse": 0.72040858884902914,
+        "real_coherence": 0.52876404109108244,
+        "abs_coherence": 0.53062007557557,
+        "phase_deg": -4.79364076790051,
+        "unweighted_nmse": 0.79079233596808574
+      },
+      {
+        "nmse": 0.732907193448724,
+        "real_coherence": 0.51766366134607911,
+        "abs_coherence": 0.51937264320277976,
+        "phase_deg": -4.649282966499432,
+        "unweighted_nmse": 0.8320296439371061
+      },
+      {
+        "nmse": 0.71510679591873039,
+        "real_coherence": 0.53387258791993786,
+        "abs_coherence": 0.53391570577972547,
+        "phase_deg": 0.72817003421031568,
+        "unweighted_nmse": 0.77466758200886332
+      }
+    ],
+    "channel_shared_between_classes": [
+      "black",
+      "white"
+    ],
+    "channel_training_block": 1,
+    "channel_refitted": true,
+    "rate_timing_emission_refitted": false,
+    "forward_operator_matched": true,
+    "operator_common_scalar_relative_error": 3.0039701751938609E-9,
+    "operator_sum_branch_scalar_power": 0.02535209868781001,
+    "operator_near_null_for_periodic_template": false,
+    "h_real": [
+      -6.71617075567745,
+      36.167201833427654,
+      -6.733868698148699
+    ],
+    "h_imag": [
+      -8.5033662464182154,
+      0,
+      4.4389913250729478
+    ],
+    "H_real": [
+      [
+        117.41418714014162,
+        -242.90510326835067,
+        7.479443021309506
+      ],
+      [
+        -242.90510326835067,
+        1308.0664884598928,
+        -243.54518832574473
+      ],
+      [
+        7.479443021309506,
+        -243.54518832574473,
+        65.049631627979736
+      ]
+    ],
+    "H_imag": [
+      [
+        0,
+        -307.54296329776372,
+        87.073575517810639
+      ],
+      [
+        307.54296329776372,
+        0,
+        -160.54589519074776
+      ],
+      [
+        -87.073575517810639,
+        160.54589519074776,
+        0
+      ]
+    ],
+    "relative_channel_real": [
+      -0.18569782607483909,
+      1,
+      -0.18618716286546944
+    ],
+    "relative_channel_imag": [
+      -0.23511263839490484,
+      0,
+      0.12273527118623248
+    ]
+  },
+  "matched_control": {
+    "relativeAmplitude": [
+      1,
+      0.97631638425508871,
+      0.14068005910206391
+    ],
+    "relativePhaseRad": [
+      0,
+      -1.7821586043481275,
+      -2.435649893934615
+    ],
+    "relativePhaseDeg": [
+      0,
+      -102.11016645207282,
+      -139.55245929394005
+    ],
+    "referenceLaneZeroBased": 0,
+    "globalPhaseIdentifiable": false,
+    "corrComplex": 0.518537711469102,
+    "realCoherence": 0.51526940398181353,
+    "coherencePhaseRad": -0.11233488723508926,
+    "corrComplexUnweighted": 0.1644659430512013,
+    "complexResidualNmse": 0.73449744132022721,
+    "unweightedNmse": 1.1543906243852333,
+    "phaseRotatedPredictionUsed": false,
+    "relaxedHermitianEigenvaluesScaled": [
+      -0.3221032297386619,
+      0.10902521050125472,
+      0.76673564905991554
+    ],
+    "relaxedHermitianNmse": 0.72271953873598427,
+    "rankOneProjectionInitialLoss": 0.73921840825480878,
+    "optimized": true,
+    "startLoss": [
+      0.73921840825480878,
+      0.98089979687348161,
+      0.9181280222785837
+    ],
+    "finalLoss": [
+      0.73449744132022765,
+      0.73449744132023131,
+      0.73449744132022687
+    ],
+    "exitFlags": [
+      1,
+      1,
+      1
+    ],
+    "iterations": [
+      256,
+      566,
+      499
+    ],
+    "designSingularValues": [
+      82.101184544319324,
+      66.107060820471617,
+      61.125834417355321,
+      36.371416136822944,
+      30.951059662241494,
+      23.0339361472788,
+      21.546430998752815,
+      14.383345823849881,
+      10.116561992948775
+    ],
+    "designRank": 9,
+    "designCondition": 8.1155223090160167,
+    "channelJacobianSingularValues": [
+      71.332737518314133,
+      57.085162909043653,
+      39.451794876723682,
+      19.773300509107216,
+      16.366353428665835
+    ],
+    "channelJacobianRank": 5,
+    "channelJacobianCondition": 4.3584991506644428,
+    "physicalChannelIdentified": false,
+    "settings": {
+      "optimize": true,
+      "maxIterations": 1500,
+      "maxStarts": 3,
+      "ridgeRelative": 1E-8
+    },
+    "weightMeaning": "Precision weights, not square-root weights",
+    "scale": {
+      "basis": 3.9440702065316027E-6,
+      "target": 0.00948216458703047
+    },
+    "scope": "Conditional frequency-flat three-lane channel fit; gauge, model mismatch and rank must be audited.",
+    "name": "video-vc3-header-byte-permutation",
+    "family": 4,
+    "control": 1,
+    "prior_group_index": 17,
+    "rate_hz": 7.55E+8,
+    "emission_index": 1,
+    "emission": "nrz",
+    "delay_phase": 0.5068359375,
+    "delay_seconds": 4.4931248151115967E-6,
+    "blocks": [
+      {
+        "nmse": 0.73449744132022721,
+        "real_coherence": 0.51526940398181365,
+        "abs_coherence": 0.51853771146910221,
+        "phase_deg": -6.4363149306486456,
+        "unweighted_nmse": 1.1543906243852333
+      },
+      {
+        "nmse": 0.74121637635794413,
+        "real_coherence": 0.509279639936901,
+        "abs_coherence": 0.51211314483172077,
+        "phase_deg": -6.0299970591223122,
+        "unweighted_nmse": 1.175181402055165
+      },
+      {
+        "nmse": 0.73771594936744822,
+        "real_coherence": 0.512144778138707,
+        "abs_coherence": 0.51376504574457982,
+        "phase_deg": -4.55158786450351,
+        "unweighted_nmse": 1.158712434564636
+      }
+    ],
+    "channel_shared_between_classes": [
+      "black",
+      "white"
+    ],
+    "channel_training_block": 1,
+    "channel_refitted": true,
+    "rate_timing_emission_refitted": false,
+    "forward_operator_matched": true,
+    "operator_common_scalar_relative_error": 3.0039701751938609E-9,
+    "operator_sum_branch_scalar_power": 0.02535209868781001,
+    "operator_near_null_for_periodic_template": false,
+    "h_real": [
+      29.218384864142497,
+      -5.9846095479192893,
+      -3.1280490905265319
+    ],
+    "h_imag": [
+      0,
+      -27.891562400577893,
+      -2.6666570205083988
+    ],
+    "H_real": [
+      [
+        853.71401406915129,
+        -174.86062503272763,
+        -91.396542200935116
+      ],
+      [
+        -174.86062503272763,
+        813.75480458637719,
+        93.097383141974461
+      ],
+      [
+        -91.396542200935116,
+        93.097383141974461,
+        16.895750777770594
+      ]
+    ],
+    "H_imag": [
+      [
+        0,
+        814.946404682331,
+        77.915411125881931
+      ],
+      [
+        -814.946404682331,
+        0,
+        71.287275334531117
+      ],
+      [
+        -77.915411125881931,
+        -71.287275334531117,
+        0
+      ]
+    ],
+    "relative_channel_real": [
+      1,
+      -0.20482342113522317,
+      -0.10705756341670168
+    ],
+    "relative_channel_imag": [
+      0,
+      -0.95458946585398319,
+      -0.09126640753442139
+    ]
+  },
+  "control": {
+    "relativeAmplitude": [
+      1,
+      0.7719728203611238,
+      0.62500598548453734
+    ],
+    "relativePhaseRad": [
+      0,
+      0.50957536887252408,
+      2.3610642021583796
+    ],
+    "relativePhaseDeg": [
+      0,
+      29.196517980217735,
+      135.27901394309816
+    ],
+    "referenceLaneZeroBased": 0,
+    "globalPhaseIdentifiable": false,
+    "corrComplex": 0.55038773680915909,
+    "realCoherence": 0.55007167331501461,
+    "coherencePhaseRad": -0.03389132726177789,
+    "corrComplexUnweighted": 0.28220158262296874,
+    "complexResidualNmse": 0.69742115421642037,
+    "unweightedNmse": 1.0298687975313663,
+    "phaseRotatedPredictionUsed": false,
+    "relaxedHermitianEigenvaluesScaled": [
+      -0.25031956483363843,
+      0.17870892455747581,
+      0.79563859053116148
+    ],
+    "relaxedHermitianNmse": 0.6887611657658953,
+    "rankOneProjectionInitialLoss": 0.70604929391503557,
+    "optimized": true,
+    "startLoss": [
+      0.70604929391503557,
+      0.8615728449750053,
+      0.80356198633794584
+    ],
+    "finalLoss": [
+      0.69742115421641959,
+      0.69742115421642,
+      0.69742115421642048
+    ],
+    "exitFlags": [
+      1,
+      1,
+      1
+    ],
+    "iterations": [
+      252,
+      550,
+      506
+    ],
+    "designSingularValues": [
+      94.545689976158414,
+      64.7133521645457,
+      54.640234250443861,
+      33.155418478804414,
+      23.895066643597342,
+      17.768712003529963,
+      13.095008027367088,
+      10.80440994012004,
+      6.7484620139916336
+    ],
+    "designRank": 9,
+    "designCondition": 14.009961051886515,
+    "channelJacobianSingularValues": [
+      80.132158105082368,
+      48.333741254775724,
+      26.830257561609674,
+      21.71350647761049,
+      11.150106908721323
+    ],
+    "channelJacobianRank": 5,
+    "channelJacobianCondition": 7.1866717297934679,
+    "physicalChannelIdentified": false,
+    "settings": {
+      "optimize": true,
+      "maxIterations": 1500,
+      "maxStarts": 3,
+      "ridgeRelative": 1E-8
+    },
+    "weightMeaning": "Precision weights, not square-root weights",
+    "scale": {
+      "basis": 5.4778732771964227E-6,
+      "target": 0.00948216458703047
+    },
+    "scope": "Conditional frequency-flat three-lane channel fit; gauge, model mismatch and rank must be audited.",
+    "name": "video-vc0-header-bit-order-reversed",
+    "family": 1,
+    "control": 2,
+    "prior_group_index": 3,
+    "rate_hz": 6.95E+8,
+    "emission_index": 1,
+    "emission": "nrz",
+    "delay_phase": 0.5106201171875,
+    "delay_seconds": 4.5266717489431142E-6,
+    "blocks": [
+      {
+        "nmse": 0.69742115421642037,
+        "real_coherence": 0.55007167331501494,
+        "abs_coherence": 0.55038773680915942,
+        "phase_deg": -1.9418300141965317,
+        "unweighted_nmse": 1.0298687975313663
+      },
+      {
+        "nmse": 0.69295264919678212,
+        "real_coherence": 0.55432450491889662,
+        "abs_coherence": 0.55444667108783,
+        "phase_deg": -1.2027938314994906,
+        "unweighted_nmse": 1.0396473943679996
+      },
+      {
+        "nmse": 0.71364504868193679,
+        "real_coherence": 0.5351887179444228,
+        "abs_coherence": 0.53524787096195092,
+        "phase_deg": 0.85182936561873213,
+        "unweighted_nmse": 1.0563053860434459
+      }
+    ],
+    "channel_shared_between_classes": [
+      "black",
+      "white"
+    ],
+    "channel_training_block": 1,
+    "channel_refitted": true,
+    "rate_timing_emission_refitted": false,
+    "forward_operator_matched": true,
+    "operator_common_scalar_relative_error": 3.0039701751938609E-9,
+    "operator_sum_branch_scalar_power": 0.02535209868781001,
+    "operator_near_null_for_periodic_template": false,
+    "h_real": [
+      27.537389757313555,
+      18.557309396584802,
+      -12.229158491760467
+    ],
+    "h_imag": [
+      0,
+      10.369849679734084,
+      12.1106297965471
+    ],
+    "H_real": [
+      [
+        758.30783464619753,
+        511.01986170081295,
+        -336.75910379156875
+      ],
+      [
+        511.01986170081295,
+        451.9075144208557,
+        -101.35486727436934
+      ],
+      [
+        -336.75910379156875,
+        -101.35486727436934,
+        296.21967148561157
+      ]
+    ],
+    "H_imag": [
+      [
+        0,
+        -285.55859235559063,
+        -333.49513291405242
+      ],
+      [
+        285.55859235559063,
+        0,
+        -351.555239391223
+      ],
+      [
+        333.49513291405242,
+        351.555239391223,
+        0
+      ]
+    ],
+    "relative_channel_real": [
+      1,
+      0.6738950045785016,
+      -0.44409287152979232
+    ],
+    "relative_channel_imag": [
+      0,
+      0.37657344327561015,
+      0.43978858937894366
+    ]
+  },
+  "selected_by": "B1 weighted complex NMSE only.",
+  "weights": "Rawgrid B1 half-difference precision; floored/capped; shared unchanged across every method, codeword and test block.",
+  "channel_fit": "Fresh shared black/white three-lane rank-one PSD h*h'.",
+  "full_rate_timing_search_repeated": false,
+  "operator_matched_to_forward_codewords": true,
+  "deposition_kernel": "1100-bin exact grid: even lag 1; odd lag cos(pi*harmonic/1100).",
+  "high_order_grid_alias_mixing_modeled": false,
+  "operator": {
+    "definition": "y(t)=sum_j w_j*z(t+delta_t_j)",
+    "weights_real": [
+      -0.060106014288144972,
+      0.10568449299440996,
+      0.08425907168687409,
+      -0.0988485984250693,
+      -0.10726283831166007,
+      0.019212859232462798,
+      0.010854997415754512,
+      -0.10971189950199041
+    ],
+    "weights_imag": [
+      0.079535059978597847,
+      0.099331113334256912,
+      -0.070825558631450333,
+      -0.14978015310681717,
+      0.00604230635139516,
+      0.13351021412447805,
+      -0.078900719305775885,
+      0.039859453084872057
+    ],
+    "time_offsets_seconds": [
+      0,
+      0.01667515492076746,
+      0.03335030984153492,
+      0.05002546476230238,
+      0.066700619683069839,
+      0.0833757746038373,
+      0.10005092952460476,
+      0.11672608444537222
+    ],
+    "branch_combination": "Sum of branch CAFs without cross terms",
+    "learned_here": false,
+    "frozen_operator_required": true
+  },
+  "reference_text_validation": {
+    "status": "complete",
+    "pattern_count": 34,
+    "scope": "Known-reference forward prediction; no decoding or image insertion.",
+    "row_model": "Each text-row pattern is periodically repeated before applying the frozen operator.",
+    "channel_refitted_on_text": false,
+    "candidates": [
+      {
+        "candidate": "video-vc3-valid",
+        "blocks": [
+          {
+            "nmse": 2.0625121618261404,
+            "real_coherence": 0.027759066619731581,
+            "abs_coherence": 0.038739930038126313,
+            "phase_deg": 44.229692420758816,
+            "unweighted_nmse": 1.7734706184996889
+          },
+          {
+            "nmse": 2.0953371414371516,
+            "real_coherence": 0.028877144736903879,
+            "abs_coherence": 0.038216148795252085,
+            "phase_deg": 40.919835053523045,
+            "unweighted_nmse": 1.7586569797214215
+          },
+          {
+            "nmse": 2.2995593102594509,
+            "real_coherence": 0.032760604975238763,
+            "abs_coherence": 0.046437675390556987,
+            "phase_deg": 45.132093131908,
+            "unweighted_nmse": 1.9251011050816458
+          }
+        ],
+        "channel_refitted_on_text": false
+      },
+      {
+        "candidate": "video-vc3-header-byte-permutation",
+        "blocks": [
+          {
+            "nmse": 6.7063971790432317,
+            "real_coherence": 0.051625518506451341,
+            "abs_coherence": 0.10507871739767123,
+            "phase_deg": 60.573721571624738,
+            "unweighted_nmse": 4.8259898874654441
+          },
+          {
+            "nmse": 6.94016175879121,
+            "real_coherence": 0.04243466651682113,
+            "abs_coherence": 0.100788977271903,
+            "phase_deg": 65.10069097367726,
+            "unweighted_nmse": 4.7972311614533067
+          },
+          {
+            "nmse": 8.0404996799807975,
+            "real_coherence": 0.05059187984020052,
+            "abs_coherence": 0.095655224561749061,
+            "phase_deg": 58.0689565260727,
+            "unweighted_nmse": 5.4816711323610283
+          }
+        ],
+        "channel_refitted_on_text": false
+      },
+      {
+        "candidate": "video-vc0-header-bit-order-reversed",
+        "blocks": [
+          {
+            "nmse": 10.266437276177456,
+            "real_coherence": -0.058552301310920818,
+            "abs_coherence": 0.069766224320438289,
+            "phase_deg": -147.06251270691504,
+            "unweighted_nmse": 8.5588974100710082
+          },
+          {
+            "nmse": 10.592264320322526,
+            "real_coherence": -0.063923460402669413,
+            "abs_coherence": 0.073955153411877583,
+            "phase_deg": -149.80906488390133,
+            "unweighted_nmse": 8.4751786537471556
+          },
+          {
+            "nmse": 12.301419346101506,
+            "real_coherence": -0.053779276671653338,
+            "abs_coherence": 0.068302467617613341,
+            "phase_deg": -141.94035801063936,
+            "unweighted_nmse": 9.8437591833858633
+          }
+        ],
+        "channel_refitted_on_text": false
+      }
+    ]
+  },
+  "global_rf_phase_identifiable": false,
+  "actual_lane_count_verified": false,
+  "packet_decoded": false,
+  "cross_pipeline_nmse_caution": "Targets and precision weights change with preprocessing; NMSE differences alone are not SNR gains.",
+  "settings": {
+    "maxStarts": 3,
+    "maxIterations": 1500,
+    "groupIndices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+}

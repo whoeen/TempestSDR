@@ -1,0 +1,462 @@
+{
+  "pipeline": "Complex IQ/SVD feature vector -> B1-trained linear projection -> real signed score -> threshold0 bits.",
+  "threshold_uses_CAF": false,
+  "threshold_uses_power_or_abs_square": false,
+  "threshold_uses_reference_pixels": false,
+  "threshold_uses_test_data": false,
+  "reference_use": "Existing reference-calibrated row classes only, for B1 black/white supervision.",
+  "phase_input_assumption": "Caller supplies consistently time/phase-corrected IQ feature vectors.",
+  "phase_output_meaning": "Phase of learned linear IQ feature projection; not absolute RF carrier or RGB hue.",
+  "binary_semantics": "1 means classifier black,0 white; text pixels remain unverified.",
+  "low_separation_policy": "All bits retained. Low-separation flag separate and used only for additional diagnostic metrics.",
+  "display_normalization": "Raw score / floored half training mean separation; fixed signed display [-3,3]. Threshold remains raw score0.",
+  "row_label_counts": {
+    "black": 764,
+    "white": 308,
+    "text": 170
+  },
+  "horizontal_axis": "1100 measured time bins per candidate period, not750 decoded pixels.",
+  "training_block": 1,
+  "test_blocks": [
+    2,
+    3
+  ],
+  "methods": [
+    {
+      "name": "coherentmean",
+      "feature_dimension": 1,
+      "covariance_real": 0.13566303700417953,
+      "covariance_imag": 0,
+      "covariance_eigenvalues": 0.13566303700417953,
+      "ridge_actual": 0.0067831518502089773,
+      "regularized_covariance_condition": 1,
+      "low_separation_fraction": 0.03090909090909091,
+      "separation_floor": 6.4014058975657448E-5,
+      "median_separation": 0.001280281179513149,
+      "blocks": [
+        {
+          "balanced_accuracy": 0.52042890058537372,
+          "black_recall": 0.5207663017610662,
+          "white_false_positive_fraction": 0.47990850059031875,
+          "text_binary_black_fraction": 0.505951871657754,
+          "mean_raw_score_black": 0.0027438408919707997,
+          "mean_raw_score_white": -0.0027438408919707997,
+          "mean_normalized_score_black": 0.98382622881363668,
+          "mean_normalized_score_white": -0.98382622881363679,
+          "mean_normalized_score_text": 0.32509498392720887,
+          "high_separation_only": {
+            "black_recall": 0.52128620964018746,
+            "white_false_positive_fraction": 0.47940778733461659,
+            "balanced_accuracy": 0.52093921115278541
+          },
+          "block": 1
+        },
+        {
+          "balanced_accuracy": 0.50601442881250114,
+          "black_recall": 0.50968824369347931,
+          "white_false_positive_fraction": 0.497659386068477,
+          "text_binary_black_fraction": 0.50854545454545452,
+          "mean_raw_score_black": 0.00067856962330959129,
+          "mean_raw_score_white": -0.0005874705518219682,
+          "mean_normalized_score_black": 0.47451243401514631,
+          "mean_normalized_score_white": -0.11916073973647105,
+          "mean_normalized_score_text": 0.47610889081669922,
+          "high_separation_only": {
+            "black_recall": 0.50983762757482587,
+            "white_false_positive_fraction": 0.49752381764576886,
+            "balanced_accuracy": 0.50615690496452859
+          },
+          "block": 2
+        },
+        {
+          "balanced_accuracy": 0.49701233797140504,
+          "black_recall": 0.50483341266063775,
+          "white_false_positive_fraction": 0.51080873671782767,
+          "text_binary_black_fraction": 0.49439037433155081,
+          "mean_raw_score_black": 9.75502562249383E-5,
+          "mean_raw_score_white": 0.000585266430271239,
+          "mean_normalized_score_black": 0.30153721550764184,
+          "mean_normalized_score_white": 0.4611397377693448,
+          "mean_normalized_score_text": -0.09042196158051595,
+          "high_separation_only": {
+            "black_recall": 0.50480093906859325,
+            "white_false_positive_fraction": 0.51077885529105038,
+            "balanced_accuracy": 0.49701104188877143
+          },
+          "block": 3
+        }
+      ],
+      "B2_B3_agreement": {
+        "active": {
+          "agreement_fraction": 0.49671187133705874,
+          "positive_dice": 0.50337071095943375,
+          "positive_jaccard": 0.33633626887131562,
+          "block2_positive_fraction": 0.50748330380264417,
+          "block3_positive_fraction": 0.50592476489028215,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "black": {
+          "agreement_fraction": 0.49662065683008089,
+          "positive_dice": 0.50382592622131728,
+          "positive_jaccard": 0.33674285302168944,
+          "block2_positive_fraction": 0.50968824369347931,
+          "block3_positive_fraction": 0.50483341266063775,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "white": {
+          "agreement_fraction": 0.49433589138134593,
+          "positive_dice": 0.49858196090368162,
+          "positive_jaccard": 0.33207404461702805,
+          "block2_positive_fraction": 0.497659386068477,
+          "block3_positive_fraction": 0.51080873671782767,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "text": {
+          "agreement_fraction": 0.49905347593582888,
+          "positive_dice": 0.50051986414217087,
+          "positive_jaccard": 0.3337955950018846,
+          "block2_positive_fraction": 0.50854545454545452,
+          "block3_positive_fraction": 0.49439037433155081,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        }
+      },
+      "median_text_row_shape_correlation_to_method1": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "PC1",
+      "feature_dimension": 1,
+      "covariance_real": 0.14701226768239539,
+      "covariance_imag": 0,
+      "covariance_eigenvalues": 0.14701226768239539,
+      "ridge_actual": 0.00735061338411977,
+      "regularized_covariance_condition": 1,
+      "low_separation_fraction": 0.035454545454545454,
+      "separation_floor": 3.4240582980665869E-5,
+      "median_separation": 0.00068481165961331732,
+      "blocks": [
+        {
+          "balanced_accuracy": 0.5144302573913474,
+          "black_recall": 0.514447881960971,
+          "white_false_positive_fraction": 0.48558736717827627,
+          "text_binary_black_fraction": 0.50617112299465239,
+          "mean_raw_score_black": 0.0014729840875801396,
+          "mean_raw_score_white": -0.0014729840875801403,
+          "mean_normalized_score_black": 0.98096262055168182,
+          "mean_normalized_score_white": -0.980962620551682,
+          "mean_normalized_score_text": 0.36943147494326245,
+          "high_separation_only": {
+            "black_recall": 0.51501596340506584,
+            "white_false_positive_fraction": 0.48516163384212396,
+            "balanced_accuracy": 0.514927164781471
+          },
+          "block": 1
+        },
+        {
+          "balanced_accuracy": 0.50046203261279421,
+          "black_recall": 0.50305806758686344,
+          "white_false_positive_fraction": 0.502134002361275,
+          "text_binary_black_fraction": 0.50221390374331554,
+          "mean_raw_score_black": 0.00031055319306860264,
+          "mean_raw_score_white": 0.00059632582636744841,
+          "mean_normalized_score_black": 0.12695927871253238,
+          "mean_normalized_score_white": 0.11689963893911454,
+          "mean_normalized_score_text": 0.05871579206647886,
+          "high_separation_only": {
+            "black_recall": 0.50329507379682314,
+            "white_false_positive_fraction": 0.50205331897132088,
+            "balanced_accuracy": 0.50062087741275119
+          },
+          "block": 2
+        },
+        {
+          "balanced_accuracy": 0.503669650197494,
+          "black_recall": 0.50536173250832939,
+          "white_false_positive_fraction": 0.49802243211334118,
+          "text_binary_black_fraction": 0.50026737967914436,
+          "mean_raw_score_black": 0.00050788099526896582,
+          "mean_raw_score_white": 0.000302703662039455,
+          "mean_normalized_score_black": 0.27399496477785351,
+          "mean_normalized_score_white": -0.17971898237302678,
+          "mean_normalized_score_text": -0.054749740528171317,
+          "high_separation_only": {
+            "black_recall": 0.50533182663791443,
+            "white_false_positive_fraction": 0.49797422181965068,
+            "balanced_accuracy": 0.50367880240913188
+          },
+          "block": 3
+        }
+      ],
+      "B2_B3_agreement": {
+        "active": {
+          "agreement_fraction": 0.48698991413384218,
+          "positive_dice": 0.49083416132390112,
+          "positive_jaccard": 0.32523540405240065,
+          "block2_positive_fraction": 0.50360637862886737,
+          "block3_positive_fraction": 0.50394370996320026,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "black": {
+          "agreement_fraction": 0.49218705378391242,
+          "positive_dice": 0.49642703746182781,
+          "positive_jaccard": 0.33016491372910328,
+          "block2_positive_fraction": 0.50305806758686344,
+          "block3_positive_fraction": 0.50536173250832939,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "white": {
+          "agreement_fraction": 0.48506788665879574,
+          "positive_dice": 0.485148427194093,
+          "positive_jaccard": 0.32026136151112772,
+          "block2_positive_fraction": 0.502134002361275,
+          "block3_positive_fraction": 0.49802243211334118,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "text": {
+          "agreement_fraction": 0.47690909090909089,
+          "positive_dice": 0.47820381513250543,
+          "positive_jaccard": 0.3142364397333165,
+          "block2_positive_fraction": 0.50221390374331554,
+          "block3_positive_fraction": 0.50026737967914436,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        }
+      },
+      "median_text_row_shape_correlation_to_method1": [
+        0.0196508949018118,
+        0.025361835566651041
+      ]
+    },
+    {
+      "name": "selected",
+      "feature_dimension": 1,
+      "covariance_real": 0.1346044723748735,
+      "covariance_imag": 0,
+      "covariance_eigenvalues": 0.1346044723748735,
+      "ridge_actual": 0.0067302236187436748,
+      "regularized_covariance_condition": 1,
+      "low_separation_fraction": 0.023636363636363636,
+      "separation_floor": 4.3611475831501479E-5,
+      "median_separation": 0.00087222951663002953,
+      "blocks": [
+        {
+          "balanced_accuracy": 0.51603382279310417,
+          "black_recall": 0.51724178962398859,
+          "white_false_positive_fraction": 0.48517414403778042,
+          "text_binary_black_fraction": 0.51342245989304813,
+          "mean_raw_score_black": 0.0023706559495038255,
+          "mean_raw_score_white": -0.0023706559495038238,
+          "mean_normalized_score_black": 0.98618851973477306,
+          "mean_normalized_score_white": -0.98618851973477306,
+          "mean_normalized_score_text": 0.89604504596484535,
+          "high_separation_only": {
+            "black_recall": 0.51760800257392725,
+            "white_false_positive_fraction": 0.48486964618249534,
+            "balanced_accuracy": 0.516369178195716
+          },
+          "block": 1
+        },
+        {
+          "balanced_accuracy": 0.5110529154329726,
+          "black_recall": 0.51267253688719661,
+          "white_false_positive_fraction": 0.49056670602125146,
+          "text_binary_black_fraction": 0.51629946524064174,
+          "mean_raw_score_black": 0.0013025112649079332,
+          "mean_raw_score_white": -0.00015607333491949595,
+          "mean_normalized_score_black": 0.74828006296910876,
+          "mean_normalized_score_white": -0.72840383718702162,
+          "mean_normalized_score_text": 0.90898311084939276,
+          "high_separation_only": {
+            "black_recall": 0.51294885294490433,
+            "white_false_positive_fraction": 0.49049251493385571,
+            "balanced_accuracy": 0.51122816900552426
+          },
+          "block": 2
+        },
+        {
+          "balanced_accuracy": 0.495131709081019,
+          "black_recall": 0.51221442170395048,
+          "white_false_positive_fraction": 0.52195100354191259,
+          "text_binary_black_fraction": 0.51000534759358285,
+          "mean_raw_score_black": 0.0011622191730897616,
+          "mean_raw_score_white": 0.0023226220770033632,
+          "mean_normalized_score_black": 0.77790898944464992,
+          "mean_normalized_score_white": 1.5278126985207074,
+          "mean_normalized_score_text": 0.81119733858739718,
+          "high_separation_only": {
+            "black_recall": 0.512417492955824,
+            "white_false_positive_fraction": 0.52244915233742051,
+            "balanced_accuracy": 0.49498417030920167
+          },
+          "block": 3
+        }
+      ],
+      "B2_B3_agreement": {
+        "active": {
+          "agreement_fraction": 0.49105424560447047,
+          "positive_dice": 0.502075831349287,
+          "positive_jaccard": 0.33518107382000689,
+          "block2_positive_fraction": 0.50821452909908682,
+          "block3_positive_fraction": 0.513920539730135,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "black": {
+          "agreement_fraction": 0.49128867206092336,
+          "positive_dice": 0.503641524877658,
+          "positive_jaccard": 0.33657812165395751,
+          "block2_positive_fraction": 0.51267253688719661,
+          "block3_positive_fraction": 0.51221442170395048,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "white": {
+          "agreement_fraction": 0.49217532467532465,
+          "positive_dice": 0.49845353762378258,
+          "positive_jaccard": 0.33196011586279733,
+          "block2_positive_fraction": 0.49056670602125146,
+          "block3_positive_fraction": 0.52195100354191259,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "text": {
+          "agreement_fraction": 0.49873262032085564,
+          "positive_dice": 0.51158040631724844,
+          "positive_jaccard": 0.34370711625171535,
+          "block2_positive_fraction": 0.51629946524064174,
+          "block3_positive_fraction": 0.51000534759358285,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        }
+      },
+      "median_text_row_shape_correlation_to_method1": [
+        0.057581056697896295,
+        0.056853944686228952
+      ]
+    },
+    {
+      "name": "top2",
+      "feature_dimension": 2,
+      "covariance_real": [
+        [
+          0.13460447240839871,
+          -0.00088300352537558748
+        ],
+        [
+          -0.00088300352537558748,
+          0.13344927107937948
+        ]
+      ],
+      "covariance_imag": [
+        [
+          0,
+          0.0005498087866329447
+        ],
+        [
+          -0.0005498087866329447,
+          0
+        ]
+      ],
+      "covariance_eigenvalues": [
+        0.13521666477434713,
+        0.13283707871343106
+      ],
+      "ridge_actual": 0.0067013435871944556,
+      "regularized_covariance_condition": 1.0170532676354143,
+      "low_separation_fraction": 0.0027272727272727275,
+      "separation_floor": 0.00010384809967209268,
+      "median_separation": 0.0020769619934418535,
+      "blocks": [
+        {
+          "balanced_accuracy": 0.5259858168960978,
+          "black_recall": 0.5267384578772013,
+          "white_false_positive_fraction": 0.47476682408500592,
+          "text_binary_black_fraction": 0.51169518716577544,
+          "mean_raw_score_black": 0.0047851372417091987,
+          "mean_raw_score_white": -0.0047851372417091987,
+          "mean_normalized_score_black": 0.999353151565134,
+          "mean_normalized_score_white": -0.999353151565134,
+          "mean_normalized_score_text": 0.53543520597990857,
+          "high_separation_only": {
+            "black_recall": 0.52679964873262153,
+            "white_false_positive_fraction": 0.47469781813446355,
+            "balanced_accuracy": 0.52605091529907888
+          },
+          "block": 1
+        },
+        {
+          "balanced_accuracy": 0.51398403357708444,
+          "black_recall": 0.515674678724417,
+          "white_false_positive_fraction": 0.48770661157024792,
+          "text_binary_black_fraction": 0.5110855614973262,
+          "mean_raw_score_black": 0.002783764457640532,
+          "mean_raw_score_white": -0.0013254007200539162,
+          "mean_normalized_score_black": 0.60802757721310219,
+          "mean_normalized_score_white": -0.53781683852701767,
+          "mean_normalized_score_text": 0.41974476302419667,
+          "high_separation_only": {
+            "black_recall": 0.5156829430097315,
+            "white_false_positive_fraction": 0.487693710118505,
+            "balanced_accuracy": 0.51399461644561328
+          },
+          "block": 2
+        },
+        {
+          "balanced_accuracy": 0.49765962559572741,
+          "black_recall": 0.51612208472156118,
+          "white_false_positive_fraction": 0.52080283353010626,
+          "text_binary_black_fraction": 0.51020320855614976,
+          "mean_raw_score_black": 0.0020676242921854352,
+          "mean_raw_score_white": 0.0032726601768485212,
+          "mean_normalized_score_black": 0.64040098633101417,
+          "mean_normalized_score_white": 0.78649752171428289,
+          "mean_normalized_score_text": 0.42821822735603893,
+          "high_separation_only": {
+            "black_recall": 0.5160802665050328,
+            "white_false_positive_fraction": 0.52091891699913573,
+            "balanced_accuracy": 0.49758067475294854
+          },
+          "block": 3
+        }
+      ],
+      "B2_B3_agreement": {
+        "active": {
+          "agreement_fraction": 0.50041161237563037,
+          "positive_dice": 0.51273891277241179,
+          "positive_jaccard": 0.34475380091347058,
+          "block2_positive_fraction": 0.50895393212484663,
+          "block3_positive_fraction": 0.51634523647267272,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "black": {
+          "agreement_fraction": 0.50165159447881957,
+          "positive_dice": 0.51700914058229408,
+          "positive_jaccard": 0.34862597924932381,
+          "block2_positive_fraction": 0.515674678724417,
+          "block3_positive_fraction": 0.51612208472156118,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "white": {
+          "agreement_fraction": 0.49865702479338841,
+          "positive_dice": 0.50288717905192826,
+          "positive_jaccard": 0.33590466397413293,
+          "block2_positive_fraction": 0.48770661157024792,
+          "block3_positive_fraction": 0.52080283353010626,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        },
+        "text": {
+          "agreement_fraction": 0.50526737967914437,
+          "positive_dice": 0.51558008388268994,
+          "positive_jaccard": 0.34732765188926829,
+          "block2_positive_fraction": 0.5110855614973262,
+          "block3_positive_fraction": 0.51020320855614976,
+          "note": "Positive-set agreement, not correctness; empty positive sets yield NaN."
+        }
+      },
+      "median_text_row_shape_correlation_to_method1": [
+        0.16662776938210105,
+        0.14902007145567625
+      ]
+    }
+  ],
+  "accuracy_scope": "Balanced accuracy applies to known uniform-row classes, not text pixels, character decoding or arbitrary screens.",
+  "glyph_metric_scope": "Row-shape correlation and positive-set agreement are measured-data diagnostics, not OCR or pixel-accuracy scores.",
+  "reference_pixels_rendered": false
+}

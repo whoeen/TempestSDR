@@ -1,0 +1,571 @@
+{
+  "raw": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+  "raw_modified": false,
+  "reference_absolute_frame": 12,
+  "frame_count": 8,
+  "fs_grid_hz": 1.2408280521718663E+8,
+  "frame_rows": 1881,
+  "samples_per_row": 1100,
+  "training_sample_range_one_based": [
+    1,
+    1.03455E+6
+  ],
+  "validation_sample_range_one_based": [
+    1.034551E+6,
+    2.0691E+6
+  ],
+  "cfo_search_hz": [
+    -100000,
+    100000
+  ],
+  "integer_delay_search_grid_samples": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "crossproduct_block_average_samples": 256,
+  "alignment": {
+    "method": "FFT fractional delay per row with measured guards; midpoint affine-clock approximation",
+    "fft_length": 4096,
+    "guard_samples": 1498,
+    "native_to_grid_step": 0.99999995795399188,
+    "max_within_row_timing_approximation_samples": 2.3104281461738818E-5,
+    "max_within_row_phase_approximation_at_nyquist_rad": 7.2584240906669527E-5,
+    "first_native_sample": 2.48277E+7,
+    "native_samples_read": 2.072096E+6,
+    "guard_comparison_scope": "One training frame at nfft4096 and8192; empirical sensitivity, not strict interpolation bound."
+  },
+  "pca_changed": false,
+  "estimated_corrections_applied_to_main_results": false,
+  "median_baseline_validation_coherence": 0.012939546866300214,
+  "median_joint_validation_coherence": 0.0094055450280867755,
+  "maximum_joint_validation_coherence": 0.01894442911123995,
+  "median_validation_coherence_absolute_gain": -0.0022271642263944381,
+  "frames_improved_on_validation": 2,
+  "results": [
+    {
+      "comparison_frame_offset": 1,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 13,
+      "baseline_train_coherence": 0.010995813070170902,
+      "baseline_validation_coherence": 0.027657556583075817,
+      "cfo_only_correction_hz": -44.310402530867378,
+      "cfo_only_train_coherence": 0.014749302297715759,
+      "cfo_only_validation_coherence": 0.019065488392350085,
+      "joint_delay_grid_samples": 1,
+      "joint_delay_ns": 8.0591343679703549,
+      "joint_correction_hz": 13.486885008956779,
+      "inferred_comparison_minus_reference_cfo_hz": -13.486885008956779,
+      "joint_train_coherence": 0.022573538196958551,
+      "joint_validation_coherence": 0.0042248232685649732,
+      "validation_coherence_gain_absolute": -0.023432733314510845,
+      "validation_coherence_gain_ratio": 0.15275475459571952,
+      "joint_train_phase_rad": -1.9135710685807747,
+      "joint_validation_phase_rad": -2.7339567127920987,
+      "joint_validation_complex_correlation_real": -0.0038786437645477088,
+      "joint_validation_complex_correlation_imag": -0.0016748893092808261,
+      "joint_validation_eight_chunk_coherence": [
+        0.012417604437160475,
+        0.045078844343054335,
+        0.041602005450544814,
+        0.011557465990234772,
+        0.063167045709438457,
+        0.0080636678889314927,
+        0.042196699488738922,
+        0.031457097222401642
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        1.7355271088633328,
+        -0.17412022349947656,
+        1.658384837783806,
+        2.2925134753951859,
+        -3.1338289215945871,
+        -1.671607223392217,
+        -1.4144086679329209,
+        -1.7747200963307279
+      ],
+      "joint_validation_chunk_phase_resultant": 0.16453170125286268,
+      "joint_training_fft_peak_to_median": 3.4106779822623396,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03361E+6,
+      "reference_comparison_validation_pairs": 1.033609E+6
+    },
+    {
+      "comparison_frame_offset": 2,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 14,
+      "baseline_train_coherence": 0.010364711130886144,
+      "baseline_validation_coherence": 0.02942109161187681,
+      "cfo_only_correction_hz": 38282.460870682822,
+      "cfo_only_train_coherence": 0.016640340962221813,
+      "cfo_only_validation_coherence": 0.0074469372361267014,
+      "joint_delay_grid_samples": 3,
+      "joint_delay_ns": 24.177403103911065,
+      "joint_correction_hz": 27786.021072749594,
+      "inferred_comparison_minus_reference_cfo_hz": -27786.021072749594,
+      "joint_train_coherence": 0.022793425455898294,
+      "joint_validation_coherence": 0.0094055450280867755,
+      "validation_coherence_gain_absolute": -0.020015546583790032,
+      "validation_coherence_gain_ratio": 0.31968715342601062,
+      "joint_train_phase_rad": 0.11118775885844565,
+      "joint_validation_phase_rad": 0.61665278789609823,
+      "joint_validation_complex_correlation_real": 0.0076732199096268073,
+      "joint_validation_complex_correlation_imag": 0.0054392989891965523,
+      "joint_validation_eight_chunk_coherence": [
+        0.012645363754005689,
+        0.015654330053012804,
+        0.015675839343926287,
+        0.020510616238200302,
+        0.034327019240284778,
+        0.029521113031755933,
+        0.029072827414391728,
+        0.022400599545536897
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        -0.075280754127389285,
+        1.1896129201587127,
+        -3.0243876122857354,
+        -0.70731158236280889,
+        0.36392307327487861,
+        0.31363765382673897,
+        1.4168171595032353,
+        -3.1183854444495838
+      ],
+      "joint_validation_chunk_phase_resultant": 0.43013166074182341,
+      "joint_training_fft_peak_to_median": 3.6960078174266027,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03173E+6,
+      "reference_comparison_validation_pairs": 1.031727E+6
+    },
+    {
+      "comparison_frame_offset": 3,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 15,
+      "baseline_train_coherence": 0.021164438535140773,
+      "baseline_validation_coherence": 0.012939546866300214,
+      "cfo_only_correction_hz": -44.310402530867378,
+      "cfo_only_train_coherence": 0.023887752260208114,
+      "cfo_only_validation_coherence": 0.01894442911123995,
+      "joint_delay_grid_samples": 0,
+      "joint_delay_ns": 0,
+      "joint_correction_hz": -44.310402530867378,
+      "inferred_comparison_minus_reference_cfo_hz": 44.310402530867378,
+      "joint_train_coherence": 0.023887752260208114,
+      "joint_validation_coherence": 0.01894442911123995,
+      "validation_coherence_gain_absolute": 0.0060048822449397365,
+      "validation_coherence_gain_ratio": 1.4640720658139015,
+      "joint_train_phase_rad": 1.0876814977209355,
+      "joint_validation_phase_rad": 1.663673752112689,
+      "joint_validation_complex_correlation_real": -0.001756981238838929,
+      "joint_validation_complex_correlation_imag": 0.018862778461222612,
+      "joint_validation_eight_chunk_coherence": [
+        0.051154779650025392,
+        0.051909422086182155,
+        0.0031452812031380556,
+        0.0088803930552803813,
+        0.0728345111093612,
+        0.021348938445336245,
+        0.007427949941576811,
+        0.011919996231524944
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        1.9969887582296122,
+        2.1322731793184735,
+        1.5461346234556357,
+        0.37331007647651554,
+        0.67764338040918626,
+        -2.8055337541072296,
+        1.5290585019233063,
+        3.0290640775758551
+      ],
+      "joint_validation_chunk_phase_resultant": 0.63469048607840994,
+      "joint_training_fft_peak_to_median": 4.3821799263672334,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03455E+6,
+      "reference_comparison_validation_pairs": 1.03455E+6
+    },
+    {
+      "comparison_frame_offset": 4,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 16,
+      "baseline_train_coherence": 0.0094982510819685284,
+      "baseline_validation_coherence": 0.0067033003857928852,
+      "cfo_only_correction_hz": -44.310402530867378,
+      "cfo_only_train_coherence": 0.0098804296764450281,
+      "cfo_only_validation_coherence": 0.011253524186754153,
+      "joint_delay_grid_samples": 1,
+      "joint_delay_ns": 8.0591343679703549,
+      "joint_correction_hz": -15546.181119911567,
+      "inferred_comparison_minus_reference_cfo_hz": 15546.181119911567,
+      "joint_train_coherence": 0.015706516540131357,
+      "joint_validation_coherence": 0.0013544323435705232,
+      "validation_coherence_gain_absolute": -0.0053488680422223624,
+      "validation_coherence_gain_ratio": 0.20205455009015191,
+      "joint_train_phase_rad": -2.7498598031812076,
+      "joint_validation_phase_rad": -0.68094977922396227,
+      "joint_validation_complex_correlation_real": 0.0010523602781509426,
+      "joint_validation_complex_correlation_imag": -0.0008526575035030248,
+      "joint_validation_eight_chunk_coherence": [
+        0.044034262758826707,
+        0.010188021474353782,
+        0.014258678512945577,
+        0.024819224588835113,
+        0.023081371874136,
+        0.037240627744616693,
+        0.00655925832008627,
+        0.0054891458751335272
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        -1.8680238342475657,
+        0.53056436616727742,
+        1.8031398653643542,
+        -3.0466016852077584,
+        1.0579468408863548,
+        -0.01489884831497661,
+        2.4654596402546334,
+        -0.8912022210696886
+      ],
+      "joint_validation_chunk_phase_resultant": 0.096450663580235824,
+      "joint_training_fft_peak_to_median": 4.4995030673937508,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03361E+6,
+      "reference_comparison_validation_pairs": 1.033609E+6
+    },
+    {
+      "comparison_frame_offset": 5,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 17,
+      "baseline_train_coherence": 0.0039921945614620081,
+      "baseline_validation_coherence": 0.012737005078155226,
+      "cfo_only_correction_hz": -25374.894209046368,
+      "cfo_only_train_coherence": 0.0077722761680028762,
+      "cfo_only_validation_coherence": 0.0086261332994217437,
+      "joint_delay_grid_samples": 1,
+      "joint_delay_ns": 8.0591343679703549,
+      "joint_correction_hz": 9097.6644779914768,
+      "inferred_comparison_minus_reference_cfo_hz": -9097.6644779914768,
+      "joint_train_coherence": 0.032886545476001068,
+      "joint_validation_coherence": 0.010509840851760788,
+      "validation_coherence_gain_absolute": -0.0022271642263944381,
+      "validation_coherence_gain_ratio": 0.82514223612785031,
+      "joint_train_phase_rad": 1.5867124982183778,
+      "joint_validation_phase_rad": -0.2192011362838803,
+      "joint_validation_complex_correlation_real": 0.010258355847889981,
+      "joint_validation_complex_correlation_imag": -0.002285364309557968,
+      "joint_validation_eight_chunk_coherence": [
+        0.055607379311809528,
+        0.051177489486975876,
+        0.010681971822063169,
+        0.025521352646902015,
+        0.018322605974779225,
+        0.026436749035175493,
+        0.051519730988215544,
+        0.042651562611640922
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        0.54613951218078283,
+        -1.103502521009613,
+        -0.41091011822695267,
+        -1.4623669084971085,
+        -1.474492504115388,
+        0.69471039553741742,
+        1.3170835864162511,
+        -2.9394417316460091
+      ],
+      "joint_validation_chunk_phase_resultant": 0.27177819708763495,
+      "joint_training_fft_peak_to_median": 4.3821928711575469,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03361E+6,
+      "reference_comparison_validation_pairs": 1.033609E+6
+    },
+    {
+      "comparison_frame_offset": 6,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 18,
+      "baseline_train_coherence": 0.0072968968231490426,
+      "baseline_validation_coherence": 0.006988114124929742,
+      "cfo_only_correction_hz": -37698.875228433368,
+      "cfo_only_train_coherence": 0.01569411148841849,
+      "cfo_only_validation_coherence": 0.0063036649570087358,
+      "joint_delay_grid_samples": 0,
+      "joint_delay_ns": 0,
+      "joint_correction_hz": -37698.875228433368,
+      "inferred_comparison_minus_reference_cfo_hz": 37698.875228433368,
+      "joint_train_coherence": 0.01569411148841849,
+      "joint_validation_coherence": 0.0063036649570087358,
+      "validation_coherence_gain_absolute": -0.00068444916792100626,
+      "validation_coherence_gain_ratio": 0.90205523898368112,
+      "joint_train_phase_rad": 0.95962382221131837,
+      "joint_validation_phase_rad": 0.50759160160297312,
+      "joint_validation_complex_correlation_real": 0.00550888438510565,
+      "joint_validation_complex_correlation_imag": 0.0030640471148073254,
+      "joint_validation_eight_chunk_coherence": [
+        0.01955520447304596,
+        0.010093179860991357,
+        0.008663730531485541,
+        0.017403629811147257,
+        0.014792518220051669,
+        0.013386970841775097,
+        0.0078363038856942482,
+        0.024569208372087089
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        -0.88220631022096407,
+        2.2057695812632,
+        1.5522942747100932,
+        0.16278296472251388,
+        -0.0657944177006196,
+        2.92979093773591,
+        -0.39189498019267849,
+        1.1780832894753077
+      ],
+      "joint_validation_chunk_phase_resultant": 0.42565024335200247,
+      "joint_training_fft_peak_to_median": 3.7334812460121953,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03455E+6,
+      "reference_comparison_validation_pairs": 1.03455E+6
+    },
+    {
+      "comparison_frame_offset": 7,
+      "reference_absolute_frame": 12,
+      "comparison_absolute_frame": 19,
+      "baseline_train_coherence": 0.021334047801411848,
+      "baseline_validation_coherence": 0.01578415264697151,
+      "cfo_only_correction_hz": -27.168925388398982,
+      "cfo_only_train_coherence": 0.021634653322983255,
+      "cfo_only_validation_coherence": 0.016506266505255569,
+      "joint_delay_grid_samples": 0,
+      "joint_delay_ns": 0,
+      "joint_correction_hz": -27.168925388398982,
+      "inferred_comparison_minus_reference_cfo_hz": 27.168925388398982,
+      "joint_train_coherence": 0.021634653322983255,
+      "joint_validation_coherence": 0.016506266505255569,
+      "validation_coherence_gain_absolute": 0.00072211385828405833,
+      "validation_coherence_gain_ratio": 1.0457492951591931,
+      "joint_train_phase_rad": -0.28483371516919964,
+      "joint_validation_phase_rad": -0.5094000177440613,
+      "joint_validation_complex_correlation_real": 0.014410585488288545,
+      "joint_validation_complex_correlation_imag": -0.008049339092574586,
+      "joint_validation_eight_chunk_coherence": [
+        0.033506081839199432,
+        0.021624526439397548,
+        0.041093392370583764,
+        0.019001063155537724,
+        0.044264527459093733,
+        0.017897236271813541,
+        0.012704044120505518,
+        0.031256020202849448
+      ],
+      "joint_validation_eight_chunk_phase_rad": [
+        -0.773790188074063,
+        -1.1799236608026189,
+        1.4533759212285045,
+        -0.0929421226856137,
+        -1.2018711206876784,
+        -1.1415143011012958,
+        -1.1181947454398855,
+        0.24901440868018002
+      ],
+      "joint_validation_chunk_phase_resultant": 0.59900278738271107,
+      "joint_training_fft_peak_to_median": 3.9601665611541144,
+      "joint_delay_at_search_boundary": false,
+      "joint_cfo_at_search_boundary": false,
+      "joint_cfo_fit_fft_resolution_hz": 29.583646110817583,
+      "reference_comparison_training_pairs": 1.03455E+6,
+      "reference_comparison_validation_pairs": 1.03455E+6
+    }
+  ],
+  "class_validation": [
+    [
+      {
+        "class": "black",
+        "validation_pairs": 411575,
+        "baseline_coherence": 0.028534634506027643,
+        "joint_coherence": 0.025752719932988853,
+        "joint_phase_rad": -1.4975241107496027
+      },
+      {
+        "class": "white",
+        "validation_pairs": 338492,
+        "baseline_coherence": 0.024040914225857878,
+        "joint_coherence": 0.0236831006894808,
+        "joint_phase_rad": 2.5149180504675854
+      },
+      {
+        "class": "text",
+        "validation_pairs": 186830,
+        "baseline_coherence": 0.040731436091673283,
+        "joint_coherence": 0.0086027956874184935,
+        "joint_phase_rad": 1.6548975477306185
+      }
+    ],
+    [
+      {
+        "class": "black",
+        "validation_pairs": 410825,
+        "baseline_coherence": 0.018472918086050713,
+        "joint_coherence": 0.014275680718500496,
+        "joint_phase_rad": 1.3149793135077716
+      },
+      {
+        "class": "white",
+        "validation_pairs": 337876,
+        "baseline_coherence": 0.020319831665822949,
+        "joint_coherence": 0.00048884522895062431,
+        "joint_phase_rad": 2.373600904906529
+      },
+      {
+        "class": "text",
+        "validation_pairs": 186490,
+        "baseline_coherence": 0.071818711504124319,
+        "joint_coherence": 0.016902328260625064,
+        "joint_phase_rad": 0.54935016437905448
+      }
+    ],
+    [
+      {
+        "class": "black",
+        "validation_pairs": 411950,
+        "baseline_coherence": 0.0085787713799844942,
+        "joint_coherence": 0.0057990436286405088,
+        "joint_phase_rad": 2.7658399957061386
+      },
+      {
+        "class": "white",
+        "validation_pairs": 338800,
+        "baseline_coherence": 0.018347224859571704,
+        "joint_coherence": 0.029768832749871989,
+        "joint_phase_rad": 1.2822118064567318
+      },
+      {
+        "class": "text",
+        "validation_pairs": 187000,
+        "baseline_coherence": 0.026234822541232491,
+        "joint_coherence": 0.039674307566817169,
+        "joint_phase_rad": 1.7803056062643805
+      }
+    ],
+    [
+      {
+        "class": "black",
+        "validation_pairs": 411575,
+        "baseline_coherence": 0.022559715009446757,
+        "joint_coherence": 0.013273416780631051,
+        "joint_phase_rad": 0.41051776279943269
+      },
+      {
+        "class": "white",
+        "validation_pairs": 338492,
+        "baseline_coherence": 0.0029132061317159296,
+        "joint_coherence": 0.011153134024390774,
+        "joint_phase_rad": -2.9881887039025008
+      },
+      {
+        "class": "text",
+        "validation_pairs": 186830,
+        "baseline_coherence": 0.0244234240043059,
+        "joint_coherence": 0.0080958892927521387,
+        "joint_phase_rad": -2.0962986378675215
+      }
+    ],
+    [
+      {
+        "class": "black",
+        "validation_pairs": 411575,
+        "baseline_coherence": 0.014440953788368871,
+        "joint_coherence": 0.020424539553650291,
+        "joint_phase_rad": 2.0536087541175592
+      },
+      {
+        "class": "white",
+        "validation_pairs": 338492,
+        "baseline_coherence": 0.020253157374232448,
+        "joint_coherence": 0.019105000334411561,
+        "joint_phase_rad": -1.6847562304140282
+      },
+      {
+        "class": "text",
+        "validation_pairs": 186830,
+        "baseline_coherence": 0.029672702714360479,
+        "joint_coherence": 0.058466821558386943,
+        "joint_phase_rad": -0.60934476987187192
+      }
+    ],
+    [
+      {
+        "class": "black",
+        "validation_pairs": 411950,
+        "baseline_coherence": 0.021064629069746967,
+        "joint_coherence": 0.0077996907263032751,
+        "joint_phase_rad": 1.2879698295400097
+      },
+      {
+        "class": "white",
+        "validation_pairs": 338800,
+        "baseline_coherence": 0.016809808693863226,
+        "joint_coherence": 0.019863382605963965,
+        "joint_phase_rad": -1.2730397748464097
+      },
+      {
+        "class": "text",
+        "validation_pairs": 187000,
+        "baseline_coherence": 0.017083293196269025,
+        "joint_coherence": 0.018236592990681633,
+        "joint_phase_rad": 1.2823144856294437
+      }
+    ],
+    [
+      {
+        "class": "black",
+        "validation_pairs": 411950,
+        "baseline_coherence": 0.023319366730412166,
+        "joint_coherence": 0.020831283081540291,
+        "joint_phase_rad": -0.51448629359660392
+      },
+      {
+        "class": "white",
+        "validation_pairs": 338800,
+        "baseline_coherence": 0.012016514509454929,
+        "joint_coherence": 0.013652537900162099,
+        "joint_phase_rad": -1.2106159106682011
+      },
+      {
+        "class": "text",
+        "validation_pairs": 187000,
+        "baseline_coherence": 0.028981630065537448,
+        "joint_coherence": 0.025254411839133177,
+        "joint_phase_rad": -0.32139825812278283
+      }
+    ]
+  ],
+  "estimator": "Block-mean cross-product FFT locates a candidate phase ramp; exact normalized inner products refine and verify it. No assumption that the complete product is a stationary sinusoid.",
+  "sign_convention": "p[n]=reference[n]*conj(comparison[n+d]); correction +f multiplies comparison[n+d] by exp(+j2pi*f*n/FsGrid).",
+  "pair_rule": "Endpoint samples must remain in the same capture row; class-specific metrics additionally require the frozen row class.",
+  "validation_rule": "First half of positions fits lag/CFO; second half evaluates frozen lag/CFO, with no phase alignment or parameter refit.",
+  "limitations": [
+    "This bounds only a constant residual CFO and an integer delay within the stated search box.",
+    "It does not test fractional delay, row-dependent timing drift, nonlinear phase, changed content or channel response.",
+    "Low first-order coherence can coexist with reproducible second-order CAF; it is not evidence that packet periodicity is absent.",
+    "FFT zero padding interpolates the peak; it does not increase independent frequency resolution.",
+    "A search-boundary optimum may require a wider search before excluding alignment error.",
+    "Validation samples belong to different positions of the same training frames; this is an alignment audit, not independent B2/B3 model validation."
+  ]
+}
