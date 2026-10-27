@@ -1,0 +1,11 @@
+{
+  "matlab_version": "26.2.0.3386108 (R2026b)",
+  "code_analyzer": {
+    "renderer": [],
+    "estimator": []
+  },
+  "native_mapping_unique_samples": 1.4674E+6,
+  "native_interpolation_used": false,
+  "four_panels_same_map": true,
+  "source_modified": false
+}

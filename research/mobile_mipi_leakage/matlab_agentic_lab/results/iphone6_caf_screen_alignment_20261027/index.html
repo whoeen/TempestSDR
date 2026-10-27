@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iPhone 6 · 네 복원 화면 공통 정렬</title>
+<style>
+:root{color-scheme:light;--ink:#172333;--muted:#536375;--edge:#dce3e9;--blue:#145b87;--bg:#f3f6f8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,"Malgun Gothic",sans-serif}main{max-width:1680px;margin:auto;padding:28px 24px}header,.panel,figure{background:white;border:1px solid var(--edge);border-radius:10px;padding:22px;margin:0 0 22px}h1{font-size:30px;line-height:1.35;margin:5px 0 12px}h2{font-size:22px;margin:0 0 10px}h3{font-size:16px;line-height:1.4;margin:0 0 8px}p{margin:9px 0}a{color:var(--blue)}nav{display:flex;flex-wrap:wrap;gap:16px}.muted{font-size:14px;color:var(--muted)}.note{background:#eef5fa;border-left:4px solid #427b9e;padding:10px 14px}.assumption{background:#fff6e9;border-left:4px solid #bd8131;padding:10px 14px}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:18px;margin:14px 0 16px}label{display:flex;align-items:center;gap:7px}select,button{font:inherit;padding:7px 11px;border:1px solid #acbbc8;border-radius:5px;background:white;color:var(--ink)}button{cursor:pointer}button:hover{background:#f0f5f8}select:focus,button:focus,a:focus{outline:2px solid #2687bd;outline-offset:2px}.screen-grid{display:grid;grid-template-columns:.75fr repeat(4,1fr);gap:12px;align-items:start}.screen-grid article{min-width:0}.screen-box{width:100%;aspect-ratio:750/1334;background:#e8edf1;border:1px solid var(--edge);display:flex;align-items:center;justify-content:center;overflow:hidden}.screen-box img{display:block;width:100%;height:100%;object-fit:contain}.reference .screen-box{aspect-ratio:750/1334}.screen-grid[data-mode="native"] .view .screen-box{aspect-ratio:1100/1334}.meta{font:13px/1.45 ui-monospace,monospace;min-height:40px;margin-bottom:8px;color:var(--muted)}.download{display:block;font-size:13px;margin-top:7px}.legend{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px;font-size:14px}.legend strong{display:block}figure img{display:block;width:100%;height:auto}figcaption{font-size:14px;color:var(--muted);margin-bottom:12px}details summary{cursor:pointer;font-weight:650;margin-bottom:14px}.image-link{display:block}.zoom-panel{padding-bottom:10px}.status{font-size:14px;color:var(--muted);margin-top:12px}code{font-family:ui-monospace,monospace}@media(max-width:1100px){.screen-grid{grid-template-columns:repeat(4,1fr)}.reference{grid-column:1/-1;display:grid;grid-template-columns:110px 1fr;gap:12px}.reference h3{grid-column:2}.reference .screen-box{grid-column:1;grid-row:1/4}.reference .meta{grid-column:2}.reference .download{grid-column:2}}@media(max-width:720px){main{padding:12px}.screen-grid{grid-template-columns:repeat(2,1fr)}.legend{grid-template-columns:repeat(2,1fr)}header,.panel,figure{padding:16px}h1{font-size:24px}}@media print{.controls{display:none}body{background:white}main{max-width:none;padding:0}figure,.panel{break-inside:avoid}.screen-grid{grid-template-columns:.75fr repeat(4,1fr)}}
+</style>
+</head>
+<body><main>
+<header>
+<div class="muted">iPhone 6 · 100 MHz 녹음 · MATLAB · 2026-10-27</div>
+<h1>전력 → 복소 CAF 잔차 → 위상 기준 투영 → lag-product 위상</h1>
+<p>네 복원본에 <strong>하나의 화면 좌표 변환</strong>을 공통 적용했습니다. 같은 행·같은 가로 위치를 나란히 비교할 수 있습니다.</p>
+<nav><a href="ALIGNMENT_REPORT.md">정렬 방법과 한계</a><a href="alignment_parameters.json">좌표·추정값 JSON</a><a href="montage_screen_B23.png">정렬 비교 PNG</a><a href="montage_native_B23.png">전체 폭 비교 PNG</a></nav>
+<p class="note">좌표는 학습 구간 B1에서 정하고 B2/B3에도 고정합니다. 영상마다 별도로 위치를 맞추지 않았으며, 원본의 문자 픽셀을 복원본에 삽입하지 않았습니다.</p>
+</header>
+<section class="panel" aria-labelledby="compare-title">
+<h2 id="compare-title">같은 화면 위치에서 비교</h2>
+<div class="controls">
+<label for="block">구간 <select id="block"><option value="B23">B2·B3 평균 · 검증</option><option value="B2">B2 · 검증</option><option value="B3">B3 · 검증</option><option value="B1">B1 · 학습</option></select></label>
+<label for="mode">표시 <select id="mode"><option value="screen">750 × 1334 · 추정 활성 폭</option><option value="native">1100 × 1334 · 전체 시간 빈</option></select></label>
+<button id="toggle-block" type="button">B2 ↔ B3</button>
+<span class="muted">각 그림을 누르면 원본 크기로 열립니다.</span>
+</div>
+<p class="assumption" id="mode-note">750열 표시는 알려진 원본을 이용해 추정한 활성 폭을 공통으로 잘라 표시한 것입니다. 실제 픽셀 클록이나 MIPI bit를 복호화한 결과는 아닙니다.</p>
+<div class="screen-grid" id="screen-grid" data-mode="screen">
+<article class="reference"><h3>제공된 원본 화면</h3><div class="meta">정렬 기준 · 픽셀 대입 없음</div><a href="reference.png" class="screen-box" title="제공된 원본 화면"><img src="reference.png" alt="사용자가 제공한 iPhone 6 검정 글자 원본 화면"></a><a class="download" href="reference.png">원본 PNG</a></article>
+<article class="view"><h3>① 전력</h3><div class="meta">P = E[|x|²]</div><a id="power-link" class="screen-box"><img id="power" alt="공통 정렬된 전력 복원 화면"></a><a id="power-download" class="download">PNG 열기</a></article>
+<article class="view"><h3>② 복소 CAF 잔차</h3><div class="meta">|C − C<sub>white,B1</sub>|</div><a id="caf_residual-link" class="screen-box"><img id="caf_residual" alt="공통 정렬된 복소 CAF 잔차 크기 화면"></a><a id="caf_residual-download" class="download">PNG 열기</a></article>
+<article class="view"><h3>③ 위상 기준 투영</h3><div class="meta">Re[(C − C<sub>white,B1</sub>) e<sup>−jφref</sup>]</div><a id="phase_projection-link" class="screen-box"><img id="phase_projection" alt="공통 정렬된 위상 기준 CAF 잔차 투영 화면"></a><a id="phase_projection-download" class="download">PNG 열기</a></article>
+<article class="view"><h3>④ lag-product 위상</h3><div class="meta">arg(C), d = 1 · degree</div><a id="lag_phase-link" class="screen-box"><img id="lag_phase" alt="공통 정렬된 lag-product 위상 화면"></a><a id="lag_phase-download" class="download">PNG 열기</a></article>
+</div>
+<p class="status" id="status" role="status" aria-live="polite"></p>
+<div class="legend">
+<div><strong>전력</strong>측정 복소 IQ의 전력입니다. 같은 구간의 다른 표시와 공간 좌표를 공유합니다.</div>
+<div><strong>복소 잔차</strong>복소수로 기준을 뺀 뒤 크기를 표시합니다. 복소 정보 자체는 수치 결과에 보존합니다.</div>
+<div><strong>위상 투영</strong>B1에서 정한 기준 위상에 대한 부호 있는 실수 투영입니다.</div>
+<div><strong>lag 위상</strong>−180°부터 +180°의 상관 위상입니다. 절대 RF 위상이나 복원된 RGB 색상이 아닙니다. 신뢰도가 낮은 곳은 마스킹합니다.</div>
+</div>
+</section>
+<figure class="zoom-panel"><h2>문자 영역 확대 · B2/B3 평균</h2><figcaption>같은 문자 영역을 네 표시에서 함께 확대했습니다. <a href="zoom_screen_B23.png">확대 PNG 원본</a></figcaption><a href="zoom_screen_B23.png" class="image-link"><img src="zoom_screen_B23.png" loading="lazy" alt="공통 정렬한 네 복원본의 같은 문자 영역 확대"></a></figure>
+<figure><h2>추정 활성 폭의 공통 정렬 · B2/B3 평균</h2><figcaption>750 × 1334 표시. 가로 스케일은 알려진 원본에 대한 표시 정렬 가설입니다. <a href="montage_screen_B23.png">PNG 원본</a></figcaption><a href="montage_screen_B23.png" class="image-link"><img src="montage_screen_B23.png" loading="lazy" alt="같은 화면 크기로 정렬한 네 복원본 비교"></a></figure>
+<figure><details><summary>전체 1100 시간 빈을 유지한 정렬본</summary><figcaption>추정 활성 폭 바깥의 정보도 확인할 수 있도록 전체 가로 주기를 유지했습니다. 1100개 시간 빈을 화면의 1100픽셀로 해석하지 않습니다. <a href="montage_native_B23.png">PNG 원본</a></figcaption><a href="montage_native_B23.png" class="image-link"><img src="montage_native_B23.png" loading="lazy" alt="전체 시간 빈을 유지한 네 복원본의 공통 정렬 비교"></a></details></figure>
+<footer class="panel"><p>이 갤러리는 좌표 정렬과 표시를 비교합니다. 정렬 개선을 새로운 신호 복호화 성능으로 계산하지 않습니다.</p><nav><a href="ALIGNMENT_REPORT.md">분석 노트</a><a href="alignment_parameters.json">재현 좌표</a></nav></footer>
+</main>
+<script>
+(function(){
+  'use strict';
+  var names=['power','caf_residual','phase_projection','lag_phase'];
+  var block=document.getElementById('block');
+  var mode=document.getElementById('mode');
+  function update(){
+    var stem=mode.value+'_'+block.value+'_';
+    names.forEach(function(name){
+      var path=stem+name+'.png';
+      document.getElementById(name).src=path;
+      document.getElementById(name+'-link').href=path;
+      document.getElementById(name+'-download').href=path;
+    });
+    document.getElementById('screen-grid').dataset.mode=mode.value;
+    document.getElementById('mode-note').textContent=mode.value==='screen'
+      ?'750열 표시는 알려진 원본을 이용해 추정한 활성 폭을 공통으로 잘라 표시한 것입니다. 실제 픽셀 클록이나 MIPI bit를 복호화한 결과는 아닙니다.'
+      :'전체 1100개 시간 빈을 유지하고 가로 시작점과 행 위치를 공통 정렬했습니다. 네 영상의 좌표 변환은 동일하며, 활성 폭 밖의 정보도 남아 있습니다.';
+    document.getElementById('status').textContent=(block.value==='B23'?'B2/B3 평균':block.value)+' · '+(mode.value==='screen'?'750 × 1334':'1100 × 1334')+' · 동일 좌표 변환 · '+(block.value==='B1'?'학습 구간':'검증 구간');
+  }
+  block.addEventListener('change',update);
+  mode.addEventListener('change',update);
+  document.getElementById('toggle-block').addEventListener('click',function(){block.value=block.value==='B2'?'B3':'B2';update();});
+  update();
+}());
+</script>
+</body></html>

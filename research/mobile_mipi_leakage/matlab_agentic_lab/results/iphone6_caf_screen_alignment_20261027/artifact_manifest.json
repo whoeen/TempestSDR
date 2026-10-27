@@ -1,0 +1,245 @@
+{
+  "scope": "Aligned power/complex CAF residual/phase projection/lag-product phase, numeric arrays, plots, source and reference. Original RIS and prior CAF bundle are external dependencies. cloud_manifest.json is an external upload receipt, excluded to avoid a circular archive hash.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "a21cd11e9bc133d3d47a4f28c911a707f0328f3e229c036422892e233456bd6e"
+    },
+    {
+      "path": "aligned_views_B23.mat",
+      "bytes": 146260747,
+      "sha256": "f38a76884355a9d74fb479258e4810bd83a834a837520761b683a1bdbb12e3b2"
+    },
+    {
+      "path": "alignment_parameters.json",
+      "bytes": 8984,
+      "sha256": "b64c1dff19acc85da8294e30fcb8c4c9386599376248707fe84bf46f386830f2"
+    },
+    {
+      "path": "ALIGNMENT_REPORT.md",
+      "bytes": 3563,
+      "sha256": "aef114cbc712a400fbf3ee7aea8cfa0b11cb95c6e9aa2073e47b18dd0ad7dbe5"
+    },
+    {
+      "path": "execution_check.json",
+      "bytes": 259,
+      "sha256": "ece75795458b25427a10141125412f63f64cef1283526ca836ba34ed425c359f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10458,
+      "sha256": "e8aaba80d32d3c674a1e424a3a7ed77b555923585f4eb3c00158a738fe389be7"
+    },
+    {
+      "path": "montage_native_B23.fig",
+      "bytes": 52141241,
+      "sha256": "caa9652349610751520070a99dd14d83b65a04ccee3d975b76b322ae211439f4"
+    },
+    {
+      "path": "montage_native_B23.png",
+      "bytes": 1960123,
+      "sha256": "330fbc11c5117beeb0fe79faef911a4ee63810fc9ad83bd70ba4e4dd87b84f56"
+    },
+    {
+      "path": "montage_screen_B23.fig",
+      "bytes": 35374857,
+      "sha256": "c32acdf288f73d134ffac5a04ed615cfa8856da9b62b9129ace752440232c2d7"
+    },
+    {
+      "path": "montage_screen_B23.png",
+      "bytes": 1810889,
+      "sha256": "b192f0b1924ac67f367d62b279bd82879b0eecbfd5149087ba6efd276b0561a3"
+    },
+    {
+      "path": "native_B1_caf_residual.png",
+      "bytes": 2130330,
+      "sha256": "5c67d86a1e917340dea4ffa95e38b87a967d89d648d9801bb584b4e6bce22a4b"
+    },
+    {
+      "path": "native_B1_lag_phase.png",
+      "bytes": 1796013,
+      "sha256": "066389bda4c8412be90546db809e45d44f62ae1701980dc53a6cb20124f309b0"
+    },
+    {
+      "path": "native_B1_phase_projection.png",
+      "bytes": 2556821,
+      "sha256": "c3a212c80b40637250015a8554f7b2780d4d75d0adba3c98752801f7534f3f8a"
+    },
+    {
+      "path": "native_B1_power.png",
+      "bytes": 2591166,
+      "sha256": "03f11e15184e3264a79a72cc78ce29dc580e709cc72f0cf07427770c0599c24f"
+    },
+    {
+      "path": "native_B23_caf_residual.png",
+      "bytes": 1924215,
+      "sha256": "f08b381bb88bb5f6499eda0dfed9addcd04b274f620dec553d470f5beec3e8b8"
+    },
+    {
+      "path": "native_B23_lag_phase.png",
+      "bytes": 1991563,
+      "sha256": "95a89556c42023b9beeac6c64bf63c76888016534c9cd3b6b5161a76d0eac8ff"
+    },
+    {
+      "path": "native_B23_phase_projection.png",
+      "bytes": 2158231,
+      "sha256": "9e97b120593be493ad2cf834bfc030bca2170553d12ae0ac0b5b0784c85ef068"
+    },
+    {
+      "path": "native_B23_power.png",
+      "bytes": 2173798,
+      "sha256": "aac3bbcac6a2c231e10da160fa21453ddad86e2cae9376f805434c3adbf6963a"
+    },
+    {
+      "path": "native_B2_caf_residual.png",
+      "bytes": 2121853,
+      "sha256": "536c4010c8506f0dbbdfee91f6b7d244f8ccd246568932b8c3f5735647790d75"
+    },
+    {
+      "path": "native_B2_lag_phase.png",
+      "bytes": 1792773,
+      "sha256": "9cd11f8cc97163f1656cab2b92947b84d95c4858532fd48e4d92d2df88857934"
+    },
+    {
+      "path": "native_B2_phase_projection.png",
+      "bytes": 2546101,
+      "sha256": "73ea08fb543b92004aa6fd18444d46589149244e93b9751062e71e2c8914b92e"
+    },
+    {
+      "path": "native_B2_power.png",
+      "bytes": 2565506,
+      "sha256": "fa12b5abd4acdd10dc0260852cf14768ea550d9fd6d4ebca158462b705ae8bbc"
+    },
+    {
+      "path": "native_B3_caf_residual.png",
+      "bytes": 2090010,
+      "sha256": "6a47ce63d9ab1be7ca74f42606a7d844e3df6595386ee7a300fe8a5a8dc2a5d7"
+    },
+    {
+      "path": "native_B3_lag_phase.png",
+      "bytes": 1823258,
+      "sha256": "4cefce28886b92b9f962b5762940f8af364bb815c3ce01595ac26ae20d8adea9"
+    },
+    {
+      "path": "native_B3_phase_projection.png",
+      "bytes": 2285426,
+      "sha256": "16ccdd8537d87ad2f84d5988ded4c3fa2be5d77a9348fd25b0802528f99029c5"
+    },
+    {
+      "path": "native_B3_power.png",
+      "bytes": 2379900,
+      "sha256": "2d935b873bb26a24e09cc5de9c7717f718afb4f98271208705ab777ab6b19540"
+    },
+    {
+      "path": "reference.png",
+      "bytes": 135298,
+      "sha256": "4d80acc663b6bc25e825c4d75f9ea5d3fcbb6aac12394c2d3014dbab6320ace3"
+    },
+    {
+      "path": "screen_B1_caf_residual.png",
+      "bytes": 1399584,
+      "sha256": "ea7a97a7692348344d026f5aa2b815048f830da1687be60d71e06d3ea138a8ee"
+    },
+    {
+      "path": "screen_B1_lag_phase.png",
+      "bytes": 1371688,
+      "sha256": "939a91011a18ad3c8da5fadd89766aa3fc85e91b2841766ddae5137cfa58b649"
+    },
+    {
+      "path": "screen_B1_phase_projection.png",
+      "bytes": 1629040,
+      "sha256": "a5b6ac365450bfdbf4b72ae728fd9a0c68fe8c27fb1c1ccb83f8d5598b46730d"
+    },
+    {
+      "path": "screen_B1_power.png",
+      "bytes": 1609728,
+      "sha256": "118ad071cb298b8d720c796b7576828400e2aef484599afe27469ef8bbed751c"
+    },
+    {
+      "path": "screen_B23_caf_residual.png",
+      "bytes": 1295918,
+      "sha256": "8230306c435ac0726238bd7376bc1d3f2f6eecf0928b25df38a511f5361306bc"
+    },
+    {
+      "path": "screen_B23_lag_phase.png",
+      "bytes": 1355153,
+      "sha256": "22cf868080390dcfbe496084dab5f245b5e303cac8287c2d3faacb0ad253eaa4"
+    },
+    {
+      "path": "screen_B23_phase_projection.png",
+      "bytes": 1367975,
+      "sha256": "777b8700d585a8437769d7f31d7ad803ee50cf79932890f4ce5b13bb282936bb"
+    },
+    {
+      "path": "screen_B23_power.png",
+      "bytes": 1390528,
+      "sha256": "341a7751b8be145fb57b5c24ded18c1c38d5650fa80e63b789367db0a667df84"
+    },
+    {
+      "path": "screen_B2_caf_residual.png",
+      "bytes": 1395313,
+      "sha256": "9a445250d33921220e8c746478ee4cb947029c91203b16ef57f2441b824259f8"
+    },
+    {
+      "path": "screen_B2_lag_phase.png",
+      "bytes": 1368074,
+      "sha256": "9cceb493b886165d97aeb45d3a019cc17bb4894c78583c93a6ad05d7025c5b4b"
+    },
+    {
+      "path": "screen_B2_phase_projection.png",
+      "bytes": 1614545,
+      "sha256": "960495a0ac268ebab45410a1a1fa0478928aebdf8e26dd457af32aa49ed87b6d"
+    },
+    {
+      "path": "screen_B2_power.png",
+      "bytes": 1596302,
+      "sha256": "ef36a060022b5ab8d67e534576bffe54fd85dfe252c6af9c16d19059e50bdbb5"
+    },
+    {
+      "path": "screen_B3_caf_residual.png",
+      "bytes": 1388594,
+      "sha256": "c8ad301edd4a087e8077659559c7bc091d6179ad23a4685a7514aff22ce55930"
+    },
+    {
+      "path": "screen_B3_lag_phase.png",
+      "bytes": 1384987,
+      "sha256": "1d1af21241801a12c6350dd754c0ca915846ba96d2562037a0faad5ac412ea0f"
+    },
+    {
+      "path": "screen_B3_phase_projection.png",
+      "bytes": 1467263,
+      "sha256": "1eb6eafb42e4adfe3536f8ec14c04bb9a2eb14b926325ab08809157108e6cce7"
+    },
+    {
+      "path": "screen_B3_power.png",
+      "bytes": 1510642,
+      "sha256": "22e5f3193be3048c33219abf362b4471e0ff30d2c4fd92a27004cbfb97c9b40d"
+    },
+    {
+      "path": "source_snapshot/alignCafScreens27.m",
+      "bytes": 8630,
+      "sha256": "280456079390c755cd1b8a5bada54de146bda54f37aea543371cff90cb9fd076"
+    },
+    {
+      "path": "source_snapshot/package_caf_alignment27.py",
+      "bytes": 1841,
+      "sha256": "03d9045de11b4c2c09edf6d6ee95fb314ecb5d24adb70fe9069202720aacdc86"
+    },
+    {
+      "path": "source_snapshot/signal_processing/estimateScreenAlignment27.m",
+      "bytes": 7752,
+      "sha256": "c64ddffd196c2f6b8ca86ddc82adb1d110c9f785c4dcc5f10b3b3bbcf58656c1"
+    },
+    {
+      "path": "zoom_screen_B23.fig",
+      "bytes": 14773854,
+      "sha256": "e14e7ae59388032c24e3bb85286bf2ec3b49aec01b9f4bb1fce59a37bdae91f8"
+    },
+    {
+      "path": "zoom_screen_B23.png",
+      "bytes": 3099552,
+      "sha256": "d07f6dfb34cec868b59726db34867164cc49565b81833cfbd7a192d8b084628e"
+    }
+  ]
+}

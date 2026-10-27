@@ -1,0 +1,12 @@
+{
+  "archive": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\results\\iphone6_caf_screen_alignment_20261027\\iphone6_caf_screen_alignment_20261027.zip",
+  "bytes": 310727596,
+  "sha256": "9f5f161f032229fad093ead6f4fd037c2a44e4b14b48c4313486e260e12290ea",
+  "members": 49,
+  "zip_crc_verified": true,
+  "upload_status": "uploaded_and_remote_verified",
+  "download_url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_caf_screen_alignment_20261027.zip",
+  "remote_verified": true,
+  "remote_digest": "sha256:9f5f161f032229fad093ead6f4fd037c2a44e4b14b48c4313486e260e12290ea",
+  "remote_bytes": 310727596
+}
