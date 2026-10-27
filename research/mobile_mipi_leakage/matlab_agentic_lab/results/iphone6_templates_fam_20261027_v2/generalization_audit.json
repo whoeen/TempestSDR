@@ -1,0 +1,41 @@
+{
+  "short_validation_windows": 64,
+  "short_mean_corr_before": 0.783683911861161,
+  "short_mean_corr_after": 0.86608557642658313,
+  "short_number_improved": 56,
+  "short_number_degraded": 8,
+  "short_number_large_losses_over_0p1": 2,
+  "short_number_abs_delay_over_500ns": 15,
+  "short_maximum_loss": -0.99451523709281742,
+  "short_large_loss_rows": [
+    34,
+    38
+  ],
+  "short_jump_within_frame_rows": [
+    319.82713056153443,
+    345.37266526964959,
+    370.91819997773564,
+    396.46373468579259,
+    422.00926939389319,
+    447.55480410193559,
+    473.1003388100653,
+    730.70675410394324,
+    756.25228881204384,
+    305.15780347929103,
+    330.70333818739164,
+    356.24887289546314,
+    381.79440760356374,
+    407.33994231163524,
+    432.88547701970674
+  ],
+  "short_timing_interpretation": "A global template can match a different pulse when waveform state changes. Large lag is not validated clock drift.",
+  "frame_test_diagnostic_slope_lines_per_frame": 1.5553525330952965E-5,
+  "frame_test_zero_delay_rms_lines": 0.016127354576476932,
+  "frame_test_training_prediction_rms_lines": 0.040695433764157969,
+  "frame_training_drift_model_supported_on_test": false,
+  "frame_timing_interpretation": "Training slope extrapolation is not supported when residual lag RMS exceeds zero-delay baseline. Small profile-correlation gains after interpolation do not prove timing correction.",
+  "template_still_detects_periodic_structure": true,
+  "automatic_time_warp_approved": false,
+  "packet_decoded": false,
+  "test_data_used_to_retune": false
+}

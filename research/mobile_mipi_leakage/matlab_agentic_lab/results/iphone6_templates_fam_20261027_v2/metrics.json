@@ -1,0 +1,141 @@
+{
+  "status": "complete",
+  "short": {
+    "template_type": "empirical RF78 cyclic-power waveform",
+    "training_block": 1,
+    "frozen_frequency_hz": 112802.5501974424,
+    "period_us": 8.86504780476739,
+    "native_samples_per_period": 1099.9999537493911,
+    "analysis_samples_per_period": 68.749997109336945,
+    "phase_bins": 128,
+    "bin_width_ns": 69.258185974745231,
+    "training_mean_power": 532.502705685278,
+    "blocks": [
+      {
+        "block": 1,
+        "is_training": true,
+        "first_native_sample": 2.481656E+7,
+        "unshifted_correlation": 1.0000000000000002,
+        "best_correlation_integer": 1.0000000000000002,
+        "fitted_delay_bins": 0,
+        "fitted_delay_ns": 0,
+        "aligned_correlation_same_data": 1,
+        "empty_phase_bins": 0,
+        "cyclic_power_phase_global_rad": [
+          2.8430029573970668,
+          -0.42492180337534835,
+          2.4523794871325646,
+          -0.66631475726508715
+        ],
+        "cyclic_power_relative_magnitude": [
+          0.60779643193003385,
+          0.6721479533759398,
+          0.44944624269294076,
+          0.46723006446701154
+        ]
+      },
+      {
+        "block": 2,
+        "is_training": false,
+        "first_native_sample": 1.3649108E+8,
+        "unshifted_correlation": 0.99742821905110657,
+        "best_correlation_integer": 0.99742821905110657,
+        "fitted_delay_bins": 0.0349914068472257,
+        "fitted_delay_ns": 2.4234413629431311,
+        "aligned_correlation_same_data": 0.99781532590516564,
+        "empty_phase_bins": 0,
+        "cyclic_power_phase_global_rad": [
+          2.8429692699368476,
+          -0.42643764177299354,
+          2.4508944720876942,
+          -0.66761294501940593
+        ],
+        "cyclic_power_relative_magnitude": [
+          0.60059951075760609,
+          0.66263110159866856,
+          0.44379862334297709,
+          0.46081287383536784
+        ]
+      },
+      {
+        "block": 3,
+        "is_training": false,
+        "first_native_sample": 2.2334904E+8,
+        "unshifted_correlation": 0.99871401595188813,
+        "best_correlation_integer": 0.99871401595188813,
+        "fitted_delay_bins": 0.04686481253057289,
+        "fitted_delay_ns": 3.2457719019139879,
+        "aligned_correlation_same_data": 0.99942101550995865,
+        "empty_phase_bins": 0,
+        "cyclic_power_phase_global_rad": [
+          2.840447393022091,
+          -0.43034778965797865,
+          2.4440397594794518,
+          -0.67735799869351454
+        ],
+        "cyclic_power_relative_magnitude": [
+          0.61316262945156641,
+          0.6779366304188098,
+          0.45222972052424992,
+          0.47018520514435586
+        ]
+      }
+    ],
+    "heldout_validation_median_correlation_before": 0.92123758975860581,
+    "heldout_validation_median_correlation_after": 0.92472457685829346,
+    "heldout_validation_median_edge_correlation_before": 0.90143452230026377,
+    "heldout_validation_median_edge_correlation_after": 0.90986890369820528,
+    "median_abs_estimated_delay_ns": 7.4168994837270272,
+    "scope": "Same recording, disjoint time segments. No known DSI header; no CFO correction."
+  },
+  "frame": {
+    "training_frames": 24,
+    "tested_frames": 114,
+    "guard_frames": 1,
+    "first_test_frame_zero_based": 25,
+    "native_fs_hz": 1.240828E+8,
+    "row_frequency_prior_from_FAM_hz": 112802.5501974424,
+    "row_samples": 1099.9999537493911,
+    "training_acf_lines": 1881,
+    "training_acf_peak": 0.94456020224310089,
+    "lag_units": "row; positive means sample later in the current frame",
+    "training_delay_slope_lines_per_frame": -0.00045587556026007234,
+    "training_delay_intercept_lines": 0.0054085753694991922,
+    "predicted_frame_period_lines": 1880.9995441244398,
+    "predicted_frame_period_samples": 2.0690994115395097E+6,
+    "predicted_frame_rate_hz": 59.969472374300487,
+    "heldout_median_correlation_before": 0.98695828743051439,
+    "heldout_median_correlation_after_training_prediction": 0.98723376308934641,
+    "heldout_median_edge_correlation_before": 0.74434587897914184,
+    "heldout_median_edge_correlation_after_training_prediction": 0.74615474009420679,
+    "heldout_measured_minus_predicted_delay_rms_lines": 0.040695433764157969,
+    "boundary_peak_count": 0,
+    "raw_read": {
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+      "bytes": 1.1583E+9,
+      "complex_samples": 2.89575E+8,
+      "endianness": "ieee-be",
+      "scalars": "int16 I,Q",
+      "envelope": "sqrt(I^2+Q^2)",
+      "mean_subtraction_before_envelope": false,
+      "block_complex_samples": 1.048576E+6,
+      "row_assignment": "floor(native_sample_zero_based / fractional_samples_per_row)",
+      "full_rows": 263250,
+      "elapsed_seconds": 11.944152,
+      "raw_modified": false
+    },
+    "raw_identity_prior_verification": {
+      "path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+      "bytes": 1.1583E+9,
+      "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+      "verified_utc": "2026-10-26T13:01:01.526Z",
+      "raw_modified": false
+    },
+    "correction_scope": "Only first 24 frames fit correction. Later-frame optimum lags are diagnostics, not fitted correction.",
+    "physical_scope": "AM row-profile timing, no packet or horizontal pixel recovery."
+  },
+  "packet_identified": false,
+  "carrier_phase_corrected": false,
+  "code": "C:\\Users\\leechanghoon\\Documents\\Codex\\2026-09-21\\snr-svd\\tempestsdr-cloud\\research\\mobile_mipi_leakage\\matlab_agentic_lab\\applyIphoneTemplates27.m",
+  "matlab_version": "26.2.0.3386108 (R2026b)"
+}
