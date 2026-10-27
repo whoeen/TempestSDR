@@ -1,0 +1,55 @@
+{
+  "scope": "Supervised row-position calibration from known reference, training B1 only.",
+  "reference_path": "C:/Users/leechanghoon/Downloads/5D0ED11B-F431-49D4-84C4-E25AD8746E2C.png",
+  "reference_width": 750,
+  "reference_height": 1334,
+  "reference_used_for": "Row labels and alignment only; never substituted into measured images.",
+  "frame_rows_prior": 1881,
+  "row_offset_zero_based": 562,
+  "row_scale": 1,
+  "mapping": "capture_row = mod(offset + scale * source_row, 1881)",
+  "selected_training_correlation": 0.85363561053576276,
+  "scale1_correlation": 0.85363561053576276,
+  "unconstrained_best_scale": 0.998,
+  "unconstrained_best_offset": 563,
+  "unconstrained_best_correlation": 0.856070604698852,
+  "scale_selection_minimum_gain": 0.01,
+  "alias_offsets_zero_based": [
+    462,
+    512,
+    562,
+    612,
+    662
+  ],
+  "alias_correlations": [
+    0.67314438259789722,
+    0.7710654916418,
+    0.85363561053576276,
+    0.76684905989754715,
+    0.6672422618540973
+  ],
+  "best_competing_offset_outside_5rows": 512,
+  "competing_correlation": 0.7710654916418,
+  "peak_margin_outside_5rows": 0.082570118893962707,
+  "boundary_exclusion_capture_rows": 2,
+  "label_counts": {
+    "unassigned": 639,
+    "black": 764,
+    "white": 308,
+    "text": 170
+  },
+  "reference_label_counts": {
+    "black": 772,
+    "white": 352,
+    "text": 210
+  },
+  "unassigned_meaning": "Includes inter-frame/transport interval candidate plus excluded boundaries; not verified blanking.",
+  "polarity_independent": true,
+  "validation_used_for_selection": false,
+  "physical_limits": [
+    "Known screenshot alignment is not independent color decoding.",
+    "Actual host transport mode, active row mapping and frame origin remain hypotheses.",
+    "Same text repeats every50source rows, so +/-50row aliases are explicitly recorded.",
+    "A scale threshold or correlation margin is not a statistical confidence interval."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "iphone6_complex_caf_channels_20261027.zip",
+  "bytes": 444073424,
+  "sha256": "02027e1275aa2fc98fcf3f32eb02c1e216653a42c970ea1483e49b4525c77f2f",
+  "url": "https://github.com/whoeen/TempestSDR/releases/download/mobile-mipi-raw-iq-2026-10-21/iphone6_complex_caf_channels_20261027.zip",
+  "remote_verified": true,
+  "verified_utc": "2026-10-27T05:53:24.127Z",
+  "note": "Original code snapshot retained byte-for-byte, including one extra blank EOF line in buildDsiGrayPacketCaf27.m; no semantic/static MATLAB issues."
+}

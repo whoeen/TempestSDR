@@ -1,0 +1,132 @@
+{
+  "row_semantics": "Supervised row-position calibration from known reference, training B1 only.",
+  "row_mapping": "capture_row = mod(offset + scale * source_row, 1881)",
+  "reference_pixels_rendered": false,
+  "horizontal_axis": "Within-period time, not decoded pixel column.",
+  "normalization": "All power/CAF values divided by B1 native mean power.",
+  "baseline": "B1 raster mean over frozen white row labels; no test fitting.",
+  "effect_size_meaning": "Difference of text/white row mean absolute residual energies divided by pooled within-class SD; descriptive, not SNR.",
+  "effects": [
+    {
+      "block": 1,
+      "power_white_subtracted": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.927615595939086,
+        "mean_white": 0.44360369910472591,
+        "pooled_row_standard_deviation": 0.11664048227752966,
+        "standardized_effect": 4.14960472885153
+      },
+      "caf_white_subtracted": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.83323502514635817,
+        "mean_white": 0.36593739496840472,
+        "pooled_row_standard_deviation": 0.099932106594845832,
+        "standardized_effect": 4.6761510999914728
+      },
+      "caf_projection": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.66391502290310911,
+        "mean_white": 0.22824799468194529,
+        "pooled_row_standard_deviation": 0.092963805244149655,
+        "standardized_effect": 4.6864156117208955
+      },
+      "active_phase_valid_fraction": 0.95096701649175408
+    },
+    {
+      "block": 2,
+      "power_white_subtracted": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.93437894006092959,
+        "mean_white": 0.44386198331948995,
+        "pooled_row_standard_deviation": 0.12009215541630161,
+        "standardized_effect": 4.0845045626923238
+      },
+      "caf_white_subtracted": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.83591754582794808,
+        "mean_white": 0.36651504972270726,
+        "pooled_row_standard_deviation": 0.10235907299898804,
+        "standardized_effect": 4.5858416098578925
+      },
+      "caf_projection": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.66811797454739186,
+        "mean_white": 0.2264237045250489,
+        "pooled_row_standard_deviation": 0.0942157543968156,
+        "standardized_effect": 4.68811477284389
+      },
+      "active_phase_valid_fraction": 0.952391304347826
+    },
+    {
+      "block": 3,
+      "power_white_subtracted": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.91088021850376655,
+        "mean_white": 0.42759287133837154,
+        "pooled_row_standard_deviation": 0.11167914810608125,
+        "standardized_effect": 4.3274626943458809
+      },
+      "caf_white_subtracted": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.82553650851381888,
+        "mean_white": 0.3616919324312084,
+        "pooled_row_standard_deviation": 0.097007928897576659,
+        "standardized_effect": 4.7815119996258133
+      },
+      "caf_projection": {
+        "text_rows": 170,
+        "white_rows": 308,
+        "mean_text": 0.65049211838210874,
+        "mean_white": 0.21859949117962751,
+        "pooled_row_standard_deviation": 0.089987594804555107,
+        "standardized_effect": 4.7994685060814533
+      },
+      "active_phase_valid_fraction": 0.97479964563172961
+    }
+  ],
+  "phase_rho_threshold": 0.2,
+  "phase_mask_meaning": "Local lag-one correlation magnitude divided by mean endpoint power; heuristic confidence mask.",
+  "phase_reference_valid_fraction": 1,
+  "B2_phase_residual_reliable_fraction_protocol_then_matched_by_black_white": [
+    [
+      0.9091796875,
+      0.478515625
+    ],
+    [
+      0.841796875,
+      0.783203125
+    ]
+  ],
+  "caf_harmonic_phase_mask": "Measured and, for residuals, predicted magnitude >=3*B1 half-difference scale; heuristic.",
+  "fixed_B1_display_ranges": {
+    "power": [
+      0.30429659854579605,
+      1.9777637744421226
+    ],
+    "caf_residual_abs": [
+      0.039433667243479215,
+      1.3287072670688431
+    ],
+    "phase_projection": [
+      -1.642881093013207,
+      1.642881093013207
+    ],
+    "phase_deg": [
+      -180,
+      180
+    ]
+  },
+  "validation_image_blocks": [
+    2,
+    3
+  ],
+  "phase_interpretation": "Lag-product/cyclic-correlation phase, not RF carrier or recovered RGB hue."
+}

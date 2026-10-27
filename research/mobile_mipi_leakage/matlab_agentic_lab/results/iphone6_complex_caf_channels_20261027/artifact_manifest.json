@@ -1,0 +1,380 @@
+{
+  "scope": "Derived outputs, reference input, frozen prior inputs and authored code; original RIS not duplicated.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "a21cd11e9bc133d3d47a4f28c911a707f0328f3e229c036422892e233456bd6e"
+    },
+    {
+      "path": "01_row_states.fig",
+      "bytes": 18737876,
+      "sha256": "ca2055429466bfedbc9a1c830602271c135de4ae8f190eada71a4f7ef247d759"
+    },
+    {
+      "path": "01_row_states.png",
+      "bytes": 1609694,
+      "sha256": "f7896e954436788e10750b6386a14ce546def1b159c5560aa1561e8fc8e6eaae"
+    },
+    {
+      "path": "02_complex_caf_maps.fig",
+      "bytes": 278876,
+      "sha256": "1d74ea10987aef6e67657f42811e99a9587c408ceaf45e092012fb860d888636"
+    },
+    {
+      "path": "02_complex_caf_maps.png",
+      "bytes": 274976,
+      "sha256": "3576faba72f6f2d5386e295c0bc0618dfadfeb246337517b562b4b35611e4928"
+    },
+    {
+      "path": "03_channel_estimates.fig",
+      "bytes": 26534,
+      "sha256": "a35e72e41c335e35b140850407ac0d232b076c7361dd25a78a87239e8085a176"
+    },
+    {
+      "path": "03_channel_estimates.png",
+      "bytes": 212018,
+      "sha256": "f4492ef70d29561aff03152ce5897f32d1fd7d8dee70d99a4a1574ebbdc1ffa3"
+    },
+    {
+      "path": "04_test_controls_and_phase.fig",
+      "bytes": 94754,
+      "sha256": "d406392a9681b821969fcd04c26fbb4014e3a5a2a696c772e1399846de411f2d"
+    },
+    {
+      "path": "04_test_controls_and_phase.png",
+      "bytes": 172779,
+      "sha256": "cb5cff270b055921c442a9314bc68864879365563a86241fa7490c5b3c2d2dc3"
+    },
+    {
+      "path": "05_measured_reconstruction.fig",
+      "bytes": 52060677,
+      "sha256": "14de5b90335328fdeec00106cff528f128c97305883b1f56eba192f0871bd4ea"
+    },
+    {
+      "path": "05_measured_reconstruction.png",
+      "bytes": 4414376,
+      "sha256": "8d984b5326a07c660f1cfb9b5277560df684b4bc30e6a8ae9927860f94fdd443"
+    },
+    {
+      "path": "06_row_separation.fig",
+      "bytes": 213026,
+      "sha256": "e4ae3fa7e07b80c76ea4271a858484ab26a140346c3efd5a03a12f8175ea7a0a"
+    },
+    {
+      "path": "06_row_separation.png",
+      "bytes": 290569,
+      "sha256": "3504075f8d1a9d54873fdb837d2e447eb0f0f7e41a6ab1d318eff3988e6ec1c7"
+    },
+    {
+      "path": "07_channel_model_residual_images.fig",
+      "bytes": 36786691,
+      "sha256": "9825f72ff9b9972f615210d4f57649d7ef04d52e14f545d6a68bbad40d81cc99"
+    },
+    {
+      "path": "07_channel_model_residual_images.png",
+      "bytes": 1513397,
+      "sha256": "d1849f33bb4442cf4cbb162a466dace541aa13572dedef25a04cf1895a3217af"
+    },
+    {
+      "path": "08_two_tap_channel_audit.fig",
+      "bytes": 27436,
+      "sha256": "4db3e396e97f8c3579609c0016f97db22989262b49c9ca07fb2938efc9dd913d"
+    },
+    {
+      "path": "08_two_tap_channel_audit.png",
+      "bytes": 178235,
+      "sha256": "d7dd3a6f33a4758fddf6c21b84f472c3fb8d342dffe2fb8596a45e6585898d63"
+    },
+    {
+      "path": "caf_candidate_validation.csv",
+      "bytes": 6075,
+      "sha256": "ab30c7ac9329dd685ee78b741a876924cc4a0b5553147f3e8c436ca212366edf"
+    },
+    {
+      "path": "caf_channel_fits.mat",
+      "bytes": 6920479,
+      "sha256": "cb38230b452b2397a0b869146a512a70c765687f289db61b46faf75b0f0f78ee"
+    },
+    {
+      "path": "caf_coarse_scan.csv",
+      "bytes": 93350,
+      "sha256": "9f21f4db82aae416f9f04c6f8a8c1d7d33723e7add5c93143754393a13cdeab1"
+    },
+    {
+      "path": "caf_deposition_audit.csv",
+      "bytes": 1154,
+      "sha256": "d583abcd776eb847a36d127693108b2a34fd9e5e47ad2980882e895f831816eb"
+    },
+    {
+      "path": "caf_deposition_audit.json",
+      "bytes": 3737,
+      "sha256": "5fa0b58734fd11b9dfe5c2c07954e3a6db6c95c37e1edb43f0d342a4dc203fbd"
+    },
+    {
+      "path": "caf_deposition_audit.mat",
+      "bytes": 181485,
+      "sha256": "106ba4c6b98c0d342f29725209e5c3ae151be8cef3cead48fdca210e00cea485"
+    },
+    {
+      "path": "caf_fir_audit.json",
+      "bytes": 16365,
+      "sha256": "63c9887ac131d8d6889d80e7d1235c0f1fd10c6e0704f43fe37b1f93c38e1e62"
+    },
+    {
+      "path": "caf_fir_audit.mat",
+      "bytes": 424583,
+      "sha256": "60f0501464103b091759e256d28d7b4e1d297e5fc9bec092d6efa0d1247b2b59"
+    },
+    {
+      "path": "caf_fit_summary.json",
+      "bytes": 15513,
+      "sha256": "0aa551370b7a28f01a0f9ff468ff01e8438beb33f9b53606df44f161547aece7"
+    },
+    {
+      "path": "caf_metadata.json",
+      "bytes": 4204,
+      "sha256": "4b21b9833143b49dafe17274bb5622678c3b89622ee63b2eb0c7b9a95e5c3034"
+    },
+    {
+      "path": "caf_numerical_audit.json",
+      "bytes": 1452,
+      "sha256": "4f92a4c708e079ba66cad913ebe1c473a673cf8dc31a61cff6c337f531ba58c6"
+    },
+    {
+      "path": "caf_numerical_audit.mat",
+      "bytes": 40033,
+      "sha256": "e0677e8e98927ec48886dbb9373f5199d567e6a6fbe52cced73a28a7b0304f99"
+    },
+    {
+      "path": "channel_residual_images.mat",
+      "bytes": 112067751,
+      "sha256": "8003e99e6516759d736cf08837bc14e569ca3700477d7320f4ffd89c1f37efab"
+    },
+    {
+      "path": "channel_residual_image_metrics.json",
+      "bytes": 1212,
+      "sha256": "17c6bc21e860378474ec42757c0db6d1eda35b76b5537799ade1005156f3241e"
+    },
+    {
+      "path": "complex_caf.mat",
+      "bytes": 169380887,
+      "sha256": "2a874bea15f9e599907f7c2126633c2ebe4ffc351588c8f185e4a5c5103bdf1d"
+    },
+    {
+      "path": "execution_record.json",
+      "bytes": 4043,
+      "sha256": "70d228003e0e6d7f2873a39d21ba89a65809b3d7ddc01cfde368f95f7f294b65"
+    },
+    {
+      "path": "frozen_dependencies.mat",
+      "bytes": 7366949,
+      "sha256": "972a2fd20361cc2ab6cc20ce6ff23dc2ca574cf0e6f877a3fb951ce5fb89a1af"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8024,
+      "sha256": "d4c3bb64383127b686fa9cef0f97a8026257fc34d2a8dbcd2ec00470f186e891"
+    },
+    {
+      "path": "iq_orientation_audit.json",
+      "bytes": 4299,
+      "sha256": "db47b57a2eb558a9ac63bebe6282412301a9dc922ec43b3cf59abb4bba01dace"
+    },
+    {
+      "path": "reconstruction_views.mat",
+      "bytes": 44762661,
+      "sha256": "c460a4ff66eeabff99c04422b18591916387a0ea2637a325b6826370e4f7f632"
+    },
+    {
+      "path": "reference_input.png",
+      "bytes": 105197,
+      "sha256": "f694c48f6b8235e26108f5089ea982f3712295c31dc3f0eec2d6d4a7650fb2ef"
+    },
+    {
+      "path": "render_summary.json",
+      "bytes": 4442,
+      "sha256": "5b199d63ae9c9eb9c72927f3187c465d92232084c1e5df1962519cd5ba5074a0"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 13312,
+      "sha256": "565345d1c0f0336ada54afde24144654989c35c5605f2313b2f25c73112ebc05"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 1424,
+      "sha256": "c971b072a45d735656a9882762f13cc12c387cb088d65f1d47ac79b650b3ad07"
+    },
+    {
+      "path": "row_labels.csv",
+      "bytes": 160001,
+      "sha256": "93ffc7a87c6735e4d797144cc53bb606beb98a6a782fcaadefdfe36820c81219"
+    },
+    {
+      "path": "row_labels.mat",
+      "bytes": 120011,
+      "sha256": "03032ecb31f3e4eab0650c35952d6b9715cdbf70e0d5c280bd42878423ea8c89"
+    },
+    {
+      "path": "row_label_metadata.json",
+      "bytes": 1922,
+      "sha256": "9a90bcfd7acea7a6d990fdc702057e737149db6aa1cc2d83cb4c275184fc3a8b"
+    },
+    {
+      "path": "row_separation.csv",
+      "bytes": 313,
+      "sha256": "b48e7d923c63acf88115627e7a73ef841c9b966ee587d1592ed9d0fd74a49ad8"
+    },
+    {
+      "path": "screen_caf_abs_B23.png",
+      "bytes": 1924908,
+      "sha256": "9bac05807b56270df49c50f7155c0d840bfd7b2ca5dbe7b9d413594fe7d8cb6b"
+    },
+    {
+      "path": "screen_caf_phase_B23.png",
+      "bytes": 1982359,
+      "sha256": "cb78f095cc338261946287fe9d7c3f9e6990342c757dcf680291bcf77af758db"
+    },
+    {
+      "path": "screen_caf_projection_B23.png",
+      "bytes": 2122379,
+      "sha256": "09b05c364bbe95b2f96267f078ed5963c68f4e5e9e6a3ee9f3f16e3e4295e785"
+    },
+    {
+      "path": "screen_power_B23.png",
+      "bytes": 2175377,
+      "sha256": "f3f8378aeea2b304bf46ac4015892c181f0db517c488f8c7acd6c8c398fec19b"
+    },
+    {
+      "path": "text_forward_validation.json",
+      "bytes": 4254,
+      "sha256": "97e0d4e2cd2371a0c8db4a5608b0225d905d2c3db4f4eef35bfe1ec9e6ff3a73"
+    },
+    {
+      "path": "text_forward_validation.mat",
+      "bytes": 49540,
+      "sha256": "37d6dd5ef2d63cddc3ebfe1e9b5d750a1b947fbc51a5caec1f051c3fb3ee14ee"
+    },
+    {
+      "path": "code_initial/fitDsiCafChannel27.m",
+      "bytes": 9431,
+      "sha256": "1941a29a509eaf6d4efe60594ca317ddb364bf4ba0cfafa7b840408508e0eb15"
+    },
+    {
+      "path": "code_initial/fitIphoneCaf27.m",
+      "bytes": 9771,
+      "sha256": "9c06a57d4711c09112bd9ae52da999b38b6adf73b08d42f93a3711009ca59e67"
+    },
+    {
+      "path": "code_initial/validateCafText27.m",
+      "bytes": 3860,
+      "sha256": "4c07c2a73be91397d47ffa097f0a4c49df332b01d2e611c22d0f77e6d92c28bf"
+    },
+    {
+      "path": "code_snapshot/auditCafDeposition27.m",
+      "bytes": 8445,
+      "sha256": "27459671df697f78a5847308455cdcced2c5065c8b431361d9f6a43972ca5e90"
+    },
+    {
+      "path": "code_snapshot/auditCafIqOrientation27.m",
+      "bytes": 2283,
+      "sha256": "b599de6e5a4e82803e7ae456d13caad2c93d043ac623007ceea250d85c6ec313"
+    },
+    {
+      "path": "code_snapshot/auditIphoneCaf27.m",
+      "bytes": 4560,
+      "sha256": "9e2968fb911091417b0f6c87d239b9c241b47bde9ce972ff092b2680eb6ac6c0"
+    },
+    {
+      "path": "code_snapshot/extractIphoneCaf27.m",
+      "bytes": 5601,
+      "sha256": "52f5bb0c26596f5cdd4002ffba629c23d2e1629a09edefb86517c2eca52b51e3"
+    },
+    {
+      "path": "code_snapshot/fitIphoneCaf27.m",
+      "bytes": 10090,
+      "sha256": "a03468fbf78d6f8bbf189d15a8a8c02769f59dd6ce949dcc3151584fca7b5de2"
+    },
+    {
+      "path": "code_snapshot/renderCafModelResidual27.m",
+      "bytes": 4115,
+      "sha256": "d4b7204de02d675e803387a929f89c658984cf9e1e3b2db9e06d1e0126bdeb12"
+    },
+    {
+      "path": "code_snapshot/renderIphoneCaf27.m",
+      "bytes": 17114,
+      "sha256": "445aae757444f583b5474a23af7132656d5dd5a3505116c54c901d97d294bcb5"
+    },
+    {
+      "path": "code_snapshot/validateCafText27.m",
+      "bytes": 3866,
+      "sha256": "e06f7482e242bc42cac796da418dbcf18e2557bf18b4eb39b965891612a9af0e"
+    },
+    {
+      "path": "fir_initial/08_two_tap_channel_audit.fig",
+      "bytes": 27351,
+      "sha256": "b6c71abc7cc13b91b799ae6dcf0567fd0f720be4128207cfdb72662ca225f1da"
+    },
+    {
+      "path": "fir_initial/08_two_tap_channel_audit.png",
+      "bytes": 177350,
+      "sha256": "e59384cbbe38f449f843158601ebe04990ef450232f03c4b75fea2d041a6cf98"
+    },
+    {
+      "path": "fir_initial/caf_fir_audit.json",
+      "bytes": 16336,
+      "sha256": "72b63a3bd6bd27455ae91c0a0fb06389c0514ac49f1c8f5f8a5bd3caf788e4b0"
+    },
+    {
+      "path": "fir_initial/caf_fir_audit.mat",
+      "bytes": 424536,
+      "sha256": "c19bc4ed607857d4acd530e86c0646b33df6521a71e75c558ded91b6037ce0a1"
+    },
+    {
+      "path": "fir_initial/fitDsiCafFir27.m",
+      "bytes": 13592,
+      "sha256": "cc6a8a8072f8aefcdcd5912b13cf398a2bd8f11493bd7462a3518422a4fb0fca"
+    },
+    {
+      "path": "code_snapshot/signal_processing/buildDsi3LaneCodebook27.m",
+      "bytes": 18639,
+      "sha256": "2f5ebb05618a0b8df3167d9331823096a94c4fc5908f3881304abbcf42959b9b"
+    },
+    {
+      "path": "code_snapshot/signal_processing/buildDsiGrayPacketCaf27.m",
+      "bytes": 11345,
+      "sha256": "ca0330394ae9c5cc1515575b4974244e933e40ff7cc29cebb0970e847b3a5d4c"
+    },
+    {
+      "path": "code_snapshot/signal_processing/buildIphoneRowLabelsCaf27.m",
+      "bytes": 6808,
+      "sha256": "894229ca30e416f7d1fb12bcc32f99932dd3e8e12b5272147f6a9137dfd2749b"
+    },
+    {
+      "path": "code_snapshot/signal_processing/dsi3LanePowerModel27.m",
+      "bytes": 6596,
+      "sha256": "57b630bccd9db1a964dcbf651a30cc9fbc16c326c746197fdc54016f4eabb2ed"
+    },
+    {
+      "path": "code_snapshot/signal_processing/dsiCafBasis27.m",
+      "bytes": 4492,
+      "sha256": "d6941080ffde23f68604913a0e8a936400202bca92381ec9e84b2a8a44ce908d"
+    },
+    {
+      "path": "code_snapshot/signal_processing/fitDsiCafChannel27.m",
+      "bytes": 9431,
+      "sha256": "1941a29a509eaf6d4efe60594ca317ddb364bf4ba0cfafa7b840408508e0eb15"
+    },
+    {
+      "path": "code_snapshot/signal_processing/fitDsiCafFir27.m",
+      "bytes": 13592,
+      "sha256": "fde37b8b0f5f93e04c6cda60ea282975b4316f3dc34acfe40d6340d4b20f6ff7"
+    },
+    {
+      "path": "code_snapshot/tools/build_complex_caf_gallery27.py",
+      "bytes": 7196,
+      "sha256": "d41cf2f5a0d7f695385bd2b29c7004fb9ea1611881501dec2bf909e52b0de843"
+    }
+  ]
+}

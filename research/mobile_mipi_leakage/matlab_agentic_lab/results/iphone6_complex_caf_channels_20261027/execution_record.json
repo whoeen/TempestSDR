@@ -1,0 +1,107 @@
+{
+  "created_utc": "2026-10-27T05:50:13.081Z",
+  "matlab_version": "26.2.0.3386108 (R2026b)",
+  "raw_identity": {
+    "path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+    "bytes": 1158300000,
+    "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+    "sha256_verification_utc": "2026-10-26T13:01:01.526Z",
+    "current_run_full_hash_repeated": false,
+    "current_run_size_and_block_reads_verified": true
+  },
+  "run_order": [
+    "extractIphoneCaf27",
+    "fitIphoneCaf27 (I-minus-jQ default)",
+    "validateCafText27",
+    "renderIphoneCaf27",
+    "renderCafModelResidual27",
+    "fitDsiCafFir27 (initial1200 then6000 iterations)",
+    "auditIphoneCaf27",
+    "auditCafIqOrientation27 (selected fixed rate/delay only)",
+    "auditCafDeposition27"
+  ],
+  "not_executed": "Full reversed-IQ candidate/rate search; optional orientation branch was added after initial fit. Code_initial preserves original fit sources.",
+  "source_snapshot": [
+    {
+      "path": "extractIphoneCaf27.m",
+      "sha256": "52f5bb0c26596f5cdd4002ffba629c23d2e1629a09edefb86517c2eca52b51e3"
+    },
+    {
+      "path": "fitIphoneCaf27.m",
+      "sha256": "a03468fbf78d6f8bbf189d15a8a8c02769f59dd6ce949dcc3151584fca7b5de2"
+    },
+    {
+      "path": "validateCafText27.m",
+      "sha256": "e06f7482e242bc42cac796da418dbcf18e2557bf18b4eb39b965891612a9af0e"
+    },
+    {
+      "path": "renderIphoneCaf27.m",
+      "sha256": "445aae757444f583b5474a23af7132656d5dd5a3505116c54c901d97d294bcb5"
+    },
+    {
+      "path": "renderCafModelResidual27.m",
+      "sha256": "d4b7204de02d675e803387a929f89c658984cf9e1e3b2db9e06d1e0126bdeb12"
+    },
+    {
+      "path": "auditIphoneCaf27.m",
+      "sha256": "9e2968fb911091417b0f6c87d239b9c241b47bde9ce972ff092b2680eb6ac6c0"
+    },
+    {
+      "path": "auditCafIqOrientation27.m",
+      "sha256": "b599de6e5a4e82803e7ae456d13caad2c93d043ac623007ceea250d85c6ec313"
+    },
+    {
+      "path": "auditCafDeposition27.m",
+      "sha256": "27459671df697f78a5847308455cdcced2c5065c8b431361d9f6a43972ca5e90"
+    },
+    {
+      "path": "signal_processing/dsiCafBasis27.m",
+      "sha256": "d6941080ffde23f68604913a0e8a936400202bca92381ec9e84b2a8a44ce908d"
+    },
+    {
+      "path": "signal_processing/fitDsiCafChannel27.m",
+      "sha256": "1941a29a509eaf6d4efe60594ca317ddb364bf4ba0cfafa7b840408508e0eb15"
+    },
+    {
+      "path": "signal_processing/fitDsiCafFir27.m",
+      "sha256": "fde37b8b0f5f93e04c6cda60ea282975b4316f3dc34acfe40d6340d4b20f6ff7"
+    },
+    {
+      "path": "signal_processing/buildDsiGrayPacketCaf27.m",
+      "sha256": "ca0330394ae9c5cc1515575b4974244e933e40ff7cc29cebb0970e847b3a5d4c"
+    },
+    {
+      "path": "signal_processing/buildIphoneRowLabelsCaf27.m",
+      "sha256": "894229ca30e416f7d1fb12bcc32f99932dd3e8e12b5272147f6a9137dfd2749b"
+    },
+    {
+      "path": "signal_processing/buildDsi3LaneCodebook27.m",
+      "sha256": "2f5ebb05618a0b8df3167d9331823096a94c4fc5908f3881304abbcf42959b9b"
+    },
+    {
+      "path": "signal_processing/dsi3LanePowerModel27.m",
+      "sha256": "57b630bccd9db1a964dcbf651a30cc9fbc16c326c746197fdc54016f4eabb2ed"
+    },
+    {
+      "path": "tools/build_complex_caf_gallery27.py",
+      "sha256": "d41cf2f5a0d7f695385bd2b29c7004fb9ea1611881501dec2bf909e52b0de843"
+    }
+  ],
+  "raw_or_prior_artifacts_modified": false,
+  "model_result_interpretation": "Measured CAF enhancement, conditional lane model estimates, packet decoding not established",
+  "checks": {
+    "synthetic_caf_relative_error": 1.4698901874554805e-15,
+    "synthetic_channel_nmse": 2.1079033545662098e-18,
+    "packet_generator_equality_cases": 60,
+    "static_matlab_files_checked": 13,
+    "static_issues_after_format_cleanup": 0,
+    "figures_visually_inspected": [
+      "03",
+      "04",
+      "05",
+      "07",
+      "08"
+    ]
+  },
+  "frozen_prior_dependencies": "frozen_dependencies.mat preserves prior B1 training raster/fs/f0/dc. Extraction source retains original prior result paths and raw/reference paths; adapt locations if replaying elsewhere."
+}

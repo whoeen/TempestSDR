@@ -1,0 +1,44 @@
+{
+  "direct_time_vs_fourier_caf_relative_error": 1.4698901874554805E-15,
+  "synthetic_rank1_channel_fit_nmse": 2.1079033545662098E-18,
+  "synthetic_relative_channel_error": 3.3497902244228869E-8,
+  "power_only_channel_conditional_comparison_nmse": [
+    [
+      1.2088785794607162,
+      0.77559715077330227
+    ],
+    [
+      1.2139463814555915,
+      0.776895398799285
+    ],
+    [
+      1.2286365448724663,
+      0.78090633212607
+    ]
+  ],
+  "comparison_columns": [
+    "lag0-fitted h predicts nonzero lags",
+    "nonzero-lag-fitted h"
+  ],
+  "comparison_scope": "Same codeword, rate, delay selected by CAF; only h training statistic differs, not independent model selection.",
+  "between_block_phase_diagnostics": [
+    {
+      "block": 2,
+      "relative_timing_ns": 1.0282145777657361,
+      "relative_frequency_offset_hz": -28015.745290340717,
+      "normalized_residual": 0.00050491931794012556,
+      "scope": "Joint timing/CFO-shaped diagnostic relative to B1; not applied; model mismatch can bias.",
+      "applied": false
+    },
+    {
+      "block": 3,
+      "relative_timing_ns": 4.6955884567306665,
+      "relative_frequency_offset_hz": -33893.3366884273,
+      "normalized_residual": 0.00052653786772916434,
+      "scope": "Joint timing/CFO-shaped diagnostic relative to B1; not applied; model mismatch can bias.",
+      "applied": false
+    }
+  ],
+  "absolute_rf_phase_identifiable": false,
+  "relative_cfo_correction_applied": false
+}

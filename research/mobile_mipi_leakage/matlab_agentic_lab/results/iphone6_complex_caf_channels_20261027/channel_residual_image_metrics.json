@@ -1,0 +1,28 @@
+{
+  "candidates": [
+    {
+      "candidate": "video-vc3-valid",
+      "white_residual_rms_before": 1.5838940465219296,
+      "white_residual_rms_after": 2.0339738689065228,
+      "white_residual_rms_ratio": 1.2841603094429976,
+      "text_residual_rms_after": 2.6301437110270363,
+      "channel_refitted": false,
+      "alpha0_model_used": false,
+      "scope": "Measured B2/B3 minus frozen modeled cyclic profile; empirical B1 state DC retained as separate baseline calibration."
+    },
+    {
+      "candidate": "video-vc3-header-bit-order-reversed",
+      "white_residual_rms_before": 1.5838940465219296,
+      "white_residual_rms_after": 2.2020766044533944,
+      "white_residual_rms_ratio": 1.3902928729916821,
+      "text_residual_rms_after": 2.5967782753158386,
+      "channel_refitted": false,
+      "alpha0_model_used": false,
+      "scope": "Measured B2/B3 minus frozen modeled cyclic profile; empirical B1 state DC retained as separate baseline calibration."
+    }
+  ],
+  "valid_wrong_residual_image_correlation": 0.63531222052696146,
+  "display_limit_training_only": 9.3715881512011254,
+  "byte_decoded": false,
+  "text_background_model": "White cyclic template; actual glyph pixels never inserted."
+}

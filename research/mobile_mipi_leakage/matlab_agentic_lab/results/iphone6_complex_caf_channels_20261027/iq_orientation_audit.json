@@ -1,0 +1,169 @@
+{
+  "scope": "Conditional IQ-direction sensitivity for selected codewords only. Channels refitted on B1 with equal weights; rate/emission/delay fixed. Not a full reverse-IQ search.",
+  "records": [
+    {
+      "candidate": "video-vc3-valid",
+      "conjugated_iq": false,
+      "nmse_equal_weights": [
+        0.7591129211617158,
+        0.76426189089702645,
+        0.77169313968854314
+      ],
+      "phase_deg": [
+        1.2680656387777858,
+        3.5929938074445458,
+        11.577102990357316
+      ],
+      "relative_amplitude": [
+        0.503393976036203,
+        1,
+        0.524295129820277
+      ],
+      "relative_phase_deg": [
+        -95.483531699714646,
+        0,
+        140.16647735558297
+      ],
+      "reference_lane_zero_based": 1,
+      "timing_rate_emission_fixed": true,
+      "codeword_rate_search_repeated": false
+    },
+    {
+      "candidate": "video-vc3-valid",
+      "conjugated_iq": true,
+      "nmse_equal_weights": [
+        0.96733645392933787,
+        0.96553308789122871,
+        0.96193247475953358
+      ],
+      "phase_deg": [
+        -38.308860112917657,
+        -35.239572485108575,
+        -29.2859640851413
+      ],
+      "relative_amplitude": [
+        1,
+        0.47473537223178364,
+        0.74596343441506086
+      ],
+      "relative_phase_deg": [
+        0,
+        -147.47810580281757,
+        162.13651536353876
+      ],
+      "reference_lane_zero_based": 0,
+      "timing_rate_emission_fixed": true,
+      "codeword_rate_search_repeated": false
+    },
+    {
+      "candidate": "video-vc3-header-bit-order-reversed",
+      "conjugated_iq": false,
+      "nmse_equal_weights": [
+        0.8891261062913417,
+        0.89133571729244665,
+        0.90135539558802369
+      ],
+      "phase_deg": [
+        12.084493625960588,
+        13.407760608662471,
+        18.077948589392278
+      ],
+      "relative_amplitude": [
+        0.87806340106372016,
+        1,
+        0.47887138046089911
+      ],
+      "relative_phase_deg": [
+        -139.77429864231433,
+        0,
+        -139.54367298752859
+      ],
+      "reference_lane_zero_based": 1,
+      "timing_rate_emission_fixed": true,
+      "codeword_rate_search_repeated": false
+    },
+    {
+      "candidate": "video-vc3-header-bit-order-reversed",
+      "conjugated_iq": true,
+      "nmse_equal_weights": [
+        0.87467120225669959,
+        0.87426962760309734,
+        0.876635947454359
+      ],
+      "phase_deg": [
+        -11.593955983598606,
+        -10.260723472804722,
+        -5.0660867265679652
+      ],
+      "relative_amplitude": [
+        0.56523408827007138,
+        1,
+        0.93257730722408161
+      ],
+      "relative_phase_deg": [
+        81.252579776967409,
+        0,
+        -176.44918799852783
+      ],
+      "reference_lane_zero_based": 1,
+      "timing_rate_emission_fixed": true,
+      "codeword_rate_search_repeated": false
+    },
+    {
+      "candidate": "video-vc1-header-bit-order-reversed",
+      "conjugated_iq": false,
+      "nmse_equal_weights": [
+        0.8929112835831966,
+        0.8947251532280811,
+        0.90475021294687274
+      ],
+      "phase_deg": [
+        1.0640544024260163,
+        2.0607017314422333,
+        5.7905180151127364
+      ],
+      "relative_amplitude": [
+        0.80800952093519007,
+        1,
+        0.62411261867438461
+      ],
+      "relative_phase_deg": [
+        -64.022485529828188,
+        0,
+        102.70243201872258
+      ],
+      "reference_lane_zero_based": 1,
+      "timing_rate_emission_fixed": true,
+      "codeword_rate_search_repeated": false
+    },
+    {
+      "candidate": "video-vc1-header-bit-order-reversed",
+      "conjugated_iq": true,
+      "nmse_equal_weights": [
+        0.92019148953968277,
+        0.92258216667520154,
+        0.93184537980035453
+      ],
+      "phase_deg": [
+        8.4177907624793722,
+        10.184651503518367,
+        15.729019929869523
+      ],
+      "relative_amplitude": [
+        0.31903568266996823,
+        0.611220418788858,
+        1
+      ],
+      "relative_phase_deg": [
+        -162.96706737280525,
+        -166.00805189819565,
+        0
+      ],
+      "reference_lane_zero_based": 2,
+      "timing_rate_emission_fixed": true,
+      "codeword_rate_search_repeated": false
+    }
+  ],
+  "iq_direction_verified": false,
+  "corrections_applied_to_primary_result": false
+}
