@@ -1,0 +1,48 @@
+{
+  "nrZ_rectangle_integral_relative_error": 5.1966690634449537E-13,
+  "derivative_relative_error": 1.85234377676515E-16,
+  "dcs2C_header_byte_swap_equal_coherent_waveform_relative_error": [
+    3.2111423830717415E-16,
+    2.7935816003788293E-16,
+    2.5976909953253704E-16
+  ],
+  "degeneracy_meaning": "In this coupling hypothesis, distinct valid/invalid headers can have identical received waveforms.",
+  "fine_sampling_checks": [
+    {
+      "label": "dcs-3C-white",
+      "grid_size": 32768,
+      "subphase_bins": 64,
+      "interpolator": "pchip on complex RF before power",
+      "refitted_parameters": false,
+      "correlation": [
+        0.6258115021977001,
+        0.62186069706351332,
+        0.58344924198114723
+      ],
+      "change_rms_over_original_centered_prediction_rms": [
+        0.000442797718270319,
+        0.00039292651487361026,
+        0.00057917429568632168
+      ]
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-white-vc3",
+      "grid_size": 32768,
+      "subphase_bins": 64,
+      "interpolator": "pchip on complex RF before power",
+      "refitted_parameters": false,
+      "correlation": [
+        0.654537182688936,
+        0.64072698193039235,
+        0.61067884204977907
+      ],
+      "change_rms_over_original_centered_prediction_rms": [
+        0.00068339733539485629,
+        0.00089080859633403878,
+        0.0010063695148623761
+      ]
+    }
+  ],
+  "test_ranking_reversed": false,
+  "measurement_ecc_crc_decoded": false
+}

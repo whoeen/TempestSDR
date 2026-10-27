@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-27T03:08:13.006Z",
+  "matlab_version": "26.2.0.3386108 (R2026b)",
+  "parent_revision": "09b0256427cb40b9d258db677f6e09f9c7fe6a95",
+  "code": [
+    {
+      "path": "applyDsi3LaneCodebook27.m",
+      "sha256": "731e694061ed1537e62a7e1fb67bd19737c392885a994c644d87d41631b6f52d"
+    },
+    {
+      "path": "auditDsiCodebook27.m",
+      "sha256": "f67e0cf84bb2f02fecbcf0360096cfc0e4801bb63e5cc7ff22ba5d0311cb6e04"
+    },
+    {
+      "path": "signal_processing/buildDsi3LaneCodebook27.m",
+      "sha256": "2f5ebb05618a0b8df3167d9331823096a94c4fc5908f3881304abbcf42959b9b"
+    },
+    {
+      "path": "signal_processing/dsi3LanePowerModel27.m",
+      "sha256": "57b630bccd9db1a964dcbf651a30cc9fbc16c326c746197fdc54016f4eabb2ed"
+    }
+  ],
+  "raw_identity": {
+    "path": "C:/Users/leechanghoon/Downloads/black글_fc100MHz.rIs",
+    "bytes": 1158300000,
+    "sha256": "32f74cf59e279b72b27fab92949d2a7bf1520a418c3a28e7828fe208df2809fa",
+    "verified_utc": "2026-10-26T13:01:01.526Z",
+    "raw_modified": false
+  },
+  "raw_modified": false,
+  "raw_identity_check": "Prior SHA256, current size verification; three native blocks read, not a new full-file hash.",
+  "executions": [
+    "buildDsi3LaneCodebook27() with ECC/CRC assertions",
+    "applyDsi3LaneCodebook27(new outputDirectory)",
+    "auditDsiCodebook27(outputDirectory)"
+  ],
+  "validation": {
+    "training_block": 1,
+    "test_blocks": [
+      2,
+      3
+    ],
+    "coarse_comparisons": 15120,
+    "matched_controls": 36,
+    "geometry_controls": 12,
+    "fractional_delay_step_ns": 0.5036958979981472,
+    "measured_packet_decoding": false
+  },
+  "source_copy": "code/ folder; metadata and plot-label edits after numerical execution do not change fit outputs",
+  "superseded_runs": {
+    "v1": "struct assignment error; no completed analysis",
+    "v2": "preliminary controls matched only to video-white-VC0; superseded by v3"
+  },
+  "inspected_figures": [
+    "01_protocol_codebook.png",
+    "03_template_controls.png",
+    "04_native_rasters.png",
+    "05_cyclic_harmonics_and_ambiguity.png"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-10-27T03:08:13.407Z",
+  "entries": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "a21cd11e9bc133d3d47a4f28c911a707f0328f3e229c036422892e233456bd6e"
+    },
+    {
+      "path": "01_protocol_codebook.fig",
+      "bytes": 36722,
+      "sha256": "1cb6431932bc8111ed3afc3c28ca02432c0e8db6213deeda45affda1c0fe5d27"
+    },
+    {
+      "path": "01_protocol_codebook.png",
+      "bytes": 138251,
+      "sha256": "1616b980faa44df23ab70faf19475a6420ea7f3dda27931d6b4b34206a8e6761"
+    },
+    {
+      "path": "02_modulo_gate_measurement.fig",
+      "bytes": 351480,
+      "sha256": "49e4d344df20a8b1fbcdea9c216c13f9107e300eaeea25ee0a0e9378c98d08c7"
+    },
+    {
+      "path": "02_modulo_gate_measurement.png",
+      "bytes": 175413,
+      "sha256": "d3c87c03798e8e5fe58682ece99d3b9f22bca2f4c51c49073a261eb0d3da2d33"
+    },
+    {
+      "path": "03_template_controls.fig",
+      "bytes": 80321,
+      "sha256": "55eb03df5a1713faddf1ae2e944c519ab08da931b3ec3d37c412011bd7555aae"
+    },
+    {
+      "path": "03_template_controls.png",
+      "bytes": 198592,
+      "sha256": "d2b5d679917ebae927623da153a2b743bf6d0e56772120aa821b1968bf2d594e"
+    },
+    {
+      "path": "04_native_rasters.fig",
+      "bytes": 31651347,
+      "sha256": "3dbafbfaa89ffb9560f5379748abdb83527ff0eb77160bcb6c157c051567c7c4"
+    },
+    {
+      "path": "04_native_rasters.png",
+      "bytes": 2953316,
+      "sha256": "8effae48b300f4491fa5fbe9f0aa5905eafded2afc36b159a26b0397bd0d72bb"
+    },
+    {
+      "path": "05_cyclic_harmonics_and_ambiguity.fig",
+      "bytes": 1058470,
+      "sha256": "4f73975dae69814380bd3efb872cae755674608a08a2bdac3cc7d90c28ab5a3e"
+    },
+    {
+      "path": "05_cyclic_harmonics_and_ambiguity.png",
+      "bytes": 287645,
+      "sha256": "9dad5fcfeffe34cf316139cc1849521675762bc6405833b8675ff2dabada3526"
+    },
+    {
+      "path": "book_summary.json",
+      "bytes": 44903,
+      "sha256": "1c4f1493e325985d50b7fe18071a73087614a38c97a57b15c0f187bf5f471ed9"
+    },
+    {
+      "path": "candidate_results.mat",
+      "bytes": 7359703,
+      "sha256": "feb51b6a447a167b4e31f7b3d252b3994ea20c4a032425fd77fa905bed4963a3"
+    },
+    {
+      "path": "candidate_scan.csv",
+      "bytes": 2346003,
+      "sha256": "d8e1b8ff68965090ab6905b3347c3c0311a4580c1c45cde9f4c5954a5fc7947a"
+    },
+    {
+      "path": "candidate_validation.csv",
+      "bytes": 10147,
+      "sha256": "c9175ee511c0d3f72b6de5cdfe52fdc95287a5feada37e96b1e773f3306f1ae0"
+    },
+    {
+      "path": "code/applyDsi3LaneCodebook27.m",
+      "bytes": 22528,
+      "sha256": "731e694061ed1537e62a7e1fb67bd19737c392885a994c644d87d41631b6f52d"
+    },
+    {
+      "path": "code/auditDsiCodebook27.m",
+      "bytes": 6703,
+      "sha256": "f67e0cf84bb2f02fecbcf0360096cfc0e4801bb63e5cc7ff22ba5d0311cb6e04"
+    },
+    {
+      "path": "code/buildDsi3LaneCodebook27.m",
+      "bytes": 18639,
+      "sha256": "2f5ebb05618a0b8df3167d9331823096a94c4fc5908f3881304abbcf42959b9b"
+    },
+    {
+      "path": "code/dsi3LanePowerModel27.m",
+      "bytes": 6596,
+      "sha256": "57b630bccd9db1a964dcbf651a30cc9fbc16c326c746197fdc54016f4eabb2ed"
+    },
+    {
+      "path": "codebook.mat",
+      "bytes": 411418,
+      "sha256": "ae9f27c11166d9a6a573a893c270539a46449643d93f3a9d4349303f24cc190e"
+    },
+    {
+      "path": "EXECUTION_RECORD.json",
+      "bytes": 2104,
+      "sha256": "bbb2f2998a79c5581d27e22d688e33bb6cd476953e80096e6de2a7e1dcdf3138"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6780,
+      "sha256": "968a89fb411177a681e2a0b712316f68d3b5190bf0d900371319459f85156179"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 18324,
+      "sha256": "a76c8cd510dae4b1ded1492d7ab483c965e7173f772b6e3319f4c285cdc65759"
+    },
+    {
+      "path": "native_fold.mat",
+      "bytes": 22336187,
+      "sha256": "dcc150c2ba02a1505fe0f6f28cf97833e1299c1304b00743ca1786a16bc6683d"
+    },
+    {
+      "path": "numerical_audit.json",
+      "bytes": 1485,
+      "sha256": "cf604873d969eb472b7e153cb278069db3197c9942a98d4bcd188b547446ca96"
+    },
+    {
+      "path": "numerical_audit.mat",
+      "bytes": 40936,
+      "sha256": "3716a1413ab9a0fe67ac98c894b988727daca9f3e3e92466fe432c5aef3a4e69"
+    },
+    {
+      "path": "REPORT_KO.md",
+      "bytes": 13141,
+      "sha256": "dc5ac5e8295da9619976814bc995fdfbd3300b5e7d252920e89ee8f408d11bff"
+    }
+  ]
+}

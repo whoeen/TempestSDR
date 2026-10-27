@@ -1,6 +1,6 @@
 {
-  "indexed_utc": "2026-10-27T02:20:04.019805+00:00",
-  "entry_count": 898,
+  "indexed_utc": "2026-10-27T03:08:13.939160+00:00",
+  "entry_count": 905,
   "by_area": {
     "20261022_041658_091": 1,
     "20261022_041904_607": 6,
@@ -23,7 +23,7 @@
     "response_308_P032_v2": 36,
     "response_312": 11,
     "rf_chain": 44,
-    "signal_processing": 30,
+    "signal_processing": 37,
     "stitching": 26,
     "tempest": 50,
     "topleft_238": 11

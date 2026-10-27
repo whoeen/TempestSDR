@@ -1,0 +1,1513 @@
+{
+  "metadata": {
+    "version": "2026-10-27",
+    "status": "protocol hypothesis, not measured packet decode",
+    "colorFormat": "RGB888",
+    "assumedDataLanes": 3,
+    "firstPacketStartLaneZeroBased": 0,
+    "bitOrder": "LSB first within every byte",
+    "multiByteOrder": "least significant byte first",
+    "initialSoT": "parallel 0xB8 on all three data lanes once",
+    "physicalTimingsIncluded": false,
+    "payloadPeriodicityAsserted": false,
+    "actualIphoneLaneCountVerified": false,
+    "sourceNote": "knowledge/mipi_dphy/codebook_three_lane_source_audit_20261027.md",
+    "cautions": [
+      "750 pixels per long packet is an assumption.",
+      "An arbitrary interior packet starts at cumulative byte count mod 3.",
+      "A repeated constant white/black NRZ run has no internal bit edges.",
+      "No HS-zero, HS-prepare, HS-trail, EoTp, clock, LP or RF response included.",
+      "Invalid matrix padding must be excluded using the valid masks."
+    ]
+  },
+  "independentAssertionsPassed": true,
+  "bitArrayOrientation": "chronological bit rows by lane columns",
+  "paddingPolicy": "Always exclude laneValid/hsValid=false positions",
+  "eotp": {
+    "packetBytes": [
+      8,
+      15,
+      15,
+      1
+    ],
+    "optional": true,
+    "isPhyEot": false,
+    "note": "DSI short packet: distribute at current stream lane phase; not appended to these candidate HS bursts."
+  },
+  "packets": [
+    {
+      "label": "video-white-vc0",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "3E CA 08 09",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-white-vc1",
+      "protocolCandidate": true,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7E CA 08 1F",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-white-vc2",
+      "protocolCandidate": true,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "BE CA 08 10",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-white-vc3",
+      "protocolCandidate": true,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FE CA 08 06",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-black-vc0",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "3E CA 08 09",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-black-vc1",
+      "protocolCandidate": true,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7E CA 08 1F",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-black-vc2",
+      "protocolCandidate": true,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "BE CA 08 10",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "video-black-vc3",
+      "protocolCandidate": true,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FE CA 08 06",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "dcs-2C-white",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "D88A",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "dcs-2C-black",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "D653",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "dcs-3C-white",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "7CB6",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "dcs-3C-black",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "726F",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "First long packet after parallel SoT; no other PHY timing modeled."
+    },
+    {
+      "label": "context-WW",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 48,
+      "pixelCount": 16,
+      "headerHex": "3E 30 00 01",
+      "crcHex": "82D2",
+      "packetByteCount": 54,
+      "laneByteLengths": [
+        18,
+        18,
+        18
+      ],
+      "hsBitLengths": [
+        152,
+        152,
+        152
+      ],
+      "note": "Synthetic 16-pixel packet: 8 pixels before and after a color boundary. Header offset is 4 bytes; not a periodic-bit claim."
+    },
+    {
+      "label": "context-WB",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 48,
+      "pixelCount": 16,
+      "headerHex": "3E 30 00 01",
+      "crcHex": "B411",
+      "packetByteCount": 54,
+      "laneByteLengths": [
+        18,
+        18,
+        18
+      ],
+      "hsBitLengths": [
+        152,
+        152,
+        152
+      ],
+      "note": "Synthetic 16-pixel packet: 8 pixels before and after a color boundary. Header offset is 4 bytes; not a periodic-bit claim."
+    },
+    {
+      "label": "context-BW",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 48,
+      "pixelCount": 16,
+      "headerHex": "3E 30 00 01",
+      "crcHex": "8F38",
+      "packetByteCount": 54,
+      "laneByteLengths": [
+        18,
+        18,
+        18
+      ],
+      "hsBitLengths": [
+        152,
+        152,
+        152
+      ],
+      "note": "Synthetic 16-pixel packet: 8 pixels before and after a color boundary. Header offset is 4 bytes; not a periodic-bit claim."
+    },
+    {
+      "label": "context-BB",
+      "protocolCandidate": true,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 48,
+      "pixelCount": 16,
+      "headerHex": "3E 30 00 01",
+      "crcHex": "B9FB",
+      "packetByteCount": 54,
+      "laneByteLengths": [
+        18,
+        18,
+        18
+      ],
+      "hsBitLengths": [
+        152,
+        152,
+        152
+      ],
+      "note": "Synthetic 16-pixel packet: 8 pixels before and after a color boundary. Header offset is 4 bytes; not a periodic-bit claim."
+    },
+    {
+      "label": "control-header-byte-permutation",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA 3E 08 09",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7C 53 10 90",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7B D6 10 48",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-white-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA 3E 08 09",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-white-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7C 53 10 90",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-white-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7B D6 10 48",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-white-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA 7E 08 1F",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-white-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7E 53 10 F8",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-white-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FF D6 10 78",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-white-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA BE 08 10",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-white-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7D 53 10 08",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-white-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FB D6 10 0C",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-white-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA FE 08 06",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-white-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7F 53 10 60",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-white-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7F D6 10 3C",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-black-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA 3E 08 09",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-black-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7C 53 10 90",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-black-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7B D6 10 48",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-black-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA 7E 08 1F",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-black-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7E 53 10 F8",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-black-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FF D6 10 78",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-black-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA BE 08 10",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-black-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7D 53 10 08",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-black-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FB D6 10 0C",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-video-black-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "CA FE 08 06",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-video-black-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7F 53 10 60",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-video-black-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7F D6 10 3C",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-dcs-2C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "CB 39 08 12",
+      "crcHex": "D88A",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-dcs-2C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "9C D3 10 48",
+      "crcHex": "D88A",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-dcs-2C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "F9 D7 10 18",
+      "crcHex": "D88A",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-dcs-2C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "CB 39 08 12",
+      "crcHex": "D653",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-dcs-2C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "9C D3 10 48",
+      "crcHex": "D653",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-dcs-2C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "F9 D7 10 18",
+      "crcHex": "D653",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-dcs-3C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "CB 39 08 12",
+      "crcHex": "7CB6",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-dcs-3C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "9C D3 10 48",
+      "crcHex": "7CB6",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-dcs-3C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "F9 D7 10 18",
+      "crcHex": "7CB6",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-byte-permutation-ref-dcs-3C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "CB 39 08 12",
+      "crcHex": "726F",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Swaps DI and WC-low without recomputing ECC. Same total length. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-header-bit-order-reversed-ref-dcs-3C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "9C D3 10 48",
+      "crcHex": "726F",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Each header byte is transmitted MSB-first; payload and SoT unchanged. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "control-shuffled-sync-header-ref-dcs-3C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "F9 D7 10 18",
+      "crcHex": "726F",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Deterministic local-RNG shuffle of known sync/header interior bits; per-lane counts and total length preserved. Not a legal SoT model. Original semantic DT/WC/VC fields describe the reference, not the intentionally invalid transmitted header."
+    },
+    {
+      "label": "geometry-only-ref-video-white-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "3E CA 08 09",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-white-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7E CA 08 1F",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-white-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "BE CA 08 10",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-white-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FE CA 08 06",
+      "crcHex": "7B93",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-black-vc0",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "3E CA 08 09",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-black-vc1",
+      "protocolCandidate": false,
+      "virtualChannel": 1,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "7E CA 08 1F",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-black-vc2",
+      "protocolCandidate": false,
+      "virtualChannel": 2,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "BE CA 08 10",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-video-black-vc3",
+      "protocolCandidate": false,
+      "virtualChannel": 3,
+      "dataTypeHex": "3E",
+      "wordCount": 2250,
+      "pixelCount": 750,
+      "headerHex": "FE CA 08 06",
+      "crcHex": "754A",
+      "packetByteCount": 2256,
+      "laneByteLengths": [
+        752,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6024,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-dcs-2C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "D88A",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-dcs-2C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "D653",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-dcs-3C-white",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "7CB6",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    },
+    {
+      "label": "geometry-only-ref-dcs-3C-black",
+      "protocolCandidate": false,
+      "virtualChannel": 0,
+      "dataTypeHex": "39",
+      "wordCount": 2251,
+      "pixelCount": 750,
+      "headerHex": "39 CB 08 12",
+      "crcHex": "726F",
+      "packetByteCount": 2257,
+      "laneByteLengths": [
+        753,
+        752,
+        752
+      ],
+      "hsBitLengths": [
+        6032,
+        6024,
+        6024
+      ],
+      "note": "Geometry-only null: hsBits and hsValid are authoritative. All valid intervals have logical 1, including nominal SoT time; no SoT, header, payload or CRC bit structure is transmitted. packetBytes/header/payload/CRC and decoded fields are retained ONLY as reference metadata and do not encode this null waveform."
+    }
+  ]
+}
